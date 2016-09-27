@@ -33,6 +33,11 @@
                   ¿Existe vida después de la muerte?
                 </a>
             </li>
+            <li id="liArt7">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo7')}}">
+                  ¿Has ejercido tus derechos ARCO?
+                </a>
+            </li>
 
         </ul>
   </li>
