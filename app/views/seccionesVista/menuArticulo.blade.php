@@ -48,6 +48,11 @@
                   Los bancos en México
                 </a>
             </li>
+            <li id="liArt9">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo10')}}">
+                  ¿Conoces la PRODECOM?
+                </a>
+            </li>
 
         </ul>
   </li>
