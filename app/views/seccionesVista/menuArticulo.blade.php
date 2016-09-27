@@ -7,7 +7,7 @@
       &nbsp;Artículos
     </strong></a>
         <ul id="ulArtTem1" class="nav nav-sidebar colorNav collapse in">
-          
+
             <li id="liArt2">
                 <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo2')}}">
                   Promesa de Contrato
@@ -18,6 +18,17 @@
                   La importancia de los impuestos
                 </a>
             </li>
+            <li id="liArt3">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo3')}}">
+                  Contraseña
+                </a>
+            </li>
+            <li id="liArt5">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo5')}}">
+                  Protección de datos personales 
+                </a>
+            </li>
+
         </ul>
   </li>
 <!-- La importancia de los impuestos -->

@@ -33,9 +33,14 @@ Route::group(array('prefix' => 'publicos/infoteca'), function(){
 	Route::get('articulos/articulo2', function(){
 		return View::make('publicos.infoteca.articulos.articulo2');
 	});
-
+	Route::get('articulos/articulo3', function(){
+		return View::make('publicos.infoteca.articulos.articulo3');
+	});
 	Route::get('articulos/articulo4', function(){
 		return View::make('publicos.infoteca.articulos.articulo4');
+	});
+	Route::get('articulos/articulo5', function(){
+		return View::make('publicos.infoteca.articulos.articulo5');
 	});
 
 	/*RESENAS*/
