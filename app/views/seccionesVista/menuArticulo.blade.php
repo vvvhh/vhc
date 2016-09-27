@@ -25,7 +25,12 @@
             </li>
             <li id="liArt5">
                 <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo5')}}">
-                  Protección de datos personales 
+                  Protección de datos personales
+                </a>
+            </li>
+            <li id="liArt6">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo6')}}">
+                  ¿Existe vida después de la muerte?
                 </a>
             </li>
 

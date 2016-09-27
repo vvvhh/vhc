@@ -81,6 +81,7 @@ Artículos | Vázquez Hernández Contadores, S. C.
 
     </div>
   </div>
+  <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
 </div>  <!-- /Well Articulo1 -->
 
 @stop

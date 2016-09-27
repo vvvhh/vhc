@@ -89,7 +89,7 @@
 
     </div>
   </div>
-  <small>Autor: L.C. Bibiana I. Nuñez Aguilar</small>
+  <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
 </div>  <!-- /Well Articulo1 -->
 
 @stop

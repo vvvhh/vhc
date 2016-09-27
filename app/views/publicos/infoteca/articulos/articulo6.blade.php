@@ -19,25 +19,22 @@
     <div class="col-md-12">
 
         <!-- CONTENIDO DEL ARTICULO -->
-        <h3>“Contraseña”</h3>
+        <h3>¿Existe vida después de la muerte?</h3>
         <div class="row">
 
           <div class="col-md-8">
             <p class="text-justify">
-              La palabra “contraseña”, de acuerdo con el diccionario de la lengua española, significa: signo, medio o palabra secreta que permite el acceso a algo, a alguien o a un grupo de personas antes inaccesible.  Así, hoy en día utilizamos contraseñas casi en todo: para el acceso al e-mail, los cajeros automáticos; a la banca electrónica, en las redes sociales, Facebook, Twitter, en los celulares, en las tabletas electrónicas, y más. Pero, ¿por qué su uso se ha convertido en una moda? Pues precisamente para proteger nuestra información y que sólo nosotros podamos consultarla.
-            </p>
-            <p class="text-justify">
-              De esta forma, debido a que las autoridades fiscales se encuentran al día respecto al uso de la tecnología, para agilizar los trámites fiscales y darle seguridad a la información fiscal de los contribuyentes, decidieron establecer el uso de una contraseña para el acceso a sus aplicaciones en internet, y la llamaron “Contraseña”. Ésta, antes denominada CIEC o CIECF, al igual que todas las claves para ingresar a un sistema, es un mecanismo de acceso, que al unirse con el RFC, permite entrar a diversas aplicaciones y servicios que brinda el SAT a través de su página en internet de forma segura. Algunos de estos beneficios son:
+              Diversas creencias exponen que existe vida después de la muerte. Hay quien asegura que el alma o espíritu regresa al mundo material después de la muerte física, renaciendo en un cuerpo nuevo. Y la verdad, de ser así, ¡estaría genial!, porque podrías concluir todo lo que en vida prometiste o dejaste de hacer, incluso pagar a tiempo tus impuestos y cumplir con todas tus obligaciones fiscales. No obstante, hasta el momento, esta situación no se ha probado científicamente, por lo que, previendo ello, nuestra legislación ha contemplado que sí haya una vida después de la muerte, una vida fiscal.
             </p>
 
-              <ul style="list-style:none">
-                <li>a) Trámite de altas y bajas de obligaciones fiscales.</li>
-                <li>b) Suspensión y reanudación de actividades.</li>
-                <li>c) Trámite de cambio de domicilio.</li>
-                <li>d) Presentación de declaraciones de impuestos.</li>
-                <li>e) Consulta de expediente fiscal.</li>
-                <li>f) Elaboración de la declaración anual en línea.</li>
-              </ul>
+            <h3>Entonces, ¿existe vida fiscal después de la muerte?</h3>
+            <p class="text-justify">
+              Me temo que sí. Existe la falsa creencia de que cuando una persona muere, con ella se acaban todos sus compromisos y deberes; no obstante en el caso de los adeudos y obligaciones fiscales no es así.
+            </p>
+            <p>
+              Al fallecer una persona y heredar su “patrimonio”, está entregando con ello derechos y obligaciones. Por ejemplo, si la persona fallecida tenía algún inmueble en renta, las declaraciones y el pago de impuestos, deberán continuar, así como la emisión de comprobantes fiscales. Por otra parte, si la persona fallecida tenía un negocio por el cual debía presentar declaraciones de impuestos, estas declaraciones deberán seguir presentándose en nombre del difunto. Por lo que, si creíamos que la obligación de contribuir al gasto público desaparece al morir, no es correcto, ya que existirá otra persona que nos reemplazará, tanto en la titularidad de los bienes heredados, como en el cumplimiento de las obligaciones fiscales derivadas de los mismos.
+            </p>
+
 
 
             </div>
@@ -47,49 +44,49 @@
             </div>
         </div>
 
-        <p class="text-justify">
-          No está por demás decir, que la “Contraseña” es de uso personal, intransferible, y  secreta, por lo que, si queremos cuidar nuestros datos e información, no podemos compartirla, ni siquiera con quien más confianza tengamos. La “Contraseña” es una firma electrónica y tiene los mismos efectos que una firma en papel.
-        </p>
-
-        <br>
-        <h4>
-          ¿Cómo puedo obtener mi “Contraseña?
+        <h4>Y, ¿quién continuará cumpliendo con nuestras obligaciones fiscales?
         </h4>
         <p class="text-justify">
-          La obtención de la “Contraseña” puede realizarse de manera personal en las oficinas del SAT o a través de internet.
-        </p>
-        <ul>
-          <li>
-            Para la obtención de la “Contraseña” en las oficinas del SAT, es necesario acudir mediante cita y llevar tu RFC, identificación oficial y una cuenta de e-mail vigente.
-          </li>
-          <li>Para obtenerla a través de internet, únicamente deberás contar con tu FIEL (Firma Electrónica Avanzada) y tramitarla mediante la aplicación destinada para ello en la página de internet del SAT. Ver tutorial “Obtención de la CONTRASEÑA a través de internet”.
-          </li>
-        </ul>
-        <p class="text-justify">
-          Asimismo, para aquellas personas que ya han obtenido su “Contraseña”, pero se les olvidó,  desean cambiarla o actualizar los datos de la misma, podrán llevar a cabo este proceso a través de la misma aplicación con la que la obtuvieron en el portal de internet del SAT, teniendo para ello las siguientes opciones:
+          Al fallecimiento de un individuo, el albacea <sup>1</sup> será quien se encargue del cumplimiento ante el SAT (Servicio de Administración Tributaria) de las obligaciones fiscales, las cuales van desde informar del fallecimiento de la persona hasta continuar presentando las declaraciones, pagando impuestos y emitiendo los comprobantes fiscales en nombre del fallecido, todo ello hasta en tanto no se asignen los bienes y los negocios heredados, momento en el cual, el cumplimiento de las obligaciones fiscales y del pago de los impuestos corresponderá al heredero de los bienes.
         </p>
 
-        <ul>
-          <li>
-            <strong>Olvido de Contraseña</strong>,  a través de dar respuesta a su pregunta secreta, permitirá capturar una nueva Contraseña.
+        <p class="text-justify">
+          Es importante continuar con las obligaciones fiscales del fallecido, ya que de otra forma, será un incumplimiento a las leyes fiscales y por lo tanto podrán generarse sanciones que repercutirán en los derechos heredados y en sus beneficiarios.
+        </p>
+
+        <p class="text-justify">
+          Así que recuerda: la relación entre contribuyente y SAT no termina con la muerte. Cuando un contribuyente que tiene un adeudo fiscal muere, el SAT continúa con el proceso de cobro hasta hacerlo efectivo, ya sea con cuentas bancarias o con otros bienes. Los adeudos fiscales nunca son cancelados.
+        </p>
+
+        <p class="text-justify">
+          Los trámites fiscales que un albacea debe presentar ante el Registro Federal de Contribuyentes son:
+        </p>
+        <ul style="list-style:none">
+          <li>1. Apertura de la Sucesión.
           </li>
-          <li>
-            <strong>Cambio de Contraseña</strong>, autenticación a través de la Contraseña actual, permite cambiar la Contraseña.
+          <li>2. Cancelación del RFC por defunción.
           </li>
-          <li><strong>Actualización de datos </strong>,  autenticación a través de la Contraseña actual, permite cambiar la pregunta y respuesta secreta,  y correo electrónico.
-            </li>
+          <li>3. Liquidación de la Sucesión.
+          </li>
+          <li>4. También, en su caso, deberá determinar los pagos provisionales y el impuesto anual del fallecido.
+          </li>
         </ul>
 
-        <br><br>
         <p class="text-justify">
-          Seguramente tu contador ya te habrá solicitado esta clave para cumplir con tus obligaciones fiscales a través de internet, tales como: trámites, presentación de declaraciones de impuestos, etc., en caso contrario, pregunta si éstas están siendo presentadas mediante el uso de la FIEL, si no es así, entonces será necesario obtener tu “Contraseña” lo antes posible.
+          Estamos seguros de que no te gustaría dejar problemas a tu familia, es por ello que debes considerar lo comentado en este artículo y mantenerte al día en cuanto al cumplimiento de tus obligaciones fiscales.
         </p>
+        <br>
+
 
       <!-- /CONTENIDO DEL ARTICULO -->
 
     </div>
   </div>
-  <small>Autor: L.C. Bibiana I. Nuñez Aguilar</small>
+  <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
+  <br>
+  <small>
+  1. Albacea.- Persona encargada por el testador o por el juez de cumplir la última voluntad del finado, custodiando sus bienes y dándoles el destino que corresponde según la herencia. Diccionario de la Real Academia Española.
+  </small>
 </div>  <!-- /Well Articulo1 -->
 
 @stop
@@ -100,6 +97,6 @@
 @section('javascript')
 <script>
   $('#ulArtTem1').addClass('in');
-  $('#liArt3').addClass('activoBorde');
+  $('#liArt6').addClass('activoBorde');
 </script>
 @stop
