@@ -38,6 +38,16 @@
                   ¿Has ejercido tus derechos ARCO?
                 </a>
             </li>
+            <li id="liArt8">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo8')}}">
+                  ¡Otra forma de hacer “la vaquita”!
+                </a>
+            </li>
+            <li id="liArt9">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo9')}}">
+                  Los bancos en México
+                </a>
+            </li>
 
         </ul>
   </li>

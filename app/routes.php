@@ -48,6 +48,12 @@ Route::group(array('prefix' => 'publicos/infoteca'), function(){
 	Route::get('articulos/articulo7', function(){
 		return View::make('publicos.infoteca.articulos.articulo7');
 	});
+	Route::get('articulos/articulo8', function(){
+		return View::make('publicos.infoteca.articulos.articulo8');
+	});
+	Route::get('articulos/articulo9', function(){
+		return View::make('publicos.infoteca.articulos.articulo9');
+	});
 
 	/*RESENAS*/
 	Route::get('resenas/resena1', function(){
