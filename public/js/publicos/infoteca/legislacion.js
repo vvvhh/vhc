@@ -18,6 +18,9 @@ titOtras = $('#titOtras'),
 titEstatal = $('#titEstatal')
 titNOM =$('#titNOM');
 
+var menuLegislacion=$('#menuLegislacion'),
+    divContenido=$('#divContenido');
+
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
         var datos = $.ajax({
@@ -77,36 +80,56 @@ function limpiar(){
 
 function getConstitucion(){
   tipo = 1;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getCodigo(){
   tipo = 2;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getLeyes(){
   tipo = 3;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getReglamentos(){
   tipo = 4;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getEstatutos(){
   tipo = 5;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getOtras(){
   tipo = 6;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getEstatal(){
   tipo = 7;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
 function getNom(){
   tipo = 8;
+  ocultarOtras();
   getLegislaciones(tipo)
 }
+function mostrarOtras(){
+  menuLegislacion.removeClass('hidden');
+  divContenido.removeClass('col-md-12');
+  divContenido.addClass('col-md-10');
+}
+
+function ocultarOtras(){
+  menuLegislacion.addClass('hidden');
+  divContenido.removeClass('col-md-10');
+  divContenido.addClass('col-md-12');
+}
+
 
 function getLegislaciones(tipo){
   var datos = $.ajax({
@@ -166,6 +189,6 @@ titCodigo.on('click',getCodigo);
 titLeyes.on('click',getLeyes);
 titReglamentos.on('click',getReglamentos);
 titEstatutos.on('click',getEstatutos);
-titOtras.on('click',getOtras);
+titOtras.on('click',mostrarOtras);
 titEstatal.on('click', getEstatal);
 titNOM.on('click',getNom);

@@ -15,8 +15,8 @@
 @stop
 
 @section('content')
-<div style="background-image:url('../../img/infoteca/467228677.jpg');"class="fondo paddingTexto">
-  <div class="container">
+<div style="background-image:url('../../img/infoteca/467228677.jpg');"class="fondo paddingLegislacion">
+  <div class="">
 
   <!-- Tabla Sitios Interes -->
   <div class="row">
@@ -72,16 +72,18 @@
         </div>
       </div>
       <div class="row">
-      <div class="col-md-12">
+        <div class="col-md-2 hidden" id="menuLegislacion">
+                @include('seccionesVista.menuLegislacionSat')
+        </div>
+      <div class="col-md-12" id="divContenido">
         <div class="table-responsive tamTab" id="tblLeyes">
-
-
           <table class="table table-striped table-bordered table-hover">
             <tbody id="tbodyLeyes" class=""></tbody>
           </table>
         </div>  <!-- responsive -->
       </div>
       </div>
+
     </div> <!-- /Tabla de clientes -->
 
       <!-- ./well contenedor general -->
