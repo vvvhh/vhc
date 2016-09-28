@@ -23,8 +23,8 @@
                       - Consulta tu CURP por internet
                     </a>
                   </li>
-                  <li id="liArt1">
-                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo1')}}">
+                  <li id="liTutorial4">
+                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/tutoriales/tutorial4')}}">
                         - Inscripción en el RFC sólo con tu CURP
                       </a>
                   </li>

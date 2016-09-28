@@ -79,6 +79,9 @@ Route::group(array('prefix' => 'publicos/infoteca'), function(){
 	Route::get('tutoriales/tutorial3', function(){
 		return View::make('publicos.infoteca.tutoriales.tutorial3');
 	});
+	Route::get('tutoriales/tutorial4', function(){
+		return View::make('publicos.infoteca.tutoriales.tutorial4');
+	});
 
 	/*INDICADORES FISCALES*/
 	Route::get('indicadoresF/seguridadS/ssCuotasImss', function(){
