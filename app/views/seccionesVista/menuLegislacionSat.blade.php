@@ -24,7 +24,7 @@
       <a  class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulIFe">
       <div class="panel-heading">
         <h4 class="panel-title">
-          Impuestos Federales
+          Criterios
         </h4>
       </div>
       </a>
@@ -113,7 +113,7 @@
         <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulFi">
       <div class="panel-heading">
         <h4 class="panel-title">
-        Financiero
+        Formas y formatos fiscales
         </h4>
       </div>
       </a>
@@ -189,7 +189,7 @@
       <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulSS">
       <div class="panel-heading">
         <h4 class="panel-title">
-          Seguridad social
+          Instructivo de operación para la recepción de contribuciones al comercio exterior
         </h4>
       </div>
       </a>
@@ -224,7 +224,7 @@
     <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLd">
     <div class="panel-heading">
       <h4 class="panel-title">
-        Lavado de dinero
+        Leyes fiscales y otros ordenamientos
       </h4>
     </div>
     </a>
@@ -246,7 +246,8 @@
     <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
     <div class="panel-heading">
       <h4 class="panel-title">
-        Laboral
+        Manuales
+
       </h4>
     </div>
     </a>
@@ -273,7 +274,7 @@
     <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
     <div class="panel-heading">
       <h4 class="panel-title">
-        Comercio exterior
+        Modificaciones
       </h4>
     </div>
     </a>
@@ -289,6 +290,74 @@
 
     </div>
   </div>
+
+
+    <div class="panel panel-default">
+      <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          Modificaciones
+        </h4>
+      </div>
+      </a>
+      <div id="ulCo" class="panel-collapse collapse">
+
+        <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                     <li id="liMultas" class="liInfoteca">
+                         <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
+                           <p>- Multas ley aduanera</p>
+                         </a>
+                     </li>
+        </ul>
+
+      </div>
+    </div>
+
+
+      <div class="panel panel-default">
+        <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
+
+          </h4>
+        </div>
+        </a>
+        <div id="ulCo" class="panel-collapse collapse">
+
+          <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                       <li id="liMultas" class="liInfoteca">
+                           <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
+                             <p>- Multas ley aduanera</p>
+                           </a>
+                       </li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+        <div class="panel panel-default">
+          <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Tesis y sentencias
+            </h4>
+          </div>
+          </a>
+          <div id="ulCo" class="panel-collapse collapse">
+
+            <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
+                               <p>- Multas ley aduanera</p>
+                             </a>
+                         </li>
+            </ul>
+
+          </div>
+        </div>
 
 
   </div>
