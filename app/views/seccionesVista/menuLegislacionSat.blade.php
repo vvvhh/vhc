@@ -169,14 +169,6 @@
              </li>
 
 
-
-
-           <!--    <li id="liTRepecos">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiTRepecos')}}">
-                   - Tablas de cuotas fijas para repecos
-                 </a>
-             </li>-->
-
          </ul>
 
 
@@ -203,20 +195,13 @@
 
         <ul class="colorNav liInfoteca" style="list-style-type: none">
                  <li id="liCuotas" class="liInfoteca">
-                     <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssCuotasImss')}}">
-                       <p>- Cuotas al IMSS e INFONAVIT</p>
+                     <a class="grisClaro " id="li3Instructivo" style="cursor:pointer">
+                       <p>
+                         - Instructivo de operación para la recepción de contribuciones al comercio exterior
+                       </p>
                      </a>
                  </li>
-                 <li id="liCalendario" class="liInfoteca">
-                     <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssCalendario')}}">
-                       <p>- Calendarios de obligaciones</p>
-                     </a>
-                 </li>
-                 <li id="liSanciones" class="liInfoteca">
-                     <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssSancion')}}">
-                       <p>- Sanciones establecidas LSS e INFONAVIT</p>
-                     </a>
-                 </li>
+
              </ul>
 
 
