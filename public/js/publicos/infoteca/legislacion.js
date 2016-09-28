@@ -25,6 +25,17 @@ var liCriNormativo=$('#liCriNormativo'),
     liCriVinculativos=$('#liCriVinculativos');
     liCriProcedimientos=$('#liCriProcedimientos');
     liCriCPR=$('#liCriCPR');
+var li2Codigo=$('#li2Codigo');
+    li2Impue=$('#li2Impue');
+    li2Ieps=$('#li2Ieps');
+    li2Isan=$('#li2Isan');
+    li2Iva=$('#li2Iva');
+    li2Istuv=$('#li2Istuv');
+    li2Hidroc=$('#li2Hidroc');
+    li2Ide=$('#li2Ide');
+    li2Org=$('#li2Org');
+    li2Hojas=$('#li2Hojas');
+    li2Comercio=$('#li2Comercio');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -151,6 +162,62 @@ function getCriCPR(){
   mostrarOtras();
 }
 
+function get2Codigo(){
+  tipo = 14;
+  getLegislaciones(tipo)
+  mostrarOtras();
+
+}
+function get2Impue(){
+  tipo = 15;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Ieps(){
+  tipo = 16;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Isan(){
+  tipo = 17;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Iva(){
+  tipo = 18;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Istuv(){
+  tipo = 19;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Hidroc(){
+  tipo = 20;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Ide(){
+  tipo = 21;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Org(){
+  tipo = 22;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Hojas(){
+  tipo = 23;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get2Comercio(){
+  tipo = 24;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
 
 function mostrarOtras(){
   menuLegislacion.removeClass('hidden');
@@ -233,3 +300,15 @@ liCriVinculativos.on('click',getCriVinculativos);
 liCriProcedimientos.on('click',getCriProcedimientos);
 liCriCPR.on('click',getCriCPR);
 //liInfoteca.on('click',getInfoteca);
+
+li2Codigo.on('click',get2Codigo);
+li2Impue.on('click',get2Impue);
+li2Ieps.on('click',get2Ieps);
+li2Isan.on('click',get2Isan);
+li2Iva.on('click',get2Iva);
+li2Istuv.on('click',get2Istuv);
+li2Hidroc.on('click',get2Hidroc);
+li2Ide.on('click',get2Ide);
+li2Org.on('click',get2Org);
+li2Hojas.on('click',get2Hojas);
+li2Comercio.on('click',get2Comercio);

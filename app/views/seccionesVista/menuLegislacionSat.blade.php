@@ -88,43 +88,83 @@
 
         <ul  class="colorNav" style="list-style-type: none">
              <li id="liEquivalencia" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiEquivalenciaDolar')}}">
-                   <p>- Equivalencia del dólar</p>
+                 <a class="grisClaro " id="li2Codigo" style="cursor:pointer">
+                   <p>
+                     - Código Fiscal de la Federación
+                   </p>
                  </a>
              </li>
              <li id="liEquivalenciaO" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiEquivalenciaO')}}">
-                   <p>- Equivalencia de otras monedas</p>
+                 <a class="grisClaro " id="li2Impue" style="cursor:pointer">
+                   <p>
+                     - Ley del Impuesto sobre la Renta (ISR)
+                   </p>
                  </a>
              </li>
              <li id="liIncp" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiIncp')}}">
-                   <p>- INPC</p>
+                 <a class="grisClaro " id="li2Ieps" style="cursor:pointer">
+                   <p>
+                     - Ley del Impuesto Especial sobre Producción y Servicios (IEPS)
+                   </p>
                  </a>
              </li>
              <li id="liCetes" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiCetes')}}">
-                   <p>- CETES</p>
+                 <a class="grisClaro " id="li2Isan" style="cursor:pointer">
+                   <p>
+                     - Ley Federal del Impuesto sobre Automóviles Nuevos (ISAN)
+                   </p>
                  </a>
              </li>
              <li id="liCppc" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiCppc')}}">
-                   <p>- CPP</p>
+                 <a class="grisClaro " id="li2Iva" style="cursor:pointer">
+                   <p>
+                     - Ley del Impuesto al Valor Agregado (IVA)
+                   </p>
                  </a>
              </li>
              <li id="liTiie" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiTiie')}}">
-                   <p>- TIIE</p>
+                 <a class="grisClaro " id="li2Istuv" style="cursor:pointer">
+                   <p>
+                     - Ley del Impuesto sobre Tenencia o Uso de Vehículos (ISTUV)
+                   </p>
                  </a>
              </li>
              <li id="liUdis" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiUdis')}}">
-                   <p>- UDIS</p>
+                 <a class="grisClaro " id="li2Hidroc" style="cursor:pointer">
+                   <p>
+                     - Ley de Ingresos sobre Hidrocarburos
+                   </p>
                  </a>
              </li>
              <li id="liInflacion" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiInflacion')}}">
-                   <p>- Tasa porcentual de inflación</p>
+                 <a class="grisClaro " id="li2Ide" style="cursor:pointer">
+                   <p>
+                     - Ley del Impuesto a los Depósitos en Efectivo (IDE)
+                   </p>
+                 </a>
+             </li>
+
+             <li id="liInflacion" class="liInfoteca">
+                 <a class="grisClaro " id="li2Org" style="cursor:pointer">
+                   <p>
+                     - Petróleos Mexicanos y sus Organismos Subsidiarios
+                   </p>
+                 </a>
+             </li>
+
+             <li id="liInflacion" class="liInfoteca">
+                 <a class="grisClaro " id="li2Hojas" style="cursor:pointer">
+                   <p>
+                     - Hojas de ayuda
+                   </p>
+                 </a>
+             </li>
+
+             <li id="liInflacion" class="liInfoteca">
+                 <a class="grisClaro " id="li2Comercio" style="cursor:pointer">
+                   <p>
+                     - Formas y formatos de Comercio Exterior
+                   </p>
                  </a>
              </li>
 
