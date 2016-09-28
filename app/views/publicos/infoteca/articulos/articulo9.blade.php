@@ -126,6 +126,6 @@
 @section('javascript')
 <script>
   $('#ulArtTem1').addClass('in');
-  $('#liArt7').addClass('activoBorde');
+  $('#liArt9').addClass('activoBorde');
 </script>
 @stop
