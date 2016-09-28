@@ -53,6 +53,11 @@
                   ¿Conoces la PRODECOM?
                 </a>
             </li>
+            <li id="liArt11">
+                <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo11')}}">
+                  El fin del ciclo del contribuyente
+                </a>
+            </li>
 
         </ul>
   </li>
