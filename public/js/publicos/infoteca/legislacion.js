@@ -20,6 +20,11 @@ titNOM =$('#titNOM');
 
 var menuLegislacion=$('#menuLegislacion'),
     divContenido=$('#divContenido');
+var liCriNormativo=$('#liCriNormativo'),
+    liCriAplicacion=$('#liCriAplicacion');
+    liCriVinculativos=$('#liCriVinculativos');
+    liCriProcedimientos=$('#liCriProcedimientos');
+    liCriCPR=$('#liCriCPR');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -118,6 +123,35 @@ function getNom(){
   ocultarOtras();
   getLegislaciones(tipo)
 }
+
+
+function getCriNormativo(){
+  tipo = 9;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getCriAplicacion(){
+  tipo = 10;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getCriVinculativos(){
+  tipo = 11;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getCriProcedimientos(){
+  tipo = 12;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getCriCPR(){
+  tipo = 13;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+
+
 function mostrarOtras(){
   menuLegislacion.removeClass('hidden');
   divContenido.removeClass('col-md-12');
@@ -192,3 +226,10 @@ titEstatutos.on('click',getEstatutos);
 titOtras.on('click',mostrarOtras);
 titEstatal.on('click', getEstatal);
 titNOM.on('click',getNom);
+
+liCriNormativo.on('click',getCriNormativo);
+liCriAplicacion.on('click',getCriAplicacion);
+liCriVinculativos.on('click',getCriVinculativos);
+liCriProcedimientos.on('click',getCriProcedimientos);
+liCriCPR.on('click',getCriCPR);
+//liInfoteca.on('click',getInfoteca);

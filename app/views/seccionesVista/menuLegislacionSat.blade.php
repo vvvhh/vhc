@@ -33,71 +33,37 @@
         <ul  class="colorNav" style="list-style-type: none">
 
              <li id="liCantidadesCFF" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF')}}">
-                   <p>- Cantidades actualizadas CFF</p>
+                 <a class="grisClaro "  id="liCriNormativo" style="cursor:pointer">
+                   <p class="text-justify">- Criterios Normativos
+                   </p>
                  </a>
              </li>
 
              <li id="liTarifasPp" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp')}}">
-                   <p>- Tarifas y tablas ISR-PP</p>
+                 <a class="grisClaro "  id="liCriAplicacion" style="cursor:pointer">
+                   <p class="text-justify">- Criterios de aplicación en la operación aduanera
+                   </p>
                  </a>
              </li>
              <li id="liTarifasDa" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifIsr-da')}}">
-                   <p>- Tarifas y tablas ISR-DA</p>
+                 <a class="grisClaro "  id="liCriVinculativos" style="cursor:pointer">
+                   <p class="text-justify">- Criterios no vinculativos de las disposiciones fiscales y aduaneras
+                   </p>
                  </a>
              </li>
              <li id="liTReincos" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifReincos')}}">
-                   <p>- Tablas de cuotas fijas para reincos</p>
+                 <a class="grisClaro "  id="liCriProcedimientos" style="cursor:pointer">
+                   <p class="text-justify">- Procedimientos en materia aduanera
+                   </p>
                  </a>
              </li>
              <li id="liTSemestrales" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTSemestralesPrimario')}}">
-                   <p>- Tarifas semestrales sector primario</p>
-                 </a>
-             </li>
-             <li id="liTSueldos" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTSueldosSalarios')}}">
-                   <p>- Tablas y tarifas para sueldos y salarios, semanales, diarias, decenal, quincenal</p>
-                 </a>
-             </li>
-             <li id="liTArrendamiento" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTArrendamientoTrimestral')}}">
-                   <p>- Tarifa mensual y trimestral de arrendamiento</p>
-                 </a>
-             </li>
-             <li id="liTActividades" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTMensualActividad')}}">
-                   <p>- Tarifa mensual actividades empresariales y profesionales</p>
+                 <a class="grisClaro " id="liCriCPR" style="cursor:pointer">
+                   <p class="text-justify">- Criterios a considerar por el CPR para elaborar la opinión sobre la imposibilidad financiera del contribuyente para cumplir sus créditos fiscales con recargos y multas
+                   </p>
                  </a>
              </li>
 
-           <li id="liFiCalendario" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifCalendarioObligaciones')}}">
-                   <p>- Calendario de obligaciones</p>
-                 </a>
-           </li>
-
-           <li id="liTRecargos2" class="liInfoteca">
-             <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTasasRecargo2')}}">
-                 <p>- Tasas de recargos
-             </a>
-           </li>
-
-           <li id="liInstituciones" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifInstitucionesCredito')}}">
-                   <p>- Instituciones de crédito autorizadas para recibir declaraciones</p>
-                 </a>
-             </li>
-           </li>
-
-           <li id="liDSat" class="liInfoteca">
-               <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifDirectorioSat')}}">
-                 <p>- Directorio de oficinas del SAT DF
-               </a>
-           </li>
 
          </ul>
 
