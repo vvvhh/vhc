@@ -255,6 +255,10 @@ function mostrarOtras(){
   divContenido.removeClass('col-md-12');
   divContenido.addClass('col-md-10');
 }
+function tituloOtras(){
+  tbodyLeyes.html('');
+  mostrarOtras();
+}
 
 function ocultarOtras(){
   menuLegislacion.addClass('hidden');
@@ -321,7 +325,7 @@ titCodigo.on('click',getCodigo);
 titLeyes.on('click',getLeyes);
 titReglamentos.on('click',getReglamentos);
 titEstatutos.on('click',getEstatutos);
-titOtras.on('click',mostrarOtras);
+titOtras.on('click',tituloOtras);
 titEstatal.on('click', getEstatal);
 titNOM.on('click',getNom);
 
