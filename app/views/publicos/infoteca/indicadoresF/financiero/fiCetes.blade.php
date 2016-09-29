@@ -59,8 +59,15 @@
   <tr>	<td class="text-center">	11/08/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.35	</td> </tr>
   <tr>	<td class="text-center">	18/08/2016	<td class="text-center">	4.27	</td>  <td class="text-center">	4.33	</td> </tr>
   <tr>	<td class="text-center">	25/08/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
+  <tr>	<td class="text-center">	25/08/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
+  <tr>	<td class="text-center">	01/09/2016	<td class="text-center">	4.29	</td>  <td class="text-center">	4.40	</td> </tr>
+  <tr>	<td class="text-center">	08/09/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
+  <tr>	<td class="text-center">	15/09/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.34	</td> </tr>
+  <tr>	<td class="text-center">	22/09/2016	<td class="text-center">	4.27	</td>  <td class="text-center">	4.50	</td> </tr>
+  <tr>	<td class="text-center">	29/09/2016	<td class="text-center">	4.41	</td>  <td class="text-center">	4.79	</td> </tr>
 
-4.27
+
+
 
          </tbody>
           <!-- * -->

@@ -34,7 +34,9 @@
 
 <tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	 ​08 de julio de 2015	  </td>	</tr>
 -->
-<tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	10 de julio de 2016​	  </td>	</tr>
+<tr>	<td class="text-center">	Agosto	</td>	<td class="text-center">	 	​​​​​​*119.547	  </td>	<td class="text-center">	09 de septiembre de 2016  </td>	</tr>
+<tr>	<td class="text-center">	Julio	</td>	<td class="text-center">	 	​​​​​​*119.211	  </td>	<td class="text-center">	10 de agosto de 2016​	  </td>	</tr>
+<tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	08 de julio de 2016​	  </td>	</tr>
 <tr>	<td class="text-center">	Mayo	</td>	<td class="text-center">	​​​​​​*118.770	  </td>	<td class="text-center">	10 de junio de 2016​	  </td>	</tr>
 <tr>	<td class="text-center">	Abril	</td>	<td class="text-center">	​​​​​​*119.302	  </td>	<td class="text-center">	10 de mayo de 2016	  </td>	</tr>
 <tr>	<td class="text-center">	Marzo	</td>	<td class="text-center">	​​​*119.681	  </td>	<td class="text-center">	08 de abril de 2016  </td>	</tr>
