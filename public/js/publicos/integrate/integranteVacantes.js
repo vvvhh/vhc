@@ -37,7 +37,8 @@ var vacantes= [
     "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
-    "Contable"  //area
+    "Contable",  //area para postularse
+    "Contable"  //area para mostrar
   ],
   [
     "Semi_senior ",           //PUESTO 1
@@ -59,7 +60,8 @@ var vacantes= [
     "",
     "",
     "",
-    "Contable"  //area
+    "Contable",  //area para postularse
+    "Contable"  //area para mostrar
   ],
   [
     "Asistente",       //Puesto    2--------------------------------------------------------------------------------------------------
@@ -81,7 +83,8 @@ var vacantes= [
     "Requerida",  //Experiencia Requerida
     " - ", //Idiomas
     "Confianza, conocimientos técnicos profesionales.", //Habilidades
-    "Contable"  //area
+    "Contable",  //area para postularse
+    "Contable"  //area para mostrar
   ],
 
 
@@ -105,7 +108,8 @@ var vacantes= [
     "",
     "",
     "",
-    "Consultoria"
+    "Consultoria",  //area para postularse
+    'Consultoría'  //area para mostar
   ],
   [
     "Consultor",     // 4------------------------------------------------------------------
@@ -127,7 +131,8 @@ var vacantes= [
     "",
     "",
     "",
-    "Consultoria"
+    "Consultoria",
+    "Consultoría"
   ],
   [
     "Especialista",     //5----------------------------------------------------------------------
@@ -149,7 +154,8 @@ var vacantes= [
     "",
     "",
     "",
-    "Consultoria"
+    "Consultoria",
+    "Consultoría"
   ],
 
 
@@ -173,7 +179,8 @@ var vacantes= [
     "4 años de experiencia",  //Experiencia Requerida
     " - ", //Idiomas
     "Confianza, conocimientos técnicos profesionales.", //Habilidades
-    "Auditoria"
+    "Auditoria",
+    "Auditoría"
   ],
   [
     "Semi senior",     // 7------------------------------------------------------------
@@ -195,7 +202,8 @@ var vacantes= [
     "",
     "",
     "",
-    "Auditoria"
+    "Auditoria",
+    "Auditoría"
   ],
   [
     "Asistente",       //Puesto    8--------------------------------------------------------------------------------------------------
@@ -217,7 +225,8 @@ var vacantes= [
     "Requierida",  //Experiencia Requerida
     " - ", //Idiomas
     "Confianza, conocimientos técnicos profesionales.", //Habilidades
-    "Auditoria"
+    "Auditoria",
+    "Auditoría"
   ],
   [
     "Gerente",       //Puesto    9*---------------------------------------------------------------------------------------------------
@@ -239,6 +248,7 @@ var vacantes= [
     "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
+    "Contable",  //area
     "Contable"  //area
   ],
 
@@ -262,7 +272,8 @@ var vacantes= [
     "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
-    "Consultoria"  //area
+    "Consultoria",  //area
+    "Consultoría"
   ],
   [
     "Gerente",       //Puesto    11*---------------------------------------------------------------------------------------------------
@@ -284,7 +295,8 @@ var vacantes= [
     "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
-    "Auditoría"  //area
+    "Auditoria",  //area
+    "Auditoría",
   ],
 
 ];
@@ -385,7 +397,7 @@ function  clicElemento(){
   vacSelect=$(this).attr('id');
 
   bootbox.dialog({
-    title:'<div align="center"><strong>'+vacantes[vacSelect][19]+': '+vacantes[vacSelect][0]+'</strong></div>',
+    title:'<div align="center"><strong>'+vacantes[vacSelect][20]+': '+vacantes[vacSelect][0]+'</strong></div>',
     message: '<div align="left"> <h4><strong>Número de Plazas: </strong> '+vacantes[vacSelect][1]+
             ' </h4> <h4><strong>Tipo de Contrato: </strong> '+vacantes[vacSelect][2]+
             ' </h4>  <h4><strong>Actividades Relacionadas con el Puesto: </strong> '+vacantes[vacSelect][3]+
@@ -414,7 +426,7 @@ function  clicElemento(){
         label: "Postularse",
         className: "btn-primary",
         callback: function() {
-            location.href="integratePostulate?vac="+vacantes[vacSelect][0]+"&emp=VHC"+"&area="+vacantes[vacSelect][19] ;
+            location.href="integratePostulate?emp=VHC"+"&area="+vacantes[vacSelect][19] ;
         }
       },
       danger: {
@@ -432,7 +444,7 @@ function  clicElemento(){
 function clicSinVacante(){
   vacSelect=$(this).attr('id');
   bootbox.dialog({
-    title:'<div align="center"><strong>'+vacantes[vacSelect][19]+': '+vacantes[vacSelect][0]+'</strong></div>',
+    title:'<div align="center"><strong>'+vacantes[vacSelect][20]+': '+vacantes[vacSelect][0]+'</strong></div>',
     message: '<div align="left"> <h4><strong>Por el momento no hay vacantes</strong>, pero puedes enviarnos tu información para futuras oportunidades dando clic en el botón "Postularse". '+
             ' </h4></div>',
     //closeButton: false,
@@ -442,7 +454,7 @@ function clicSinVacante(){
         label: "Postularse",
         className: "btn-primary",
         callback: function() {
-            location.href="integratePostulate?vac="+vacantes[vacSelect][0]+"&emp=VHC"+"&area="+vacantes[vacSelect][5];
+            location.href="integratePostulate?emp=VHC"+"&area="+vacantes[vacSelect][5];
         }
       },
       danger: {
@@ -486,7 +498,7 @@ function  clicEmpresa(){
         label: "Postularse",
         className: "btn-primary",
         callback: function() {
-            location.href="integratePostulate?vac="+empresa[vacSelect][0]+"&emp=Empresa_Privada"+"&area="+empresa[vacSelect][15];
+            location.href="integratePostulate?emp=Empresa_Privada"+"&area="+empresa[vacSelect][15];
         }
       },
       danger: {

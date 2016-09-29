@@ -183,14 +183,14 @@ $(document).on('ready', function(){
       document.getElementById("inpArea").disabled = false;
     }
 
-  if((vacSelecionado != '') && (vacSelecionado != null)) {
+  /*if((vacSelecionado != '') && (vacSelecionado != null)) {
      inpPostula.val(vacSelecionado);
      document.getElementById("inpPostula").disabled = true;
    }
    else {
     document.getElementById("inpPostula").disabled = false;
   }
-
+*/
 
 
 });
