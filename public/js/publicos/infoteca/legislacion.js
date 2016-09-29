@@ -41,6 +41,14 @@ var li4leyes=$('#li4leyes');
 var li5manual=$('#li5manual');
 var li6Mod=$('#li6Mod');
 var li6Otras=$('#li6Otras');
+var li7Resolucion=$('#li7Resolucion'),
+    li7Resolucion2=$('#li7Resolucion2'),
+    li7Resolucion3=$('#li7Resolucion3'),
+    li7Resolucion4=$('#li7Resolucion4'),
+    li7Resolucion5=$('#li7Resolucion5'),
+    li7Resolucion6=$('#li7Resolucion6'),
+    li7Resolucion7=$('#li7Resolucion7'),
+    li7Resolucion8=$('#li7Resolucion8');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -250,6 +258,47 @@ function get6Otras(){
   mostrarOtras();
 }
 
+function get7Resolucion(){
+  tipo = 30;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion2(){
+  tipo = 31;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion3(){
+  tipo = 32;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion4() {
+  tipo = 33;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion5(){
+  tipo = 34;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion6(){
+  tipo = 35;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion7(){
+  tipo = 36;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion8(){
+  tipo = 37;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+
 function mostrarOtras(){
   menuLegislacion.removeClass('hidden');
   divContenido.removeClass('col-md-12');
@@ -353,3 +402,12 @@ li4leyes.on('click',get4leyes);
 li5manual.on('click',get5manual);
 li6Mod.on('click',get6Mod);
 li6Otras.on('click',get6Otras);
+
+li7Resolucion.on('click',get7Resolucion);
+li7Resolucion2.on('click',get7Resolucion2);
+li7Resolucion3.on('click',get7Resolucion3);
+li7Resolucion4.on('click',get7Resolucion4);
+li7Resolucion5.on('click',get7Resolucion5);
+li7Resolucion6.on('click',get7Resolucion6);
+li7Resolucion7.on('click',get7Resolucion7);
+li7Resolucion8.on('click',get7Resolucion8);

@@ -312,7 +312,7 @@
           <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
           <div class="panel-heading">
             <h4 class="panel-title">
-              Tesis y sentencias
+              Resolución Miscelánea Fiscal
             </h4>
           </div>
           </a>
@@ -320,10 +320,65 @@
 
             <ul  class="colorNav liInfoteca" style="list-style-type: none">
                          <li id="liMultas" class="liInfoteca">
-                             <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
-                               <p>- Multas ley aduanera</p>
+                             <a class="grisClaro " id="li7Resolucion"  style="cursor:pointer">
+                               <p>
+                                 Resolución Miscelánea Fiscal para 2016 y su anexo 19 (publicada el 23 de diciembre de 2015)
+                               </p>
                              </a>
                          </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion2"  style="cursor:pointer">
+                       <p>
+                         Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.​ (Publicados el 24 de diciembre de 2015)
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion3"  style="cursor:pointer">
+                       <p>
+                         Anexos 3, 4, 5, 6, 7, 8, 11, 14, 17, 23, 25 y 25 Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015. (Publicados el 12 de enero de 2016)
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion4"  style="cursor:pointer">
+                       <p>
+                         Anexos 15 y 24 de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015. (Publicados el 13 de enero de 2016)
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion5"  style="cursor:pointer">
+                       <p>
+                         ​Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A, 23 y 27 (Publicada el 01 de abril de 2016)
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion6"  style="cursor:pointer">
+                       <p>
+                         ​Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. (Publicada el 06 de mayo de 2016)
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion7"  style="cursor:pointer">
+                       <p>
+                         Anexo 1, 1A, 3, 7, 9 11, 14, 15 y 25 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 09 de mayo de
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion8"  style="cursor:pointer">
+                       <p>
+                         Anexo 16 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 23 de mayo de 2016)
+                       </p>
+                     </a>
+                </li>
+
+
+
+
             </ul>
 
           </div>
