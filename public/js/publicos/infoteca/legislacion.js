@@ -39,6 +39,8 @@ var li2Codigo=$('#li2Codigo');
 var li3Instructivo=$('#li3Instructivo');
 var li4leyes=$('#li4leyes');
 var li5manual=$('#li5manual');
+var li6Mod=$('#li6Mod');
+var li6Otras=$('#li6Otras');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -237,6 +239,16 @@ function get5manual(){
   getLegislaciones(tipo)
   mostrarOtras();
 }
+function get6Mod(){
+  tipo = 28;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get6Otras(){
+  tipo = 29;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
 
 function mostrarOtras(){
   menuLegislacion.removeClass('hidden');
@@ -335,3 +347,5 @@ li2Comercio.on('click',get2Comercio);
 li3Instructivo.on('click',get3Instructivo);
 li4leyes.on('click',get4leyes);
 li5manual.on('click',get5manual);
+li6Mod.on('click',get6Mod);
+li6Otras.on('click',get6Otras);

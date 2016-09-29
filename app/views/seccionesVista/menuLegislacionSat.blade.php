@@ -223,7 +223,7 @@
 
       <ul  class="colorNav liInfoteca" style="list-style-type: none">
                   <li id="liLimite" class="liInfoteca">
-                      <a class="grisClaro " id="li4leyes">
+                      <a class="grisClaro " id="li4leyes"  style="cursor:pointer">
                         <p>
                           Disposisiones legales 2016
                         </p>
@@ -236,7 +236,7 @@
 
 
   <div class="panel panel-default">
-    <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
+    <a id="li5manual" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
     <div class="panel-heading">
       <h4 class="panel-title">
         Manuales
@@ -244,7 +244,7 @@
       </h4>
     </div>
     </a>
-    <div id="ulLa"  class="panel-collapse collapse">
+  <!--   <div id="ulLa"  class="panel-collapse collapse">
 
       <ul class="colorNav liInfoteca" style="list-style-type: none">
                    <li id="liSalario"  class="liInfoteca">
@@ -256,41 +256,19 @@
 
       </ul>
     </div>
-  </div>
-
-
-
-  <div class="panel panel-default">
-    <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        Modificaciones
-      </h4>
-    </div>
-    </a>
-    <div id="ulCo" class="panel-collapse collapse">
-
-      <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                   <li id="liMultas" class="liInfoteca">
-                       <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
-                         <p>- Multas ley aduanera</p>
-                       </a>
-                   </li>
-      </ul>
-
-    </div>
+     -->
   </div>
 
 
     <div class="panel panel-default">
-      <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+      <a id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
       <div class="panel-heading">
         <h4 class="panel-title">
           Modificaciones
         </h4>
       </div>
       </a>
-      <div id="ulCo" class="panel-collapse collapse">
+    <!--    <div id="ulCo" class="panel-collapse collapse">
 
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
                      <li id="liMultas" class="liInfoteca">
@@ -301,11 +279,12 @@
         </ul>
 
       </div>
+      -->
     </div>
 
 
       <div class="panel panel-default">
-        <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+        <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
         <div class="panel-heading">
           <h4 class="panel-title">
             Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
@@ -313,7 +292,7 @@
           </h4>
         </div>
         </a>
-        <div id="ulCo" class="panel-collapse collapse">
+      <!--    <div id="ulCo" class="panel-collapse collapse">
 
           <ul  class="colorNav liInfoteca" style="list-style-type: none">
                        <li id="liMultas" class="liInfoteca">
@@ -324,6 +303,7 @@
           </ul>
 
         </div>
+        -->
       </div>
 
 
