@@ -223,8 +223,10 @@
 
       <ul  class="colorNav liInfoteca" style="list-style-type: none">
                   <li id="liLimite" class="liInfoteca">
-                      <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/lavadoD/ldLimite')}}">
-                        <p>- Catálogo de actividades vulnerables</p>
+                      <a class="grisClaro " id="li4leyes">
+                        <p>
+                          Disposisiones legales 2016
+                        </p>
                       </a>
                   </li>
       </ul>
@@ -246,15 +248,12 @@
 
       <ul class="colorNav liInfoteca" style="list-style-type: none">
                    <li id="liSalario"  class="liInfoteca">
-                       <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/laboral/laSalario')}}">
-                         <p>- Salarios mínimos generales</p>
+                       <a class="grisClaro " id="li5manual">
+                         <p>- Manuales
+                         </p>
                        </a>
                    </li>
-                   <li id="liSalarioP"  class="liInfoteca">
-                       <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/laboral/laSalarioProfecionales')}}">
-                         <p>- Salarios mínimos profesionales</p>
-                       </a>
-                   </li>
+
       </ul>
     </div>
   </div>
