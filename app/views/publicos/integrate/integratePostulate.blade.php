@@ -108,7 +108,7 @@
                  </div>
 
                  <div class="row">
-                   <div class="col-md-6">
+                   <div class="col-md-8">
                      <div class="control-group form-group">
                        Seleccionar área:
                        <div class="input-group">
@@ -126,6 +126,10 @@
 
                        </div>
                      </div>
+                   </div>
+                   <div class="col-md-4">
+                     <br>
+                    <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="btn btn-md"><strong>Ver vacantes</strong></a>
                    </div>
 
               <!--      <div class="col-md-6">
