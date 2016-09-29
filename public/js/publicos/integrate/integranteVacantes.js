@@ -1,16 +1,18 @@
 /*
 vacantes VHC
+  9 Gerente
   0 Senior contable
   1 Semi senior contable
   2 asistente contable
 
+  10 gerente
+  3 Senior
+  4 consultor
+  5 especialista
 
-  3 Senior consultor
-  4 -
-  5 Asistente consultor
-
-  6 Senior auditor
-  7 -
+  11 Gerente
+  6 Senior
+  7 Semi senior
   8 Asistente auditor
 */
 
@@ -43,6 +45,20 @@ var vacantes= [
     "Actividades2",
     "Sueldo 2",
     "otras caracterisitcas 2",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "Contable"  //area
   ],
   [
@@ -68,27 +84,71 @@ var vacantes= [
     "Contable"  //area
   ],
 
+
   [
     "Senior",   // 3------------------------------------------------------------------
     "Experiencia Asesorias",
     "Actividades Asesorias",
     "Sueldo Asesorias ",
     "otras caracterisitcas Asesorias",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "Consultoria"
   ],
   [
-    "Asesorias",     // 4------------------------------------------------------------------
+    "Consultor",     // 4------------------------------------------------------------------
     "Experiencia Asesorias",
     "Actividades Asesorias",
     "Sueldo Asesorias",
-    "otras caracterisitcas Asesorias"
+    "otras caracterisitcas Asesorias",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Consultoria"
   ],
   [
-    "Asistente",     //5----------------------------------------------------------------------
+    "Especialista",     //5----------------------------------------------------------------------
     "Experiencia3 Asesorias",
     "Actividades3 Asesorias",
     "Sueldo 3 Asesorias",
     "otras caracterisitcas 3",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "Consultoria"
   ],
 
@@ -116,11 +176,25 @@ var vacantes= [
     "Auditoria"
   ],
   [
-    "Supervisor Auditor",     // 7------------------------------------------------------------
+    "Semi senior",     // 7------------------------------------------------------------
     "Experiencia Auditor",
     "Actividades Auditor",
     "Sueldo Auditor",
     "otras caracterisitcas Auditor",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "Auditoria"
   ],
   [
@@ -145,7 +219,73 @@ var vacantes= [
     "Confianza, conocimientos técnicos profesionales.", //Habilidades
     "Auditoria"
   ],
+  [
+    "Gerente",       //Puesto    9*---------------------------------------------------------------------------------------------------
+    "1",                          //Número de Plazas:
+    "Contrato",                   //Tipo de Contrato:
+    "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
+    "$10,000-15,000",              //Sueldo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    "Completo",   //Tipo de Horario de Trabajo
+    "8:00 - 18:00",  // Horario de Trabajo
+    "Sí",   //Disponibilidad para viajar:
+    "No",   //Cambio de residencia
+    "Licenciatura en Contaduría", // Estudios
+    "Títulado",    //Nivel académico
+    "indistinto", //Estado Civil
+    "20",      //Edad Mínima
+    "-",      //edad Maxima
+    "Indistinto", //Sexo
+    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    " - ", //Idiomas
+    "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
+    "Contable"  //area
+  ],
 
+  [
+    "Gerente",       //Puesto    10*---------------------------------------------------------------------------------------------------
+    "1",                          //Número de Plazas:
+    "Contrato",                   //Tipo de Contrato:
+    "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
+    "$10,000-15,000",              //Sueldo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    "Completo",   //Tipo de Horario de Trabajo
+    "8:00 - 18:00",  // Horario de Trabajo
+    "Sí",   //Disponibilidad para viajar:
+    "No",   //Cambio de residencia
+    "Licenciatura en Contaduría", // Estudios
+    "Títulado",    //Nivel académico
+    "indistinto", //Estado Civil
+    "20",      //Edad Mínima
+    "-",      //edad Maxima
+    "Indistinto", //Sexo
+    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    " - ", //Idiomas
+    "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
+    "Consultoria"  //area
+  ],
+  [
+    "Gerente",       //Puesto    11*---------------------------------------------------------------------------------------------------
+    "1",                          //Número de Plazas:
+    "Contrato",                   //Tipo de Contrato:
+    "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
+    "$10,000-15,000",              //Sueldo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    "Completo",   //Tipo de Horario de Trabajo
+    "8:00 - 18:00",  // Horario de Trabajo
+    "Sí",   //Disponibilidad para viajar:
+    "No",   //Cambio de residencia
+    "Licenciatura en Contaduría", // Estudios
+    "Títulado",    //Nivel académico
+    "indistinto", //Estado Civil
+    "20",      //Edad Mínima
+    "-",      //edad Maxima
+    "Indistinto", //Sexo
+    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    " - ", //Idiomas
+    "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
+    "Auditoría"  //area
+  ],
 
 ];
 
@@ -292,7 +432,7 @@ function  clicElemento(){
 function clicSinVacante(){
   vacSelect=$(this).attr('id');
   bootbox.dialog({
-    title:'<div align="center"><strong>'+vacantes[vacSelect][5]+': '+vacantes[vacSelect][0]+'</strong></div>',
+    title:'<div align="center"><strong>'+vacantes[vacSelect][19]+': '+vacantes[vacSelect][0]+'</strong></div>',
     message: '<div align="left"> <h4><strong>Por el momento no hay vacantes</strong>, pero puedes enviarnos tu información para futuras oportunidades dando clic en el botón "Postularse". '+
             ' </h4></div>',
     //closeButton: false,

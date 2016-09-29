@@ -62,6 +62,12 @@
 
               <ul class="" style="list-style-type: none">
 
+                        <li id="9" class="liInfoteca sinVacante"  style="cursor:pointer;">
+                                <p>
+                                   - Gerente
+                                </p>
+                        </li>
+
                        <li id="0" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                                <p>
                                   - Senior
@@ -100,19 +106,24 @@
           <div id="vac2" class="panel-collapse collapse">
 
             <ul  class="" style="list-style-type: none">
+                        <li id="10" class="liInfoteca sinVacante"  style="cursor:pointer;">
+                                <p>
+                                   - Gerente
+                                </p>
+                        </li>
                         <li id="3" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
                                  - Senior
                               </p>
                         </li>
-                      <!--    <li id="4" class="liInfoteca vacDetalle"  style="cursor:pointer;">
+                        <li id="4" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
-                                - Supervisor
+                                - Consultor
                               </p>
-                        </li> -->
+                        </li>
                         <li id="5" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
-                                - Asistente
+                                - Especialista
                               </p>
                         </li>
             </ul>
@@ -130,14 +141,19 @@
           <div id="vac3" class="panel-collapse collapse">
 
             <ul  class="" style="list-style-type: none">
+                        <li id="11" class="liInfoteca sinVacante"  style="cursor:pointer;">
+                                <p>
+                                   - Gerente
+                                </p>
+                        </li>
                         <li id="6" value="12" class="liInfoteca vacDetalle" style="cursor:pointer;">
                             - Senior
                         </li>
-                      <!--    <li id="7" class="liInfoteca vacDetalle"  style="cursor:pointer;">
+                        <li id="7" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
-                                - Supervisor
+                                - Semi senior
                               </p>
-                        </li> -->
+                        </li>
                         <li id="8" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
                                 - Asistente
