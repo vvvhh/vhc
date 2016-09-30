@@ -125,7 +125,7 @@
               </div>
               <div class="well noticiasWell grisObscuro text-center">
                   <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/464236751.jpg')}}"/>
-                  <h5><i class="fa fa-line-chart"></i> Indicadores Fiscales</h5>
+                  <h4><i class="fa fa-line-chart"></i> Indicadores</h>
               </div>
           </a>
       </div>

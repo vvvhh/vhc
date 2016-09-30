@@ -183,6 +183,9 @@ Route::group(array('prefix' => 'publicos/infoteca'), function(){
 	Route::get('indicadoresF/impuestosF/ifDirectorioSat', function(){
 		return View::make('publicos.infoteca.indicadoresF.impuestosF.ifDirectorioSat');
 	});
+	Route::get('indicadoresF/impuestosF/ifPagarDerechos', function(){
+		return View::make('publicos.infoteca.indicadoresF.impuestosF.ifPagarDerechos');
+	});
 
 
 

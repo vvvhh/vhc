@@ -11,7 +11,7 @@
               <div class="col-lg-12">
                 <br>
                 <h1 class="tamTitulo grisClaro texto3D tituloEntrada">
-                  <i class="fa fa-line-chart"></i> Indicadores Fiscales</h1>
+                  <i class="fa fa-line-chart"></i> Indicadores</h1>
                 <br>
               </div>
             </div>

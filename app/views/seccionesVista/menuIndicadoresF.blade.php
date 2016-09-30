@@ -98,6 +98,12 @@
                </a>
            </li>
 
+           <li id="liPagosDerecho" class="liInfoteca">
+               <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifPagarDerechos')}}">
+                 <p>- Cantidades a pagar por concepto de derecho 2016
+               </a>
+           </li>
+
          </ul>
 
       </div>
