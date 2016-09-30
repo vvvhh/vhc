@@ -270,6 +270,44 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
 
 
 
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+        <!-- ******************** -->
+
+<br><br>
+<h4 class="text-center">	3. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 10 días, correspondiente  a 2016.
+</h4>
+
+
+<thead>
+<tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+</thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	163.2	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+  <tr>	<td class="text-center">	163.21	  </td>	<td class="text-center">	1,385.00	   </td>	<td class="text-center">	3.1	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+  <tr>	<td class="text-center">	1,385.01	  </td>	<td class="text-center">	2,434.00	   </td>	<td class="text-center">	81.3	</td>	<td class="text-center">	10.88	 </td>	</tr>
+  <tr>	<td class="text-center">	2,434.01	  </td>	<td class="text-center">	2,829.40	 </td>	<td class="text-center">	195.5	</td>	<td class="text-center">	16	   </td>	</tr>
+  <tr>	<td class="text-center">	2,829.41	  </td>	<td class="text-center">	3,387.60	 </td>	<td class="text-center">	258.7	</td>	<td class="text-center">	17.92	 </td>	</tr>
+  <tr>	<td class="text-center">	3,387.61	  </td>	<td class="text-center">	6,832.30	 </td>	<td class="text-center">	358.8	</td>	<td class="text-center">	21.36	 </td>	</tr>
+  <tr>	<td class="text-center">	6,832.31	  </td>	<td class="text-center">	10,768.70	 </td>	<td class="text-center">	1,094.50	</td>	<td class="text-center">	23.52	 </td>	</tr>
+  <tr>	<td class="text-center">	10,768.71	  </td>	<td class="text-center">	20,559.20	 </td>	<td class="text-center">	2,020.40	</td>	<td class="text-center">	30	   </td>	</tr>
+  <tr>	<td class="text-center">	20,559.21	  </td>	<td class="text-center">	27,412.30	 </td>	<td class="text-center">	4,957.50	</td>	<td class="text-center">	32	   </td>	</tr>
+  <tr>	<td class="text-center">	27,412.31	  </td>	<td class="text-center">	82,236.80	 </td>	<td class="text-center">	7,150.50	</td>	<td class="text-center">	34	   </td>	</tr>
+  <tr>	<td class="text-center">	82,236.81	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	25,790.90	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+
 
 </div>
 @stop
