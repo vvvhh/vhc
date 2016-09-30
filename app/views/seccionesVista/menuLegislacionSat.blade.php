@@ -225,7 +225,7 @@
                   <li id="liLimite" class="liInfoteca">
                       <a class="grisClaro " id="li4leyes"  style="cursor:pointer">
                         <p>
-                          Disposisiones legales 2016
+                          Disposiciones legales 2016
                         </p>
                       </a>
                   </li>
@@ -528,6 +528,35 @@
                              <a id="liTesis" class="grisClaro " id="li9Res1"  style="cursor:pointer">
                                <p>
                                  - Emitidas por la Suprema Corte de Justicia de la Nación
+                               </p>
+                             </a>
+                         </li>
+                </ul>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulTratados">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Tratados
+            </h4>
+          </div>
+          </a>
+            <div id="ulTratados" class="panel-collapse collapse">
+
+            <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                         <li id="" class="liInfoteca">
+                             <a id="liTrat1" class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                               <p>
+                                 - Tratados en materia de comercio exterior y cuestiones relacionadas
+                               </p>
+                             </a>
+                         </li>
+                         <li id="" class="liInfoteca">
+                             <a id="liTrat2" class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                               <p>
+                                 - Tratados en materia de comercio exterior y cuestiones relacionadas
                                </p>
                              </a>
                          </li>
