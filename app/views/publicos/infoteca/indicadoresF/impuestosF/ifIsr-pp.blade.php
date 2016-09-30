@@ -307,6 +307,39 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
 </div>
 
 
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <h3 class="text-center">
+              Tabla del subsidio para el empleo aplicable a la tarifa del numeral 3 del rubro B.
+            </h3>
+        <!-- ******************** -->
+        <h4 class="text-center">	Monto de ingresos que sirven de base para calcular el impuesto
+        </h4>
+        <thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Para Ingresos de $	</th>	<th class="text-center">	Hasta Ingresos de $	</th>	<th class="text-center">Cantidad de subsidio para el empleo semanal $	</th>
+        </thead>
+        <tbody class="animEscalarFila">
+
+          <tr>	<td class="text-center">	0.01	  </td>	<td class="text-center">	581.9	   </td>	<td class="text-center">	133.9	  </td>				</tr>
+          <tr>	<td class="text-center">	581.91	  </td>	<td class="text-center">	872.8	   </td>	<td class="text-center">	133.8	</td>				</tr>
+          <tr>	<td class="text-center">	872.81	  </td>	<td class="text-center">	1,142.40	 </td>	<td class="text-center">	133.8	</td>				</tr>
+          <tr>	<td class="text-center">	1,142.41	  </td>	<td class="text-center">	1,163.80	 </td>	<td class="text-center">	129.2	</td>				</tr>
+          <tr>	<td class="text-center">	1,163.81	  </td>	<td class="text-center">	1,462.50	 </td>	<td class="text-center">	125.8	</td>				</tr>
+          <tr>	<td class="text-center">	1,462.51	  </td>	<td class="text-center">	1,551.70	 </td>	<td class="text-center">	116.5	</td>				</tr>
+          <tr>	<td class="text-center">	1,551.71	  </td>	<td class="text-center">	1,755.10	 </td>	<td class="text-center">	106.9	</td>				</tr>
+          <tr>	<td class="text-center">	1,755.11	  </td>	<td class="text-center">	2,047.60	 </td>	<td class="text-center">	96.9	</td>				</tr>
+          <tr>	<td class="text-center">	2,047.61	  </td>	<td class="text-center">	2,340.10	 </td>	<td class="text-center">	83.4	</td>				</tr>
+          <tr>	<td class="text-center">	2,340.11	  </td>	<td class="text-center">	2,428.40	 </td>	<td class="text-center">	71.6	</td>				</tr>
+          <tr>	<td class="text-center">	2,428.41	  </td>	<td class="text-center">	En adelante 	 </td>	<td class="text-center">	0	</td>				</tr>
+
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
 
 
 </div>
