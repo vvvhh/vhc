@@ -32,32 +32,32 @@
 <!-- in -->
         <ul  class="colorNav" style="list-style-type: none">
 
-             <li id="liCantidadesCFF" class="liInfoteca">
+             <li id="liCriNormativoli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriNormativo" style="cursor:pointer">
                    <p class="text-justify">- Criterios Normativos
                    </p>
                  </a>
              </li>
 
-             <li id="liTarifasPp" class="liInfoteca">
+             <li id="liCriAplicacionli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriAplicacion" style="cursor:pointer">
                    <p class="text-justify">- Criterios de aplicación en la operación aduanera
                    </p>
                  </a>
              </li>
-             <li id="liTarifasDa" class="liInfoteca">
+             <li id="liCriVinculativosli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriVinculativos" style="cursor:pointer">
                    <p class="text-justify">- Criterios no vinculativos de las disposiciones fiscales y aduaneras
                    </p>
                  </a>
              </li>
-             <li id="liTReincos" class="liInfoteca">
+             <li id="liCriProcedimientosli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriProcedimientos" style="cursor:pointer">
                    <p class="text-justify">- Procedimientos en materia aduanera
                    </p>
                  </a>
              </li>
-             <li id="liTSemestrales" class="liInfoteca">
+             <li id="liCriCPRli" class="liInfoteca">
                  <a class="grisClaro " id="liCriCPR" style="cursor:pointer">
                    <p class="text-justify">- Criterios a considerar por el CPR para elaborar la opinión sobre la imposibilidad financiera del contribuyente para cumplir sus créditos fiscales con recargos y multas
                    </p>

@@ -166,26 +166,31 @@ function getCriNormativo(){
   tipo = 9;
   getLegislaciones(tipo)
   mostrarOtras();
+//  $('#liCriNormativoli').addClass('activoBorde');
 }
 function getCriAplicacion(){
   tipo = 10;
   getLegislaciones(tipo)
   mostrarOtras();
+//  $('#liCriAplicacionli').addClass('activoBorde');
 }
 function getCriVinculativos(){
   tipo = 11;
   getLegislaciones(tipo)
   mostrarOtras();
+//  $('#liCriVinculativosli').addClass('activoBorde');
 }
 function getCriProcedimientos(){
   tipo = 12;
   getLegislaciones(tipo)
   mostrarOtras();
+//  $('#liCriProcedimientosli').addClass('activoBorde');
 }
 function getCriCPR(){
   tipo = 13;
   getLegislaciones(tipo)
   mostrarOtras();
+//  $('#liCriCPRli').addClass('activoBorde');      
 }
 
 function get2Codigo(){
