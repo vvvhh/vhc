@@ -261,7 +261,7 @@
 
 
     <div class="panel panel-default">
-      <a id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+      <a id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           Modificaciones
@@ -284,7 +284,7 @@
 
 
       <div class="panel panel-default">
-        <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+        <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
         <div class="panel-heading">
           <h4 class="panel-title">
             Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
@@ -322,67 +322,169 @@
                          <li id="liMultas" class="liInfoteca">
                              <a class="grisClaro " id="li7Resolucion"  style="cursor:pointer">
                                <p>
-                                 Resolución Miscelánea Fiscal para 2016 y su anexo 19 (publicada el 23 de diciembre de 2015)
+                                 - Resolución Miscelánea Fiscal para 2016 y su anexo 19 (publicada el 23 de diciembre de 2015)
                                </p>
                              </a>
                          </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion2"  style="cursor:pointer">
                        <p>
-                         Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.​ (Publicados el 24 de diciembre de 2015)
+                         - Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.​ (Publicados el 24 de diciembre de 2015)
                        </p>
                      </a>
                 </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion3"  style="cursor:pointer">
                        <p>
-                         Anexos 3, 4, 5, 6, 7, 8, 11, 14, 17, 23, 25 y 25 Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015. (Publicados el 12 de enero de 2016)
+                         - Anexos 3, 4, 5, 6, 7, 8, 11, 14, 17, 23, 25 y 25 Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015. (Publicados el 12 de enero de 2016)
                        </p>
                      </a>
                 </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion4"  style="cursor:pointer">
                        <p>
-                         Anexos 15 y 24 de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015. (Publicados el 13 de enero de 2016)
+                         - Anexos 15 y 24 de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015. (Publicados el 13 de enero de 2016)
                        </p>
                      </a>
                 </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion5"  style="cursor:pointer">
                        <p>
-                         ​Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A, 23 y 27 (Publicada el 01 de abril de 2016)
+                         - ​Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A, 23 y 27 (Publicada el 01 de abril de 2016)
                        </p>
                      </a>
                 </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion6"  style="cursor:pointer">
                        <p>
-                         ​Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. (Publicada el 06 de mayo de 2016)
+                         - ​Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. (Publicada el 06 de mayo de 2016)
                        </p>
                      </a>
                 </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion7"  style="cursor:pointer">
                        <p>
-                         Anexo 1, 1A, 3, 7, 9 11, 14, 15 y 25 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 09 de mayo de
+                         - Anexo 1, 1A, 3, 7, 9 11, 14, 15 y 25 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 09 de mayo de
                        </p>
                      </a>
                 </li>
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion8"  style="cursor:pointer">
                        <p>
-                         Anexo 16 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 23 de mayo de 2016)
+                         - Anexo 16 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 23 de mayo de 2016)
                        </p>
                      </a>
                 </li>
-
-
-
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion9"  style="cursor:pointer">
+                       <p>
+                         - Anexo 16-A de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016. (Publicado el 23 de mayo de 2016)
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion10"  style="cursor:pointer">
+                       <p>
+                         - ​Tercera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1 y 1-A (Publicada el 14 de julio de 2016)
+                       </p>
+                     </a>
+                </li>
 
             </ul>
 
           </div>
         </div>
+
+
+        <div class="panel panel-default">
+          <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Reglas Generales de Comercio Exterior para 2016
+            </h4>
+          </div>
+          </a>
+            <div id="ulCom" class="panel-collapse collapse">
+
+            <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li8Comercio1"  style="cursor:pointer">
+                               <p>
+                                 - Reglas Generales de Comercio Exterior para 2016 y sus anexos Glosario de Definiciones y Acrónimos, y 1. (Publicadas el 27 de enero de 2016)
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li8Comercio2"  style="cursor:pointer">
+                               <p>
+                                 - Anexos 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 y 31 de las Reglas Generales de Comercio Exterior para 2016, publicadas el 27 de enero de 2016 (Publicados
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li8Comercio3"  style="cursor:pointer">
+                               <p>
+                                - Primera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 y sus anexos Glosario de Definiciones y Acrónimos, 1, 4, 10, 21, 22, 24, 27, 28, 29, 30 y
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li8Comercio4"  style="cursor:pointer">
+                               <p>
+                                - Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Primera Resolución de Modificaciones a las RGCE para 2016. (Publicados el 9 de mayo de 2016)
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li8Comercio5"  style="cursor:pointer">
+                               <p>
+                                - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016
+                               </p>
+                             </a>
+                         </li>
+
+
+
+
+                </ul>
+
+          </div>
+
+        </div>
+
+
+        <div class="panel panel-default">
+          <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulResFA">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Resolución de Facilidades Administrativas
+            </h4>
+          </div>
+          </a>
+            <div id="ulResFA" class="panel-collapse collapse">
+
+            <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                               <p>
+                                 - Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016. (Publicada el 23 de diciembre de 2015)
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li9Res2"  style="cursor:pointer">
+                               <p>
+                                 - ​Primera Resolución de modificaciones a la Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016. (Publicada el 03 de mayo de
+                               </p>
+                             </a>
+                         </li>
+
+                </ul>
+
+          </div>
+
+        </div>
+
 
 
   </div>
