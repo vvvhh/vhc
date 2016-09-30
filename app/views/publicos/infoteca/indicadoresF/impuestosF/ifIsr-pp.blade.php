@@ -653,6 +653,183 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
 </div>
 
 
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+            <h4>
+              Tarifa para el pago provisional del mes de febrero de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+            </h4>
+        <!-- ******************** -->
+<thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+  </thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	496.07	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+<tr>	<td class="text-center">	496.08	  </td>	<td class="text-center">	4,210.41	   </td>	<td class="text-center">	9.52	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+<tr>	<td class="text-center">	4,210.42	  </td>	<td class="text-center">	7,399.42	   </td>	<td class="text-center">	247.24	</td>	<td class="text-center">	10.88	 </td>	</tr>
+<tr>	<td class="text-center">	7,399.43	  </td>	<td class="text-center">	8,601.50	 </td>	<td class="text-center">	594.21	</td>	<td class="text-center">	16	   </td>	</tr>
+<tr>	<td class="text-center">	8,601.51	  </td>	<td class="text-center">	10,298.35	 </td>	<td class="text-center">	786.54	</td>	<td class="text-center">	17.92	 </td>	</tr>
+<tr>	<td class="text-center">	10,298.36	  </td>	<td class="text-center">	20,770.29	 </td>	<td class="text-center">	1,090.61	</td>	<td class="text-center">	21.36	 </td>	</tr>
+<tr>	<td class="text-center">	20,770.30	  </td>	<td class="text-center">	32,736.83	 </td>	<td class="text-center">	3,327.42	</td>	<td class="text-center">	23.52	 </td>	</tr>
+<tr>	<td class="text-center">	32,736.84	  </td>	<td class="text-center">	62,500.00	 </td>	<td class="text-center">	6,141.95	</td>	<td class="text-center">	30	   </td>	</tr>
+<tr>	<td class="text-center">	62,500.01	  </td>	<td class="text-center">	83,333.33	 </td>	<td class="text-center">	15,070.90	</td>	<td class="text-center">	32	   </td>	</tr>
+<tr>	<td class="text-center">	83,333.34	  </td>	<td class="text-center">	250,000.00	 </td>	<td class="text-center">	21,737.57	</td>	<td class="text-center">	34	   </td>	</tr>
+<tr>	<td class="text-center">	250,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	78,404.23	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+            <h4>
+              Tarifa para el pago provisional del mes de marzo de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+            </h4>
+        <!-- ******************** -->
+<thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+  </thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	1,488.21	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+<tr>	<td class="text-center">	1,488.22	  </td>	<td class="text-center">	12,631.23	   </td>	<td class="text-center">	28.56	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+<tr>	<td class="text-center">	12,631.24	  </td>	<td class="text-center">	22,198.26	   </td>	<td class="text-center">	741.72	</td>	<td class="text-center">	10.88	 </td>	</tr>
+<tr>	<td class="text-center">	22,198.27	  </td>	<td class="text-center">	25,804.50	 </td>	<td class="text-center">	1,782.63	</td>	<td class="text-center">	16	   </td>	</tr>
+<tr>	<td class="text-center">	25,804.51	  </td>	<td class="text-center">	30,895.05	 </td>	<td class="text-center">	2,359.62	</td>	<td class="text-center">	17.92	 </td>	</tr>
+<tr>	<td class="text-center">	30,895.06	  </td>	<td class="text-center">	62,310.87	 </td>	<td class="text-center">	3,271.83	</td>	<td class="text-center">	21.36	 </td>	</tr>
+<tr>	<td class="text-center">	62,310.88	  </td>	<td class="text-center">	98,210.49	 </td>	<td class="text-center">	9,982.26	</td>	<td class="text-center">	23.52	 </td>	</tr>
+<tr>	<td class="text-center">	98,210.50	  </td>	<td class="text-center">	187,500.00	 </td>	<td class="text-center">	18,425.85	</td>	<td class="text-center">	30	   </td>	</tr>
+<tr>	<td class="text-center">	187,500.01	  </td>	<td class="text-center">	249,999.99	 </td>	<td class="text-center">	45,212.70	</td>	<td class="text-center">	32	   </td>	</tr>
+<tr>	<td class="text-center">	250,000.00	  </td>	<td class="text-center">	750,000.00	 </td>	<td class="text-center">	65,212.71	</td>	<td class="text-center">	34	   </td>	</tr>
+<tr>	<td class="text-center">	750,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	235,212.69	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+            <h4>
+              Tarifa para el pago provisional del mes de abril de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+            </h4>
+        <!-- ******************** -->
+<thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+  </thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	1,984.28	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+  <tr>	<td class="text-center">	1,984.29	  </td>	<td class="text-center">	16,841.64	   </td>	<td class="text-center">	38.08	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+  <tr>	<td class="text-center">	16,841.65	  </td>	<td class="text-center">	29,597.68	   </td>	<td class="text-center">	988.96	</td>	<td class="text-center">	10.88	 </td>	</tr>
+  <tr>	<td class="text-center">	29,597.69	  </td>	<td class="text-center">	34,406.00	 </td>	<td class="text-center">	2,376.84	</td>	<td class="text-center">	16	   </td>	</tr>
+  <tr>	<td class="text-center">	34,406.01	  </td>	<td class="text-center">	41,193.40	 </td>	<td class="text-center">	3,146.16	</td>	<td class="text-center">	17.92	 </td>	</tr>
+  <tr>	<td class="text-center">	41,193.41	  </td>	<td class="text-center">	83,081.16	 </td>	<td class="text-center">	4,362.44	</td>	<td class="text-center">	21.36	 </td>	</tr>
+  <tr>	<td class="text-center">	83,081.17	  </td>	<td class="text-center">	130,947.32	 </td>	<td class="text-center">	13,309.68	</td>	<td class="text-center">	23.52	 </td>	</tr>
+  <tr>	<td class="text-center">	130,947.33	  </td>	<td class="text-center">	250,000.00	 </td>	<td class="text-center">	24,567.80	</td>	<td class="text-center">	30	   </td>	</tr>
+  <tr>	<td class="text-center">	250,000.01	  </td>	<td class="text-center">	333,333.32	 </td>	<td class="text-center">	60,283.60	</td>	<td class="text-center">	32	   </td>	</tr>
+  <tr>	<td class="text-center">	333,333.33	  </td>	<td class="text-center">	1,000,000.00	 </td>	<td class="text-center">	86,950.28	</td>	<td class="text-center">	34	   </td>	</tr>
+  <tr>	<td class="text-center">	1,000,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	313,616.92	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+            <h4>
+              Tarifa para el pago provisional del mes de mayo de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+            </h4>
+        <!-- ******************** -->
+<thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+  </thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	2,480.35	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+  <tr>	<td class="text-center">	2,480.36	  </td>	<td class="text-center">	21,052.05	   </td>	<td class="text-center">	47.6	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+  <tr>	<td class="text-center">	21,052.06	  </td>	<td class="text-center">	36,997.10	   </td>	<td class="text-center">	1,236.20	</td>	<td class="text-center">	10.88	 </td>	</tr>
+  <tr>	<td class="text-center">	36,997.11	  </td>	<td class="text-center">	43,007.50	 </td>	<td class="text-center">	2,971.05	</td>	<td class="text-center">	16	   </td>	</tr>
+  <tr>	<td class="text-center">	43,007.51	  </td>	<td class="text-center">	51,491.75	 </td>	<td class="text-center">	3,932.70	</td>	<td class="text-center">	17.92	 </td>	</tr>
+  <tr>	<td class="text-center">	51,491.76	  </td>	<td class="text-center">	103,851.45	 </td>	<td class="text-center">	5,453.05	</td>	<td class="text-center">	21.36	 </td>	</tr>
+  <tr>	<td class="text-center">	103,851.46	  </td>	<td class="text-center">	163,684.15	 </td>	<td class="text-center">	16,637.10	</td>	<td class="text-center">	23.52	 </td>	</tr>
+  <tr>	<td class="text-center">	163,684.16	  </td>	<td class="text-center">	312,500.00	 </td>	<td class="text-center">	30,709.75	</td>	<td class="text-center">	30	   </td>	</tr>
+  <tr>	<td class="text-center">	312,500.01	  </td>	<td class="text-center">	416,666.65	 </td>	<td class="text-center">	75,354.50	</td>	<td class="text-center">	32	   </td>	</tr>
+  <tr>	<td class="text-center">	416,666.66	  </td>	<td class="text-center">	1,250,000.00	 </td>	<td class="text-center">	108,687.85	</td>	<td class="text-center">	34	   </td>	</tr>
+  <tr>	<td class="text-center">	1,250,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	392,021.15	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+            <h4>
+              Tarifa para el pago provisional del mes de junio de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+            </h4>
+        <!-- ******************** -->
+<thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+  </thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	2,976.42	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+  <tr>	<td class="text-center">	2,976.43	  </td>	<td class="text-center">	25,262.46	   </td>	<td class="text-center">	57.12	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+  <tr>	<td class="text-center">	25,262.47	  </td>	<td class="text-center">	44,396.52	   </td>	<td class="text-center">	1,483.44	</td>	<td class="text-center">	10.88	 </td>	</tr>
+  <tr>	<td class="text-center">	44,396.53	  </td>	<td class="text-center">	51,609.00	 </td>	<td class="text-center">	3,565.26	</td>	<td class="text-center">	16	   </td>	</tr>
+  <tr>	<td class="text-center">	51,609.01	  </td>	<td class="text-center">	61,790.10	 </td>	<td class="text-center">	4,719.24	</td>	<td class="text-center">	17.92	 </td>	</tr>
+  <tr>	<td class="text-center">	61,790.11	  </td>	<td class="text-center">	124,621.74	 </td>	<td class="text-center">	6,543.66	</td>	<td class="text-center">	21.36	 </td>	</tr>
+  <tr>	<td class="text-center">	124,621.75	  </td>	<td class="text-center">	196,420.98	 </td>	<td class="text-center">	19,964.52	</td>	<td class="text-center">	23.52	 </td>	</tr>
+  <tr>	<td class="text-center">	196,420.99	  </td>	<td class="text-center">	375,000.00	 </td>	<td class="text-center">	36,851.70	</td>	<td class="text-center">	30	   </td>	</tr>
+  <tr>	<td class="text-center">	375,000.01	  </td>	<td class="text-center">	499,999.98	 </td>	<td class="text-center">	90,425.40	</td>	<td class="text-center">	32	   </td>	</tr>
+  <tr>	<td class="text-center">	499,999.99	  </td>	<td class="text-center">	1,500,000.00	 </td>	<td class="text-center">	130,425.42	</td>	<td class="text-center">	34	   </td>	</tr>
+  <tr>	<td class="text-center">	1,500,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	470,425.38	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+
+
 </div>
 @stop
 
