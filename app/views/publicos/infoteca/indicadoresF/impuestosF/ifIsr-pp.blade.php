@@ -235,7 +235,7 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
         <h4 class="text-center">	Tarifa que incluye el subsidio para el empleo, aplicable a la tarifa del numeral 2 del rubro B.
         </h4>
         <thead>
-        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior 1 $	</th>	<th class="text-center">	Límite inferior 2 $	</th>	<th class="text-center">	Límite superior $	</th>  <th class="text-center">	Cuota fija $	</th>  <th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior 1 %	</th>	 <th class="text-center">	Subsidio para el empleo diario	</th>				</tr>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior 1 $	</th>	<th class="text-center">	Límite inferior 2 $	</th>	<th class="text-center">	Límite superior $	</th>  <th class="text-center">	Cuota fija $	</th>  <th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior 1 %	</th>	 <th class="text-center">	Subsidio para el empleo semanal	</th>				</tr>
         </thead>
         <tbody class="animEscalarFila">
 
@@ -311,9 +311,9 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
   <div class="col-md-12">
    <div class="table-responsive">
           <table class="table table-striped  table-bordered table-condensed">
-            <h3 class="text-center">
+            <h4 class="text-center">
               Tabla del subsidio para el empleo aplicable a la tarifa del numeral 3 del rubro B.
-            </h3>
+            </h4>
         <!-- ******************** -->
         <h4 class="text-center">	Monto de ingresos que sirven de base para calcular el impuesto
         </h4>
@@ -352,7 +352,7 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
         <h4 class="text-center">	Tarifa que incluye el subsidio para el empleo, aplicable a la tarifa del numeral 3 del rubro B.
         </h4>
         <thead>
-        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior 1 $	</th>	<th class="text-center">	Límite inferior 2 $	</th>	<th class="text-center">	Límite superior $	</th>  <th class="text-center">	Cuota fija $	</th>  <th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior 1 %	</th>	 <th class="text-center">	Subsidio para el empleo diario	</th>				</tr>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior 1 $	</th>	<th class="text-center">	Límite inferior 2 $	</th>	<th class="text-center">	Límite superior $	</th>  <th class="text-center">	Cuota fija $	</th>  <th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior 1 %	</th>	 <th class="text-center">	Subsidio para el empleo decenal	</th>				</tr>
         </thead>
         <tbody class="animEscalarFila">
 
@@ -424,7 +424,117 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
 </div>
 
 
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <h4 class="text-center">
+              Tabla del subsidio para el empleo aplicable a la tarifa del numeral 4 del rubro B.
+            </h4>
+        <!-- ******************** -->
+        <h4 class="text-center">	Monto de ingresos que sirven de base para calcular el impuesto
+        </h4>
+        <thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Para Ingresos de $	</th>	<th class="text-center">	Hasta Ingresos de $	</th>	<th class="text-center">Cantidad de subsidio para el empleo semanal $	</th>
+        </thead>
+        <tbody class="animEscalarFila">
 
+          <tr>	<td class="text-center">	0.01	  </td>	<td class="text-center">	872.85	   </td>	<td class="text-center">	200.85	  </td>	</tr>
+          <tr>	<td class="text-center">	872.86	  </td>	<td class="text-center">	1,309.20	   </td>	<td class="text-center">	200.7	</td>	</tr>
+          <tr>	<td class="text-center">	1,309.21	  </td>	<td class="text-center">	1,713.60	 </td>	<td class="text-center">	200.7	</td>	</tr>
+          <tr>	<td class="text-center">	1,713.61	  </td>	<td class="text-center">	1,745.70	 </td>	<td class="text-center">	193.8	</td>	</tr>
+          <tr>	<td class="text-center">	1,745.71	  </td>	<td class="text-center">	2,193.75	 </td>	<td class="text-center">	188.7	</td>	</tr>
+          <tr>	<td class="text-center">	2,193.76	  </td>	<td class="text-center">	2,327.55	 </td>	<td class="text-center">	174.75	</td>	</tr>
+          <tr>	<td class="text-center">	2,327.56	  </td>	<td class="text-center">	2,632.65	 </td>	<td class="text-center">	160.35	</td>	</tr>
+          <tr>	<td class="text-center">	2,632.66	  </td>	<td class="text-center">	3,071.40	 </td>	<td class="text-center">	145.35	</td>	</tr>
+          <tr>	<td class="text-center">	3,071.41	  </td>	<td class="text-center">	3,510.15	 </td>	<td class="text-center">	125.1	</td>	</tr>
+          <tr>	<td class="text-center">	3,510.16	  </td>	<td class="text-center">	3,642.60	 </td>	<td class="text-center">	107.4	</td>	</tr>
+          <tr>	<td class="text-center">	3,642.61	  </td>	<td class="text-center">	En adelante 	 </td>	<td class="text-center">	0	</td>	</tr>
+
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+          <!--   <h3 class="text-center">B. Tarifas aplicables a retenciones </h3>
+           -->
+        <!-- ******************** -->
+        <h4 class="text-center">	Tarifa que incluye el subsidio para el empleo, aplicable a la tarifa del numeral 2 del rubro B.
+        </h4>
+        <thead>
+        <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior 1 $	</th>	<th class="text-center">	Límite inferior 2 $	</th>	<th class="text-center">	Límite superior $	</th>  <th class="text-center">	Cuota fija $	</th>  <th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior 1 %	</th>	 <th class="text-center">	Subsidio para el empleo quincenal	</th>				</tr>
+        </thead>
+        <tbody class="animEscalarFila">
+          <tr>	<td class="text-center">	0.01	  </td>	<td class="text-center">	0.01	   </td>	<td class="text-center">	244.8	  </td>	<td class="text-center">	0	  </td>	<td class="text-center">	1.92	  </td>	<td class="text-center">	200.85	  </td>	</tr>
+          <tr>	<td class="text-center">	244.81	  </td>	<td class="text-center">	244.81	   </td>	<td class="text-center">	872.85	</td>	<td class="text-center">	4.65	  </td>	<td class="text-center">	6.4	  </td>	<td class="text-center">	200.85	  </td>	</tr>
+          <tr>	<td class="text-center">	244.81	  </td>	<td class="text-center">	872.86	 </td>	<td class="text-center">	1,309.20	</td>	<td class="text-center">	4.65	  </td>	<td class="text-center">	6.4	  </td>	<td class="text-center">	200.7	  </td>	</tr>
+          <tr>	<td class="text-center">	244.81	  </td>	<td class="text-center">	1,309.21	 </td>	<td class="text-center">	1,713.60	</td>	<td class="text-center">	4.65	  </td>	<td class="text-center">	6.4	  </td>	<td class="text-center">	200.7	  </td>	</tr>
+          <tr>	<td class="text-center">	244.81	  </td>	<td class="text-center">	1,713.61	 </td>	<td class="text-center">	1,745.70	</td>	<td class="text-center">	4.65	  </td>	<td class="text-center">	6.4	  </td>	<td class="text-center">	193.8	  </td>	</tr>
+          <tr>	<td class="text-center">	244.81	  </td>	<td class="text-center">	1,745.71	 </td>	<td class="text-center">	2,077.50	</td>	<td class="text-center">	4.65	  </td>	<td class="text-center">	6.4	  </td>	<td class="text-center">	188.7	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	2,077.51	 </td>	<td class="text-center">	2,193.75	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	188.7	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	2,193.76	 </td>	<td class="text-center">	2,327.55	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	174.75	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	2,327.56	 </td>	<td class="text-center">	2,632.65	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	160.35	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	2,632.66	 </td>	<td class="text-center">	3,071.40	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	145.35	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	3,071.41	 </td>	<td class="text-center">	3,510.15	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	125.1	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	3,510.16	 </td>	<td class="text-center">	3,642.60	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	107.4	  </td>	</tr>
+          <tr>	<td class="text-center">	2,077.51	  </td>	<td class="text-center">	3,642.61	 </td>	<td class="text-center">	3,651.00	</td>	<td class="text-center">	121.95	  </td>	<td class="text-center">	10.88	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	3,651.01	  </td>	<td class="text-center">	3,651.01	 </td>	<td class="text-center">	4,244.10	</td>	<td class="text-center">	293.25	  </td>	<td class="text-center">	16	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	4,244.11	  </td>	<td class="text-center">	4,244.11	 </td>	<td class="text-center">	5,081.40	</td>	<td class="text-center">	388.05	  </td>	<td class="text-center">	17.92	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	5,081.41	  </td>	<td class="text-center">	5,081.41	 </td>	<td class="text-center">	10,248.45	</td>	<td class="text-center">	538.2	  </td>	<td class="text-center">	21.36	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	10,248.46	  </td>	<td class="text-center">	10,248.46	 </td>	<td class="text-center">	16,153.05	</td>	<td class="text-center">	1,641.75	  </td>	<td class="text-center">	23.52	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	16,153.06	  </td>	<td class="text-center">	16,153.06	 </td>	<td class="text-center">	30,838.80	</td>	<td class="text-center">	3,030.60	  </td>	<td class="text-center">	30	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	30,838.81	  </td>	<td class="text-center">	30,838.81	 </td>	<td class="text-center">	41,118.45	</td>	<td class="text-center">	7,436.25	  </td>	<td class="text-center">	32	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	41,118.46	  </td>	<td class="text-center">	41,118.46	 </td>	<td class="text-center">	123,355.20	</td>	<td class="text-center">	10,725.75	  </td>	<td class="text-center">	34	  </td>	<td class="text-center">	0	  </td>	</tr>
+          <tr>	<td class="text-center">	123,355.21	  </td>	<td class="text-center">	123,355.21	 </td>	<td class="text-center">	En adelante	</td>	<td class="text-center">	38,686.35	  </td>	<td class="text-center">	35	  </td>	<td class="text-center">	0	  </td>	</tr>
+
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+   <div class="table-responsive">
+          <table class="table table-striped  table-bordered table-condensed">
+            <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+        <!-- ******************** -->
+
+<h4 class="text-center">	5. Tarifa aplicable durante 2016, para el cálculo de los pagos provisionales mensuales.
+</h4>
+
+
+<thead>
+<tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+</thead>
+<tbody class="animEscalarFila">
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	496.07	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+  <tr>	<td class="text-center">	496.08	  </td>	<td class="text-center">	4,210.41	   </td>	<td class="text-center">	9.52	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+  <tr>	<td class="text-center">	4,210.42	  </td>	<td class="text-center">	7,399.42	   </td>	<td class="text-center">	247.24	</td>	<td class="text-center">	10.88	 </td>	</tr>
+  <tr>	<td class="text-center">	7,399.43	  </td>	<td class="text-center">	8,601.50	 </td>	<td class="text-center">	594.21	</td>	<td class="text-center">	16	   </td>	</tr>
+  <tr>	<td class="text-center">	8,601.51	  </td>	<td class="text-center">	10,298.35	 </td>	<td class="text-center">	786.54	</td>	<td class="text-center">	17.92	 </td>	</tr>
+  <tr>	<td class="text-center">	10,298.36	  </td>	<td class="text-center">	20,770.29	 </td>	<td class="text-center">	1,090.61	</td>	<td class="text-center">	21.36	 </td>	</tr>
+  <tr>	<td class="text-center">	20,770.30	  </td>	<td class="text-center">	32,736.83	 </td>	<td class="text-center">	3,327.42	</td>	<td class="text-center">	23.52	 </td>	</tr>
+  <tr>	<td class="text-center">	32,736.84	  </td>	<td class="text-center">	62,500.00	 </td>	<td class="text-center">	6,141.95	</td>	<td class="text-center">	30	   </td>	</tr>
+  <tr>	<td class="text-center">	62,500.01	  </td>	<td class="text-center">	83,333.33	 </td>	<td class="text-center">	15,070.90	</td>	<td class="text-center">	32	   </td>	</tr>
+  <tr>	<td class="text-center">	83,333.34	  </td>	<td class="text-center">	250,000.00	 </td>	<td class="text-center">	21,737.57	</td>	<td class="text-center">	34	   </td>	</tr>
+  <tr>	<td class="text-center">	250,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	78,404.23	</td>	<td class="text-center">	35	   </td>	</tr>
+
+</tbody>
+<!-- **************** -->
+    </table>
+  </div>
+</div>
+
+</div>
 
 
 
