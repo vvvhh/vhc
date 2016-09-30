@@ -58,6 +58,9 @@ var li7Resolucion=$('#li7Resolucion'),
       li7Resolucion10=$('#li7Resolucion10');
   var li9Res1=$('#li9Res1'),
       li9Res2=$('#li9Res2');
+var liTesis=$('#liTesis');
+
+var li10Revision=$('#li10Revision');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -354,6 +357,16 @@ function get9Res2(){
   getLegislaciones(tipo)
   mostrarOtras();
 }
+function get10Revision(){
+  tipo = 47;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getTesis(){
+  tipo = 48;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
 
 function mostrarOtras(){
   menuLegislacion.removeClass('hidden');
@@ -478,3 +491,7 @@ li7Resolucion10.on('click',get7Resolucion10);
 
 li9Res1.on('click',get9Res1);
 li9Res2.on('click',get9Res2);
+
+li10Revision.on('click',get10Revision);
+
+liTesis.on('click',getTesis);

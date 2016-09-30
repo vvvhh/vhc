@@ -454,7 +454,7 @@
 
 
         <div class="panel panel-default">
-          <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulResFA">
+          <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulResFA">
           <div class="panel-heading">
             <h4 class="panel-title">
               Resolución de Facilidades Administrativas
@@ -478,14 +478,62 @@
                                </p>
                              </a>
                          </li>
-
                 </ul>
-
           </div>
+        </div>
 
+        <div class="panel panel-default">
+          <a id="li10Revision" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Revisión admnistrativa
+            </h4>
+          </div>
+          </a>
+        <!--      <div id="ulResFA" class="panel-collapse collapse">
+
+            <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                               <p>
+                                 - Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016. (Publicada el 23 de diciembre de 2015)
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a class="grisClaro " id="li9Res2"  style="cursor:pointer">
+                               <p>
+                                 - ​Primera Resolución de modificaciones a la Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016. (Publicada el 03 de mayo de
+                               </p>
+                             </a>
+                         </li>
+                </ul>
+          </div>
+          -->
         </div>
 
 
+        <div class="panel panel-default">
+          <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulTesis">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Tesis y sentencias
+            </h4>
+          </div>
+          </a>
+            <div id="ulTesis" class="panel-collapse collapse">
+
+            <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                         <li id="liMultas" class="liInfoteca">
+                             <a id="liTesis" class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                               <p>
+                                 - Emitidas por la Suprema Corte de Justicia de la Nación
+                               </p>
+                             </a>
+                         </li>
+                </ul>
+          </div>
+        </div>
 
   </div>
 
