@@ -76,7 +76,33 @@
           Derecho Mercantil
         </h3>
         <p class="formatoTexto text-justify ">
-          Colaboramos en la gestión y organización de todos los requisitos legales que demanda la operación de sociedades para que su negocio funcione de forma apropiada, recibirá recomendaciones acerca de la estructura societaria que más le conviene a su negocio. 
+          Colaboramos en la gestión y organización de todos los requisitos legales que demanda la operación de sociedades para que su negocio funcione de forma apropiada, recibirá recomendaciones acerca de la estructura societaria que más le conviene a su negocio.
+        </p>
+      </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+          Auditoría Legal
+        </h3>
+        <p class="formatoTexto text-justify ">
+          Coadyuvamos en la identificación de cualquier contrariedad jurídica, analizando los documentos y actos jurídicos que haya realizado la entidad para brindar la certeza a los interesados de que éstos cumplen con las leyes que los rigen.
+        </p>
+      </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+          Avisos de privacidad
+        </h3>
+        <p class="formatoTexto text-justify ">
+          Realizamos el documento contemplado en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares que asegura la recopilación y el tratamiento adecuado de datos personales.
         </p>
       </div>
 

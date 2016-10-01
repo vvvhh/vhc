@@ -44,11 +44,48 @@
                 <br>
                 <ol type=a>
                   <li>	Auditorías de estados financieros, para efectos económico-financieros internos y externos de la empresa de nuestro cliente.</li>
-                  <li>  Auditorías para efectos fiscales. </li>
+                  <li>  Auditorías para efectos fiscales: </li>
+                  <ul>
+                    <li>
+                      	Impuestos federales
+                    </li>
+                    <li>
+                      	Impuestos locales (Distrito Federal, Estado de México)
+                    </li>
+                    <li>
+                      	Cuotas obrero-patronales de Seguridad Social
+                    </li>
+                    <li>
+                      	Cuotas patronales Infonavit
+                    </li>
+                  </ul>
                   <li>  Auditorías operacionales y administrativas. </li>
                   <li>  Auditorías especiales. </li>
+                  <li>	Auditorías contables forenses (peritaje).</li>
                 </ol>
               </p>
+              <p>
+                Due diligence:
+              </p>
+              <ol type=a>
+                <li>
+                  	Due diligence estratégico
+                </li>
+                <li>
+                  	Due diligence operativo
+                </li>
+                <li>
+                  	Due diligence financiero contable
+                </li>
+                <li>
+                  	Due diligence legal
+                </li>
+                <li>
+                  	Due diligence fiscal
+                </li>
+
+              </ol>
+
               </div>
             </div>
           </div>
