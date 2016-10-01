@@ -64,27 +64,30 @@
                   <li>	Auditorías contables forenses (peritaje).</li>
                 </ol>
               </p>
-              <p>
-                Due diligence:
-              </p>
-              <ol type=a>
-                <li>
-                  	Due diligence estratégico
-                </li>
-                <li>
-                  	Due diligence operativo
-                </li>
-                <li>
-                  	Due diligence financiero contable
-                </li>
-                <li>
-                  	Due diligence legal
-                </li>
-                <li>
-                  	Due diligence fiscal
-                </li>
 
-              </ol>
+              </div>
+              <div class="col-md-12">
+                <p>
+                  Due diligence:
+                </p>
+                <ol type=a>
+                  <li>
+                    	Due diligence estratégico
+                  </li>
+                  <li>
+                    	Due diligence operativo
+                  </li>
+                  <li>
+                    	Due diligence financiero contable
+                  </li>
+                  <li>
+                    	Due diligence legal
+                  </li>
+                  <li>
+                    	Due diligence fiscal
+                  </li>
+
+                </ol>
 
               </div>
             </div>
