@@ -88,6 +88,17 @@
           ($117,229.20 m.n.)
         </td>
   </tr>
+  <tr>	<td>	Servicios de Blindaje	  </td>
+        <td>	La prestación habitual o profesional de servicios de blindaje de vehículos terrestres, nuevos o usados, así como de bienes inmuebles	  </td>
+        <td>
+          Dos mil cuatrocientas diez
+          ($176,026.40 m.n.)
+        </td>
+        <td>
+          Cuatro mil ochocientas quince
+          ($351,687.60)
+        </td>
+  </tr>
 	<tr>	<td>	Compra y venta de inmuebles	  </td>
     	  <td>	La prestación habitual o profesional de servicios de construcción o desarrollo de bienes inmuebles o de intermediación en la transmisión de la propiedad o constitución de derechos sobre dichos bienes, en los que se involucren operaciones de compra o venta de los propios bienes por cuenta o a favor de clientes de quienes presten dichos servicios.	  </td>
         <td>
@@ -132,17 +143,7 @@
           ($468,916.80 m.n.)
         </td>
   </tr>
-	<tr>	<td>	Servicios de Blindaje	  </td>
-        <td>	La prestación habitual o profesional de servicios de blindaje de vehículos terrestres, nuevos o usados, así como de bienes inmuebles	  </td>
-        <td>
-          Dos mil cuatrocientas diez
-          ($176,026.40 m.n.)
-        </td>
-        <td>
-          Cuatro mil ochocientas quince
-          ($351,687.60)
-        </td>
-  </tr>
+
 	<tr>	<td>	Traslado o custodia de valores	  </td>
         <td>	La prestación habitual o profesional de servicios de traslado o custodia de dinero o valores, con excepción de aquellos en los que intervenga el Banco de México y las instituciones dedicadas al depósito de valores.	  </td>
         <td>
@@ -153,8 +154,34 @@
           ($234,458.40 m.n.)
         </td>
   </tr>
+  <tr>	<td>	Servicios Profesionales	  </td>
+    	  <td>	La prestación de servicios profesionales, de manera independiente, sin que medie relación laboral con el cliente respectivo, en aquellos casos en los que se prepare para un Cliente o se lleven a cabo en nombre y representación del Cliente cualquiera de las siguientes operaciones:                                   a) La compraventa de bienes inmuebles o la cesión de derechos sobre estos; b) La administración y manejo de recursos, valores o cualquier otro activo de sus clientes; c) El manejo de cuentas bancarias, de ahorro o de valores; d) La organización de aportaciones de capital o cualquier otro tipo de recursos para la constitución, operación y administración de sociedades mercantiles, o e) La constitución, escisión, fusión, operación y administración de personas morales o vehículos corporativos, incluido el fideicomiso y la compra o venta de entidades mercantiles.	  </td>
+        <td>
+          En todos los casos
+        </td>
+        <td>
+
+        </td>
+  </tr>
 	<tr>	<td>	Donativos	  </td>
         <td>	La recepción de donativos, por parte de las asociaciones y sociedades sin fines de lucro.	  </td>
+        <td>
+          Un mil seiscientos cinco
+          ($117,229.20 m.n.)
+        </td>
+        <td>
+          Tres mil doscientos diez
+          ($234,458.40  m.n.)
+        </td>
+        <td>
+
+        </td>
+  </tr>
+  <tr>	<td>	Comercio exterior	  </td>
+        <td>	La prestación de servcios de comercio exterior como agente o apoderado aduanal, mediante autrización otorgada por la
+              Secretaría de Hacienda y Crédito Público, para promover por cuenta ajena, el despacho de mercancías, en los diferentes regímenes aduaneros
+              previstos en la Ley Aduanera
+          </td>
         <td>
           Un mil seiscientos cinco
           ($117,229.20 m.n.)
@@ -178,22 +205,31 @@
           ($234,458.40 m.n.)
         </td>
   </tr>
-	<tr>	<td>	Prestación de servicios de fe pública	  </td>
+	<tr>	<td>	Prestación de servicios de fe pública	(Notarios y Corredores públicos)  </td>
     	  <td>	Tratándose de los notarios públicos: La transmisión o constitución de derechos reales sobre inmuebles, otorgamiento de poderes para actos de administración o dominio otorgados con carácter irrevocable, constitución, modificación patrimonial, fusión o escisión, así como la compraventa de acciones y partes sociales de personas morales, constitución o modificación de fideicomisos traslativos de dominio o de garantía sobre inmuebles, otorgamiento de contratos de mutuo o de crédito, con o sin garantía. Tratándose de los corredores públicos: Realización de avalúos, constitución, modificación, fusión o escisión, así como la compraventa de acciones y partes sociales de personas morales mercantiles, constitución, modificación o cesión de derechos de fideicomiso, otorgamiento de contratos de mutuo mercantil o créditos mercantiles; y Los servidores públicos a los que las leyes les confieran la facultad de dar fe pública en el ejercicio de sus atribuciones.	  </td>
         <td>
-          Dieciseis mil
+          Ocho mil veinticinco
+          ($586,146.20 m.n.)
+        </td>
+        <td>
+          Ocho mil veinticinco
+          ($586,146.20 m.n.)
         </td>
 
   </tr>
-	<tr>	<td>	Servicios Profesionales	  </td>
-    	  <td>	La prestación de servicios profesionales, de manera independiente, sin que medie relación laboral con el cliente respectivo, en aquellos casos en los que se prepare para un Cliente o se lleven a cabo en nombre y representación del Cliente cualquiera de las siguientes operaciones:                                   a) La compraventa de bienes inmuebles o la cesión de derechos sobre estos; b) La administración y manejo de recursos, valores o cualquier otro activo de sus clientes; c) El manejo de cuentas bancarias, de ahorro o de valores; d) La organización de aportaciones de capital o cualquier otro tipo de recursos para la constitución, operación y administración de sociedades mercantiles, o e) La constitución, escisión, fusión, operación y administración de personas morales o vehículos corporativos, incluido el fideicomiso y la compra o venta de entidades mercantiles.	  </td>
-        <td>
-          Todos los casos
+  <tr>	<td> Fe pública	(Servidores públicos)  </td>
+    	  <td>
+          Tratándose de servidores públicos los que las leyes les confieran la facultad de dar fe pública en el ejercicio de sus atribuciones: la transmisión o constitución de derechos reales sobre inmuebles, salvo las garantías que se constituyan a favor de instituciones del sistema financiero u organismos públicos de vivienda; el otorgamiento de poderes para actos de administración o dominio otorgados con carácter irrevocable; el otorgamiento de contratos de mutuo o crédito, con o sin garantía, en los que el acreedor no forme parte del sistema financiero o no sea un organismo público de vivienda; la realización de avalúos sobre bienes con valor igual o superior al equivalente a 8,025 veces el salario mínimo vigente en el Distrito Federal; y la constitución de personas morales, su modificación patrimonial derivada de aumento o disminución de capital social.
         </td>
         <td>
 
         </td>
+        <td>
+          Dieciséis mil
+        </td>
+
   </tr>
+
 </tbody>
               <!-- ************* -->
             </table>
