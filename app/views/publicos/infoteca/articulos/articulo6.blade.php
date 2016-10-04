@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-4">
               <br>
-              <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/resenas/87158796.jpg')}}"/>
+              <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/articulos/200134581-001.jpg')}}"/>
             </div>
         </div>
 

@@ -22,6 +22,11 @@
         <h3>¿Has ejercido tus derechos ARCO?</h3>
         <div class="row">
 
+          <div class="col-md-4">
+            <br>
+            <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/articulos/135520668.jpg')}}"/>
+          </div>
+
           <div class="col-md-8">
             <p class="text-justify">
               Cuantas veces no te han llamado para ofrecerte una tarjeta de crédito, el cambio de tu número de celular a otra compañía, o una invitación para un evento de una agencia de viajes, cuando tú no lo has solicitado y mucho menos recuerdas haber compartido tus datos con estas empresas, ¿te suena familiar?
@@ -31,18 +36,14 @@
               Pues así es, muchas personas en el país sufren de lo mismo, y esto es debido a que las empresas están haciendo mal uso de nuestros datos personales, ya que comparten o venden a otras compañías sus bases de datos. ¿Qué podemos hacer ante tal situación? Lo primero es proteger nuestros datos personales, no compartiéndolos con cualquier persona u organización, y si es necesario compartirlos, entonces asegurarnos de que esa persona o empresa cuenta con su Aviso de Privacidad, pero no sólo eso, es indispensable dar lectura a dicho documento para conocer las finalidades para las cuales utilizarán nuestros datos personales.
             </p>
 
-            <p class="text-justify">
-              Recordemos que el Aviso de Privacidad es el documento mediante el cual la persona o empresa con la cual compartes tus datos personales, ya sea porque te prestará un servicio, por una relación laboral, por la venta de algún bien, etc., te informa respecto al tratamiento que dará a los mismos, es decir si sólo los utilizará para emitirte tu factura, porque son necesarios para prestarte el servicio, con motivo de una encuesta, para efectos estadísticos o para promoción comercial, etc. El aviso de privacidad te da el control de tus datos personales y te da seguridad respecto a con quién los compartes.
-            </p>
-
-
-
             </div>
-            <div class="col-md-4">
-              <br>
-              <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/resenas/87158796.jpg')}}"/>
-            </div>
+
         </div>
+
+
+                    <p class="text-justify">
+                      Recordemos que el Aviso de Privacidad es el documento mediante el cual la persona o empresa con la cual compartes tus datos personales, ya sea porque te prestará un servicio, por una relación laboral, por la venta de algún bien, etc., te informa respecto al tratamiento que dará a los mismos, es decir si sólo los utilizará para emitirte tu factura, porque son necesarios para prestarte el servicio, con motivo de una encuesta, para efectos estadísticos o para promoción comercial, etc. El aviso de privacidad te da el control de tus datos personales y te da seguridad respecto a con quién los compartes.
+                    </p>
 
 
         <p class="text-justify">

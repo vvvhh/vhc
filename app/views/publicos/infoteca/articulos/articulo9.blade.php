@@ -23,7 +23,7 @@
         </h3>
         <div class="row">
 
-          <div class="col-md-8">
+          <div class="col-md-12">
             <p class="text-justify">
               Caminar por las calles del centro, corazón de la Ciudad de México, representa un deleite para la pupila, arquitectónicamente hablando, y esto es así porque en él encontramos edificios de hermosos diseños  que tienen más de trescientos años de antigüedad.  Tal es el caso del edificio que hoy alberga a la Biblioteca y Sede Alterna de la Suprema Corte de Justicia de la Nación, ubicado en la calle de 16 de septiembre, esquina con Bolívar en la Colonia Centro y que en el año de 1864 fuera el establecimiento de la sucursal del primer banco en México el cual era de origen británico y se llamaba <i>“The Bank of London, Mexico and South America”</i>.
             </p>
@@ -34,10 +34,7 @@
 
 
             </div>
-            <div class="col-md-4">
-              <br>
-              <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/resenas/87158796.jpg')}}"/>
-            </div>
+
         </div>
 
         <p class="text-justify">
@@ -52,16 +49,25 @@
           No obstante lo anterior, fue hasta la década de los cincuenta que el sistema bancario comenzó a mostrar atisbos de lo que ahora es y en 1970 fue cuando se creó la figura de la banca múltiple que comprende las instituciones que actualmente conocemos como bancos.
         </p>
 
-        <h4>
-          ¿Quién de los que tienen oportunidad de leer estas líneas no ha tenido por lo menos una relación con alguna institución bancaria o banco?
-        </h4>
-        <p class="text-justify">
-          Nos atrevemos a responder a dicha cuestión afirmando que ninguno, ya que todos los habitantes de México, de manera directa o indirecta nos hemos relacionado con dichas instituciones, ya sea desde acudir a alguna sucursal bancaria a cobrar un cheque, a cambiar un billete o bien a contratar un servicio como aperturas de cuentas de ahorro o de crédito.
-        </p>
+        <div class="row">
+          <div class="col-md-8">
+            <h4>
+              ¿Quién de los que tienen oportunidad de leer estas líneas no ha tenido por lo menos una relación con alguna institución bancaria o banco?
+            </h4>
+            <p class="text-justify">
+              Nos atrevemos a responder a dicha cuestión afirmando que ninguno, ya que todos los habitantes de México, de manera directa o indirecta nos hemos relacionado con dichas instituciones, ya sea desde acudir a alguna sucursal bancaria a cobrar un cheque, a cambiar un billete o bien a contratar un servicio como aperturas de cuentas de ahorro o de crédito.
+            </p>
 
-        <p class="text-justify">
-          Thomas Jefferson, tercer presidente de los Estados Unidos de Norteamérica manifestó que <i>“…las instituciones bancarias son más peligrosas que un ejército” <i> y que </i>“los bancos y las corporaciones que crecerán alrededor de ellos privaran al pueblo de su propiedad hasta que sus hijos despierten sin casa”.</i>
-        </p>
+            <p class="text-justify">
+              Thomas Jefferson, tercer presidente de los Estados Unidos de Norteamérica manifestó que <i>“…las instituciones bancarias son más peligrosas que un ejército” <i> y que </i>“los bancos y las corporaciones que crecerán alrededor de ellos privaran al pueblo de su propiedad hasta que sus hijos despierten sin casa”.</i>
+            </p>
+
+          </div>
+          <div class="col-md-4">
+            <br>
+            <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/articulos/178371511.jpg')}}"/>
+          </div>
+        </div>
 
         <p class="text-justify">
           Sin duda alguna el señalamiento anterior es una afirmación un tanto trágica, aunque en la actualidad y en no pocas ocasiones, cuando se hace uso inadecuado de los servicios que prestan las instituciones bancarias, la afirmación de Thomas Jefferson se convierte hasta cierto punto en realidad.

@@ -24,7 +24,7 @@
         </h3>
         <div class="row">
 
-          <div class="col-md-8">
+          <div class="col-md-12">
             <p class="text-justify">
               Existe una cita bíblica que cuando se lee pareciera, hasta cierto punto, enigmática, sin embargo, en esencia es absolutamente verdadera, pues como bien lo afirma: todo tiene su tiempo, y el ciclo del contribuyente, también.
             </p>
@@ -54,10 +54,11 @@
 
 
             </div>
-            <div class="col-md-4">
+        <!--      <div class="col-md-4">
               <br>
               <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/resenas/87158796.jpg')}}"/>
             </div>
+            -->
         </div>
 
 

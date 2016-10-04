@@ -17,17 +17,23 @@
 <div class="well transparenteClaroMTxt">  <!-- Well Articulo1 -->
   <div class="row">
     <div class="col-md-12">
+      <h3>
+        El fin del ciclo del contribuyente
+      </h3>
+      <p class="text-justify">
+        Existe una cita bíblica que cuando se lee pareciera, hasta cierto punto, enigmática, sin embargo, en esencia es absolutamente verdadera, pues como bien lo afirma: todo tiene su tiempo, y el ciclo del contribuyente, también.
+      </p>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
 
         <!-- CONTENIDO DEL ARTICULO -->
-        <h3>
-          El fin del ciclo del contribuyente
-        </h3>
+
         <div class="row">
 
           <div class="col-md-8">
-            <p class="text-justify">
-              Existe una cita bíblica que cuando se lee pareciera, hasta cierto punto, enigmática, sin embargo, en esencia es absolutamente verdadera, pues como bien lo afirma: todo tiene su tiempo, y el ciclo del contribuyente, también.
-            </p>
 
             <br>
             <h4>
@@ -49,7 +55,7 @@
             </div>
             <div class="col-md-4">
               <br>
-              <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/resenas/87158796.jpg')}}"/>
+              <img class="img-rounded img-responsive imgN" src="{{URL::asset('img/infoteca/articulos/173764003.jpg')}}"/>
             </div>
         </div>
 
