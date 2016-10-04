@@ -102,7 +102,21 @@
           Avisos de privacidad
         </h3>
         <p class="formatoTexto text-justify ">
-          Realizamos el documento contemplado en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares que asegura la recopilación y el tratamiento adecuado de datos personales.
+          Realizamos el documento contemplado en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares que asegura la recopilación y el tratamiento adecuado de datos personales,
+          evitando así, sanciones por el incumplimiento de dicha disposición.
+        </p>
+      </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+          Due Diligence
+        </h3>
+        <p class="formatoTexto text-justify ">
+          Revisión del cumplimiento de las disposiciones legales aplicables a la entidad. Con especial atención a litigios actuales o amenaza de ellos.
         </p>
       </div>
 

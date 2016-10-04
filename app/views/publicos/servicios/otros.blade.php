@@ -127,8 +127,10 @@
               </h4>
               <ul>
                 <li class="formatoTexto">	Determinación de la nómina.</li>
+                <li class="formatoTexto"> Determinación de pasivos laborales.</li>
                 <li class="formatoTexto">	Presentación del informe económico anual dispuesto en la Ley de Inversión Extranjera.</li>
                 <li class="formatoTexto">	Registro ante el Registro Nacional de Inversiones Extranjeras.</li>
+                <li class="formatoTexto"> Determinación de impuestos a la utilidad.</li>
                 <li class="formatoTexto">  Entre otras.</li>
               </ul>
             </div>

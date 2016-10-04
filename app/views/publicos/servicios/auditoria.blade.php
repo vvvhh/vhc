@@ -65,32 +65,35 @@
                 </ol>
               </p>
 
-              </div>
-              <div class="col-md-12">
-                <p>
-                  Due diligence:
-                </p>
-                <ol type=a>
-                  <li>
-                    	Due diligence estratégico
-                  </li>
-                  <li>
-                    	Due diligence operativo
-                  </li>
-                  <li>
-                    	Due diligence financiero contable
-                  </li>
-                  <li>
-                    	Due diligence legal
-                  </li>
-                  <li>
-                    	Due diligence fiscal
-                  </li>
+              <p>
+                Due diligence:
+              </p>
+              <ol type=a>
+                <li>
+                    Due diligence estratégico
+                </li>
+                <li>
+                    Due diligence operativo
+                </li>
+                <li>
+                    Due diligence financiero contable
+                </li>
+                <li>
+                    Due diligence legal
+                </li>
+                <li>
+                    Due diligence fiscal
+                </li>
 
-                </ol>
+              </ol>
 
               </div>
-            </div>
+            <!--    <div class="col-md-12">
+
+
+              </div>
+              -->
+              </div>
           </div>
         </div>
 

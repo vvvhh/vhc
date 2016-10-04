@@ -49,8 +49,10 @@ Derivado del profundo estudio de las leyes en la materia, así como de reglament
                   <li> Servicios de operación. </li>
                   <li> Servicios de asesoría y consultoría fiscal. </li>
                   <li> Servicios de planeación financiera e impositiva.</li>
+                  <li>Due diligence fiscal</li>
                 </ul>
               </p>
+              
             </div>
           </div>
       </div>
