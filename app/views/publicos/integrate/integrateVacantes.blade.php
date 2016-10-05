@@ -57,9 +57,19 @@
           <div class="panel panel-default">
             <li class="enlaceSimple2 liIntegrate" data-toggle="collapse" data-parent="#accordion" href="#vac1">
             <div class="panel-heading">
-              <h4 class="panel-title">
-                Contabilidad
-              </h4>
+
+                <div class="row">
+                  <div class="col-md-11">
+                    <h4 class="panel-title">
+                      Contabilidad
+                    </h4>
+                  </div>
+                  <div class="col-md-1">
+                      <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                  </div>
+                </div>
+
+
             </div>
           </li>
             <div id="vac1"  class="panel-collapse collapse">
@@ -69,24 +79,28 @@
                         <li id="9" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                 <p>
                                    - Gerente
+                                   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                                 </p>
                         </li>
 
                        <li id="0" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                                <p>
                                   - Senior
+                                  <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                                </p>
                        </li>
                          <li class="divider"></li>
                        <li id="1" class="liInfoteca sinVacante"  style="cursor:pointer;">
                              <p>
                                - Semi senior
+                               <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                              </p>
                        </li>
                          <li class="divider"></li>
                        <li id="2" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                              <p>
                                - Asistente
+                               <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                              </p>
                        </li>
 
@@ -132,16 +146,19 @@
                         <li id="3" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
                                  - Senior
+                                 <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                               </p>
                         </li>
                         <li id="4" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
                                 - Consultor
+                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                               </p>
                         </li>
                         <li id="5" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
                                 - Especialista
+                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                               </p>
                         </li>
             </ul>
@@ -151,9 +168,17 @@
         <div class="panel panel-default">
           <li class="enlaceSimple2 liIntegrate" data-toggle="collapse" data-parent="#accordion" href="#vac3">
           <div class="panel-heading">
-            <h4 class="panel-title">
-              Auditoría
-            </h4>
+            <div class="row">
+              <div class="col-md-11">
+                <h4 class="panel-title">
+                  Auditoría
+                </h4>
+              </div>
+              <div class="col-md-1">
+                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+              </div>
+            </div>
+
           </div>
         </li>
           <div id="vac3" class="panel-collapse collapse">
@@ -162,19 +187,23 @@
                         <li id="11" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                 <p>
                                    - Gerente
+                                   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                                 </p>
                         </li>
                         <li id="6" value="12" class="liInfoteca vacDetalle" style="cursor:pointer;">
                             - Senior
+                            <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                         </li>
                         <li id="7" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
                                 - Semi senior
+                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                               </p>
                         </li>
                         <li id="8" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
                                 - Asistente
+                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                               </p>
                         </li>
             </ul>
@@ -199,9 +228,17 @@
             <div class="panel panel-default">
               <li id="0" class="enlaceSimple2 liIntegrate vacEmpresa" data-toggle="collapse" data-parent="#accordion" href="#emp1">
               <div class="panel-heading">
-                <h4 class="panel-title">
-                  Contabilidad
-                </h4>
+                <div class="row">
+                  <div class="col-md-11">
+                    <h4 class="panel-title">
+                      Contabilidad
+                    </h4>
+                  </div>
+                  <div class="col-md-1">
+                    <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                  </div>
+                </div>
+
               </div>
             </li>
             <!--    <div id="emp1"  class="panel-collapse collapse">
