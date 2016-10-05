@@ -408,7 +408,7 @@
           <div class="item">
             <div class="tamNoticia">
               <div class="tab-pane active in fade" id="rssFinanciero">
-              <!--    <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="450" width="100%"  scrolling="yes" ></iframe>
+              <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="450" width="100%"  scrolling="yes" ></iframe>
               -->
 
             <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="300" width="300" frameborder="1" scrolling="yes" ></iframe>
@@ -569,6 +569,7 @@
 {{ HTML::script('js/jquery.js')}}
 {{ HTML::script('js/bootstrap.min.js')}}
 {{ HTML::script('js/lib/bootbox.min.js')}}
+{{ HTML::script('js/lib/accounting.min.js')}}
 {{ HTML::script('js/inicio.js')}}
   <script>
     $('#carouselResena').carousel({

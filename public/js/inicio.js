@@ -64,7 +64,8 @@ function cambioDolar(){
     else {
         valDolar=txtValDolar.val();
     }
-    cantidadDolar=inpUsd.val();
+    cantidadDolar0=inpUsd.val();
+    cantidadDolar = cantidadDolar0.replace(',','');
     console.log(txtValDolar.val());
     valorPeso=valDolar*cantidadDolar;
     pesoDecimal=valorPeso.toFixed(4);
@@ -81,7 +82,8 @@ function cambioPeso(){
   else {
       valDolar=txtValDolar.val();
   }
-  cantidadPeso=inpMxn.val();
+  cantidadPeso0=inpMxn.val();
+  cantidadPeso=cantidadPeso0.replace(',','');
   valorDolar=cantidadPeso/valDolar;
   dolarDecimal=valorDolar.toFixed(4);
   inpUsd.val(dolarDecimal);
@@ -90,18 +92,49 @@ function cambioPeso(){
 inpUsd.change(cambioDolar);
 inpMxn.change(cambioPeso);
 
-inpUsd.keypress(function (e){
+inpUsd.keydown(function (e){
   if (e.which == 13) {
     cambioDolar();
+    cambio();
   }
 });
+
+function cambio(){
+  val = inpUsd.val();
+  valComas=accounting.formatNumber(val);
+  inpUsd.val(valComas);
+}
+
 
 inpMxn.keypress(function (e){
   if (e.which == 13) {
     cambioPeso();
+    cambio2();
   }
 });
 
+function cambio2(){
+  val2 = inpMxn.val();
+  val2Comas =accounting.formatNumber(val2);
+  inpMxn.val(val2Comas);
+}
+
+
+
+/*
+function addCommas(nStr) {
+    nStr += '';
+    x = nStr.split('.');
+    x1 = x[0];
+    x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$2' + ',' + '$2');
+
+    }
+    return x1 + x2;
+}
+*/
 
 /*$(document).on('ready', function(){
   alertInicio();
