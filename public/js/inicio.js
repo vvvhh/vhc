@@ -59,17 +59,18 @@ function cambioDolar(){
     if (now.getDay() == 6){
       valDolBM=txtValDolarBM.val();
       valDolar=valDolBM.substr(5,6);
-      console.log("dol"+valDolar);
+      console.log("cambioDolar dol"+valDolar);
     }
     else {
         valDolar=txtValDolar.val();
     }
     cantidadDolar0=inpUsd.val();
     cantidadDolar = cantidadDolar0.replace(',','');
-    console.log(txtValDolar.val());
+    console.log("cambioDolar "+txtValDolar.val());
     valorPeso=valDolar*cantidadDolar;
     pesoDecimal=valorPeso.toFixed(4);
     inpMxn.val(pesoDecimal);
+
 }
 
 function cambioPeso(){
@@ -77,7 +78,7 @@ function cambioPeso(){
   if (now.getDay() == 6){
     valDolBM=txtValDolarBM.val();
     valDolar=valDolBM.substr(5,6);
-    console.log("dol"+valDolar);
+    console.log("cambioPeso dol: "+valDolar);
   }
   else {
       valDolar=txtValDolar.val();
@@ -89,12 +90,21 @@ function cambioPeso(){
   inpUsd.val(dolarDecimal);
 }
 
-inpUsd.change(cambioDolar);
+/*inpUsd.change(cambioDolar);
 inpMxn.change(cambioPeso);
-
+*/
 inpUsd.keydown(function (e){
   if (e.which == 13) {
     cambioDolar();
+    cambio();
+    cambio2();
+  }
+});
+
+inpMxn.keypress(function (e){
+  if (e.which == 13) {
+    cambioPeso();
+    cambio2();
     cambio();
   }
 });
@@ -103,20 +113,14 @@ function cambio(){
   val = inpUsd.val();
   valComas=accounting.formatNumber(val);
   inpUsd.val(valComas);
+  console.log("desde dolar "+valComas);
 }
-
-
-inpMxn.keypress(function (e){
-  if (e.which == 13) {
-    cambioPeso();
-    cambio2();
-  }
-});
 
 function cambio2(){
   val2 = inpMxn.val();
-  val2Comas =accounting.formatNumber(val2);
+  val2Comas =accounting.FormatNumber(val2);
   inpMxn.val(val2Comas);
+  console.log("desde peso"+val2Comas);
 }
 
 
