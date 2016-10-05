@@ -27,6 +27,10 @@
  .liInfoteca{
     padding: 5px;
  }
+ .badge-info{
+   background: #2196f3;
+   color #fff;
+ }
 
  </style>
     <div class="well transparenteClaroTxt animacionContenido">
@@ -98,9 +102,21 @@
         <div class="panel panel-default">
           <li class="enlaceSimple2 liIntegrate" data-toggle="collapse" data-parent="#accordion" href="#vac2">
           <div class="panel-heading">
-            <h4 class="panel-title">
-              Consultoría
-            </h4>
+            <div class="row">
+                <div class="col-md-11">
+                  <h4 class="panel-title">
+                    Consultoría
+                  </h4>
+                </div>
+                <div class="col-md-1">
+                  <div class="text-right">
+                    <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                  </div>
+
+                </div>
+            </div>
+
+
           </div>
         </li>
           <div id="vac2" class="panel-collapse collapse">
@@ -109,7 +125,9 @@
                         <li id="10" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                 <p>
                                    - Gerente
+                                   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
                                 </p>
+
                         </li>
                         <li id="3" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
@@ -280,7 +298,6 @@
 
           </div>
         </div>
-
 
         </div>    <!-- /col 7 -->
         <div class="col-md-4">
