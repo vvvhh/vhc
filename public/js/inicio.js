@@ -3,7 +3,8 @@ var txtValDolar=$('#txtValDolar'),
     txtValDolarBM=$('#txtValDolarBM'),
     inpUsd=$('#inpUsd'),
     inpMxn=$('#inpMxn');
-
+  var introducirPeso=0, introducirDolar=0;
+var btnConvertir=$('#btnConvertir');
 function alertInicio(){
 
   now = new Date()
@@ -73,6 +74,15 @@ function cambioDolar(){
 
 }
 
+function introDolar(){
+  introducirDolar=1;
+  introducirPeso=0;
+}
+function introPeso(){
+  introducirPeso=1;
+  introducirDolar=0;
+}
+
 function cambioPeso(){
   var now = new Date();
   if (now.getDay() == 6){
@@ -90,24 +100,29 @@ function cambioPeso(){
   inpUsd.val(dolarDecimal);
 }
 
-/*inpUsd.change(cambioDolar);
-inpMxn.change(cambioPeso);
-*/
 inpUsd.keydown(function (e){
   if (e.which == 13) {
-    cambioDolar();
-    cambio();
-    cambio2();
+    dolarPeso();
   }
 });
 
 inpMxn.keypress(function (e){
   if (e.which == 13) {
-    cambioPeso();
-    cambio2();
-    cambio();
+    pesoDolar();
   }
 });
+
+function dolarPeso(){
+  cambioDolar();
+  cambio();
+  cambio2();
+}
+
+function pesoDolar(){
+  cambioPeso();
+  cambio2();
+  cambio();
+}
 
 function cambio(){
   val = inpUsd.val();
@@ -123,24 +138,17 @@ function cambio2(){
   console.log("desde peso"+val2Comas);
 }
 
-
-
-/*
-function addCommas(nStr) {
-    nStr += '';
-    x = nStr.split('.');
-    x1 = x[0];
-    x2 = x.length > 1 ? '.' + x[1] : '';
-    var rgx = /(\d+)(\d{3})/;
-    while (rgx.test(x1)) {
-            x1 = x1.replace(rgx, '$2' + ',' + '$2');
-
-    }
-    return x1 + x2;
+function convertirBoton(){
+  if (introducirPeso == 1) {
+    console.log("desdePeso");
+    pesoDolar();
+  }
+  if (introducirDolar == 1) {
+    console.log("desde dolar");
+    dolarPeso();
+  }
 }
-*/
 
-/*$(document).on('ready', function(){
-  alertInicio();
-});
-*/
+inpUsd.change(introDolar);
+inpMxn.change(introPeso);
+btnConvertir.on('click',convertirBoton);

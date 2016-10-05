@@ -353,7 +353,7 @@
 
                   </div>
                   <div class="row text-center">
-                    <button  class="btn btn-default " name="button"> <i class="fa fa-exchange" aria-hidden="true"></i>
+                    <button  class="btn btn-default " name="button" id="btnConvertir"> <i class="fa fa-exchange" aria-hidden="true"></i>
                       convertir</button>
                   </div>
 
