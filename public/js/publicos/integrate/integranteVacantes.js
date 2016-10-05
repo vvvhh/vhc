@@ -421,6 +421,8 @@ function  clicElemento(){
     //closeButton: false,
     animate: true,
     className: "medium",
+    onEscape: true,
+    backdrop: true,
     buttons: {
        success: {
         label: "Postularse",
@@ -432,6 +434,7 @@ function  clicElemento(){
       danger: {
       label: "Cerrar",
       className: "btn-default",
+
       /*callback: function() {
 
       }*/
@@ -448,7 +451,9 @@ function clicSinVacante(){
     message: '<div align="left"> <h4><strong>Por el momento no hay vacantes</strong>, pero puedes enviarnos tu información para futuras oportunidades dando clic en el botón "Postularse". '+
             ' </h4></div>',
     //closeButton: false,
+    onEscape: true,
     animate: true,
+    backdrop: true,
     buttons: {
        success: {
         label: "Postularse",
@@ -493,6 +498,8 @@ function  clicEmpresa(){
             ' </h4></div>',
     //closeButton: false,
     animate: true,
+    onEscape: true,
+    backdrop: true,
     buttons: {
        success: {
         label: "Postularse",
