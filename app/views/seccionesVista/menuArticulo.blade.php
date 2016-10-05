@@ -50,7 +50,7 @@
             </li>
             <li id="liArt10">
                 <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/articulos/articulo10')}}">
-                  ¿Conoces la PRODECOM?
+                  ¿Conoces la PRODECON?
                 </a>
             </li>
             <li id="liArt11">

@@ -34,32 +34,32 @@
 
              <li id="liCriNormativoli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriNormativo" style="cursor:pointer">
-                   <p class="text-justify">- Criterios Normativos
+                   <p class="text-justify">- Criterios Normativos.
                    </p>
                  </a>
              </li>
 
              <li id="liCriAplicacionli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriAplicacion" style="cursor:pointer">
-                   <p class="text-justify">- Criterios de aplicación en la operación aduanera
+                   <p class="text-justify">- Criterios de aplicación en la operación aduanera.
                    </p>
                  </a>
              </li>
              <li id="liCriVinculativosli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriVinculativos" style="cursor:pointer">
-                   <p class="text-justify">- Criterios no vinculativos de las disposiciones fiscales y aduaneras
+                   <p class="text-justify">- Criterios no vinculativos de las disposiciones fiscales y aduaneras.
                    </p>
                  </a>
              </li>
              <li id="liCriProcedimientosli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriProcedimientos" style="cursor:pointer">
-                   <p class="text-justify">- Procedimientos en materia aduanera
+                   <p class="text-justify">- Procedimientos en materia aduanera.
                    </p>
                  </a>
              </li>
              <li id="liCriCPRli" class="liInfoteca">
                  <a class="grisClaro " id="liCriCPR" style="cursor:pointer">
-                   <p class="text-justify">- Criterios a considerar por el CPR para elaborar la opinión sobre la imposibilidad financiera del contribuyente para cumplir sus créditos fiscales con recargos y multas
+                   <p class="text-justify">- Criterios a considerar por el CPR para elaborar la opinión sobre la imposibilidad financiera del contribuyente para cumplir sus créditos fiscales con recargos y multas.
                    </p>
                  </a>
              </li>
@@ -90,56 +90,56 @@
              <li id="liEquivalencia" class="liInfoteca">
                  <a class="grisClaro " id="li2Codigo" style="cursor:pointer">
                    <p>
-                     - Código Fiscal de la Federación
+                     - Código Fiscal de la Federación.
                    </p>
                  </a>
              </li>
              <li id="liEquivalenciaO" class="liInfoteca">
                  <a class="grisClaro " id="li2Impue" style="cursor:pointer">
                    <p>
-                     - Ley del Impuesto sobre la Renta (ISR)
+                     - Ley del Impuesto sobre la Renta (ISR).
                    </p>
                  </a>
              </li>
              <li id="liIncp" class="liInfoteca">
                  <a class="grisClaro " id="li2Ieps" style="cursor:pointer">
                    <p>
-                     - Ley del Impuesto Especial sobre Producción y Servicios (IEPS)
+                     - Ley del Impuesto Especial sobre Producción y Servicios (IEPS).
                    </p>
                  </a>
              </li>
              <li id="liCetes" class="liInfoteca">
                  <a class="grisClaro " id="li2Isan" style="cursor:pointer">
                    <p>
-                     - Ley Federal del Impuesto sobre Automóviles Nuevos (ISAN)
+                     - Ley Federal del Impuesto sobre Automóviles Nuevos (ISAN).
                    </p>
                  </a>
              </li>
              <li id="liCppc" class="liInfoteca">
                  <a class="grisClaro " id="li2Iva" style="cursor:pointer">
                    <p>
-                     - Ley del Impuesto al Valor Agregado (IVA)
+                     - Ley del Impuesto al Valor Agregado (IVA).
                    </p>
                  </a>
              </li>
              <li id="liTiie" class="liInfoteca">
                  <a class="grisClaro " id="li2Istuv" style="cursor:pointer">
                    <p>
-                     - Ley del Impuesto sobre Tenencia o Uso de Vehículos (ISTUV)
+                     - Ley del Impuesto sobre Tenencia o Uso de Vehículos (ISTUV).
                    </p>
                  </a>
              </li>
              <li id="liUdis" class="liInfoteca">
                  <a class="grisClaro " id="li2Hidroc" style="cursor:pointer">
                    <p>
-                     - Ley de Ingresos sobre Hidrocarburos
+                     - Ley de Ingresos sobre Hidrocarburos.
                    </p>
                  </a>
              </li>
              <li id="liInflacion" class="liInfoteca">
                  <a class="grisClaro " id="li2Ide" style="cursor:pointer">
                    <p>
-                     - Ley del Impuesto a los Depósitos en Efectivo (IDE)
+                     - Ley del Impuesto a los Depósitos en Efectivo (IDE).
                    </p>
                  </a>
              </li>
@@ -147,7 +147,7 @@
              <li id="liInflacion" class="liInfoteca">
                  <a class="grisClaro " id="li2Org" style="cursor:pointer">
                    <p>
-                     - Petróleos Mexicanos y sus Organismos Subsidiarios
+                     - Petróleos Mexicanos y sus Organismos Subsidiarios.
                    </p>
                  </a>
              </li>
@@ -155,7 +155,7 @@
              <li id="liInflacion" class="liInfoteca">
                  <a class="grisClaro " id="li2Hojas" style="cursor:pointer">
                    <p>
-                     - Hojas de ayuda
+                     - Hojas de ayuda.
                    </p>
                  </a>
              </li>
@@ -163,18 +163,13 @@
              <li id="liInflacion" class="liInfoteca">
                  <a class="grisClaro " id="li2Comercio" style="cursor:pointer">
                    <p>
-                     - Formas y formatos de Comercio Exterior
+                     - Formas y formatos de Comercio Exterior.
                    </p>
                  </a>
              </li>
 
 
          </ul>
-
-
-
-
-
 
       </div>
     </div>
@@ -329,7 +324,7 @@
                 <li id="liMultas" class="liInfoteca">
                      <a class="grisClaro " id="li7Resolucion2"  style="cursor:pointer">
                        <p>
-                         - Publicados el 24 de diciembre de 2015 - Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015
+                         - Publicados el 24 de diciembre de 2015 - Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
                        </p>
                      </a>
                 </li>
@@ -438,7 +433,7 @@
                          <li id="liMultas" class="liInfoteca">
                              <a class="grisClaro " id="li8Comercio5"  style="cursor:pointer">
                                <p>
-                                - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016
+                                - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016.
                                </p>
                              </a>
                          </li>
@@ -467,14 +462,14 @@
                          <li id="liMultas" class="liInfoteca">
                              <a class="grisClaro " id="li9Res1"  style="cursor:pointer">
                                <p>
-                                 - Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016. (Publicada el 23 de diciembre de 2015)
+                                 - Publicada el 23 de diciembre de 2015 - Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016.
                                </p>
                              </a>
                          </li>
                          <li id="liMultas" class="liInfoteca">
                              <a class="grisClaro " id="li9Res2"  style="cursor:pointer">
                                <p>
-                                 - ​Primera Resolución de modificaciones a la Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016. (Publicada el 03 de mayo de
+                                 - ​Publicada el 03 de mayo de 2016 - Primera Resolución de modificaciones a la Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016.
                                </p>
                              </a>
                          </li>
