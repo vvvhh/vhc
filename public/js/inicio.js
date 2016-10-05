@@ -111,14 +111,14 @@ inpMxn.keypress(function (e){
 
 function cambio(){
   val = inpUsd.val();
-  valComas=accounting.formatNumber(val);
+  valComas=accounting.formatNumber(val,3);
   inpUsd.val(valComas);
   console.log("desde dolar "+valComas);
 }
 
 function cambio2(){
   val2 = inpMxn.val();
-  val2Comas =accounting.FormatNumber(val2);
+  val2Comas = accounting.formatNumber(val2,3);
   inpMxn.val(val2Comas);
   console.log("desde peso"+val2Comas);
 }
