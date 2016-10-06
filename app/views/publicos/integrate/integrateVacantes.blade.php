@@ -65,7 +65,7 @@
                     </h4>
                   </div>
                   <div class="col-md-1">
-                      <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                      <span class="badge badge-info" align="right" title="Número de vacantes">2</span>
                   </div>
                 </div>
 
@@ -79,28 +79,30 @@
                         <li id="9" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                 <p>
                                    - Gerente
-                                   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                <!--     <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                -->
                                 </p>
                         </li>
 
-                       <li id="0" class="liInfoteca vacDetalle"  style="cursor:pointer;">
+                       <li id="0" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                <p>
                                   - Senior
-                                  <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                <!--    <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                -->
                                </p>
                        </li>
                          <li class="divider"></li>
-                       <li id="1" class="liInfoteca sinVacante"  style="cursor:pointer;">
+                       <li id="1" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                              <p>
                                - Semi senior
-                               <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                               <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
                              </p>
                        </li>
                          <li class="divider"></li>
                        <li id="2" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                              <p>
                                - Asistente
-                               <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                               <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
                              </p>
                        </li>
 
@@ -124,7 +126,8 @@
                 </div>
                 <div class="col-md-1">
                   <div class="text-right">
-                    <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                  <!--    <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                  -->
                   </div>
 
                 </div>
@@ -139,26 +142,30 @@
                         <li id="10" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                 <p>
                                    - Gerente
-                                   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                  <!--   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                  -->
                                 </p>
 
                         </li>
                         <li id="3" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
                                  - Senior
-                                 <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                <!--   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                -->
                               </p>
                         </li>
-                        <li id="4" class="liInfoteca vacDetalle"  style="cursor:pointer;">
+                        <li id="4" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
                                 - Consultor
-                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                          <!--        <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                              -->
                               </p>
                         </li>
                         <li id="5" class="liInfoteca sinVacante"  style="cursor:pointer;">
                               <p>
                                 - Especialista
-                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                              <!--   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                               -->
                               </p>
                         </li>
             </ul>
@@ -175,7 +182,7 @@
                 </h4>
               </div>
               <div class="col-md-1">
-                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                <span class="badge badge-info" align="right" title="Número de vacantes">2</span>
               </div>
             </div>
 
@@ -187,12 +194,14 @@
                         <li id="11" class="liInfoteca sinVacante"  style="cursor:pointer;">
                                 <p>
                                    - Gerente
-                                   <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                <!--     <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                -->
                                 </p>
                         </li>
-                        <li id="6" value="12" class="liInfoteca vacDetalle" style="cursor:pointer;">
+                        <li id="6" value="12" class="liInfoteca sinVacante" style="cursor:pointer;">
                             - Senior
-                            <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                            <!--  <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                            -->
                         </li>
                         <li id="7" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
@@ -226,7 +235,7 @@
             <div class="panel-group" id="accordion">
 
             <div class="panel panel-default">
-              <li id="0" class="enlaceSimple2 liIntegrate vacEmpresa" data-toggle="collapse" data-parent="#accordion" href="#emp1">
+              <li id="1" class="enlaceSimple2 liIntegrate vacEmpresa" data-toggle="collapse" data-parent="#accordion" href="#emp1">
               <div class="panel-heading">
                 <div class="row">
                   <div class="col-md-11">
@@ -235,7 +244,8 @@
                     </h4>
                   </div>
                   <div class="col-md-1">
-                    <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                      <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
+
                   </div>
                 </div>
 
