@@ -46,7 +46,7 @@
               <!-- ************** -->
 
 <thead>
-	<tr  class="activoLiMenu">	<th class="col-md-2">	Concepto	</th>	<th class="col-md-8">	Fecha límite de pago o presentación	</th> <th class="col-md-1">Identificación, igual o superior a: (salarios mínimos)</th> <th class="col-md-1">Presentar aviso (salarios mínimos):</th>	</tr>
+	<tr  class="activoLiMenu">	<th class="col-md-2" style="vertical-align:middle;">	Concepto	</th>	<th class="col-md-8" style="vertical-align:middle;">	Fecha límite de pago o presentación	</th> <th class="col-md-1" style="vertical-align:middle;">Identificación, igual o superior a: (salarios mínimos)</th> <th class="col-md-1">Presentar aviso (salarios mínimos):</th>	</tr>
 </thead>
 
 <tbody class="">
