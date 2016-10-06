@@ -24,7 +24,8 @@
       <a  class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulIFe">
       <div class="panel-heading">
         <h4 class="panel-title">
-          Criterios
+        <strong>  Criterios
+          </strong>
         </h4>
       </div>
       </a>
@@ -79,7 +80,9 @@
         <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulFi">
       <div class="panel-heading">
         <h4 class="panel-title">
-        Formas y formatos fiscales
+          <strong>
+            Formas y formatos fiscales
+          </strong>
         </h4>
       </div>
       </a>
@@ -182,7 +185,9 @@
       <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulSS">
       <div class="panel-heading">
         <h4 class="panel-title">
-          Instructivo de operación para la recepción de contribuciones al comercio exterior
+          <strong>
+            Instructivo de operación para la recepción de contribuciones al comercio exterior
+          </strong>
         </h4>
       </div>
       </a>
@@ -210,7 +215,9 @@
     <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLd">
     <div class="panel-heading">
       <h4 class="panel-title">
-        Leyes fiscales y otros ordenamientos
+        <strong>
+          Leyes fiscales y otros ordenamientos
+        </strong>
       </h4>
     </div>
     </a>
@@ -234,8 +241,9 @@
     <a id="li5manual" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
     <div class="panel-heading">
       <h4 class="panel-title">
-        Manuales
-
+        <strong>
+          Manuales
+        </strong>
       </h4>
     </div>
     </a>
@@ -259,7 +267,9 @@
       <a id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
-          Modificaciones
+          <strong>
+            Modificaciones
+          </strong>
         </h4>
       </div>
       </a>
@@ -282,8 +292,9 @@
         <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
         <div class="panel-heading">
           <h4 class="panel-title">
-            Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
-
+            <strong>
+              Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
+            </strong>
           </h4>
         </div>
         </a>
@@ -307,7 +318,9 @@
           <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
           <div class="panel-heading">
             <h4 class="panel-title">
-              Resolución Miscelánea Fiscal
+              <strong>
+                Resolución Miscelánea Fiscal
+              </strong>
             </h4>
           </div>
           </a>
@@ -395,7 +408,9 @@
           <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
           <div class="panel-heading">
             <h4 class="panel-title">
-              Reglas Generales de Comercio Exterior para 2016
+              <strong>
+                Reglas Generales de Comercio Exterior para 2016
+              </strong>
             </h4>
           </div>
           </a>
@@ -452,7 +467,9 @@
           <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulResFA">
           <div class="panel-heading">
             <h4 class="panel-title">
+              <strong>
               Resolución de Facilidades Administrativas
+              </strong>
             </h4>
           </div>
           </a>
@@ -481,7 +498,9 @@
           <a id="li10Revision" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
           <div class="panel-heading">
             <h4 class="panel-title">
+              <strong>
               Revisión admnistrativa
+              </strong>
             </h4>
           </div>
           </a>
@@ -512,7 +531,9 @@
           <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulTesis">
           <div class="panel-heading">
             <h4 class="panel-title">
+              <strong>
               Tesis y sentencias
+              </strong>
             </h4>
           </div>
           </a>
@@ -534,7 +555,9 @@
           <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulTratados">
           <div class="panel-heading">
             <h4 class="panel-title">
-              Tratados
+              <strong>
+                Tratados
+              </strong>
             </h4>
           </div>
           </a>
