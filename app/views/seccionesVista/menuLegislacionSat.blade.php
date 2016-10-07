@@ -212,17 +212,17 @@
 
 
   <div class="panel panel-default">
-    <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLd">
+    <a id="li4leyes" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" style="cursor:pointer">
     <div class="panel-heading">
       <h4 class="panel-title">
         <strong>
-          Leyes fiscales y otros ordenamientos
+          Acuerdos y decretos
         </strong>
       </h4>
     </div>
     </a>
     <div id="ulLd" class="panel-collapse collapse">
-
+<!--
       <ul  class="colorNav liInfoteca" style="list-style-type: none">
                   <li id="liLimite" class="liInfoteca">
                       <a class="grisClaro " id="li4leyes"  style="cursor:pointer">
@@ -232,6 +232,7 @@
                       </a>
                   </li>
       </ul>
+      -->
     </div>
   </div>
 
@@ -268,7 +269,7 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
-            Disposiciones Fiscales pendientes de publicar
+            Disposiciones Fiscales pendientes de publicar en DOF
           </strong>
         </h4>
       </div>
@@ -597,7 +598,7 @@
                          <li id="" class="liInfoteca">
                              <a id="liTrat2" class="grisClaro " id="li9Res1"  style="cursor:pointer">
                                <p>
-                                 - Tratados en materia de comercio exterior y cuestiones relacionadas
+                                 - Tratados para evitar la doble tributación y cuestiones relacionadas
                                </p>
                              </a>
                          </li>
