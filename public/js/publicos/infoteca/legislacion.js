@@ -209,58 +209,84 @@ function get2Codigo(){
   tipo = 14;
   getLegislaciones(tipo)
   mostrarOtras();
-
+  limpiarTratados();
+  $('#li2Codigoli').addClass('activoBorde');
 }
 function get2Impue(){
   tipo = 15;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Impueli').addClass('activoBorde');
 }
 function get2Ieps(){
   tipo = 16;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Iepsli').addClass('activoBorde');
 }
 function get2Isan(){
   tipo = 17;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Isanli').addClass('activoBorde');
+
 }
 function get2Iva(){
   tipo = 18;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Ivali').addClass('activoBorde');
+
 }
 function get2Istuv(){
   tipo = 19;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Istuvli').addClass('activoBorde');
+
 }
 function get2Hidroc(){
   tipo = 20;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Hidrocli').addClass('activoBorde');
 }
 function get2Ide(){
   tipo = 21;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Ideli').addClass('activoBorde');
 }
 function get2Org(){
   tipo = 22;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Orgli').addClass('activoBorde');
 }
 function get2Hojas(){
   tipo = 23;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Hojasli').addClass('activoBorde');
 }
 function get2Comercio(){
   tipo = 24;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#li2Comercioli').addClass('activoBorde');
+
 }
+
 function get3Instructivo(){
   tipo = 25;
   getLegislaciones(tipo)
@@ -665,4 +691,15 @@ function limpiarTesis(){
 function limpiarTratados(){
   $('#liTrat1li').removeClass('activoBorde');
   $('#liTrat2li').removeClass('activoBorde');
+  $('#li2Codigoli').removeClass('activoBorde');
+  $('#li2Impueli').removeClass('activoBorde');
+  $('#li2Iepsli').removeClass('activoBorde');
+  $('#li2Isanli').removeClass('activoBorde');
+  $('#li2Ivali').removeClass('activoBorde');
+  $('#li2Istuvli').removeClass('activoBorde');
+  $('#li2Hidrocli').removeClass('activoBorde');
+  $('#li2Ideli').removeClass('activoBorde');
+  $('#li2Orgli').removeClass('activoBorde');
+  $('#li2Hojasli').removeClass('activoBorde');
+  $('#li2Comercioli').removeClass('activoBorde');
 }

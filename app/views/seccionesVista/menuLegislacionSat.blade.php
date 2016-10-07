@@ -466,56 +466,56 @@
 
 
         <ul  class="colorNav" style="list-style-type: none">
-             <li id="liEquivalencia" class="liInfoteca">
+             <li id="li2Codigoli" class="liInfoteca">
                  <a class="grisClaro " id="li2Codigo" style="cursor:pointer">
                    <p>
                      - Código Fiscal de la Federación.
                    </p>
                  </a>
              </li>
-             <li id="liEquivalenciaO" class="liInfoteca">
+             <li id="li2Impueli" class="liInfoteca">
                  <a class="grisClaro " id="li2Impue" style="cursor:pointer">
                    <p>
                      - Ley del Impuesto sobre la Renta (ISR).
                    </p>
                  </a>
              </li>
-             <li id="liIncp" class="liInfoteca">
+             <li id="li2Iepsli" class="liInfoteca">
                  <a class="grisClaro " id="li2Ieps" style="cursor:pointer">
                    <p>
                      - Ley del Impuesto Especial sobre Producción y Servicios (IEPS).
                    </p>
                  </a>
              </li>
-             <li id="liCetes" class="liInfoteca">
+             <li id="li2Isanli" class="liInfoteca">
                  <a class="grisClaro " id="li2Isan" style="cursor:pointer">
                    <p>
                      - Ley Federal del Impuesto sobre Automóviles Nuevos (ISAN).
                    </p>
                  </a>
              </li>
-             <li id="liCppc" class="liInfoteca">
+             <li id="li2Ivali" class="liInfoteca">
                  <a class="grisClaro " id="li2Iva" style="cursor:pointer">
                    <p>
                      - Ley del Impuesto al Valor Agregado (IVA).
                    </p>
                  </a>
              </li>
-             <li id="liTiie" class="liInfoteca">
+             <li id="li2Istuvli" class="liInfoteca">
                  <a class="grisClaro " id="li2Istuv" style="cursor:pointer">
                    <p>
                      - Ley del Impuesto sobre Tenencia o Uso de Vehículos (ISTUV).
                    </p>
                  </a>
              </li>
-             <li id="liUdis" class="liInfoteca">
+             <li id="li2Hidrocli" class="liInfoteca">
                  <a class="grisClaro " id="li2Hidroc" style="cursor:pointer">
                    <p>
                      - Ley de Ingresos sobre Hidrocarburos.
                    </p>
                  </a>
              </li>
-             <li id="liInflacion" class="liInfoteca">
+             <li id="li2Ideli" class="liInfoteca">
                  <a class="grisClaro " id="li2Ide" style="cursor:pointer">
                    <p>
                      - Ley del Impuesto a los Depósitos en Efectivo (IDE).
@@ -523,7 +523,7 @@
                  </a>
              </li>
 
-             <li id="liInflacion" class="liInfoteca">
+             <li id="li2Orgli" class="liInfoteca">
                  <a class="grisClaro " id="li2Org" style="cursor:pointer">
                    <p>
                      - Petróleos Mexicanos y sus Organismos Subsidiarios.
@@ -531,7 +531,7 @@
                  </a>
              </li>
 
-             <li id="liInflacion" class="liInfoteca">
+             <li id="li2Hojasli" class="liInfoteca">
                  <a class="grisClaro " id="li2Hojas" style="cursor:pointer">
                    <p>
                      - Hojas de ayuda.
@@ -539,7 +539,7 @@
                  </a>
              </li>
 
-             <li id="liInflacion" class="liInfoteca">
+             <li id="li2Comercioli" class="liInfoteca">
                  <a class="grisClaro " id="li2Comercio" style="cursor:pointer">
                    <p>
                      - Formas y formatos de Comercio Exterior.
@@ -613,7 +613,7 @@
     </div>
 
     <div class="panel panel-default">
-      <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulSS">
+      <a id="li3Instructivo" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulSS">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -622,10 +622,10 @@
         </h4>
       </div>
       </a>
-      <div id="ulSS"  class="panel-collapse collapse">
+    <!--   <div id="ulSS"  class="panel-collapse collapse">
 
         <ul class="colorNav liInfoteca" style="list-style-type: none">
-                 <li id="liCuotas" class="liInfoteca">
+                 <li id="li3Instructivo" class="liInfoteca">
                      <a class="grisClaro " id="li3Instructivo" style="cursor:pointer">
                        <p>
                          - Instructivo de operación para la recepción de contribuciones al comercio exterior
@@ -635,18 +635,11 @@
 
              </ul>
 
-
       </div>
+      -->
+
+
     </div>
-
-
-
-
-
-
-
-
-
 
   </div>
 
