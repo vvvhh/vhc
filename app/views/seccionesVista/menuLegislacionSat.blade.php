@@ -365,7 +365,7 @@
     </div>
 
     <div class="panel panel-default">
-      <a id="li4leyes" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" style="cursor:pointer">
+      <a id="li4leyes" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -588,7 +588,7 @@
 
 
     <div class="panel panel-default">
-      <a id="li5manual" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
+      <a id="li5manual" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -613,7 +613,7 @@
     </div>
 
     <div class="panel panel-default">
-      <a id="li3Instructivo" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulSS">
+      <a id="li3Instructivo" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
