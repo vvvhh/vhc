@@ -14,6 +14,7 @@
  }
 </style>
 
+
 <div class="table-responsive tamMenu" >
   <br>
 <table class="table">
@@ -32,7 +33,7 @@
             <div id="ulCo" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                           <li id="liMultas" class="liInfoteca">
+                           <li id="" class="liInfoteca">
                                <a class="grisClaro " id="li7Resolucion"  style="cursor:pointer">
                                  <p>
                                    - Publicada el 23 de diciembre de 2015 - Resolución Miscelánea Fiscal para 2016 y su anexo 19.

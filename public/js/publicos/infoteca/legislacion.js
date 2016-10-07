@@ -173,31 +173,36 @@ function getCriNormativo(){
   tipo = 9;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liCriNormativoli').addClass('activoBorde');
+  limpiarCriterio();
+  $('#liCriNormativoli').addClass('activoBorde');
 }
 function getCriAplicacion(){
   tipo = 10;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liCriAplicacionli').addClass('activoBorde');
+  limpiarCriterio();
+  $('#liCriAplicacionli').addClass('activoBorde');
 }
 function getCriVinculativos(){
   tipo = 11;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liCriVinculativosli').addClass('activoBorde');
+  limpiarCriterio();
+  $('#liCriVinculativosli').addClass('activoBorde');
 }
 function getCriProcedimientos(){
   tipo = 12;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liCriProcedimientosli').addClass('activoBorde');
+  limpiarCriterio();
+  $('#liCriProcedimientosli').addClass('activoBorde');
 }
 function getCriCPR(){
   tipo = 13;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liCriCPRli').addClass('activoBorde');
+  limpiarCriterio();
+  $('#liCriCPRli').addClass('activoBorde');
 }
 
 function get2Codigo(){
@@ -287,6 +292,7 @@ function get7Resolucion(){
   tipo = 30;
   getLegislaciones(tipo)
   mostrarOtras();
+//  $('#liInfoteca*').addClass('activoBorde');
 }
 function get7Resolucion2(){
   tipo = 31;
@@ -558,3 +564,11 @@ liTrat2.on('click',getTrat2);
 liPld1.on('click',getPld1);
 liPld2.on('click',getPld2);
 liPld3.on('click',getPld3);
+
+function limpiarCriterio(){
+  $('#liCriNormativoli').removeClass('activoBorde');
+  $('#liCriAplicacionli').removeClass('activoBorde');
+  $('#liCriVinculativosli').removeClass('activoBorde');
+  $('#liCriProcedimientosli').removeClass('activoBorde');
+  $('#liCriCPRli').removeClass('activoBorde');
+}
