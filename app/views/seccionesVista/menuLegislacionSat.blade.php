@@ -201,21 +201,21 @@
                         <div id="ulPLD" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                                     <li id="liMultas" class="liInfoteca">
+                                     <li id="liPld1li" class="liInfoteca">
                                          <a class="grisClaro" id="liPld1"  style="cursor:pointer">
                                            <p>
                                              - Reglas de carácter general
                                            </p>
                                          </a>
                                      </li>
-                                     <li id="liMultas" class="liInfoteca">
+                                     <li id="liPld2li" class="liInfoteca">
                                          <a class="grisClaro " id="liPld2"  style="cursor:pointer">
                                            <p>
                                              - Formatos de alta y registro
                                            </p>
                                          </a>
                                      </li>
-                                     <li id="liMultas" class="liInfoteca">
+                                     <li id="liPld3li" class="liInfoteca">
                                          <a class="grisClaro " id="liPld3"  style="cursor:pointer">
                                            <p>
                                             - Formatos para presentar avisos
