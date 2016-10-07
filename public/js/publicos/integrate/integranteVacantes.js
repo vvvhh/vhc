@@ -1,6 +1,6 @@
 /*
 vacantes VHC
-  9 Gerente
+  9 Gerente contable
   0 Senior contable
   1 Semi senior contable
   2 asistente contable
@@ -45,7 +45,7 @@ var vacantes= [
     "Semi senior ",           //PUESTO 1
     "1",                          //Número de Plazas:
     "Contrato",                   //Tipo de Contrato:
-    "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros. ",        //Actividades Relacionadas con el Puesto:		3
+    "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros, entre otras. ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
@@ -58,9 +58,9 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Requerida, mínimo un año",  //Experiencia Requerida
+    "Mínimo dos años",  //Experiencia Requerida
     " - ", //Idiomas
-    "Conocimientos técnicos profesionale, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización, aprendizaje continuo y crecimiento, asesorías.", //Habilidades
+    "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización.", //Habilidades
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
     "Manejo de NOI, COI, Excel, Word, Outlook, aspectos fiscales."
@@ -69,7 +69,7 @@ var vacantes= [
     "Asistente",       //Puesto    2--------------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
     "Contrato",                   //Tipo de Contrato:
-    "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros. ",        //Actividades Relacionadas con el Puesto:		3
+    "Registro contable, conciliaciones bancarias, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), entre otras. ",        //Actividades Relacionadas con el Puesto:		3
     "$4,500 - $5,500",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
@@ -82,17 +82,17 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Requerida, mínimo un año",  //Experiencia Requerida
+    "Medio año",  //Experiencia Requerida
     " - ", //Idiomas
-    "Conocimientos técnicos profesionale, iniciativa, tolerancia al estrés, trabajo en equipo.", //Habilidades
+    "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo.", //Habilidades
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
-    "",
+    "Manejo de NOI, COI, Excel, Word, Outlook, aspectos fiscales.",
   ],
 
 
   [
-    "Senior",   // 3------------------------------------------------------------------
+    "Senior",   // 3---------------------------------------C O N S U L T O R I A ------------------------------------------------------------------
     "Experiencia Asesorias",
     "Actividades Asesorias",
     "Sueldo Asesorias ",
@@ -166,7 +166,7 @@ var vacantes= [
 
 
   [
-    "Senior",       //Puesto    6--------------------------------------------------------------------------------------------------
+    "Senior",       //Puesto    6---------------------A U D I T O R I A-----------------------------------------------------------------------------
     "13",                          //Número de Plazas:
     "Contrato",                   //Tipo de Contrato:
     "Todas las inherentes para la realización de auditorías",        //Actividades Relacionadas con el Puesto:		3
@@ -191,14 +191,40 @@ var vacantes= [
   ],
   [
     "Semi senior",     // 7------------------------------------------------------------
-    "Experiencia Auditor",
+    "1",
     "Contrato",                   //Tipo de Contrato:
-    "Todas las inherentes para la realizacion de auditorias financieras ",        //Actividades Relacionadas con el Puesto:		3
+    "Todas las inherentes para la realizacion de auditorías financieras ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
-    "No",   //Disponibilidad para viajar:
+    "Sí",   //Disponibilidad para viajar:
+    "No",   //Cambio de residencia
+    "Licenciatura en Contaduría", // Estudios
+    "Titulado",    //Nivel académico
+    "indistinto", //Estado Civil
+    "20",      //Edad Mínima
+    "30",      //edad Maxima
+    "Indistinto", //Sexo
+    "Mínimo dos años",  //Experiencia Requerida
+    "- ",     //idiomas
+    "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",
+    "Auditoria",
+
+    "Auditoría",
+
+    "Uso de SIPRED, conocimiento y entendimiento de NIF, reportes de auditoría",
+  ],
+  [
+    "Asistente",       //Puesto    8--------------------------------------------------------------------------------------------------
+    "1",                          //Número de Plazas:
+    "Contrato",                   //Tipo de Contrato:
+    "Todas las inherentes para la realización de auditoría y contabilidad",        //Actividades Relacionadas con el Puesto:		3
+    "$4,500 - $5,500",              //Sueldo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    "Completo",   //Tipo de Horario de Trabajo
+    "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
+    "Sí",   //Disponibilidad para viajar:
     "No",   //Cambio de residencia
     "Licenciatura en Contaduría", // Estudios
     "Pasante como mínimo",    //Nivel académico
@@ -206,38 +232,15 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Requerida, mínimo dos año",  //Experiencia Requerida
-    "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",
-    "Auditoria",
-    "Auditoría",
-    "",
-  ],
-  [
-    "Asistente",       //Puesto    8--------------------------------------------------------------------------------------------------
-    "13",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
-    "Todas las inherentes para la realización de auditoría y contabilidad",        //Actividades Relacionadas con el Puesto:		3
-    "$4,800",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
-    "Completo",   //Tipo de Horario de Trabajo
-    "8:00 - 18:00",  // Horario de Trabajo
-    "Sí",   //Disponibilidad para viajar:
-    "No",   //Cambio de residencia
-    "Licenciatura en Contaduría", // Estudios
-    "Títulado",    //Nivel académico
-    "indistinto", //Estado Civil
-    "25",      //Edad Mínima
-    "-",      //edad Maxima
-    "Indistinto", //Sexo
-    "Requierida",  //Experiencia Requerida
+    "Medio año",  //Experiencia Requerida
     " - ", //Idiomas
-    "Confianza, conocimientos técnicos profesionales.", //Habilidades
+    "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",   //itras hailidades
     "Auditoria",
     "Auditoría",
-    ""
+    "Uso de SIPRED, conocimiento y entendimiento de NIF, reportes de auditoría",
   ],
   [
-    "Gerente",       //Puesto    9*---------------------------------------------------------------------------------------------------
+    "Gerente",       //Puesto    9*-------    Gerente contable--------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
     "Contrato",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
@@ -262,7 +265,7 @@ var vacantes= [
   ],
 
   [
-    "Gerente",       //Puesto    10*---------------------------------------------------------------------------------------------------
+    "Gerente",       //Puesto    10*---- Gerente consulta-----------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
     "Contrato",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
@@ -286,7 +289,7 @@ var vacantes= [
     "",
   ],
   [
-    "Gerente",       //Puesto    11*---------------------------------------------------------------------------------------------------
+    "Gerente",       //Puesto    11*--------- Gerente auditor------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
     "Contrato",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
@@ -342,7 +345,7 @@ var empresa= [
     "$8,000 - $10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
-    "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
+    "Lun-Vier 9:00 - 19:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "No",   //Disponibilidad para viajar:
     "No",   //Cambio de residencia
     "Licenciatura en Contaduría", // Estudios
@@ -351,12 +354,12 @@ var empresa= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Requerida, mínimo un año",  //Experiencia Requerida
+    "Mínimo un año",  //Experiencia Requerida
     " - ", //Idiomas
-    "Conocimientos técnicos profesionale, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización, aprendizaje continuo y crecimiento, asesorías.", //Habilidades
+    "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización, aprendizaje continuo y crecimiento, asesorías.", //Habilidades
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
-    "Manejo de NOI, COI, Excel, Word, Outlook, aspectos fiscales.",
+    "Manejo de NOI, COI, SAE, Excel, Word, Outlook, aspectos fiscales.",
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
     "",
@@ -429,22 +432,22 @@ function  clicElemento(){
   bootbox.dialog({
     title:'<div align="center"><strong>'+vacantes[vacSelect][20]+': '+vacantes[vacSelect][0]+'</strong></div>',
     message: '<div align="left"> <h4><strong>Número de Plazas: </strong> '+vacantes[vacSelect][1]+
-            ' </h4> <h4><strong>Tipo de Contrato: </strong> '+vacantes[vacSelect][2]+
-            ' </h4>  <h4><strong>Actividades Relacionadas con el Puesto: </strong> '+vacantes[vacSelect][3]+
+            ' </h4> <h4><strong>Tipo de contrato: </strong> '+vacantes[vacSelect][2]+
+            ' </h4>  <h4><strong>Actividades relacionadas con el puesto: </strong> '+vacantes[vacSelect][3]+
             ' </h4>  <h4><strong>Sueldo: </strong> '+vacantes[vacSelect][4]+
-            ' </h4>  <h4><strong>Lugar de Trabajo: </strong> '+vacantes[vacSelect][5]+
-            ' </h4>  <h4><strong>Tipo de Horario de Trabajo: </strong> '+vacantes[vacSelect][6]+
-            ' </h4>  <h4><strong>Horario de Trabajo: </strong> '+vacantes[vacSelect][7]+
+            ' </h4>  <h4><strong>Lugar de trabajo: </strong> '+vacantes[vacSelect][5]+
+            ' </h4>  <h4><strong>Tipo de horario de trabajo: </strong> '+vacantes[vacSelect][6]+
+            ' </h4>  <h4><strong>Horario de trabajo: </strong> '+vacantes[vacSelect][7]+
             ' </h4>  <h4><strong>Disponibilidad para viajar: </strong> '+vacantes[vacSelect][8]+
             ' </h4>  <h4><strong>Cambio de residencia: </strong> '+vacantes[vacSelect][9]+
             '<hr><p align=center> <strong>Aspirante</strong></p>'+
             ' </h4>  <h4><strong>Estudios: </strong> '+vacantes[vacSelect][10]+
             ' </h4>  <h4><strong>Nivel académico: </strong> '+vacantes[vacSelect][11]+
-            ' </h4>  <h4><strong>Estado Civil: </strong> '+vacantes[vacSelect][12]+
-            ' </h4>  <h4><strong>Edad Mínima: </strong> '+vacantes[vacSelect][13]+
-            ' </h4>  <h4><strong>Edad Máxima: </strong> '+vacantes[vacSelect][14]+
+            ' </h4>  <h4><strong>Estado civil: </strong> '+vacantes[vacSelect][12]+
+            ' </h4>  <h4><strong>Edad mínima: </strong> '+vacantes[vacSelect][13]+
+            ' </h4>  <h4><strong>Edad máxima: </strong> '+vacantes[vacSelect][14]+
             ' </h4>  <h4><strong>Sexo: </strong> '+vacantes[vacSelect][15]+
-            ' </h4>  <h4><strong>Experiencia Requerida: </strong> '+vacantes[vacSelect][16]+
+            ' </h4>  <h4><strong>Experiencia requerida: </strong> '+vacantes[vacSelect][16]+
             ' </h4>  <h4><strong>Idiomas: </strong> '+vacantes[vacSelect][17]+
             ' </h4>  <h4><strong>Habilidades: </strong> '+vacantes[vacSelect][18]+
             ' </h4>  <h4><strong>Otras habilidades: </strong> '+vacantes[vacSelect][21]+
@@ -510,23 +513,23 @@ function  clicEmpresa(){
 
   bootbox.dialog({
     title:'<div align="center"><strong>'+empresa[vacSelect][15]+': '+empresa[vacSelect][0]+'</strong></div>',
-    message: '<div align="left"> <h4><strong>Número de Plazas: </strong> '+empresa[vacSelect][1]+
-            ' </h4> <h4><strong>Tipo de Contrato: </strong> '+empresa[vacSelect][2]+
-            ' </h4>  <h4><strong>Actividades Relacionadas con el Puesto: </strong> '+empresa[vacSelect][3]+
+    message: '<div align="left"> <h4><strong>Número de plazas: </strong> '+empresa[vacSelect][1]+
+            ' </h4> <h4><strong>Tipo de contrato: </strong> '+empresa[vacSelect][2]+
+            ' </h4>  <h4><strong>Actividades relacionadas con el puesto: </strong> '+empresa[vacSelect][3]+
             ' </h4>  <h4><strong>Sueldo: </strong> '+empresa[vacSelect][4]+
-            ' </h4>  <h4><strong>Lugar de Trabajo: </strong> '+empresa[vacSelect][5]+
-            ' </h4>  <h4><strong>Tipo de Horario de Trabajo: </strong> '+empresa[vacSelect][6]+
-            ' </h4>  <h4><strong>Horario de Trabajo: </strong> '+empresa[vacSelect][7]+
+            ' </h4>  <h4><strong>Lugar de trabajo: </strong> '+empresa[vacSelect][5]+
+            ' </h4>  <h4><strong>Tipo de horario de trabajo: </strong> '+empresa[vacSelect][6]+
+            ' </h4>  <h4><strong>Horario de trabajo: </strong> '+empresa[vacSelect][7]+
             ' </h4>  <h4><strong>Disponibilidad para viajar: </strong> '+empresa[vacSelect][8]+
             ' </h4>  <h4><strong>Cambio de residencia: </strong> '+empresa[vacSelect][9]+
             '<hr><p align=center> <strong>Aspirante</strong></p>'+
             ' </h4>  <h4><strong>Estudios: </strong> '+empresa[vacSelect][10]+
             ' </h4>  <h4><strong>Nivel académico: </strong> '+empresa[vacSelect][11]+
-            ' </h4>  <h4><strong>Estado Civil: </strong> '+empresa[vacSelect][12]+
-            ' </h4>  <h4><strong>Edad Mínima: </strong> '+empresa[vacSelect][13]+
-            ' </h4>  <h4><strong>Edad Máxima: </strong> '+empresa[vacSelect][14]+
+            ' </h4>  <h4><strong>Estado civil: </strong> '+empresa[vacSelect][12]+
+            ' </h4>  <h4><strong>Edad mínima: </strong> '+empresa[vacSelect][13]+
+            ' </h4>  <h4><strong>Edad máxima: </strong> '+empresa[vacSelect][14]+
             ' </h4>  <h4><strong>Sexo: </strong> '+empresa[vacSelect][15]+
-            ' </h4>  <h4><strong>Experiencia Requerida: </strong> '+empresa[vacSelect][16]+
+            ' </h4>  <h4><strong>Experiencia requerida: </strong> '+empresa[vacSelect][16]+
             ' </h4>  <h4><strong>Idiomas: </strong> '+empresa[vacSelect][17]+
             ' </h4>  <h4><strong>Habilidades: </strong> '+empresa[vacSelect][18]+
             ' </h4>  <h4><strong>Otras habilidades: </strong> '+empresa[vacSelect][21]+

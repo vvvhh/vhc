@@ -206,13 +206,13 @@
                         <li id="7" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
                                 - Semi senior
-                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
                               </p>
                         </li>
                         <li id="8" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                               <p>
                                 - Asistente
-                                <span class="badge badge-info" align="right" title="Número de vacantes">8</span>
+                                <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
                               </p>
                         </li>
             </ul>

@@ -49,16 +49,19 @@ var li7Resolucion=$('#li7Resolucion'),
     li7Resolucion6=$('#li7Resolucion6'),
     li7Resolucion7=$('#li7Resolucion7'),
     li7Resolucion8=$('#li7Resolucion8'),
-    li7Resolucion9=$('#li7Resolucion9');
+    li7Resolucion9=$('#li7Resolucion9'),
+    li7Resolucion10=$('#li7Resolucion10'),
+    li7Resolucion11=$('#li7Resolucion11'),
+    li7Resolucion12=$('#li7Resolucion12');
   var li8Comercio1=$('#li8Comercio1'),
       li8Comercio2=$('#li8Comercio2'),
       li8Comercio3=$('#li8Comercio3'),
       li8Comercio4=$('#li8Comercio4'),
-      li8Comercio5=$('#li8Comercio5'),
-      li7Resolucion10=$('#li7Resolucion10');
+      li8Comercio5=$('#li8Comercio5');
   var li9Res1=$('#li9Res1'),
       li9Res2=$('#li9Res2');
-var liTesis=$('#liTesis');
+var liTesis=$('#liTesis'),
+    liTesis2=$('#liTesis2');
 var li10Revision=$('#li10Revision');
 var liTrat1=$('#liTrat1'),
     liTrat2=$('#liTrat2');
@@ -190,7 +193,7 @@ function getCriCPR(){
   tipo = 13;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liCriCPRli').addClass('activoBorde');      
+//  $('#liCriCPRli').addClass('activoBorde');
 }
 
 function get2Codigo(){
@@ -352,6 +355,16 @@ function get7Resolucion10(){
   getLegislaciones(tipo)
   mostrarOtras();
 }
+function get7Resolucion11(){
+  tipo = 51;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function get7Resolucion12(){
+  tipo = 52;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
 
 function get9Res1(){
   tipo = 45;
@@ -370,6 +383,11 @@ function get10Revision(){
 }
 function getTesis(){
   tipo = 48;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getTesis2(){
+  tipo = 53;
   getLegislaciones(tipo)
   mostrarOtras();
 }
@@ -505,6 +523,8 @@ li8Comercio4.on('click',get8Comercio4);
 li8Comercio5.on('click',get8Comercio5);
 li7Resolucion9.on('click',get7Resolucion9);
 li7Resolucion10.on('click',get7Resolucion10);
+li7Resolucion11.on('click',get7Resolucion11);
+li7Resolucion12.on('click',get7Resolucion12);
 
 li9Res1.on('click',get9Res1);
 li9Res2.on('click',get9Res2);
@@ -512,5 +532,6 @@ li9Res2.on('click',get9Res2);
 li10Revision.on('click',get10Revision);
 
 liTesis.on('click',getTesis);
+liTesis2.on('click',getTesis2);
 liTrat1.on('click',getTrat1);
 liTrat2.on('click',getTrat2);

@@ -227,7 +227,7 @@
                   <li id="liLimite" class="liInfoteca">
                       <a class="grisClaro " id="li4leyes"  style="cursor:pointer">
                         <p>
-                          Disposiciones legales 2016
+                          Acuerdos y decretos
                         </p>
                       </a>
                   </li>
@@ -264,27 +264,27 @@
 
 
     <div class="panel panel-default">
-      <a id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
+      <a  id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
-            Modificaciones
+            Disposiciones Fiscales pendientes de publicar
           </strong>
         </h4>
       </div>
       </a>
-    <!--    <div id="ulCo" class="panel-collapse collapse">
+       <!-- <div id="ulModifica" class="panel-collapse collapse">
 
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
                      <li id="liMultas" class="liInfoteca">
-                         <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
-                           <p>- Multas ley aduanera</p>
+                         <a id="li6Mod" class="grisClaro" style="cursor:pointer">
+                           <p>- Disposiciones Fiscales pendientes de publicar</p>
                          </a>
                      </li>
         </ul>
 
-      </div>
-      -->
+      </div>  -->
+
     </div>
 
 
@@ -397,6 +397,22 @@
                        </p>
                      </a>
                 </li>
+
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion11"  style="cursor:pointer">
+                       <p>
+                         - Publicados el 15 de julio de 2016 - Anexos 3, 11, 14, 15, 23 y 25-Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 14 de julio de 2016.
+                       </p>
+                     </a>
+                </li>
+                <li id="liMultas" class="liInfoteca">
+                     <a class="grisClaro " id="li7Resolucion12"  style="cursor:pointer">
+                       <p>
+                         - Publicada el 04 de octubre de 2016 - Cuarta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A y 24.
+                       </p>
+                     </a>
+                </li>
+
 
             </ul>
 
@@ -541,9 +557,16 @@
 
             <ul  class="colorNav liInfoteca" style="list-style-type: none">
                          <li id="liMultas" class="liInfoteca">
-                             <a id="liTesis" class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                             <a id="liTesis" class="grisClaro " style="cursor:pointer">
                                <p>
                                  - Emitidas por la Suprema Corte de Justicia de la Nación
+                               </p>
+                             </a>
+                         </li>
+                         <li id="liMultas" class="liInfoteca">
+                             <a id="liTesis2" class="grisClaro " id="li9Res1"  style="cursor:pointer">
+                               <p>
+                                 - Emitidas por el Tribunal Federal de Justicia Administrativa
                                </p>
                              </a>
                          </li>

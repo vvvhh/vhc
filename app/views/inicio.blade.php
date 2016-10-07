@@ -21,6 +21,7 @@
 <!-- carousel -->
 <!-- {{ HTML::style('css/inicio.css', array('media'=>"none",'onload'=>"if(media!='all')media='all'")) }} -->
 <div id="carouselPrincipal" class="carousel slide" >
+  
   <ol class="carousel-indicators transladarAbajo">
     <li data-target="#carouselPrincipal" data-slide-to="0" class="active liInicio" ></li>
     <li data-target="#carouselPrincipal" data-slide-to="1" class="liInicio"></li>
@@ -264,12 +265,7 @@
                   <h3 class="text-center grisObscuro"> <a href="#"></a>Contáctenos para recibir un diagnóstico, una opinión o una asesoría, con gusto uno de nuestros asesores le atenderá.</h3>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <h2 class="text-center grisObscuro">Entérate de nuestras vacantes</h2>
-                  <h3 class="text-center grisObscuro"> <a href="#"></a>Intégrate a nuestro equipo de trabajo</h3>
-                </div>
-              </div>
+
         <!--        <div class="row">
                 <div class="col-md-4 col-md-offset-4">
                   <a class="btn btn-lg btn-primary btn-block" href="{{ URL::to('publicos/servicios/obtenerAsesoria')}}"><i class="fa fa-tty"></i> Obtener asesoría</a>

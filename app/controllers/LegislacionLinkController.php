@@ -16,7 +16,7 @@ class LegislacionLinkController extends BaseController {
         );
 
        $validaciones = array(
-                             'nombre' => array('required', 'regex:/^([0-9a-zA-ZáéíóúüÜÁÉÍÓÚñÑ\-\s\,\.])+$/'),
+                             'nombre' => array('required'),
                              'enlace' => array('required'),
                              'tipo'   => array('required', 'numeric')
        );
@@ -64,7 +64,7 @@ class LegislacionLinkController extends BaseController {
       'adm' => Input::get('adm')
     );
 
-    $validaciones = array('buscarLey' => array('required', 'regex:/^([0-9a-zA-ZáéíóúüÜÁÉÍÓÚñÑ\-\s,.])+$/')
+    $validaciones = array('buscarLey' => array('required', 'regex:/^([0-9a-zA-ZáéíóúüÜÁÉÍÓÚñÑ\-\s\,\.])+$/')
                           );
     $validator = Validator::make($data , $validaciones);
     if ($validator->fails()){
@@ -230,7 +230,7 @@ class LegislacionLinkController extends BaseController {
         );
 
        $validaciones = array('id'     => array('required', 'alpha_num'),
-                             'nombre' => array('required', 'regex:/^([0-9a-zA-ZáéíóúüÜÁÉÍÓÚñÑ\-\s\,\.])+$/'),
+                             'nombre' => array('required'),
                              'enlace' => array('required'),
                              'tipo'   => array('required', 'numeric')
        );
