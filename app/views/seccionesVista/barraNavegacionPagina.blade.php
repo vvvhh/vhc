@@ -41,23 +41,7 @@
       </ul>
     </div>
 
-    <div class="container">
-    <div class="row">
-        <div class="footer-ribbon transladarIzquierda2" style="right: 0">
-        <!--    <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=0')}}" class="enlaceSimple">  -->
-            <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="enlaceSimple">
-              <h4 class="txtRibbon" style="margin: 0;padding: 5px 10px">
-
-                ¡Únete a nuestro<br>
-                 gran equipo!
-                 <br>
-                 Consulta nuestras <br>
-                 vacantes
-              </h4  >
-            </a>
-        </div>
-    </div>
-</div>
+    
 
 
 </nav>

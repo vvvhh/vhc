@@ -21,8 +21,12 @@
 <!-- carousel -->
 <!-- {{ HTML::style('css/inicio.css', array('media'=>"none",'onload'=>"if(media!='all')media='all'")) }} -->
 <div id="carouselPrincipal" class="carousel slide" >
-  
+
   <ol class="carousel-indicators transladarAbajo">
+
+
+
+
     <li data-target="#carouselPrincipal" data-slide-to="0" class="active liInicio" ></li>
     <li data-target="#carouselPrincipal" data-slide-to="1" class="liInicio"></li>
     <li data-target="#carouselPrincipal" data-slide-to="2" class="liInicio"></li>
@@ -115,6 +119,8 @@
   <a class="right carousel-control " href="#carouselPrincipal" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right texto3D transladarIzquierda"></span>
   </a>
+
+
 </div>
 <!-- finCarousel -->
 <div id="banner" class="transladarOpaco2">
@@ -148,6 +154,24 @@
 
 <!--Contenido pagina-->
 <div class="fondo paddingInicio" style="background-image:url('../img/inicio/101152541.jpg');">
+
+  <div class="">
+  <div class="row">
+      <div class="footer-ribbon transladarIzquierda2" style="left: 0">
+      <!--    <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=0')}}" class="enlaceSimple">  -->
+          <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="enlaceSimple">
+            <h4 class="txtRibbon" style="margin: 0;padding: 5px 10px">
+
+              ¡Únete a nuestro<br>
+               gran equipo!
+               <br>
+               Consulta nuestras <br>
+               vacantes
+            </h4  >
+          </a>
+      </div>
+  </div>
+</div>
 
   <div class="row">
     <section  class="col-md-8">
