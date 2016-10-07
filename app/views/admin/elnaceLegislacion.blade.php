@@ -130,6 +130,9 @@
                   <option value="51">51</option>
                   <option value="52">52</option>
                   <option value="53">53</option>
+                  <option value="54">54</option>
+                  <option value="55">55</option>
+                  <option value="56">56</option>
                 </select>
               </div>
             </div>
@@ -239,6 +242,9 @@
                   <option value="51">51</option>
                   <option value="52">52</option>
                   <option value="53">53</option>
+                  <option value="54">54</option>
+                  <option value="55">55</option>
+                  <option value="56">56</option>
                 </select>
               </div>
             </div>

@@ -65,6 +65,10 @@ var liTesis=$('#liTesis'),
 var li10Revision=$('#li10Revision');
 var liTrat1=$('#liTrat1'),
     liTrat2=$('#liTrat2');
+var liPld1=$('#liPld1'),
+    liPld2=$('#liPld2'),
+    liPld3=$('#liPld3');
+
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -401,6 +405,21 @@ function getTrat2(){
   getLegislaciones(tipo)
   mostrarOtras();
 }
+function getPld1(){
+  tipo = 54;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getPld2(){
+  tipo = 55;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
+function getPld3(){
+  tipo = 56;
+  getLegislaciones(tipo)
+  mostrarOtras();
+}
 
 
 function mostrarOtras(){
@@ -535,3 +554,7 @@ liTesis.on('click',getTesis);
 liTesis2.on('click',getTesis2);
 liTrat1.on('click',getTrat1);
 liTrat2.on('click',getTrat2);
+
+liPld1.on('click',getPld1);
+liPld2.on('click',getPld2);
+liPld3.on('click',getPld3);

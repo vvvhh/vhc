@@ -39,6 +39,7 @@
                                  </p>
                                </a>
                            </li>
+
                   <li id="liMultas" class="liInfoteca">
                        <a class="grisClaro " id="li7Resolucion2"  style="cursor:pointer">
                          <p>
@@ -126,7 +127,7 @@
 
 
           <div class="panel panel-default">
-            <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
+            <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <strong>
@@ -187,7 +188,7 @@
 
 
                     <div class="panel panel-default">
-                      <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
+                      <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulPLD">
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <strong>
@@ -196,47 +197,30 @@
                         </h4>
                       </div>
                       </a>
-                        <div id="ulCom" class="panel-collapse collapse">
+                        <div id="ulPLD" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
                                      <li id="liMultas" class="liInfoteca">
-                                         <a class="grisClaro " id="li8Comercio1"  style="cursor:pointer">
+                                         <a class="grisClaro" id="liPld1"  style="cursor:pointer">
                                            <p>
-                                             - Publicadas el 27 de enero de 2016 - Reglas Generales de Comercio Exterior para 2016 y sus anexos Glosario de Definiciones y Acrónimos, y 1.
+                                             - Reglas de carácter general
                                            </p>
                                          </a>
                                      </li>
                                      <li id="liMultas" class="liInfoteca">
-                                         <a class="grisClaro " id="li8Comercio2"  style="cursor:pointer">
+                                         <a class="grisClaro " id="liPld2"  style="cursor:pointer">
                                            <p>
-                                             - Publicados el 28 de enero de 2016 - Anexos 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 y 31 de las Reglas Generales de Comercio Exterior para 2016, publicadas el 27 de enero de 2016.
+                                             - Formatos de alta y registro
                                            </p>
                                          </a>
                                      </li>
                                      <li id="liMultas" class="liInfoteca">
-                                         <a class="grisClaro " id="li8Comercio3"  style="cursor:pointer">
+                                         <a class="grisClaro " id="liPld3"  style="cursor:pointer">
                                            <p>
-                                            - Publicados el 09 de mayo de 2016 - Primera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 y sus anexos Glosario de Definiciones y Acrónimos, 1, 4, 10, 21, 22, 24, 27, 28, 29, 30 y 31.
+                                            - Formatos para presentar avisos
                                            </p>
                                          </a>
                                      </li>
-                                     <li id="liMultas" class="liInfoteca">
-                                         <a class="grisClaro " id="li8Comercio4"  style="cursor:pointer">
-                                           <p>
-                                            - Publicados el 9 de mayo de 2016 - Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Primera Resolución de Modificaciones a las RGCE para 2016.
-                                           </p>
-                                         </a>
-                                     </li>
-                                     <li id="liMultas" class="liInfoteca">
-                                         <a class="grisClaro " id="li8Comercio5"  style="cursor:pointer">
-                                           <p>
-                                            - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016.
-                                           </p>
-                                         </a>
-                                     </li>
-
-
-
 
                             </ul>
 
@@ -602,9 +586,30 @@
     </div>
 
 
+    <div class="panel panel-default">
+      <a id="li5manual" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <strong>
+            Manuales
+          </strong>
+        </h4>
+      </div>
+      </a>
+    <!--   <div id="ulLa"  class="panel-collapse collapse">
 
+        <ul class="colorNav liInfoteca" style="list-style-type: none">
+                     <li id="liSalario"  class="liInfoteca">
+                         <a class="grisClaro " id="li5manual">
+                           <p>- Manuales
+                           </p>
+                         </a>
+                     </li>
 
-
+        </ul>
+      </div>
+       -->
+    </div>
 
     <div class="panel panel-default">
       <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulSS">
@@ -632,45 +637,6 @@
 
       </div>
     </div>
-
-
-
-
-
-
-  <div class="panel panel-default">
-    <a id="li5manual" class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulLa">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <strong>
-          Manuales
-        </strong>
-      </h4>
-    </div>
-    </a>
-  <!--   <div id="ulLa"  class="panel-collapse collapse">
-
-      <ul class="colorNav liInfoteca" style="list-style-type: none">
-                   <li id="liSalario"  class="liInfoteca">
-                       <a class="grisClaro " id="li5manual">
-                         <p>- Manuales
-                         </p>
-                       </a>
-                   </li>
-
-      </ul>
-    </div>
-     -->
-  </div>
-
-
-
-
-
-
-
-
-
 
 
 
