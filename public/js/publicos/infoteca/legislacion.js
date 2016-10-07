@@ -451,11 +451,15 @@ function getTrat1(){
   tipo = 49;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#liTrat1li').addClass('activoBorde');
 }
 function getTrat2(){
   tipo = 50;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTratados();
+  $('#liTrat2li').addClass('activoBorde');
 }
 function getPld1(){
   tipo = 54;
@@ -657,4 +661,8 @@ function resolucionFacilidades(){
 function limpiarTesis(){
   $('#liTesisli').removeClass('activoBorde');
   $('#liTesis2li').removeClass('activoBorde');
+}
+function limpiarTratados(){
+  $('#liTrat1li').removeClass('activoBorde');
+  $('#liTrat2li').removeClass('activoBorde');
 }

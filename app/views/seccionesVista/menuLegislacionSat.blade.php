@@ -433,14 +433,14 @@
         <div id="ulTratados" class="panel-collapse collapse">
 
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                     <li id="" class="liInfoteca">
+                     <li id="liTrat1li" class="liInfoteca">
                          <a id="liTrat1" class="grisClaro " id="li9Res1"  style="cursor:pointer">
                            <p>
                              - Tratados en materia de comercio exterior y cuestiones relacionadas
                            </p>
                          </a>
                      </li>
-                     <li id="" class="liInfoteca">
+                     <li id="liTrat2li" class="liInfoteca">
                          <a id="liTrat2" class="grisClaro " id="li9Res1"  style="cursor:pointer">
                            <p>
                              - Tratados para evitar la doble tributación y cuestiones relacionadas
