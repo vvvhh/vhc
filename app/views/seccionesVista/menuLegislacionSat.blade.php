@@ -267,14 +267,14 @@
                         <div id="ulResFA" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                                     <li id="liMultas" class="liInfoteca">
+                                     <li id="li9Res1li" class="liInfoteca">
                                          <a class="grisClaro " id="li9Res1"  style="cursor:pointer">
                                            <p>
                                              - Publicada el 23 de diciembre de 2015 - Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016.
                                            </p>
                                          </a>
                                      </li>
-                                     <li id="liMultas" class="liInfoteca">
+                                     <li id="li9Res2" class="liInfoteca">
                                          <a class="grisClaro " id="li9Res2"  style="cursor:pointer">
                                            <p>
                                              - ​Publicada el 03 de mayo de 2016 - Primera Resolución de modificaciones a la Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2016.

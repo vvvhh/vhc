@@ -415,14 +415,15 @@ function get9Res1(){
   tipo = 45;
   getLegislaciones(tipo)
   mostrarOtras();
-
-
+  resolucionFacilidades();
+  $('#li9Res1li').addClass('activoBorde');
 }
 function get9Res2(){
   tipo = 46;
   getLegislaciones(tipo)
   mostrarOtras();
-
+  resolucionFacilidades();
+  $('#li9Res2').addClass('activoBorde');
 }
 function get10Revision(){
   tipo = 47;
@@ -643,4 +644,8 @@ function limpiarPld(){
   $('#liPld1li').removeClass('activoBorde');
   $('#liPld2li').removeClass('activoBorde');
   $('#liPld3li').removeClass('activoBorde');
+}
+function resolucionFacilidades(){
+  $('#li9Res1li').removeClass('activoBorde');
+  $('#li9Res2').removeClass('activoBorde');
 }
