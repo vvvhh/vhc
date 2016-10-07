@@ -402,14 +402,14 @@
         <div id="ulTesis" class="panel-collapse collapse">
 
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                     <li id="liMultas" class="liInfoteca">
+                     <li id="liTesisli" class="liInfoteca">
                          <a id="liTesis" class="grisClaro " style="cursor:pointer">
                            <p>
                              - Emitidas por la Suprema Corte de Justicia de la Nación
                            </p>
                          </a>
                      </li>
-                     <li id="liMultas" class="liInfoteca">
+                     <li id="liTesis2li" class="liInfoteca">
                          <a id="liTesis2" class="grisClaro " id="li9Res1"  style="cursor:pointer">
                            <p>
                              - Emitidas por el Tribunal Federal de Justicia Administrativa

@@ -436,12 +436,17 @@ function getTesis(){
   tipo = 48;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTesis();
+  $('#liTesisli').addClass('activoBorde');
 }
 function getTesis2(){
   tipo = 53;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarTesis();
+  $('#liTesis2li').addClass('activoBorde');
 }
+
 function getTrat1(){
   tipo = 49;
   getLegislaciones(tipo)
@@ -648,4 +653,8 @@ function limpiarPld(){
 function resolucionFacilidades(){
   $('#li9Res1li').removeClass('activoBorde');
   $('#li9Res2').removeClass('activoBorde');
+}
+function limpiarTesis(){
+  $('#liTesisli').removeClass('activoBorde');
+  $('#liTesis2li').removeClass('activoBorde');
 }
