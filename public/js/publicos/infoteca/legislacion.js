@@ -378,27 +378,36 @@ function get8Comercio1(){
   tipo = 38;
   getLegislaciones(tipo)
   mostrarOtras();
-  //$('#li7Resolucion9li').addClass('activoBorde');
+  limpiarReglas();
+  $('#li8Comercio1li').addClass('activoBorde');
 }
 function get8Comercio2(){
   tipo = 39;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio2li').addClass('activoBorde');
 }
 function get8Comercio3(){
   tipo = 40;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio3li').addClass('activoBorde');
 }
 function get8Comercio4(){
   tipo = 41;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio4li').addClass('activoBorde');
 }
 function get8Comercio5(){
   tipo = 42;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio5li').addClass('activoBorde');
 }
 
 
@@ -600,25 +609,22 @@ function limpiarCriterio(){
 }
 function limpiarResolucion(){
   $('#li7Resolucionli').removeClass('activoBorde');
-
   $('#li7Resolucion2li').removeClass('activoBorde');
-
   $('#li7Resolucion3li').removeClass('activoBorde');
-
   $('#li7Resolucion4li').removeClass('activoBorde');
   $('#li7Resolucion5li').removeClass('activoBorde');
-
   $('#li7Resolucion6li').removeClass('activoBorde');
-
   $('#li7Resolucion7li').removeClass('activoBorde');
-
   $('#li7Resolucion8li').removeClass('activoBorde');
-
   $('#li7Resolucion9li').removeClass('activoBorde');
-
   $('#li7Resolucion10li').removeClass('activoBorde');
-
   $('#li7Resolucion11li').removeClass('activoBorde');
-
   $('#li7Resolucion12li').removeClass('activoBorde');
+}
+function limpiarReglas(){
+  $('#li8Comercio1li').removeClass('activoBorde');
+  $('#li8Comercio2li').removeClass('activoBorde');
+  $('#li8Comercio3li').removeClass('activoBorde');
+  $('#li8Comercio4li').removeClass('activoBorde');
+  $('#li8Comercio5li').removeClass('activoBorde');
 }

@@ -140,35 +140,35 @@
               <div id="ulCom" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                           <li id="liMultas" class="liInfoteca">
+                           <li id="li8Comercio1li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio1"  style="cursor:pointer">
                                  <p>
                                    - Publicadas el 27 de enero de 2016 - Reglas Generales de Comercio Exterior para 2016 y sus anexos Glosario de Definiciones y Acrónimos, y 1.
                                  </p>
                                </a>
                            </li>
-                           <li id="liMultas" class="liInfoteca">
+                           <li id="li8Comercio2li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio2"  style="cursor:pointer">
                                  <p>
                                    - Publicados el 28 de enero de 2016 - Anexos 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 y 31 de las Reglas Generales de Comercio Exterior para 2016, publicadas el 27 de enero de 2016.
                                  </p>
                                </a>
                            </li>
-                           <li id="liMultas" class="liInfoteca">
+                           <li id="li8Comercio3li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio3"  style="cursor:pointer">
                                  <p>
                                   - Publicados el 09 de mayo de 2016 - Primera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 y sus anexos Glosario de Definiciones y Acrónimos, 1, 4, 10, 21, 22, 24, 27, 28, 29, 30 y 31.
                                  </p>
                                </a>
                            </li>
-                           <li id="liMultas" class="liInfoteca">
+                           <li id="li8Comercio4li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio4"  style="cursor:pointer">
                                  <p>
                                   - Publicados el 9 de mayo de 2016 - Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Primera Resolución de Modificaciones a las RGCE para 2016.
                                  </p>
                                </a>
                            </li>
-                           <li id="liMultas" class="liInfoteca">
+                           <li id="li8Comercio5li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio5"  style="cursor:pointer">
                                  <p>
                                   - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016.
