@@ -292,47 +292,93 @@ function get7Resolucion(){
   tipo = 30;
   getLegislaciones(tipo)
   mostrarOtras();
-//  $('#liInfoteca*').addClass('activoBorde');
+  limpiarResolucion();
+  $('#li7Resolucionli').addClass('activoBorde');
 }
+
 function get7Resolucion2(){
   tipo = 31;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion2li').addClass('activoBorde');
 }
 function get7Resolucion3(){
   tipo = 32;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion3li').addClass('activoBorde');
 }
 function get7Resolucion4() {
   tipo = 33;
   getLegislaciones(tipo)
   mostrarOtras();
+  $('#li7Resolucion4li').addClass('activoBorde');
+  limpiarResolucion();
 }
 function get7Resolucion5(){
   tipo = 34;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion5li').addClass('activoBorde');
 }
 function get7Resolucion6(){
   tipo = 35;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion6li').addClass('activoBorde');
 }
 function get7Resolucion7(){
   tipo = 36;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion7li').addClass('activoBorde');
 }
 function get7Resolucion8(){
   tipo = 37;
   getLegislaciones(tipo)
   mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion8li').addClass('activoBorde');
 }
+function get7Resolucion9(){
+  tipo = 43;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion9li').addClass('activoBorde');
+}
+function get7Resolucion10(){
+  tipo = 44;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion10li').addClass('activoBorde');
+}
+function get7Resolucion11(){
+  tipo = 51;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion11li').addClass('activoBorde');
+}
+function get7Resolucion12(){
+  tipo = 52;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion12li').addClass('activoBorde');
+}
+
 function get8Comercio1(){
   tipo = 38;
   getLegislaciones(tipo)
   mostrarOtras();
+  //$('#li7Resolucion9li').addClass('activoBorde');
 }
 function get8Comercio2(){
   tipo = 39;
@@ -355,26 +401,6 @@ function get8Comercio5(){
   mostrarOtras();
 }
 
-function get7Resolucion9(){
-  tipo = 43;
-  getLegislaciones(tipo)
-  mostrarOtras();
-}
-function get7Resolucion10(){
-  tipo = 44;
-  getLegislaciones(tipo)
-  mostrarOtras();
-}
-function get7Resolucion11(){
-  tipo = 51;
-  getLegislaciones(tipo)
-  mostrarOtras();
-}
-function get7Resolucion12(){
-  tipo = 52;
-  getLegislaciones(tipo)
-  mostrarOtras();
-}
 
 function get9Res1(){
   tipo = 45;
@@ -571,4 +597,28 @@ function limpiarCriterio(){
   $('#liCriVinculativosli').removeClass('activoBorde');
   $('#liCriProcedimientosli').removeClass('activoBorde');
   $('#liCriCPRli').removeClass('activoBorde');
+}
+function limpiarResolucion(){
+  $('#li7Resolucionli').removeClass('activoBorde');
+
+  $('#li7Resolucion2li').removeClass('activoBorde');
+
+  $('#li7Resolucion3li').removeClass('activoBorde');
+
+  $('#li7Resolucion4li').removeClass('activoBorde');
+  $('#li7Resolucion5li').removeClass('activoBorde');
+
+  $('#li7Resolucion6li').removeClass('activoBorde');
+
+  $('#li7Resolucion7li').removeClass('activoBorde');
+
+  $('#li7Resolucion8li').removeClass('activoBorde');
+
+  $('#li7Resolucion9li').removeClass('activoBorde');
+
+  $('#li7Resolucion10li').removeClass('activoBorde');
+
+  $('#li7Resolucion11li').removeClass('activoBorde');
+
+  $('#li7Resolucion12li').removeClass('activoBorde');
 }
