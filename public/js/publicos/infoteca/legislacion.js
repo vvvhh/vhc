@@ -307,6 +307,7 @@ function get6Mod(){
   tipo = 28;
   getLegislaciones(tipo)
   mostrarOtras();
+  $('#li6Modli').addClass('activoBorde');
 }
 function get6Otras(){
   tipo = 29;

@@ -231,15 +231,18 @@
 
 
                     <div class="panel panel-default">
-                      <a  id="li6Mod" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <strong>
-                            Disposiciones Fiscales pendientes de publicar en DOF
-                          </strong>
-                        </h4>
-                      </div>
-                      </a>
+                
+                      <li id="li6Modli" class="liInfoteca">
+                          <a id="li6Mod" class="grisClaro enlaceSimple2" style="cursor:pointer">
+                              <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <strong>
+                                Disposiciones Fiscales pendientes de publicar en DOF
+                              </strong>
+                            </h4>
+                            </div>
+                          </a>
+                      </li>
                        <!-- <div id="ulModifica" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
