@@ -291,17 +291,23 @@ function get3Instructivo(){
   tipo = 25;
   getLegislaciones(tipo)
   mostrarOtras();
+  limiarMenuNivel1();
+  $('#li3Instructivoli').addClass('activoBorde');
 }
 
 function get4leyes(){
   tipo = 26;
   getLegislaciones(tipo)
   mostrarOtras();
+  limiarMenuNivel1();
+  $('#li4leyesli').addClass('activoBorde');
 }
 function get5manual(){
   tipo = 27;
   getLegislaciones(tipo)
   mostrarOtras();
+  limiarMenuNivel1();
+  $('#li5manualli').addClass('activoBorde');
 }
 function get6Mod(){
   tipo = 28;
@@ -313,6 +319,8 @@ function get6Otras(){
   tipo = 29;
   getLegislaciones(tipo)
   mostrarOtras();
+  limiarMenuNivel1();
+  $('#li6Otrasli').addClass('activoBorde');
 }
 
 function get7Resolucion(){
@@ -456,7 +464,8 @@ function get10Revision(){
   tipo = 47;
   getLegislaciones(tipo)
   mostrarOtras();
-
+  limiarMenuNivel1();
+  $('#li10Revisionli').addClass('activoBorde');
 }
 
 function getTesis(){
@@ -703,4 +712,12 @@ function limpiarTratados(){
   $('#li2Orgli').removeClass('activoBorde');
   $('#li2Hojasli').removeClass('activoBorde');
   $('#li2Comercioli').removeClass('activoBorde');
+}
+function limiarMenuNivel1(){
+  $('#li6Modli').removeClass('activoBorde');
+  $('#li6Otrasli').removeClass('activoBorde');
+  $('#li4leyesli').removeClass('activoBorde');
+  $('#li10Revisionli').removeClass('activoBorde');
+  $('#li5manualli').removeClass('activoBorde');
+  $('#li3Instructivoli').removeClass('activoBorde');
 }

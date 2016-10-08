@@ -231,7 +231,7 @@
 
 
                     <div class="panel panel-default">
-                
+
                       <li id="li6Modli" class="liInfoteca">
                           <a id="li6Mod" class="grisClaro enlaceSimple2" style="cursor:pointer">
                               <div class="panel-heading">
@@ -289,15 +289,20 @@
                     </div>
 
                     <div class="panel panel-default">
-                      <a id="li6Otras" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <strong>
-                            Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
-                          </strong>
-                        </h4>
-                      </div>
-                      </a>
+
+                      <li id="li6Otrasli" class="liInfoteca">
+                          <a id="li6Otras" class="grisClaro enlaceSimple2" style="cursor:pointer">
+                              <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <strong>
+                                Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
+                              </strong>
+                            </h4>
+                            </div>
+                          </a>
+                      </li>
+
+
                     <!--    <div id="ulCo" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
@@ -368,17 +373,21 @@
     </div>
 
     <div class="panel panel-default">
-      <a id="li4leyes" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <strong>
-            Acuerdos y decretos
-          </strong>
-        </h4>
-      </div>
-      </a>
-      <div id="ulLd" class="panel-collapse collapse">
+
+      <li id="li4leyesli" class="liInfoteca">
+          <a id="li4leyes" class="grisClaro enlaceSimple2" style="cursor:pointer">
+              <div class="panel-heading">
+            <h4 class="panel-title">
+              <strong>
+                Acuerdos y decretos
+              </strong>
+            </h4>
+            </div>
+          </a>
+      </li>
     <!--
+      <div id="ulLd" class="panel-collapse collapse">
+
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
                     <li id="liLimite" class="liInfoteca">
                         <a class="grisClaro " id="li4leyes"  style="cursor:pointer">
@@ -388,8 +397,8 @@
                         </a>
                     </li>
         </ul>
-        -->
-      </div>
+
+      </div>   -->
     </div>
 
     <div class="panel panel-default">
@@ -558,7 +567,7 @@
 
 
     <div class="panel panel-default">
-      <a id="li10Revision" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
+    <!--   <a id="li10Revision" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -567,6 +576,18 @@
         </h4>
       </div>
       </a>
+      -->
+      <li id="li10Revisionli" class="liInfoteca">
+          <a id="li10Revision" class="grisClaro enlaceSimple2" style="cursor:pointer">
+              <div class="panel-heading">
+            <h4 class="panel-title">
+              <strong>
+                  Revisión admnistrativa
+              </strong>
+            </h4>
+            </div>
+          </a>
+      </li>
     <!--      <div id="ulResFA" class="panel-collapse collapse">
 
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
@@ -591,7 +612,7 @@
 
 
     <div class="panel panel-default">
-      <a id="li5manual" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
+    <!--    <a id="li5manual" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -600,6 +621,18 @@
         </h4>
       </div>
       </a>
+-->
+      <li id="li5manualli" class="liInfoteca">
+          <a id="li5manual" class="grisClaro enlaceSimple2" style="cursor:pointer">
+              <div class="panel-heading">
+            <h4 class="panel-title">
+              <strong>
+                  Manuales
+              </strong>
+            </h4>
+            </div>
+          </a>
+      </li>
     <!--   <div id="ulLa"  class="panel-collapse collapse">
 
         <ul class="colorNav liInfoteca" style="list-style-type: none">
@@ -616,7 +649,7 @@
     </div>
 
     <div class="panel panel-default">
-      <a id="li3Instructivo" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
+      <!--  <a id="li3Instructivo" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -625,6 +658,18 @@
         </h4>
       </div>
       </a>
+      -->
+            <li id="li3Instructivoli" class="liInfoteca">
+                <a id="li3Instructivo" class="grisClaro enlaceSimple2" style="cursor:pointer">
+                    <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <strong>
+                        Instructivo de operación para la recepción de contribuciones al comercio exterior
+                    </strong>
+                  </h4>
+                  </div>
+                </a>
+            </li>
     <!--   <div id="ulSS"  class="panel-collapse collapse">
 
         <ul class="colorNav liInfoteca" style="list-style-type: none">
