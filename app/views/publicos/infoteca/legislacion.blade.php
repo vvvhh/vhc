@@ -63,7 +63,7 @@
         <div class="col-md-12   transladarDerecha" >
           <button id="titConstitucion" class="btn btn-primary col-md-2"><i class="fa fa-book"></i> Constituciones Políticas</button>
           <button id="titCodigo"      class="btn btn-primary col-md-1"><i class="fa fa-book"></i> Códigos</button>
-          <button id="titLeyes"       class="btn btn-primary col-md-2"><i class="fa fa-book"></i> Leyes federales</button>
+          <button id="titLeyes"       class="btn btn-primary col-md-2"><i class="fa fa-book"></i> Legislación</button>
           <button id="titReglamentos" class="btn btn-primary col-md-2"><i class="fa fa-book"></i> Reglamentos</button>
           <!--    <button id="titEstatutos"   class="btn btn-primary col-md-2"><i class="fa fa-book"></i> Estatutos</button>-->
           <button id="titEstatal"   class="btn btn-primary col-md-2"><i class="fa fa-book"></i> Legislación estatal</button>
