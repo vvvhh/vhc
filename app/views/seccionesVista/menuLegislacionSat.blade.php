@@ -372,7 +372,7 @@
 
     </div>
 
-    <div class="panel panel-default">
+  <!--    <div class="panel panel-default">
 
       <li id="li4leyesli" class="liInfoteca">
           <a id="li4leyes" class="grisClaro enlaceSimple2" style="cursor:pointer">
@@ -385,21 +385,9 @@
             </div>
           </a>
       </li>
-    <!--
-      <div id="ulLd" class="panel-collapse collapse">
 
-        <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                    <li id="liLimite" class="liInfoteca">
-                        <a class="grisClaro " id="li4leyes"  style="cursor:pointer">
-                          <p>
-                            Acuerdos y decretos
-                          </p>
-                        </a>
-                    </li>
-        </ul>
-
-      </div>   -->
     </div>
+    -->
 
     <div class="panel panel-default">
       <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulTesis">

@@ -352,6 +352,12 @@
         </div>
       </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <small>Nota número de vacantes: <span class="badge badge-info" align="right" title="Número de vacantes">1</span></small>
+        </div>
+      </div>
+
     </div>  <!-- Well -->
 
 @stop

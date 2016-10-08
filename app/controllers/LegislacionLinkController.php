@@ -64,7 +64,7 @@ class LegislacionLinkController extends BaseController {
       'adm' => Input::get('adm')
     );
 
-    $validaciones = array('buscarLey' => array('required', 'regex:/^([0-9a-zA-ZáéíóúüÜÁÉÍÓÚñÑ\-\s\,\.])+$/')
+    $validaciones = array('buscarLey' => array('required')
                           );
     $validator = Validator::make($data , $validaciones);
     if ($validator->fails()){

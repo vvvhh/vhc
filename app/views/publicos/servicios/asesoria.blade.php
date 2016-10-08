@@ -102,13 +102,13 @@
                 <li>	Observación de los riesgos que pudiera generar una asignación equivocada. </li>
                 <li>	Así como el diseño de tácticas financieras que permitan resolver problemas de cartera vencida, buscando condiciones de negociación acordes a la capacidad de pago de nuestro cliente. </li>
                 <li>
-                  	Due Diligence estratégico.
+                  	Proceso de Due Diligence estratégico.
                 </li>
                 <li>
-                  	Due Diligence operativo.
+                  	Proceso de Due Diligence operativo.
                 </li>
                 <li>
-                  	Due Diligence financiero/contable.
+                  	Proceso de Due Diligence financiero/contable.
                 </li>
               </ul>
 
