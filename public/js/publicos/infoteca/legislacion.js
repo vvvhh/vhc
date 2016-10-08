@@ -68,7 +68,9 @@ var liTrat1=$('#liTrat1'),
 var liPld1=$('#liPld1'),
     liPld2=$('#liPld2'),
     liPld3=$('#liPld3');
-
+var liDec1=$('#liDec1'),
+    liDec2=$('#liDec2'),
+    liDec3=$('#liDec3');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -567,6 +569,27 @@ function getPld3(){
   $('#liPld3li').addClass('activoBorde');
 }
 
+function getDec1(){
+  tipo = 57;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarOtross();
+  $('#liDec1li').addClass('activoBorde');
+}
+function getDec2(){
+  tipo = 58;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarOtross();
+  $('#liDec2li').addClass('activoBorde');
+}
+function getDec3(){
+  tipo = 59;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarOtross();
+  $('#liDec3li').addClass('activoBorde');
+}
 
 function mostrarOtras(){
   menuLegislacion.removeClass('hidden');
@@ -636,74 +659,6 @@ $(document).on('ready', function(){
   intActual.addEventListener("input", comprobar);
 });
 
-btnBuscar.on('click',buscarLegislacion);
-
-titConstitucion.on('click', getConstitucion);
-titCodigo.on('click',getCodigo);
-titLeyes.on('click',getLeyes);
-titReglamentos.on('click',getReglamentos);
-titEstatutos.on('click',getEstatutos);
-titOtras.on('click',tituloOtras);
-titEstatal.on('click', getEstatal);
-titNOM.on('click',getNom);
-
-liCriNormativo.on('click',getCriNormativo);
-liCriAplicacion.on('click',getCriAplicacion);
-liCriVinculativos.on('click',getCriVinculativos);
-liCriProcedimientos.on('click',getCriProcedimientos);
-liCriCPR.on('click',getCriCPR);
-//liInfoteca.on('click',getInfoteca);
-
-li2Codigo.on('click',get2Codigo);
-li2Impue.on('click',get2Impue);
-li2Ieps.on('click',get2Ieps);
-li2Isan.on('click',get2Isan);
-li2Iva.on('click',get2Iva);
-li2Istuv.on('click',get2Istuv);
-li2Hidroc.on('click',get2Hidroc);
-li2Ide.on('click',get2Ide);
-li2Org.on('click',get2Org);
-li2Hojas.on('click',get2Hojas);
-li2Comercio.on('click',get2Comercio);
-
-li3Instructivo.on('click',get3Instructivo);
-li4leyes.on('click',get4leyes);
-li5manual.on('click',get5manual);
-li6Mod.on('click',get6Mod);
-li6Otras.on('click',get6Otras);
-
-li7Resolucion.on('click',get7Resolucion);
-li7Resolucion2.on('click',get7Resolucion2);
-li7Resolucion3.on('click',get7Resolucion3);
-li7Resolucion4.on('click',get7Resolucion4);
-li7Resolucion5.on('click',get7Resolucion5);
-li7Resolucion6.on('click',get7Resolucion6);
-li7Resolucion7.on('click',get7Resolucion7);
-li7Resolucion8.on('click',get7Resolucion8);
-
-li8Comercio1.on('click',get8Comercio1);
-li8Comercio2.on('click',get8Comercio2);
-li8Comercio3.on('click',get8Comercio3);
-li8Comercio4.on('click',get8Comercio4);
-li8Comercio5.on('click',get8Comercio5);
-li7Resolucion9.on('click',get7Resolucion9);
-li7Resolucion10.on('click',get7Resolucion10);
-li7Resolucion11.on('click',get7Resolucion11);
-li7Resolucion12.on('click',get7Resolucion12);
-
-li9Res1.on('click',get9Res1);
-li9Res2.on('click',get9Res2);
-
-li10Revision.on('click',get10Revision);
-
-liTesis.on('click',getTesis);
-liTesis2.on('click',getTesis2);
-liTrat1.on('click',getTrat1);
-liTrat2.on('click',getTrat2);
-
-liPld1.on('click',getPld1);
-liPld2.on('click',getPld2);
-liPld3.on('click',getPld3);
 $( "a.aMenuLeg" ).on( "click", function() {
     limiarMenuNivel1();
 });
@@ -779,3 +734,82 @@ function limiarMenuNivel1(){
   $('#li5manualli').removeClass('activoBorde');
   $('#li3Instructivoli').removeClass('activoBorde');
 }
+function limpiarOtross(){
+  $('#liDec1li').removeClass('activoBorde');
+  $('#liDec2li').removeClass('activoBorde');
+  $('#liDec3li').removeClass('activoBorde');
+
+}
+
+btnBuscar.on('click',buscarLegislacion);
+
+titConstitucion.on('click', getConstitucion);
+titCodigo.on('click',getCodigo);
+titLeyes.on('click',getLeyes);
+titReglamentos.on('click',getReglamentos);
+titEstatutos.on('click',getEstatutos);
+titOtras.on('click',tituloOtras);
+titEstatal.on('click', getEstatal);
+titNOM.on('click',getNom);
+
+liCriNormativo.on('click',getCriNormativo);
+liCriAplicacion.on('click',getCriAplicacion);
+liCriVinculativos.on('click',getCriVinculativos);
+liCriProcedimientos.on('click',getCriProcedimientos);
+liCriCPR.on('click',getCriCPR);
+//liInfoteca.on('click',getInfoteca);
+
+li2Codigo.on('click',get2Codigo);
+li2Impue.on('click',get2Impue);
+li2Ieps.on('click',get2Ieps);
+li2Isan.on('click',get2Isan);
+li2Iva.on('click',get2Iva);
+li2Istuv.on('click',get2Istuv);
+li2Hidroc.on('click',get2Hidroc);
+li2Ide.on('click',get2Ide);
+li2Org.on('click',get2Org);
+li2Hojas.on('click',get2Hojas);
+li2Comercio.on('click',get2Comercio);
+
+li3Instructivo.on('click',get3Instructivo);
+li4leyes.on('click',get4leyes);
+li5manual.on('click',get5manual);
+li6Mod.on('click',get6Mod);
+li6Otras.on('click',get6Otras);
+
+li7Resolucion.on('click',get7Resolucion);
+li7Resolucion2.on('click',get7Resolucion2);
+li7Resolucion3.on('click',get7Resolucion3);
+li7Resolucion4.on('click',get7Resolucion4);
+li7Resolucion5.on('click',get7Resolucion5);
+li7Resolucion6.on('click',get7Resolucion6);
+li7Resolucion7.on('click',get7Resolucion7);
+li7Resolucion8.on('click',get7Resolucion8);
+
+li8Comercio1.on('click',get8Comercio1);
+li8Comercio2.on('click',get8Comercio2);
+li8Comercio3.on('click',get8Comercio3);
+li8Comercio4.on('click',get8Comercio4);
+li8Comercio5.on('click',get8Comercio5);
+li7Resolucion9.on('click',get7Resolucion9);
+li7Resolucion10.on('click',get7Resolucion10);
+li7Resolucion11.on('click',get7Resolucion11);
+li7Resolucion12.on('click',get7Resolucion12);
+
+li9Res1.on('click',get9Res1);
+li9Res2.on('click',get9Res2);
+
+li10Revision.on('click',get10Revision);
+
+liTesis.on('click',getTesis);
+liTesis2.on('click',getTesis2);
+liTrat1.on('click',getTrat1);
+liTrat2.on('click',getTrat2);
+
+liPld1.on('click',getPld1);
+liPld2.on('click',getPld2);
+liPld3.on('click',getPld3);
+
+liDec1.on('click',getDec1);
+liDec2.on('click',getDec2);
+liDec3.on('click',getDec3);

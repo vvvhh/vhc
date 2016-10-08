@@ -20,7 +20,7 @@
     <div class="row">
       <div class="col-lg-12">
         <br>
-        <h1 class="tituloEntrada tamTitulo grisClaro"><i class="fa fa-gavel"></i> Servicio Físcal</h1>
+        <h1 class="tituloEntrada tamTitulo grisClaro"><i class="fa fa-gavel"></i> Servicio Fiscal</h1>
       </div>
     </div>
 
@@ -52,7 +52,7 @@ Derivado del profundo estudio de las leyes en la materia, así como de reglament
                   <li>Due diligence fiscal</li>
                 </ul>
               </p>
-              
+
             </div>
           </div>
       </div>

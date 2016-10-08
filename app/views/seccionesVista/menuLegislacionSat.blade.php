@@ -288,33 +288,44 @@
                       </div>
                     </div>
 
+
+
                     <div class="panel panel-default">
-
-                      <li id="li6Otrasli" class="liInfoteca">
-                          <a id="li6Otras" class="grisClaro enlaceSimple2" style="cursor:pointer">
-                              <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <strong>
-                                Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
-                              </strong>
-                            </h4>
-                            </div>
-                          </a>
-                      </li>
-
-
-                    <!--    <div id="ulCo" class="panel-collapse collapse">
+                      <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulOtrasD">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <strong>
+                          Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
+                          </strong>
+                        </h4>
+                      </div>
+                      </a>
+                        <div id="ulOtrasD" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                                     <li id="liMultas" class="liInfoteca">
-                                         <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
-                                           <p>- Multas ley aduanera</p>
+                                     <li id="liDec1li" class="liInfoteca">
+                                         <a class="grisClaro " id="liDec1"  style="cursor:pointer">
+                                           <p>
+                                             - Decretos
+                                           </p>
                                          </a>
                                      </li>
-                        </ul>
-
+                                     <li id="liDec2li" class="liInfoteca">
+                                         <a class="grisClaro " id="liDec2"  style="cursor:pointer">
+                                           <p>
+                                             - Acuerdos
+                                           </p>
+                                         </a>
+                                     </li>
+                                     <li id="liDec3li" class="liInfoteca">
+                                         <a class="grisClaro " id="liDec3"  style="cursor:pointer">
+                                           <p>
+                                             - Otras
+                                           </p>
+                                         </a>
+                                     </li>
+                            </ul>
                       </div>
-                      -->
                     </div>
 
 
