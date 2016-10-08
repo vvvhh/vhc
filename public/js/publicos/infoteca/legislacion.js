@@ -292,7 +292,15 @@ function get3Instructivo(){
   getLegislaciones(tipo)
   mostrarOtras();
   limiarMenuNivel1();
-  $('#li3Instructivoli').addClass('activoBorde');
+  limpiarTratados();
+   limpiarCriterio();
+   limpiarResolucion();
+   limpiarReglas();
+   limpiarPld();
+   resolucionFacilidades();
+   limpiarTesis();
+   limpiarTratados();
+   $('#li3Instructivoli').addClass('activoBorde');
 }
 
 function get4leyes(){
@@ -300,6 +308,14 @@ function get4leyes(){
   getLegislaciones(tipo)
   mostrarOtras();
   limiarMenuNivel1();
+  limpiarTratados();
+  limpiarCriterio();
+  limpiarResolucion();
+  limpiarReglas();
+  limpiarPld();
+  resolucionFacilidades();
+  limpiarTesis();
+  limpiarTratados();
   $('#li4leyesli').addClass('activoBorde');
 }
 function get5manual(){
@@ -307,19 +323,43 @@ function get5manual(){
   getLegislaciones(tipo)
   mostrarOtras();
   limiarMenuNivel1();
+  limpiarTratados();
+  limpiarCriterio();
+  limpiarResolucion();
+  limpiarReglas();
+  limpiarPld();
+  resolucionFacilidades();
+  limpiarTesis();
+  limpiarTratados();
   $('#li5manualli').addClass('activoBorde');
 }
 function get6Mod(){
   tipo = 28;
   getLegislaciones(tipo)
   mostrarOtras();
-  $('#li6Modli').addClass('activoBorde');
+  limpiarTratados();
+   limpiarCriterio();
+   limpiarResolucion();
+   limpiarReglas();
+   limpiarPld();
+   resolucionFacilidades();
+   limpiarTesis();
+   limpiarTratados();
+   $('#li6Modli').addClass('activoBorde');
 }
 function get6Otras(){
   tipo = 29;
   getLegislaciones(tipo)
   mostrarOtras();
   limiarMenuNivel1();
+  limpiarTratados();
+  limpiarCriterio();
+  limpiarResolucion();
+  limpiarReglas();
+  limpiarPld();
+  resolucionFacilidades();
+  limpiarTesis();
+  limpiarTratados();
   $('#li6Otrasli').addClass('activoBorde');
 }
 
@@ -465,6 +505,14 @@ function get10Revision(){
   getLegislaciones(tipo)
   mostrarOtras();
   limiarMenuNivel1();
+  limpiarTratados();
+  limpiarCriterio();
+  limpiarResolucion();
+  limpiarReglas();
+  limpiarPld();
+  resolucionFacilidades();
+  limpiarTesis();
+  limpiarTratados();
   $('#li10Revisionli').addClass('activoBorde');
 }
 
@@ -656,6 +704,9 @@ liTrat2.on('click',getTrat2);
 liPld1.on('click',getPld1);
 liPld2.on('click',getPld2);
 liPld3.on('click',getPld3);
+$( "a.aMenuLeg" ).on( "click", function() {
+    limiarMenuNivel1();
+});
 
 function limpiarCriterio(){
   $('#liCriNormativoli').removeClass('activoBorde');
@@ -663,6 +714,7 @@ function limpiarCriterio(){
   $('#liCriVinculativosli').removeClass('activoBorde');
   $('#liCriProcedimientosli').removeClass('activoBorde');
   $('#liCriCPRli').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function limpiarResolucion(){
   $('#li7Resolucionli').removeClass('activoBorde');
@@ -677,6 +729,7 @@ function limpiarResolucion(){
   $('#li7Resolucion10li').removeClass('activoBorde');
   $('#li7Resolucion11li').removeClass('activoBorde');
   $('#li7Resolucion12li').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function limpiarReglas(){
   $('#li8Comercio1li').removeClass('activoBorde');
@@ -684,19 +737,23 @@ function limpiarReglas(){
   $('#li8Comercio3li').removeClass('activoBorde');
   $('#li8Comercio4li').removeClass('activoBorde');
   $('#li8Comercio5li').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function limpiarPld(){
   $('#liPld1li').removeClass('activoBorde');
   $('#liPld2li').removeClass('activoBorde');
   $('#liPld3li').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function resolucionFacilidades(){
   $('#li9Res1li').removeClass('activoBorde');
   $('#li9Res2').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function limpiarTesis(){
   $('#liTesisli').removeClass('activoBorde');
   $('#liTesis2li').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function limpiarTratados(){
   $('#liTrat1li').removeClass('activoBorde');
@@ -712,6 +769,7 @@ function limpiarTratados(){
   $('#li2Orgli').removeClass('activoBorde');
   $('#li2Hojasli').removeClass('activoBorde');
   $('#li2Comercioli').removeClass('activoBorde');
+  limiarMenuNivel1();
 }
 function limiarMenuNivel1(){
   $('#li6Modli').removeClass('activoBorde');

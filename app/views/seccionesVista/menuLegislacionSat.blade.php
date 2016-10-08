@@ -21,7 +21,7 @@
 <div class="panel-group" id="accordion">
 
           <div class="panel panel-default">
-            <a class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
+            <a class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulCo">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <strong>
@@ -128,7 +128,7 @@
 
 
           <div class="panel panel-default">
-            <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
+            <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulCom">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <strong>
@@ -189,7 +189,7 @@
 
 
                     <div class="panel panel-default">
-                      <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulPLD">
+                      <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulPLD">
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <strong>
@@ -258,7 +258,7 @@
                     </div>
 
                     <div class="panel panel-default">
-                      <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulResFA">
+                      <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulResFA">
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <strong>
@@ -320,7 +320,7 @@
 
 
     <div class="panel panel-default ">
-      <a  class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulIFe">
+      <a  class="enlaceSimple2 aMenuLeg" data-toggle="collapse" data-parent="#accordion" href="#ulIFe">
       <div class="panel-heading">
         <h4 class="panel-title">
         <strong>  Criterios
@@ -402,7 +402,7 @@
     </div>
 
     <div class="panel panel-default">
-      <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulTesis">
+      <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulTesis">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -433,7 +433,7 @@
     </div>
 
     <div class="panel panel-default">
-      <a id="" class="enlaceSimple2"data-toggle="collapse" data-parent="#accordion" href="#ulTratados">
+      <a id="" class="enlaceSimple2 aMenuLeg"data-toggle="collapse" data-parent="#accordion" href="#ulTratados">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
@@ -465,7 +465,7 @@
 
 
     <div class="panel panel-default">
-        <a class="enlaceSimple2" data-toggle="collapse" data-parent="#accordion" href="#ulFi">
+        <a class="enlaceSimple2 aMenuLeg" data-toggle="collapse" data-parent="#accordion" href="#ulFi">
       <div class="panel-heading">
         <h4 class="panel-title">
           <strong>
