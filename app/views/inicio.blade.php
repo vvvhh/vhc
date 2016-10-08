@@ -549,7 +549,7 @@
     <!-- *********************************F A C E B O O K ******************************************************************************** -->
        <div class=" col-md-4 col-sm-12 col-xs-12  lateral">
            <h3 class="text-center"><i class="fa fa-facebook-square facebookEstatico"></i> Actividad en facebook</h3>
-            <div class="fb-page" data-href="https://www.facebook.com/VazquezHernandezContadoresSC/" data-tabs="timeline" data-height="400" data-width="390" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/VazquezHernandezContadoresSC/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VazquezHernandezContadoresSC/">Vázquez Hernández Contadores S. C.</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/VazquezHernandezContadoresSC/" data-tabs="timeline" data-height="400"  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/VazquezHernandezContadoresSC/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VazquezHernandezContadoresSC/">Vázquez Hernández Contadores S. C.</a></blockquote></div>
        </div>
       </div>
     </aside>
