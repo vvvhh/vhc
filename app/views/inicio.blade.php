@@ -20,6 +20,7 @@
   @include('seccionesVista.barraNavegacionPagina')
 <!-- carousel -->
 <!-- {{ HTML::style('css/inicio.css', array('media'=>"none",'onload'=>"if(media!='all')media='all'")) }} -->
+
 <div id="carouselPrincipal" class="carousel slide" >
 
   <ol class="carousel-indicators transladarAbajo">
@@ -122,6 +123,27 @@
 
 
 </div>
+
+
+<!--
+<div class="">
+ <div class="row">
+     <div class="footer-ribbon transladarIzquierda2" style="left: 0">
+
+         <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="enlaceSimple">
+           <h4 class="txtRibbon" style="margin: 0;padding: 5px 10px">
+
+             ¡Únete a nuestro<br>
+              gran equipo!
+              <br>
+              Consulta nuestras <br>
+              vacantes
+           </h4  >
+         </a>
+     </div>
+ </div>
+</div>
+-->
 <!-- finCarousel -->
 <div id="banner" class="transladarOpaco2">
           <?php
@@ -152,26 +174,24 @@
           <marquee  behavior="scroll" scrollamount=3 direction="left"><a class="enlaceSimple" href="<?php echo $feed[3]->get_image_link(); ?>" target="_blanck" ><?php echo $textoMarquee; ?> </a> <a class="enlaceSimple"> <?php echo $textoMarquee1?></a></marquee>
      </div>
 
+
 <!--Contenido pagina-->
 <div class="fondo paddingInicio" style="background-image:url('../img/inicio/101152541.jpg');">
 
-  <div class="">
-  <div class="row">
-      <div class="footer-ribbon transladarIzquierda2" style="left: 0">
-      <!--    <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=0')}}" class="enlaceSimple">  -->
-          <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="enlaceSimple">
-            <h4 class="txtRibbon" style="margin: 0;padding: 5px 10px">
+  <div class="row botonVacantes">
+    <div class="col-md-2">
+      <br><br>
+      <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" id="btnEncuesta"type="button" class="btn btn-md btn-primary animacionEscalaLoop" >
 
-              ¡Únete a nuestro<br>
-               gran equipo!
-               <br>
-               Consulta nuestras <br>
-               vacantes
-            </h4  >
-          </a>
-      </div>
+        ¡Únete a nuestro<br>
+         equipo! <br>
+        Consulta nuestras <br>
+        vacantes
+      </a>
+    </div>
   </div>
-</div>
+
+
 
   <div class="row">
     <section  class="col-md-8">

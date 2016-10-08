@@ -219,7 +219,7 @@ footer .footer-below {
   animation:         transladarAB 2s;
 }
 .animacionEscalaLoop{
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: escala;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -487,6 +487,7 @@ html {
 }
 #carouselPrincipal{
   height:97%;
+
 }
 .paddingInicio{
   padding:0% 5% 2% 5%;
@@ -622,7 +623,14 @@ body {
 }
 
 /*****************************/
-
+.botonVacantes{
+  z-index: 10;
+  right: 0;
+  top: 10%;
+  position: absolute;
+  float: left;
+}
+/*
 div.footer-ribbon {
     background-color: rgba(38,50,56, 0.8);
     margin: 68px 0 0 0px;
@@ -641,3 +649,4 @@ div.footer-ribbon {
 .txtRibbon{
   color:#ffffff;
 }
+*/

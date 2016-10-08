@@ -18,11 +18,11 @@
 
             <div class="row">
 
-             <div class="col-md-2 transladarIzquierda z1">
+             <div class="col-md-2 transladarIzquierda">
                     @include('seccionesVista.menuIndicadoresF')    <!-- MUESTRA MENU DE ARTICULOS menuArticulo.blde.php -->
               </div>
 
-              <div class="col-md-10 animacionContenido z2">
+              <div class="col-md-10 animacionContenido">
   <!--  -->     @yield('content') <!-- MUESTRA EL CONTENIDO DEL ARTICULO -->
               </div>
 
