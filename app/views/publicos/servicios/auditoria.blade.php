@@ -65,6 +65,7 @@
                 </ol>
               </p>
 
+<!--
               <p>
                 Due diligence:
               </p>
@@ -86,6 +87,7 @@
                 </li>
 
               </ol>
+              -->
 
               </div>
             <!--    <div class="col-md-12">
@@ -93,6 +95,23 @@
 
               </div>
               -->
+              </div>
+              <div class="ro">
+                <div class="col-md-12">
+                  Proceso de Due Diligence, en sus principales pilares:
+                  <ol>
+                    <li>	Due Diligence estratégico: enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.
+                    </li>
+                    <li>	Due Diligence operativo: enfocado a detectar las áreas de riesgo en la operación.
+                    </li>
+                    <li>	Due Diligence financiero-Contable: enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.
+                    </li>
+                    <li>	Due Diligence legal: enfocado a dar el soporte estructural a las negociaciones con el cumplimiento de las disposiciones legales aplicables.
+                    </li>
+                    <li>	Due Diligence fiscal: enfocado en el cumplimiento de las disposiciones fiscales, analizando la contabilidad generada, los costos de los inventarios, las prestaciones a empleados y otros aspectos.
+                    </li>
+                  </ol>
+                </div>
               </div>
           </div>
         </div>

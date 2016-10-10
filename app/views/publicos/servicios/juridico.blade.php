@@ -116,7 +116,7 @@
           Due Diligence
         </h3>
         <p class="formatoTexto text-justify ">
-          Revisión del cumplimiento de las disposiciones legales aplicables a la entidad. Con especial atención a litigios actuales o amenaza de ellos.
+          Soporte estructural de las negociaciones, llevando a cabo el proceso de revisión del cumplimiento de las disposiciones legales aplicables a la entidad, con especial atención a litigios actuales o amenaza de ellos.
         </p>
       </div>
 

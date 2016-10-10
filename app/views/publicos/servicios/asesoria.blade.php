@@ -101,16 +101,19 @@
                 <li>	La evaluación del proceso de análisis para el otorgamiento de créditos. </li>
                 <li>	Observación de los riesgos que pudiera generar una asignación equivocada. </li>
                 <li>	Así como el diseño de tácticas financieras que permitan resolver problemas de cartera vencida, buscando condiciones de negociación acordes a la capacidad de pago de nuestro cliente. </li>
-                <li>
-                  	Proceso de Due Diligence estratégico.
-                </li>
-                <li>
-                  	Proceso de Due Diligence operativo.
-                </li>
-                <li>
-                  	Proceso de Due Diligence financiero/contable.
-                </li>
+
               </ul>
+
+              Due Diligence
+              <br>
+              Proceso de Due Diligence efectivo que conduzca a operaciones bien planeadas, que determine el carácter exacto y completo de la negociación, sometiendo a escrutinio a la entidad objetivo en su conjunto.
+              <br><br>
+              <ul class="formatoTexto">
+                  <li>	Due Diligence estratégico: enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.</li>
+                  <li>	Due Diligence Operativo: enfocado a detectar las áreas de riesgo en la operación.</li>
+                  <li>	Due Diligence Financiero-Contable: enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.</li>
+
+                </ul>
 
           </div>
         </div>
