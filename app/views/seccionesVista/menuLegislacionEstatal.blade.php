@@ -23,8 +23,8 @@
 
 
     <div class="panel panel-default">
-        <li id="li6Modli" class="liInfoteca">
-            <a id="li6Mod" class="grisClaro enlaceSimple2" style="cursor:pointer">
+        <li id="liLegEs1li" class="liInfoteca">
+            <a id="liLegEs1" class="grisClaro enlaceSimple2" style="cursor:pointer">
                 <div class="panel-heading">
                     <h4 class="panel-title">
                         <strong>
@@ -40,8 +40,8 @@
 
     <div class="panel panel-default">
 
-      <li id="li10Revisionli" class="liInfoteca">
-          <a id="li10Revision" class="grisClaro enlaceSimple2" style="cursor:pointer">
+      <li id="liLegEs2li" class="liInfoteca">
+          <a id="liLegEs2" class="grisClaro enlaceSimple2" style="cursor:pointer">
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <strong>

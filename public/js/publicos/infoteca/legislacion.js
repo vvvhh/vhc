@@ -72,6 +72,10 @@ var liPld1=$('#liPld1'),
 var liDec1=$('#liDec1'),
     liDec2=$('#liDec2'),
     liDec3=$('#liDec3');
+var liLegEs1=$('#liLegEs1'),
+    liLegEs2=$('#liLegEs2'),
+    liLegEs1li=$('#liLegEs1li'),
+    liLegEs2li=$('#liLegEs2li');
 
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
@@ -166,12 +170,7 @@ function getOtras(){
   ocultarLegEstatal();
   getLegislaciones(tipo)
 }
-function getEstatal(){
-  tipo = 7;
-  ocultarOtras();
-  ocultarLegEstatal();
-  getLegislaciones(tipo)
-}
+
 function getNom(){
   tipo = 8;
   ocultarOtras();
@@ -179,6 +178,24 @@ function getNom(){
   getLegislaciones(tipo)
 }
 
+function getEstatal(){
+  tipo = 7;
+  ocultarOtras();
+  //ocultarLegEstatal();
+  getLegislaciones(tipo)
+  mostrarLegEstatal();
+  limpiarLegislacion();
+  liLegEs1li.addClass('activoBorde');
+}
+function getLegEs2(){
+  tipo = 60;
+  ocultarOtras();
+  //ocultarLegEstatal();
+  getLegislaciones(tipo)
+  mostrarLegEstatal();
+  limpiarLegislacion();
+  liLegEs2li.addClass('activoBorde');
+}
 
 function getCriNormativo(){
   tipo = 9;
@@ -617,6 +634,7 @@ function tituloOtras(){
 }
 function tituloLegEstatal(){
   tbodyLeyes.html('');
+  ocultarOtras();
   mostrarLegEstatal();
 }
 
@@ -624,7 +642,6 @@ function mostrarLegEstatal(){
   menuLegEstatal.removeClass('hidden');
   divContenido.removeClass('col-md-12');
   divContenido.addClass('col-md-10');
-  ocultarOtras();
 }
 
 function ocultarLegEstatal(){
@@ -764,7 +781,10 @@ function limpiarOtross(){
   $('#liDec1li').removeClass('activoBorde');
   $('#liDec2li').removeClass('activoBorde');
   $('#liDec3li').removeClass('activoBorde');
-
+}
+function limpiarLegislacion(){
+  liLegEs1li.removeClass('activoBorde');
+  liLegEs2li.removeClass('activoBorde');
 }
 
 btnBuscar.on('click',buscarLegislacion);
@@ -840,3 +860,6 @@ liPld3.on('click',getPld3);
 liDec1.on('click',getDec1);
 liDec2.on('click',getDec2);
 liDec3.on('click',getDec3);
+
+liLegEs1.on('click',getEstatal);
+liLegEs2.on('click',getLegEs2);
