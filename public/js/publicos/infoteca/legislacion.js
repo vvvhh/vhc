@@ -776,7 +776,7 @@ titReglamentos.on('click',getReglamentos);
 titEstatutos.on('click',getEstatutos);
 titOtras.on('click',tituloOtras);
 //titEstatal.on('click', getEstatal);
-titEstatal.on('click', mostrarLegEstatal);
+titEstatal.on('click', tituloLegEstatal);
 titNOM.on('click',getNom);
 
 liCriNormativo.on('click',getCriNormativo);
