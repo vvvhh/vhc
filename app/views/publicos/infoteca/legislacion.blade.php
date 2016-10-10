@@ -75,6 +75,11 @@
         <div class="col-md-2 hidden" id="menuLegislacion">
                 @include('seccionesVista.menuLegislacionSat')
         </div>
+
+        <div class="col-md-2 hidden" id="menuLegEstatal">
+                @include('seccionesVista.menuLegislacionEstatal')
+        </div>
+
       <div class="col-md-12" id="divContenido">
         <div class="table-responsive tamTab" id="tblLeyes">
           <table class="table table-striped table-bordered table-hover">
@@ -83,6 +88,7 @@
         </div>  <!-- responsive -->
       </div>
       </div>
+
 
     </div> <!-- /Tabla de clientes -->
 

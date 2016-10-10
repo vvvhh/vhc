@@ -19,6 +19,7 @@ titEstatal = $('#titEstatal')
 titNOM =$('#titNOM');
 
 var menuLegislacion=$('#menuLegislacion'),
+    menuLegEstatal=$('#menuLegEstatal'),
     divContenido=$('#divContenido');
 var liCriNormativo=$('#liCriNormativo'),
     liCriAplicacion=$('#liCriAplicacion');
@@ -132,41 +133,49 @@ function limpiar(){
 function getConstitucion(){
   tipo = 1;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getCodigo(){
   tipo = 2;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getLeyes(){
   tipo = 3;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getReglamentos(){
   tipo = 4;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getEstatutos(){
   tipo = 5;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getOtras(){
   tipo = 6;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getEstatal(){
   tipo = 7;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 function getNom(){
   tipo = 8;
   ocultarOtras();
+  ocultarLegEstatal();
   getLegislaciones(tipo)
 }
 
@@ -596,13 +605,30 @@ function mostrarOtras(){
   divContenido.removeClass('col-md-12');
   divContenido.addClass('col-md-10');
 }
+function ocultarOtras(){
+  menuLegislacion.addClass('hidden');
+  divContenido.removeClass('col-md-10');
+  divContenido.addClass('col-md-12');
+}
 function tituloOtras(){
   tbodyLeyes.html('');
   mostrarOtras();
+  ocultarLegEstatal();
+}
+function tituloLegEstatal(){
+  tbodyLeyes.html('');
+  mostrarLegEstatal();
 }
 
-function ocultarOtras(){
-  menuLegislacion.addClass('hidden');
+function mostrarLegEstatal(){
+  menuLegEstatal.removeClass('hidden');
+  divContenido.removeClass('col-md-12');
+  divContenido.addClass('col-md-10');
+  ocultarOtras();
+}
+
+function ocultarLegEstatal(){
+  menuLegEstatal.addClass('hidden');
   divContenido.removeClass('col-md-10');
   divContenido.addClass('col-md-12');
 }
@@ -749,7 +775,8 @@ titLeyes.on('click',getLeyes);
 titReglamentos.on('click',getReglamentos);
 titEstatutos.on('click',getEstatutos);
 titOtras.on('click',tituloOtras);
-titEstatal.on('click', getEstatal);
+//titEstatal.on('click', getEstatal);
+titEstatal.on('click', mostrarLegEstatal);
 titNOM.on('click',getNom);
 
 liCriNormativo.on('click',getCriNormativo);
