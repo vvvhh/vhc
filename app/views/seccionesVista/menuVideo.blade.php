@@ -16,18 +16,20 @@
                       <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video2')}}">
                         - Discrepancia Fiscal</a>
                   </li>
-                    <li id="liVideo3">
-                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video3')}}">
-                        - Cumplimiento de las obligaciones fiscales cuando una persona fallece </a>
-                  </li>
-                    <li id="liVideo4">
-                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video4')}}">
-                        - Tarjetas de crédito</a>
-                  </li>
                   <li id="liVideo4">
                     <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video5')}}">
                       - Enajenación de bienes</a>
                 </li>
+                <li id="liVideo4">
+                  <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video4')}}">
+                    - Tarjetas de crédito</a>
+              </li>
+                    <li id="liVideo3">
+                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video3')}}">
+                        - Cumplimiento de las obligaciones fiscales cuando una persona fallece </a>
+                  </li>
+
+
               </ul>
         </li>
 
