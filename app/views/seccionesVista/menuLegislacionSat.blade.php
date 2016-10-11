@@ -295,7 +295,7 @@
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <strong>
-                          Otras disposiciones fiscales publicadas en el Diario Oficial de la Federación
+                          Otras disposiciones fiscales publicadas en el DOF, decretos, acuerdos y disposiciones
                           </strong>
                         </h4>
                       </div>
