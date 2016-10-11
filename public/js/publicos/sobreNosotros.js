@@ -28,7 +28,12 @@ var menuCodigoConducta=$('#menuCodigoConducta');
 
 function confianza(){
   titulo = "Confianza";
-  texto = "Texto Confianza";
+  texto = "La confianza en sí mismo es el primer secreto del éxito. Emerson <br>"+
+  "Cuando alguien te da su confianza, siempre te quedas en deuda con él. T. Capote. <br>"+
+  "Si uno quiere despertar conf|ianza, debe ser digno de confianza. S. Covey.<br>"+
+"La confianza viene de la disciplina y del entrenamiento. R. Kiyosaki.<br>"+
+"Si no tienes confianza, siempre encontrarás una forma de no ganar. C. Lewis.<br>"+
+"La confianza… prospera en la honestidad, el honor, en el carácter sagrado de las obligaciones, sobre la protección, y la fidelidad desinteresada en el rendimiento. Sin ellos no puedes vivir. F.D. Roosevelt <br>";
   mostrarTexto(titulo, texto)
 }
 
