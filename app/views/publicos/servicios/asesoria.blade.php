@@ -104,10 +104,8 @@
 
               </ul>
 
-              Due Diligence
-              <br>
-              Proceso de Due Diligence efectivo que conduzca a operaciones bien planeadas, que determine el carácter exacto y completo de la negociación, sometiendo a escrutinio a la entidad objetivo en su conjunto.
-              <br><br>
+              Proceso de Due Diligence
+                        
               <ul class="formatoTexto">
                   <li>	<a href="{{ URL::to('publicos/servicios/auditoria#tituloServicios')}}">Due Diligence estratégico:</a> enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.</li>
                   <li>	<a href="{{ URL::to('publicos/servicios/auditoria#tituloServicios')}}">Due Diligence Operativo:</a> enfocado a detectar las áreas de riesgo en la operación.</li>
