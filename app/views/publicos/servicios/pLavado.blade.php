@@ -50,7 +50,7 @@
                   <li>	Evaluación de la clasificación basada en el nivel de riesgo </li>
                   <li>	Identificación de operaciones de alto riesgo </li>
                   <li>	Actualización del perfil de alto riesgo </li>
-                  <li>	Proceso de Due Dilligence basado en el nivel de riesgo </li>
+                  <li><a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=7#tituloServicios')}}">	Proceso de Due Dilligence basado en el nivel de riesgo </a></li>
                   <li>	Elaboración o modificación del manual que condensa las políticas, criterios, medidas y procedimientos internos para el debido cumplimiento de la Ley Federal de Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, el reglamento de la misma, las reglas de carácter general y demás disposiciones de que de éstas emanen.</li>
                 </ul>
 

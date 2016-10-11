@@ -43,13 +43,13 @@
           <h3 class="grisObscuro  texto3d text-left tituloEntrada">
             Cumplimiento a las disposiciones legales
           </h3>
-          <p class="formatoTexto text-justify sangria">
+          <p class="formatoTexto text-justify">
             Para dar cumplimiento a las disposiciones legales realizamos un análisis de las áreas de impacto según sus actividades y nos cercioramos de que estén en cumplimiento con la legislación aplicable vigente, previendo y evitando posibles multas por parte de dependencias gubernamentales.
           </p>
           <h3 class="grisObscuro  texto3d text-left tituloEntrada">
             Derecho Corporativo
           </h3>
-          <p class="formatoTexto text-justify sangria">
+          <p class="formatoTexto text-justify">
             Buscamos la prevención y solución de controversias debidas a modificaciones en la composición de la sociedad. Tomamos las medidas de seguridad y equilibrios pertinentes incluyendo estatutos personalizados que incluyan las necesidades de la empresa, asesoramos en la celebración de asambleas resolviendo los acuerdos que toman los propios integrantes de la misma. Brindamos además la asesoría en la celebración de contratos, convenios y demás negociaciones que den cabida a oportunidades de crecimiento y éxito de su empresa.
           </p>
         </div>
@@ -113,7 +113,7 @@
         <div class="col-md-12">
 
         <h3 class="grisObscuro  texto3d text-center tituloEntrada">
-          <a href="{{ URL::to('publicos/servicios/auditoria#tituloServicios')}}">Due diligence legal </a>
+          <a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=4#tituloServicios')}}">Due diligence legal </a>
         </h3>
         <p class="formatoTexto text-justify ">
           Soporte estructural de las negociaciones, llevando a cabo el proceso de revisión del cumplimiento de las disposiciones legales aplicables a la entidad, con especial atención a litigios actuales o amenaza de ellos.

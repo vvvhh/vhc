@@ -96,19 +96,26 @@
               </div>
               -->
               </div>
-              <div class="ro">
+              <div class="row">
                 <div class="col-md-12">
-                  Proceso de Due Diligence, en sus principales pilares:
+                  <h4 id="tituloServicios" class="grisObscuro"><strong>Due Diligence </strong></h4>
+                  Proceso efectivo que conduzca a operaciones bien planeadas, que determine el carácter exacto y completo de la negociación, sometiendo a escrutinio a la entidad objetivo en su conjunto.
+                  <br><br>
+                  Por ello el proceso se desarrolla en sus principales pilares:
                   <ol>
-                    <li>	Due Diligence estratégico: enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.
+                    <li id="dueEstrategico">	Due Diligence estratégico: enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.
                     </li>
-                    <li>	Due Diligence operativo: enfocado a detectar las áreas de riesgo en la operación.
+                    <li id="dueOperativo">	Due Diligence operativo: enfocado a detectar las áreas de riesgo en la operación.
                     </li>
-                    <li>	Due Diligence financiero-Contable: enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.
+                    <li id="dueFinanciero">	Due Diligence financiero-Contable: enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.
                     </li>
-                    <li>	Due Diligence legal: enfocado a dar el soporte estructural a las negociaciones con el cumplimiento de las disposiciones legales aplicables.
+                    <li id="dueLegal">	Due Diligence legal: enfocado a dar el soporte estructural a las negociaciones con el cumplimiento de las disposiciones legales aplicables.
                     </li>
-                    <li>	Due Diligence fiscal: enfocado en el cumplimiento de las disposiciones fiscales, analizando la contabilidad generada, los costos de los inventarios, las prestaciones a empleados y otros aspectos.
+                    <li id="dueFiscal">	Due Diligence fiscal: enfocado en el cumplimiento de las disposiciones fiscales, analizando la contabilidad generada, los costos de los inventarios, las prestaciones a empleados y otros aspectos.
+                    </li>
+                    <li id="dueRecursos"> 	Due Diligence de recursos humanos u organizacional: enfocado en el análisis de los cambios de ambiente organizacional, entradas a diferentes mercados y la integración a otras culturas.
+                    </li>
+                    <li id="duePld"> 	Due Diligence en prevención de lavado de dinero enfocado al análisis de nivel de riesgo.
                     </li>
                   </ol>
                 </div>
@@ -189,6 +196,11 @@
 </div>
 </body>
 @stop
+
+@section('js')
+  {{ HTML::script('js/publicos/servicios/auditoria.js')}}
+@stop
+
 
 @section('javascript')
   <script>

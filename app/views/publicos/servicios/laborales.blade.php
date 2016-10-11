@@ -80,6 +80,12 @@
             <a href="{{ URL::to('publicos/servicios/laboral2')}}" id="btnEncuesta"type="button" class="btn btn-md btn-primary btn-block" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico</a>
           </div>
         </div>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            Adicionalmente podemos desarrollar el proceso de <a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=6#tituloServicios')}}">Due Diligence </a> enfocado a los recursos humanos u organizacional
+          </div>
+        </div>
 
     </div>  <!-- Well -->
 
