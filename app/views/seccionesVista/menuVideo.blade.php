@@ -16,14 +16,14 @@
                       <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video2')}}">
                         - Discrepancia Fiscal</a>
                   </li>
-                <!--    <li id="liVideo3">
+                    <li id="liVideo3">
                       <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video3')}}">
-                        - Discrepancia fiscal</a>
+                        - Cumplimiento de las obligaciones fiscales cuando una persona fallece </a>
                   </li>
-                  <li id="liVideo4">
+                    <li id="liVideo4">
                       <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video4')}}">
-                        - Discrepancia fiscal</a>
-                  </li> -->
+                        - Tarjetas de crédito</a>
+                  </li>
               </ul>
         </li>
 

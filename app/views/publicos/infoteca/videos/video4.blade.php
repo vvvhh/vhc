@@ -24,7 +24,7 @@
 
       <div class="row">
         <div class="col-md-12 text-center">
-          <h3 class="texto3d grisObscuro"> Discrepancia Fiscal
+          <h3 class="texto3d grisObscuro"> Tarjetas de crédito
           </h3>
         </div>
       </div>

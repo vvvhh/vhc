@@ -1112,4 +1112,7 @@ table.table-fixedheader>thead>tr>th:after, table.table-fixedheader>tbody>tr>td:a
     word-wrap:break-word;
 }
 
-/******************
+.tamVac{
+  font-size: .8em;
+}
+/******************/

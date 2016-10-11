@@ -15,8 +15,7 @@
       <div class="row">
         <div class="col-md-12">
 
-        <!--  -->  <iframe height="500" width="99%" src="https://www.youtube.com/embed/HhK7tAVHV24?rel=0" frameborder="0" allowfullscreen></iframe>
-          <!--  <iframe height="500" width="99%" src="https://www.youtube.com/embed/0TnGff6CfLM&feature" frameborder="0" allowfullscreen></iframe>-->
+          <iframe height="500" width="99%" src="https://www.youtube.com/embed/sZEWpmmWjp4?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
 
           </video>
         </div>
@@ -24,7 +23,7 @@
 
       <div class="row">
         <div class="col-md-12 text-center">
-          <h3 class="texto3d grisObscuro"> Discrepancia Fiscal
+          <h3 class="texto3d grisObscuro"> Cumplimiento de las obligaciones fiscales cuando una persona fallece
           </h3>
         </div>
       </div>

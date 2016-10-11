@@ -51,6 +51,16 @@
 
               <br>
             <h3>Vázquez Hernández Contadores, S.C.</h3>
+            <div class="row">
+              <div class="col-md-10">
+
+              </div>
+              <div class="col-md-1 ">
+                <p class="text-right tamVac">
+                    Número vacantes
+                </p>
+              </div>
+            </div>
 
           <div class="panel-group" id="accordion">
 
@@ -352,12 +362,12 @@
         </div>
       </div>
 
-      <div class="row">
+    <!--    <div class="row">
         <div class="col-md-12">
           <small>Nota número de vacantes: <span class="badge badge-info" align="right" title="Número de vacantes">1</span></small>
         </div>
       </div>
-
+-->
     </div>  <!-- Well -->
 
 @stop
