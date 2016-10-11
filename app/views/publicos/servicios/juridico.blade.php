@@ -40,13 +40,13 @@
           <img id="imgI" src="{{URL::asset('img/servicios/156628164.jpg')}}" class="img-rounded img-responsive"/>
         </div>
         <div class="col-md-8 ">
-          <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+          <h3 class="grisObscuro  texto3d text-left tituloEntrada">
             Cumplimiento a las disposiciones legales
           </h3>
           <p class="formatoTexto text-justify sangria">
             Para dar cumplimiento a las disposiciones legales realizamos un análisis de las áreas de impacto según sus actividades y nos cercioramos de que estén en cumplimiento con la legislación aplicable vigente, previendo y evitando posibles multas por parte de dependencias gubernamentales.
           </p>
-          <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+          <h3 class="grisObscuro  texto3d text-left tituloEntrada">
             Derecho Corporativo
           </h3>
           <p class="formatoTexto text-justify sangria">
@@ -113,7 +113,7 @@
         <div class="col-md-12">
 
         <h3 class="grisObscuro  texto3d text-center tituloEntrada">
-          Due Diligence
+          <a href="{{ URL::to('publicos/servicios/auditoria#tituloServicios')}}">Due diligence legal </a>
         </h3>
         <p class="formatoTexto text-justify ">
           Soporte estructural de las negociaciones, llevando a cabo el proceso de revisión del cumplimiento de las disposiciones legales aplicables a la entidad, con especial atención a litigios actuales o amenaza de ellos.

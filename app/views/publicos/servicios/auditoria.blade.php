@@ -38,7 +38,7 @@
                   Examen sistemático de los estados financieros de una entidad, de los registros contables de sus transacciones, transformaciones y de todos los eventos económicos que se hayan realizado, con la finalidad de determinar si están de acuerdo con las Normas de Información Financiera y con las políticas establecidas por la dirección de su institución y con cualquier otro tipo de exigencias legales o voluntariamente aceptadas. <br><br> Por lo tanto, una auditoría tendrá por objeto verificar la razonabilidad, integridad, objetividad y autenticidad de los estados financieros de la entidad, cualquiera que esta sea.
                 </p>
                 <p>
-                <h4 class="grisObscuro"><strong>
+                <h4 id="tituloServicios" class="grisObscuro"><strong>
                   Para ello, los servicios de auditoría que ofrecemos son:
                 </strong></h4>
                 <br>
