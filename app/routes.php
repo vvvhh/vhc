@@ -21,6 +21,9 @@ Route::group(array('prefix' => 'publicos/infoteca'), function(){
 	Route::get('videos/video4', function(){
 		return View::make('publicos.infoteca.videos.video4');
 	});
+	Route::get('videos/video5', function(){
+		return View::make('publicos.infoteca.videos.video5');
+	});
 
 	/*PODCAST*/
 	Route::get('podcast', function(){

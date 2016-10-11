@@ -24,6 +24,10 @@
                       <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video4')}}">
                         - Tarjetas de crédito</a>
                   </li>
+                  <li id="liVideo4">
+                    <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video5')}}">
+                      - Enajenación de bienes</a>
+                </li>
               </ul>
         </li>
 
