@@ -8,23 +8,23 @@
         </strong></a>
             <ul id="ulTutorialTem1" class="nav nav-sidebar colorNav collapse in">
                <li id="liTutorial1">
-                    <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/tutoriales/tutorial1')}}">
+                    <a class="grisClaro texto3d" href="tutorial1.php">
                       - Recupera tus facturas electrónicas
                     </a>
                 </li>
 
                   <li id="liTutorial2">
-                    <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/tutoriales/tutorial2')}}">
+                    <a class="grisClaro texto3d" href="tutorial2.php">
                       - Formas de ahorro
                     </a>
                   </li>
                   <li id="liTutorial3">
-                    <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/tutoriales/tutorial3')}}">
+                    <a class="grisClaro texto3d" href="tutorial3.php">
                       - Consulta tu CURP por internet
                     </a>
                   </li>
                   <li id="liTutorial4">
-                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/tutoriales/tutorial4')}}">
+                      <a class="grisClaro texto3d" href="tutorial4.php">
                         - Inscripción en el RFC sólo con tu CURP
                       </a>
                   </li>

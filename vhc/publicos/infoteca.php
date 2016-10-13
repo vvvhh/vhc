@@ -111,7 +111,7 @@
 
     <div class="col-md-3 col-sm-6 transladarAbajo" id="portfolio">
       <div class="portfolio-item ">
-          <a href="publicos/infoteca/tutoriales/tutorial1.php" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/tutoriales/tutorial1.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"> <i class="fa fa-plus fa-3x"></i> tutoriales</h2>
@@ -127,7 +127,7 @@
 
     <div class="col-md-3 col-sm-6 transladarIzquierda" id="portfolio">
       <div class="portfolio-item ">
-          <a href="publicos/infoteca/indicadoresF/seguridadS/ssCuotasImss.php" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/indicadoresF/seguridadS/ssCuotasImss.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"><i class="fa fa-plus fa-3x"></i> indicadores</h2>
@@ -143,7 +143,7 @@
 
     <div class="col-md-3 col-sm-6 transladarDerecha" id="portfolio">
       <div class="portfolio-item ">
-          <a href="publicos/infoteca/legislacion.php" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/legislacion.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"><i class="fa fa-plus fa-3x"></i> legislación</h2>
