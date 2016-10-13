@@ -1,23 +1,33 @@
-@extends('layout')
 
-@section('head')
-  <meta name="description" content="Contáctenos para recibir un diagnóstico, una opinión o una asesoría, con gusto uno de nuestros asesores le atenderá.">
-  <meta name="keywords" content="domicilio fiscal, direccion, teléfono, horario atención, mensaje, contacto" />
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Contáctenos | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <meta name="description" content="Contáctenos para recibir un diagnóstico, una opinión o una asesoría, con gusto uno de nuestros asesores le atenderá.">
+    <meta name="keywords" content="domicilio fiscal, direccion, teléfono, horario atención, mensaje, contacto" />
 
-@section('css')
-  {{ HTML::style('css/lib/sweet-alert.css') }}
-  {{ HTML::style('css/inicio.css') }}
-@stop
+    <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-@section('body')
-@stop
+    <title>Contáctenos | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('content')
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/lib/sweet-alert.css" rel="stylesheet">
+    <link href="../css/inicio.css" rel="stylesheet">
+
+    <link href="../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../seccionesVista/barraNavegacionPagina.php"); ?>
+
 <div style="background-image:url('../img/contacto/491522385.jpg ');"class="fondo paddingTexto">
 
   <div class="row">
@@ -173,16 +183,21 @@
         </div>
 
   </div>  <!-- /container -->
+
 </div>
-@stop
 
-@section('js')
-  {{ HTML::script('js/publicos/contacto.js') }}
-  {{ HTML::script('js/lib/sweet-alert.min.js')}}
-@stop
+<?php include ("../seccionesVista/piePagina.php"); ?>
 
-@section('javascript')
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/publicos/contacto.js"></script>
+  <script src="../js/lib/sweet-alert.min.js"></script>
+
+
   <script>
   	$('#navContacto').addClass('activoLi');
   </script>
-@stop
+
+</body>
+
+</html>
