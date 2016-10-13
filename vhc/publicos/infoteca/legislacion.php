@@ -1,20 +1,29 @@
-@extends('layout')
+<!DOCTYPE html>
+<html lang="es">
 
-@section('head')
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('title')
-  Legislación Mexicana | Vázquez Hernández Contadores, S. C.
-@stop
+    <title>
+    Legislación Mexicana | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('css')
-{{ HTML::style('css/inicio.css') }}
-@stop
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('body')
-@stop
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
 
-@section('content')
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../../img/infoteca/467228677.jpg');"class="fondo paddingLegislacion">
   <div class="">
 
@@ -73,11 +82,13 @@
       </div>
       <div class="row">
         <div class="col-md-2 hidden" id="menuLegislacion">
-                @include('seccionesVista.menuLegislacionSat')
+
+                <?php include ("../../seccionesVista/menuLegislacionSat.php"); ?>
         </div>
 
         <div class="col-md-2 hidden" id="menuLegEstatal">
-                @include('seccionesVista.menuLegislacionEstatal')
+          <?php include ("../../seccionesVista/menuLegislacionEstatal.php"); ?>
+
         </div>
 
       <div class="col-md-12" id="divContenido">
@@ -97,7 +108,7 @@
 
   <div class="row animacionContenido" >
     <div class="col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10 transladarIzquierda">
-      <a class="btn btn-md btn-primary btn-block" href="{{ URL::to('publicos/infoteca')}}"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar Infoteca</span></a>
+      <a class="btn btn-md btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar Infoteca</span></a>
     </div>
   </div>
 
@@ -106,14 +117,17 @@
 </div>
 
 </div>
-@stop
 
-@section('javascript')
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/publicos/infoteca/legislacion.js"></script>
+
 <script>
 	$('#navInfoteca').addClass('activoLi');
 </script>
-@stop
 
-@section('js')
-  {{HTML::script('js/publicos/infoteca/legislacion.js')}}
-@stop
+
+</body>
+
+</html>
