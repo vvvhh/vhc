@@ -58,7 +58,7 @@
                  </a>
              </li>
              <li id="liTSueldos" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTSueldosSalarios')}}">
+                 <a class="grisClaro " href="#" id="aTSueldos">
                    <p>- Tablas y tarifas para sueldos y salarios, semanales, diarias, decenal, quincenal</p>
                  </a>
              </li>
@@ -317,12 +317,15 @@
   aTarifaDa=document.getElementById('aTarifaDa');
   aReincos=document.getElementById('aReincos');
   aSemestralesP=document.getElementById('aSemestralesP');
+  aTSueldos=document.getElementById('aTSueldos');
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
   var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
   var rTarifaDa= "publicos/infoteca/indicadoresF/impuestosF/ifIsr-da.php";
   var rReincos= "publicos/infoteca/indicadoresF/impuestosF/ifReincos.php";
   var rSemestralesP= "publicos/infoteca/indicadoresF/impuestosF/ifTSemestralesPrimario.php";
+  var rTSueldos= "publicos/infoteca/indicadoresF/impuestosF/ifTSueldosSalarios.php";
+
 
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
@@ -330,5 +333,6 @@
   aTarifaDa.href="http://"+dominio+absoluta+rTarifaDa;
   aReincos.href="http://"+dominio+absoluta+rReincos;
   aSemestralesP.href="http://"+dominio+absoluta+rSemestralesP;
+  aTSueldos.href="http://"+dominio+absoluta+rTSueldos;
 
 </script>
