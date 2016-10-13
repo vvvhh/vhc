@@ -1,22 +1,32 @@
-@extends('layout')
 
-@section('head')
-  <meta name="description" content="Enlaces a sitios web con contenido de interés en el área contable.">
-  <meta name="keywords" content="sitios web interés general, sitios web fiscales, sitios web laborales, sitios web seguridad social, sitios web jurídico corporativo" />
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Sitios de Interés | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <meta name="description" content="Enlaces a sitios web con contenido de interés en el área contable.">
+    <meta name="keywords" content="sitios web interés general, sitios web fiscales, sitios web laborales, sitios web seguridad social, sitios web jurídico corporativo" />
+    <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-@section('css')
-  {{ HTML::style('css/inicio.css') }}
-@stop
+    <title> Sitios de Interés | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('body')
-@stop
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+    <link href="../css/inicio.css" rel="stylesheet">
+    <link href="../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../img/sInteres/187974988.jpg');"class="fondo paddingTexto">
 
   <div class="row">
@@ -380,10 +390,14 @@
 
 </div>
 </div>
-@stop
 
-@section('javascript')
+<?php include ("../seccionesVista/piePagina.php"); ?>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
   <script>
   	$('#navInteres').addClass('activoLi');
   </script>
-@stop
+</body>
+
+</html>
