@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
+
 <!DOCTYPE html>
 <html lang="es">
 
