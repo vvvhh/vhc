@@ -391,9 +391,9 @@
 </div>
 </div>
 
-<?php include ("../seccionesVista/piePagina.php"); ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<?php include ("../seccionesVista/piePagina.php"); ?>
 
   <script>
   	$('#navInteres').addClass('activoLi');

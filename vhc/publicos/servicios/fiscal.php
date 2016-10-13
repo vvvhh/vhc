@@ -77,10 +77,10 @@ Derivado del profundo estudio de las leyes en la materia, así como de reglament
 
   </div>
 </div>
-<?php include ("../../seccionesVista/piePagina.php"); ?>
+
 <script src="../../js/jquery.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
-
+<?php include ("../../seccionesVista/piePagina.php"); ?>
 
   <script>
   	$('#navServicios').addClass('activoLi');

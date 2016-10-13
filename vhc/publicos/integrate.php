@@ -76,10 +76,11 @@
           </div>
         </div>
 
-      <?php include ("../seccionesVista/piePagina.php"); ?>
+
       <script src="../js/jquery.js"></script>
       <script src="../js/bootstrap.min.js"></script>
-
+      <?php include ("../seccionesVista/piePagina.php"); ?>
+      
       <script>
         $('#navIntegrate').addClass('activoLi');
       </script>

@@ -3,7 +3,7 @@
   <ul class="nav nav-sidebar colorNav">
 
         <li data-toggle="collapse" data-target="#ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer" href="/sobreNosotros#titQuienes.php"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="/sobreNosotros.php#titQuienes"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;¿Quienes somos?
           </strong></a>
@@ -22,28 +22,28 @@
         </li>
 
         <li data-toggle="collapse" data-target="ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros#titMision.php"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros.php#titMision"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Misión
           </strong></a>
         </li>
 
         <li data-toggle="collapse" data-target="ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer"  href="sobreNosotros#mision.php"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer"  href="sobreNosotros.php#mision"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Visión
           </strong></a>
         </li>
 
         <li data-toggle="collapse" data-target="#ulVideosTem1" >
-          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros#titVision.php"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros.php#titVision"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Valores
           </strong></a>
         </li>
 
         <li data-toggle="collapse" data-target="#ulVideosTem1" >
-          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotrosCCconduta.php"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotrosCCconduta"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Código conducta
           </strong></a>

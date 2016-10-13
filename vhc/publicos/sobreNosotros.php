@@ -209,12 +209,13 @@
           </div>
         </div>
 
-      <?php include ("../seccionesVista/piePagina.php"); ?>
+
 
       <script src="../js/jquery.js"></script>
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/lib/bootbox.min.js"></script>
       <script src="../js/publicos/sobreNosotros.js"></script>
+      <?php include ("../seccionesVista/piePagina.php"); ?>
 
       <script>
          $('#navNosotros').addClass('activoLi');

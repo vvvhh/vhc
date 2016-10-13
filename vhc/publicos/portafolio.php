@@ -18,7 +18,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-    
+
     <link href="../css/publicos/pagina.css" rel="stylesheet">
   </head>
 
@@ -124,9 +124,10 @@
 
 </div>
 
-<?php include ("../seccionesVista/piePagina.php"); ?>
+
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<?php include ("../seccionesVista/piePagina.php"); ?>
 
 <script>
   $('#carouselTestimonios').carousel({
