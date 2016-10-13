@@ -219,35 +219,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@extends('layoutIndicadoresF')
-@section('head')
-@stop
-
-@section('title')
-  Indicadores Fiscales | Vázquez Hernández Contadores, S. C.
-@stop
-
-@section('body')
-@stop
-
-@section('content')
-
-@stop
-
-@section('javascript')
-
-@stop

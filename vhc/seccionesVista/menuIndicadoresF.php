@@ -38,7 +38,7 @@
              </li>
 
              <li id="liTarifasPp" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp')}}">
+                 <a class="grisClaro " href="#" id="aTarifasPp">
                    <p>- Tarifas y tablas ISR-PP</p>
                  </a>
              </li>
@@ -313,9 +313,12 @@
   var absoluta="/vhc/vhc/";
 
   aCFF=document.getElementById('aCFF');
+  aTarifasPp=document.getElementById('aTarifasPp');
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php"
+  var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php"
 
-  aInicio.href="http://"+dominio+absoluta+rCFF;
+  aCFF.href="http://"+dominio+absoluta+rCFF;
+  aTarifasPp.href="http://"+dominio+absoluta+rTarifasPp;
 
 </script>
