@@ -43,12 +43,12 @@
                  </a>
              </li>
              <li id="liTarifasDa" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifIsr-da')}}">
+                 <a class="grisClaro " href="#" id="aTarifaDa">
                    <p>- Tarifas y tablas ISR-DA</p>
                  </a>
              </li>
              <li id="liTReincos" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifReincos')}}">
+                 <a class="grisClaro " href="#" id="aReincos">
                    <p>- Tablas de cuotas fijas para reincos</p>
                  </a>
              </li>
@@ -314,11 +314,17 @@
 
   aCFF=document.getElementById('aCFF');
   aTarifasPp=document.getElementById('aTarifasPp');
+  aTarifaDa=document.getElementById('aTarifaDa');
+  aReincos=document.getElementById('aReincos');
 
-  var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php"
-  var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php"
+  var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
+  var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
+  var rTarifaDa= "publicos/infoteca/indicadoresF/impuestosF/ifIsr-da.php";
+  var rReincos= "publicos/infoteca/indicadoresF/impuestosF/ifReincos.php";
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
   aTarifasPp.href="http://"+dominio+absoluta+rTarifasPp;
+  aTarifaDa.href="http://"+dominio+absoluta+rTarifaDa;
+  aReincos.href="http://"+dominio+absoluta+rReincos;
 
 </script>
