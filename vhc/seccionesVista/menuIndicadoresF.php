@@ -53,7 +53,7 @@
                  </a>
              </li>
              <li id="liTSemestrales" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTSemestralesPrimario')}}">
+                 <a class="grisClaro " href="#" id="aSemestralesP">
                    <p>- Tarifas semestrales sector primario</p>
                  </a>
              </li>
@@ -316,15 +316,19 @@
   aTarifasPp=document.getElementById('aTarifasPp');
   aTarifaDa=document.getElementById('aTarifaDa');
   aReincos=document.getElementById('aReincos');
+  aSemestralesP=document.getElementById('aSemestralesP');
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
   var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
   var rTarifaDa= "publicos/infoteca/indicadoresF/impuestosF/ifIsr-da.php";
   var rReincos= "publicos/infoteca/indicadoresF/impuestosF/ifReincos.php";
+  var rSemestralesP= "publicos/infoteca/indicadoresF/impuestosF/ifTSemestralesPrimario.php";
+
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
   aTarifasPp.href="http://"+dominio+absoluta+rTarifasPp;
   aTarifaDa.href="http://"+dominio+absoluta+rTarifaDa;
   aReincos.href="http://"+dominio+absoluta+rReincos;
+  aSemestralesP.href="http://"+dominio+absoluta+rSemestralesP;
 
 </script>

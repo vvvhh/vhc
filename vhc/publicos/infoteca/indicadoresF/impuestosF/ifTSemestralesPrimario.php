@@ -1,14 +1,54 @@
-@extends('layoutIndicadoresF')
-@section('title')
-Indicadores Financieros | Vázquez Hernández Contadores, S. C.
-@stop
-@section('content')
-<div class="well transparenteClaroTxt">
-  <div class="row">
-    <div class="col-md-12">
-     <div class="table-responsive">
-            <table class="table table-striped  table-bordered table-condensed">
-          <!-- **************** -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="edSantiago" />
+  <link rel="icon" type="../../../../image/png" href="./favicon.png"/>
+
+  <title>
+
+    Indicadores Fiscales | Vázquez Hernández Contadores, S. C.
+  </title>
+
+  <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="../../../../css/publicos/pagina.css" rel="stylesheet">
+</head>
+
+
+  <body>
+      <?php include ("../../../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
+        <div class="fondoInfoteca fondo paddingMenu">
+            <div class="row">
+              <div class="col-lg-12">
+                <br>
+                <h1 class="tamTitulo grisClaro texto3D tituloEntrada">
+                  <i class="fa fa-line-chart"></i> Indicadores</h1>
+                <br>
+              </div>
+            </div>
+
+            <div class="row">
+
+             <div class="col-md-2 transladarIzquierda">
+                    <?php include ("../../../../seccionesVista/menuIndicadoresF.php"); ?>   <!-- MUESTRA MENU DE ARTICULOS menuArticulo.blde.php -->
+              </div>
+
+              <div class="col-md-10 animacionContenido">
+  <!--  -->    <!-- MUESTRA EL CONTENIDO DEL ARTICULO -->
+
+
+  <div class="well transparenteClaroTxt">
+<div class="row">
+<div class="col-md-12">
+<div class="table-responsive">
+      <table class="table table-striped  table-bordered table-condensed">
+    <!-- **************** -->
 <h3 class="text-center">	Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al primer semestre de 2016	</h3>
 
 <thead>
@@ -28,19 +68,19 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
 
 </tbody>
 <!-- ********** -->
-      </table>
-    </div>
-  </div>
+</table>
+</div>
+</div>
 </div>
 </div>
 
 <div class="well transparenteClaroTxt">
-  <div class="row">
-    <div class="col-md-12">
-     <div class="table-responsive">
-            <table class="table table-striped  table-bordered table-condensed">
-          <!-- ****************** -->
-          <h3 class="text-center">	Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al segundo semestre de 2015	</h3>
+<div class="row">
+<div class="col-md-12">
+<div class="table-responsive">
+      <table class="table table-striped  table-bordered table-condensed">
+    <!-- ****************** -->
+    <h3 class="text-center">	Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al segundo semestre de 2015	</h3>
 
 <thead>
 <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
@@ -59,17 +99,45 @@ Indicadores Financieros | Vázquez Hernández Contadores, S. C.
 
 </tbody>
 
-          <!-- *********************** -->
-                </table>
-              </div>
-            </div>
-          </div>
-          </div>
-@stop
+    <!-- *********************** -->
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
 
-@section('javascript')
-<script>
-  $('#ulIFe').addClass('in');
-  $('#liTSemestrales').addClass('activoBorde');
-</script>
-@stop
+
+
+
+
+  <!-- ******************************************************************************** -->
+              </div>
+
+          </div>
+        </div>
+
+
+
+      <script src="../../../../js/jquery.js"></script>
+      <script src="../../../../js/bootstrap.min.js"></script>
+      <?php include ("../../../../seccionesVista/piePagina.php"); ?>
+
+
+      <script>
+        $('#navInfoteca').addClass('activoLi');
+        //jQuery to collapse the navbar on scroll
+        $(window).scroll(function() {
+            if ($(".navbar").offset().top > 50) {
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });
+      </script>
+      <script>
+        $('#ulIFe').addClass('in');
+        $('#liTSemestrales').addClass('activoBorde');
+      </script>
+
+  </body>
+</html>
