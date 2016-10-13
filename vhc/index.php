@@ -133,7 +133,42 @@
 
 <!-- finCarousel -->
 <div id="banner" class="transladarOpaco2">
-               </div>
+      <?php
+          require("simplePie/simplepie.inc");
+
+          $urlfeed = "http://www.dof.gob.mx/indicadores.xml";
+
+          $feed = new SimplePie();
+          $feed->set_feed_url($urlfeed);
+          $feed->set_cache_location("cache");
+          $feed->init();
+          $feed->handle_content_type();
+
+          $textoMarquee="";
+          $textoMarquee1="";
+
+          foreach ($feed->get_items() as $item) {
+            $textoMarquee = $textoMarquee.$item->get_title();
+            $textoMarquee = $textoMarquee." ";
+            $textoMarquee = $textoMarquee.$item->get_content();
+            $textoMarquee = $textoMarquee.'<sup>1</sup>';
+            $textoMarquee = $textoMarquee."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+
+            }
+
+       ?>
+       <?php $textoMarquee1 = $textoMarquee1."Salario mínimo: $ 73.04<sup>2</sup>  &nbsp; " ?>
+       <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
+       <?php $textoMarquee1 = $textoMarquee1."INPC: 119.211<sup>2</sup> " ?>
+       <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
+       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 4.23<sup>3</sup>" ?>
+
+        <marquee  behavior="scroll" scrollamount=3 direction="left">
+          <a class="enlaceSimple"  target="_blanck" href="<?php echo $feed->get_image_link(); ?>" target="_blanck" ><?php echo $textoMarquee ?>
+            <?php echo $textoMarquee1 ?> 
+        </marquee>
+   </div>
+
 
 
 <!--Contenido pagina-->
@@ -422,7 +457,7 @@
          </a></small>
          <br>
           <small><sup>4</sup>
-           
+
         </div>
       </div>
 
