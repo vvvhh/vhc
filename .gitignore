@@ -18,3 +18,4 @@ app/lang/*
 app/start/*
 app/storage/*
 app/tests/*
+vhc/img/*
