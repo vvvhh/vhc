@@ -93,13 +93,13 @@
            </li>
 
            <li id="liDSat" class="liInfoteca">
-               <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifDirectorioSat')}}">
+               <a class="grisClaro " href="#" id="aDirectorio">
                  <p>- Directorio de oficinas del SAT DF
                </a>
            </li>
 
            <li id="liPagosDerecho" class="liInfoteca">
-               <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifPagarDerechos')}}">
+               <a class="grisClaro " href="#" id="aCantidadesPagar">
                  <p>- Cantidades a pagar por concepto de derecho 2016
                </a>
            </li>
@@ -323,6 +323,8 @@
   aCObligaciones=document.getElementById('aCObligaciones');
   aTRecargos=document.getElementById('aTRecargos');
   aInstituciones=document.getElementById('aInstituciones');
+  aDirectorio=document.getElementById('aDirectorio');
+  aCantidadesPagar=document.getElementById('aCantidadesPagar');
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
   var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
@@ -335,6 +337,8 @@
   var rCObligaciones = "publicos/infoteca/indicadoresF/impuestosF/ifCalendarioObligaciones.php";
   var rTRecargos = "publicos/infoteca/indicadoresF/impuestosF/ifTasasRecargo2.php";
   var rInstituciones = "publicos/infoteca/indicadoresF/impuestosF/ifInstitucionesCredito.php";
+  var rDirectorio = "publicos/infoteca/indicadoresF/impuestosF/ifDirectorioSat.php";
+  var rCantidadesPagar = "publicos/infoteca/indicadoresF/impuestosF/ifPagarDerechos.php";
 
 
 
@@ -349,5 +353,7 @@
   aCObligaciones.href="http://"+dominio+absoluta+rCObligaciones;
   aTRecargos.href="http://"+dominio+absoluta+rTRecargos;
   aInstituciones.href="http://"+dominio+absoluta+rInstituciones;
+  aDirectorio.href="http://"+dominio+absoluta+rDirectorio;
+  aCantidadesPagar.href="http://"+dominio+absoluta+rCantidadesPagar;
 
 </script>
