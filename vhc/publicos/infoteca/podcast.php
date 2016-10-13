@@ -1,13 +1,29 @@
-@extends('layout')
 
-@section('title')
-Podcast | Vázquez Hernández Contadores, S. C.
-@stop
+  <!DOCTYPE html>
+  <html lang="es">
 
-@section('css')
-@stop
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="author" content="edSantiago" />
+      <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('content')
+      <title>
+      Podcast | Vázquez Hernández Contadores, S. C.
+      </title>
+
+      <link href="../../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+      <link href="../../css/publicos/pagina.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+      <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
 <body>
 
 
@@ -71,5 +87,16 @@ Podcast | Vázquez Hernández Contadores, S. C.
 
   </div>
 </div>
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+
+
+  <script>
+  	$('#navServicios').addClass('activoLi');
+  </script>
+
+
 </body>
-@stop
+
+</html>
