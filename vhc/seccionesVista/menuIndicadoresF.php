@@ -127,7 +127,7 @@
 
         <ul  class="colorNav" style="list-style-type: none">
              <li id="liEquivalencia" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiEquivalenciaDolar')}}">
+                 <a class="grisClaro " href="#" id="aDolar">
                    <p>- Equivalencia del dólar</p>
                  </a>
              </li>
@@ -326,6 +326,8 @@
   aDirectorio=document.getElementById('aDirectorio');
   aCantidadesPagar=document.getElementById('aCantidadesPagar');
 
+  aDolar=document.getElementById('aDolar');
+
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
   var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
   var rTarifaDa= "publicos/infoteca/indicadoresF/impuestosF/ifIsr-da.php";
@@ -340,7 +342,7 @@
   var rDirectorio = "publicos/infoteca/indicadoresF/impuestosF/ifDirectorioSat.php";
   var rCantidadesPagar = "publicos/infoteca/indicadoresF/impuestosF/ifPagarDerechos.php";
 
-
+  var rDolar = "publicos/infoteca/indicadoresF/financiero/fiEquivalenciaDolar.php";
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
   aTarifasPp.href="http://"+dominio+absoluta+rTarifasPp;
@@ -355,5 +357,7 @@
   aInstituciones.href="http://"+dominio+absoluta+rInstituciones;
   aDirectorio.href="http://"+dominio+absoluta+rDirectorio;
   aCantidadesPagar.href="http://"+dominio+absoluta+rCantidadesPagar;
+
+  aDolar.href="http://"+dominio+absoluta+rDolar;
 
 </script>
