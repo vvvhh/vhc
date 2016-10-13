@@ -497,23 +497,33 @@
                        Diario Oficial de la Federación
                      </a></strong>
                  </h3>
+                 <?php
 
+                   $urlfeedDOF = "http://www.dof.gob.mx/sumario.xml";
+                   $feedDOF = new SimplePie();
+                   $feedDOF->set_feed_url($urlfeedDOF);
+                   $feedDOF->set_cache_location("cache");
+                   $feedDOF->enable_order_by_date(true);
+                   $feedDOF->init();
+
+                   foreach ($feedDOF->get_items() as $itemDOF) {
+                 ?>
 
                   <table class="table ">
 
                    <tr class="item">
                      <td>
                        <p>
-                        <h4><a class="enlaceSimple" href="" target="_blank">
-
-                        </a><br><small>Fecha: </small></h4>
-                        <small class="text-justify grisObscuro"></small>
+                        <h4><a class="enlaceSimple" href="<?php echo $itemDOF->get_permalink(); ?>" target="_blank">
+                          <?php echo $itemDOF->get_title(); ?>
+                          </a><br></h4>
+                        <small class="text-justify" target="_blank"><?php echo $itemDOF->get_description(); ?></small>
                        </p>
                      </td>
                    </tr>
 
                  </table>
-
+                 <?php  } ?>
              </div>
            </div>
 
