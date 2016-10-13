@@ -28,7 +28,7 @@
       </div>
 -->
 <video height="400" width="100%" controls>
-  <source src="{{URL::asset('video/infoteca/tutoriales/formasDeAhorro.mov')}}"  type="video/mp4">
+  <source src="{{URL::asset('video/infoteca/tutoriales/formasDeAhorro.mov')}}"  >
 </video>
 <h3 class="text-center">
   Formas de ahorro

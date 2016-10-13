@@ -1035,8 +1035,10 @@ nav div.footer-ribbon span{
 }
 
 .tamMenu{
-    height: 500px;
+    height: 400px;
     width: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 .tamTab{
   height: 500px;

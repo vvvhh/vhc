@@ -165,7 +165,7 @@
              <?php endfor; ?>
            <?php $textoMarquee1 = $textoMarquee1."Salario mínimo: $ 73.04<sup>2</sup>  &nbsp; " ?>
            <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-           <?php $textoMarquee1 = $textoMarquee1."INPC: 119.211<sup>2</sup> " ?>
+           <?php $textoMarquee1 = $textoMarquee1."INPC: 120.277<sup>2</sup> " ?>
            <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
            <?php $textoMarquee1 = $textoMarquee1."CETES 28: 4.23<sup>3</sup>" ?>
 
@@ -203,11 +203,13 @@
       </iframe>
 
       -->
-      <video height="400" width="100%" controls>
-        <source src="{{URL::asset('video/SpotVHC.mp4')}}"  type="video/mp4">
-      </video>
+<!--
 
-      <br><br>
+      <video height="400" width="100%" controls>
+          <source src="{{URL::asset('video/SpotVHC.mp4')}}"  type="video/mp4">
+      </video>
+ -->
+      <br><br><br><br>
     </div>
 
 
@@ -249,7 +251,7 @@
                     </div>
             </div>
         </div>
-
+        <br><br><br><br>
       <!-- Panel En VHC -->
       <div>
         <h2 class="grisObscuro text-center"><strong onload="alertInicio();">En Vázquez Hernández Contadores, S.C.</strong></h2>
@@ -272,7 +274,7 @@
         </div>
       </div>
       <!-- ./Panel En VHC -->
-      <br>
+      <br><br><br><br>
 
       <!-- Panel Clientes -->
       <div>
@@ -295,7 +297,7 @@
           </div>
         </div>
         <!-- ./Panel Clientes -->
-        <br>
+        <br><br><br><br>
 
 
         <!-- /well reseña -->
@@ -321,6 +323,11 @@
               -->
             </div>
           </div>  <!-- /.botonAsesoria-->
+          <div class="row">
+            <div class="col-md-12">
+              <br><br><br><br>
+            </div>
+          </div>
 
       </section>
 
@@ -578,7 +585,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <small><sup>1</sup><a href="http://dof.gob.mx/filtroRss.php" target=black  class="enlaceSimple">
+          <small><sup>1</sup><a href="http://dof.gob.mx/indicadores.xml" target=black  class="enlaceSimple">
             Fuente: Diario Oficial de la Federación
           </a></small>
 

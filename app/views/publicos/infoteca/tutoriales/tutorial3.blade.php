@@ -27,9 +27,17 @@
         </div>
       </div>
 -->
-<video height="400" width="100%" controls>
-  <source src="{{URL::asset('video/infoteca/tutoriales/consultaCurp.mp4')}}"  type="video/mp4">
+<!--   <video height="400" width="100%" controls>
+  <source src="{{URL::asset('video/SpotVHC.mp4')}}">
 </video>
+-->
+  <video height="400" width="100%" controls preload>
+      <source src="{{URL::asset('video/infoteca/tutoriales/consultaCurp.mp4')}}" >
+    <!--
+     <source src="{{URL::asset('video/infoteca/tutoriales/CFDI - Master.mp4')}}"  type="video/mp4">
+-->
+</video>
+
 <h3 class="text-center">
   Consulta tu CURP por internet
 </h3>

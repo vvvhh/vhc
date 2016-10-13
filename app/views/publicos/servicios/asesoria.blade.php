@@ -107,9 +107,9 @@
               Proceso de Due Diligence
 
               <ul class="formatoTexto">
-                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=1#tituloServicios')}}">Due Diligence estratégico:</a> enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.</li>
-                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=2#tituloServicios')}}">Due Diligence Operativo:</a> enfocado a detectar las áreas de riesgo en la operación.</li>
-                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=3#tituloServicios')}}">Due Diligence Financiero-Contable:</a> enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.</li>
+                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=1#tituloServicios')}}">Due Diligence estratégico</a></li>
+                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=2#tituloServicios')}}">Due Diligence Operativo</a> </li>
+                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=3#tituloServicios')}}">Due Diligence Financiero-Contable</a></li>
 
                 </ul>
 
