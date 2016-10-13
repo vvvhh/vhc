@@ -548,7 +548,7 @@
                 <li data-target="#carouselInfoteca" data-slide-to="3" class="liInicio2"></li>
                 <li data-target="#carouselInfoteca" data-slide-to="4" class="liInicio2"></li>
                 <li data-target="#carouselInfoteca" data-slide-to="5" class="liInicio2"></li>
-                <li data-target="#carouselInfoteca" data-slide-to="5" class="liInicio2"></li>
+                
               </ol>
 
               <div class="carousel-inner ">
