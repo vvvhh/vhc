@@ -1,10 +1,28 @@
-@extends('layout')
+<!DOCTYPE html>
+<html lang="es">
 
-@section('head')
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('title')
-  Servicios de Asesoría en materia de Prevención de Lavado de Dinero | Vázquez Hernández Contadores, S. C.
+    <title>   Servicios de Asesoría en materia de Prevención de Lavado de Dinero | Vázquez Hernández Contadores, S. C.
+    </title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 @stop
 
 @section('css')
@@ -34,7 +52,7 @@
             </div>
             <div class="row">
               <div class="col-md-4">
-                <img id="imgI" src="{{URL::asset('img/servicios/139543897.jpg')}}" class="img-rounded img-responsive"/>
+                <img id="imgI" src="../../img/servicios/139543897.jpg" class="img-rounded img-responsive"/>
               </div>
               <div class="col-md-8">
                 <br>
@@ -50,7 +68,7 @@
                   <li>	Evaluación de la clasificación basada en el nivel de riesgo </li>
                   <li>	Identificación de operaciones de alto riesgo </li>
                   <li>	Actualización del perfil de alto riesgo </li>
-                  <li><a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=7#tituloServicios')}}">	Proceso de Due Dilligence basado en el nivel de riesgo </a></li>
+                  <li><a href="auditoria.php?tipoDue=7#tituloServicios">	Proceso de Due Dilligence basado en el nivel de riesgo </a></li>
                   <li>	Elaboración o modificación del manual que condensa las políticas, criterios, medidas y procedimientos internos para el debido cumplimiento de la Ley Federal de Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, el reglamento de la misma, las reglas de carácter general y demás disposiciones de que de éstas emanen.</li>
                 </ul>
 
@@ -77,7 +95,7 @@
                  -->
               </div>
               <div class="col-md-4">
-                <img id="imgI" src="{{URL::asset('img/servicios/90688864.jpg')}}" class="img-rounded img-responsive"/>
+                <img id="imgI" src="../../img/servicios/90688864.jpg" class="img-rounded img-responsive"/>
               </div>
             </div>
 
@@ -95,10 +113,16 @@
 
   </div>
 </div>
-@stop
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 
-@section('javascript')
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+
+</body>
+
+</html>
