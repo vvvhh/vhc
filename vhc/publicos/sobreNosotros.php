@@ -192,7 +192,7 @@
                       <p class="text-justify formatoTexto2 text-center">
                         Es nuestra guía de comportamiento adecuado, es decir el <strong>“deber ser”</strong> y el <strong>“bien actuar”.</strong>
                       </p>
-                      <a  href="{{ URL::to('publicos/sobreNosotrosCCconduta"><button class="btn btn-primary btn-sm">Ver nuestro código de conducta</button></a>
+                      <a  href="sobreNosotrosCCconduta.php"><button class="btn btn-primary btn-sm">Ver nuestro código de conducta</button></a>
 
                     </div>
                   </div>  <!-- ./Well -->

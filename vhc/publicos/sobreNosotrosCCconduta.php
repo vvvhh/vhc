@@ -1,27 +1,58 @@
-@extends('layoutNosotros')
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-Estudiantes | Vázquez Hernández Contadores, S. C.
-@stop
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="edSantiago" />
+  <meta name="description" content="Los contadores y otros profesionistas miembros de Vázquez Hernández Contadores, son profesionales colegiados, y pertenecen entre otros, al Colegio de Contadores Públicos de México, A.C., afiliado al Instituto Mexicano de Contadores Públicos">
+  <meta name="keywords" content="contadores, despacho contable, servicios contables" />
+  <link rel="icon" type="./image/png" href="./favicon.png"/>
+
+  <title>Sobre Nosotros | Vázquez Hernández Contadores, S. C.
+  </title>
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="../css/publicos/pagina.css" rel="stylesheet">
+</head>
+
+  <body>
+
+
+      <?php include ("../seccionesVista/barraNavegacionPagina.php"); ?>
+      <div style="background-image:url('../img/inicio/101152541.jpg');" class=" fondo paddingMenu">
+
+        <div class="row">
+          <br>
+          <div class="col-md-3 col-md-offset-9">
+            <input type="text" name="name" value="" placeholder="Buscar en el sitio web">
+          </div>
+        </div>
 
 
 
-@section('content')
+          <div class="row">
 
-  <!--    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-file-text"></i> Código de conducta. </h1>
-      </div>
-    </div>
--->
-<style media="screen">
-  body .modal {
-  /*width: 750px;
 
-  margin-left: -375px;*/
-}
-</style>
+            <div class="col-md-2 transladarIzquierda">
+                  <?php include ("../seccionesVista/menuNosotros.php"); ?>
+                            <!-- MUESTRA MENU DE   -->
+
+            </div>
+
+            <div class="col-md-10 animacionContenido">
+
+                          <div class="row" id="tituloPrincipal">
+                            <div class="col-lg-12">
+                              <br>
+                              <h1 class="tituloEntrada tamTitulo grisObscuro header"><i class="fa fa-user"></i> Sobre Nosotros </h1>
+                            </div>
+                          </div>
+                          <!-- /************************************************ -->
+
     <div class="well transparenteClaroTxt animacionContenido" id="titCodigoC">
 
       <div class="row text-justify">
@@ -353,7 +384,7 @@ Estudiantes | Vázquez Hernández Contadores, S. C.
       <div class="modal-body">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         </h3>
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/integrate/494977777.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="integrate/494977777.jpg">
 
         <h3 class="text-center">
           Es nuestra guía de comportamiento adecuado, es decir el <strong>“deber ser”</strong> y el <strong>“bien actuar”.</strong>
@@ -369,7 +400,7 @@ Estudiantes | Vázquez Hernández Contadores, S. C.
 
   </div>
 </div>
--->      
+-->
   <!-- * * * * * * * * * * * *  /M O D A L 1   * * * * * * *  *  * -->
 
 
@@ -382,7 +413,7 @@ Estudiantes | Vázquez Hernández Contadores, S. C.
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h3 class="text-center">En nuestro <strong>Código de Conducta </strong>
         </h3>
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/integrate/470814359.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/integrate/470814359.jpg">
 
         <h3 class="text-justify">
           Se exponen los principios a los cuales nos comprometemos unilateralmente a cumplir.
@@ -809,12 +840,29 @@ Estudiantes | Vázquez Hernández Contadores, S. C.
 </div> <!-- * * * * * * * * * * * * / modVigencia   * * * * * * *  *  * -->
 
 
-@stop
+</div>
+
+<!-- ******************************************************** -->
 
 
-@section('javascript')
-  <script charset="utf-8">
-    $('#liConducta').addClass('activoBorde');
-  </script>
-  {{ HTML::script('js/publicos/codigo.js')}}
-@stop
+
+</div>
+
+
+</div>
+</div>
+
+
+<?php include ("../seccionesVista/piePagina.php"); ?>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/lib/bootbox.min.js"></script>
+<script src="../js/publicos/codigo.js"></script>
+
+<script>
+   $('#navNosotros').addClass('activoLi');
+ </script>
+
+</body>
+</html>

@@ -3,18 +3,18 @@
   <ul class="nav nav-sidebar colorNav">
 
         <li data-toggle="collapse" data-target="#ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer" href="{{ URL::to('publicos/sobreNosotros#titQuienes')}}"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="/sobreNosotros#titQuienes.php"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;¿Quienes somos?
           </strong></a>
             <!--    <ul id="ulVideosTem1" class="nav nav-sidebar colorNav collapse">
                   <li id="liVideo1">
-                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video1')}}">
+                      <a class="grisClaro texto3d" href="publicos/infoteca/videos/video1.php">
                         - Pagan IVA los Fisicoterapeutas
                       </a>
                   </li>
                   <li id="liVideo2">
-                      <a class="grisClaro texto3d" href="{{ URL::to('publicos/infoteca/videos/video2')}}">
+                      <a class="grisClaro texto3d" href="publicos/infoteca/videos/video2.php">
                         - Enajenación de bienes</a>
                   </li>
 
@@ -22,28 +22,28 @@
         </li>
 
         <li data-toggle="collapse" data-target="ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer" href="{{ URL::to('publicos/sobreNosotros#titMision')}}"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros#titMision.php"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Misión
           </strong></a>
         </li>
 
         <li data-toggle="collapse" data-target="ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer"  href="{{ URL::to('publicos/sobreNosotros#mision')}}"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer"  href="sobreNosotros#mision.php"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Visión
           </strong></a>
         </li>
 
         <li data-toggle="collapse" data-target="#ulVideosTem1" >
-          <a class="grisClaro texto3d" style="cursor:pointer" href="{{ URL::to('publicos/sobreNosotros#titVision')}}"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros#titVision.php"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Valores
           </strong></a>
         </li>
 
         <li data-toggle="collapse" data-target="#ulVideosTem1" >
-          <a class="grisClaro texto3d" style="cursor:pointer" href="{{ URL::to('publicos/sobreNosotrosCCconduta')}}"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotrosCCconduta.php"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Código conducta
           </strong></a>
