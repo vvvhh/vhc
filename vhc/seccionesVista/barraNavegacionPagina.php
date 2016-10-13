@@ -14,28 +14,31 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li id="navInicio">
-          <a  href="/">Inicio</a>
+          <a  href="#" id="aInicio">Inicio</a>
         </li>
         <li id="navNosotros">
-          <a  href="publicos/sobreNosotros.php" id="aNosotros">Sobre Nosotros</a>
+
+          <a   href="#"id="aNosotros">Sobre nosotros</a>
+          <!--  <a  href="publicos/sobreNosotros.php" id="aNosotros">Sobre Nosotros</a>
+          -->
         </li>
         <li id="navServicios">
-          <a  href="publicos/servicios.php" id="aServicios">Servicios</a>
+          <a   href="#"  id="aServicios">Servicios</a>
         </li>
         <li id="navInfoteca">
-          <a href="publicos/infoteca.php" id="aInfoteca">Infoteca</a>
+          <a  href="#" id="aInfoteca">Infoteca</a>
         </li>
         <li id="navInteres">
-          <a href="publicos/sInteres.php" id="aSitios">Sitios de Interés</a>
+          <a  href="#" id="aSitios">Sitios de Interés</a>
         </li>
         <li id="navIntegrate">
-          <a href="publicos/integrate.php" id="aIntegrate">Intégrate</a>
+          <a href="#"  id="aIntegrate">Intégrate</a>
         </li>
         <li id="navPortafolio">
-          <a href="publicos/portafolio.php" id="aPortafolio">Portafolio</a>
+          <a  href="#" id="aPortafolio">Portafolio</a>
         </li>
         <li id="navContacto">
-          <a  href="publicos/contacto.php" id="aContato">Contacto</a>
+          <a   href="#" id="aContato">Contacto</a>
         </li>
 
       </ul>
@@ -67,4 +70,39 @@
         aContato.attr('href', ' ');
 */
   }
+    var aInicio=document.getElementById('aInicio');
+        aNosotros=document.getElementById('aNosotros');
+        aServicios=document.getElementById('aServicios');
+        aInfoteca=document.getElementById('aInfoteca');
+        aSitios=document.getElementById('aSitios');
+        aIntegrate=document.getElementById('aIntegrate');
+        aPortafolio=document.getElementById('aPortafolio');
+        aContato=document.getElementById('aContato');
+
+    var dominio=window.location.host;
+    var absoluta="/vhc/vhc/";                   /*------------------------------------------------------------------*/
+
+
+    var rInicio="index.php";
+    var rNosotros="publicos/sobreNosotros.php"
+    var rServicios="publicos/servicios.php"
+    var rInfoteca="publicos/infoteca.php"
+    var rInteres="publicos/sInteres.php"
+    var rIntegrate="publicos/integrate.php"
+    var rportafolio="publicos/portafolio.php"
+    var rContacto="publicos/contacto.php"
+
+    aInicio.href="http://"+dominio+absoluta+rInicio;
+    aNosotros.href="http://"+dominio+absoluta+rNosotros;
+    aServicios.href="http://"+dominio+absoluta+rServicios;
+    aInfoteca.href="http://"+dominio+absoluta+rInfoteca;
+    aSitios.href="http://"+dominio+absoluta+rInteres;
+    aIntegrate.href="http://"+dominio+absoluta+rIntegrate;
+    aPortafolio.href="http://"+dominio+absoluta+rportafolio;
+    aContato.href="http://"+dominio+absoluta+rContacto;
+
+    console.log(dominio);
+
+
+
 </script>
