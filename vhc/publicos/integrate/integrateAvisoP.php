@@ -1,20 +1,56 @@
-@extends('layoutIntegrate')
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="edSantiago" />
+  <meta name="description" content="Testimonios y algunos clientes en Vázquez Hernández Contadores, S.C.">
+  <meta name="keywords" content="testimonios, clientes" />
+  <meta name="description" content="Conocer las vacates y podras envíes tu Currículum Vitae así como tus datos curriculares para futuras oportunidades. ">
+  <meta name="keywords" content="postulate, vacantes, desarrollo profesional, desarrollo personal" />
 
-@section('head')
-@stop
 
-@section('title')
-  Aviso de Privacidad Aspirantes  | Vázquez Hernández Contadores, S. C.
-@stop
+  <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+  <title> Intégrate | Vázquez Hernández Contadores, S. C.
+  </title>
 
-@section('body')
-@stop
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
-    <div class="well transparenteClaroTxt animacionContenido">
+
+  <link href="../../css/publicos/pagina.css" rel="stylesheet">
+</head>
+  <body>
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+        <div class="fondoIntegrate fondo paddingMenu2">
+
+          <div class="row">
+            <br>
+            <div class="col-md-3 col-md-offset-9">
+              <input type="text" name="name" value="" placeholder="Buscar en el sitio web">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <br>
+                <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-puzzle-piece"></i> Intégrate</h1>
+              </div>
+            </div>
+
+            <div class="row">
+
+
+              <div class="col-md-9"> <!-- Columna Contenido -->
+  <!--  -->      <!-- MUESTRA CONTENIDO ***************************************-->
+
+
+
+
+  <div class="well transparenteClaroTxt animacionContenido">
 
       <div class="row text-justify">
         <div class="col-md-12"> <!-- Columna12 -->
@@ -174,10 +210,50 @@
 
     </div>
   </div>
-@stop
 
-@section('javascript')
-  <script charset="utf-8">
+  
+
+
+
+
+
+
+
+
+
+
+                <!-- ************************************************************************** -->
+              </div> <!-- /Columna Contenido -->
+
+              <div class="col-md-3 transladarIzquierda">  <!-- Columna Menu -->
+                        <!-- MENU DERECHO INTEGRATE DESDE menuIntegrate.blde.php -->
+                <?php include ("../../seccionesVista/menuIntegrate.php"); ?>
+
+              </div>  <!-- /Columna Menu -->
+
+
+          </div>
+        </div>
+
+
+      <script src="../../js/jquery.js"></script>
+      <script src="../../js/bootstrap.min.js"></script>
+      <?php include ("../../seccionesVista/piePagina.php"); ?>
+
+      <script charset="utf-8">
     $('#liAviso').addClass('activoBorde');
   </script>
-@stop
+
+      <script>
+        $('#navIntegrate').addClass('activoLi');
+        //jQuery to collapse the navbar on scroll
+        $(window).scroll(function() {
+            if ($(".navbar").offset().top > 50) {
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });
+      </script>
+
+  </body>
