@@ -1,19 +1,28 @@
-@extends('layout')
 
-@section('head')
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Servicios de Auditoría | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+    <title>    Servicios Contables | Vázquez Hernández Contadores, S. C.</title>
 
-@section('body')
-@stop
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../../img/inicio/461998221.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
@@ -29,7 +38,7 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-4 ">
-                <img id="imgI" src="{{URL::asset('img/servicios/156607306.jpg')}}" class="img-rounded img-responsive"/>
+                <img id="imgI" src="../../img/servicios/156607306.jpg" class="img-rounded img-responsive"/>
               </div>
               <div class="col-md-8 ">
                 <p class="formatoTexto sangria">
@@ -144,7 +153,7 @@
             <div class="row">
               <div class="col-md-4 ">
                 <br><br>
-                <img id="imgI" src="{{URL::asset('img/servicios/140301755.jpg')}}" class="img-rounded img-responsive"/>
+                <img id="imgI" src="../../img/servicios/140301755.jpg" class="img-rounded img-responsive"/>
               </div>
               <div class="col-md-8 ">
 
@@ -194,16 +203,19 @@
 
   </div>
 </div>
-</body>
-@stop
 
-@section('js')
-  {{ HTML::script('js/publicos/servicios/auditoria.js')}}
-@stop
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/publicos/servicios/auditoria.js"></script>
 
 
-@section('javascript')
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+
+</body>
+
+</html>
