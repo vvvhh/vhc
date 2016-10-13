@@ -32,7 +32,7 @@
         <ul  class="colorNav" style="list-style-type: none">
 
              <li id="liCantidadesCFF" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF')}}">
+                 <a class="grisClaro " href="#" id="aCFF">
                    <p>- Cantidades actualizadas CFF</p>
                  </a>
              </li>
@@ -307,62 +307,15 @@
   <a class="btn btn-primary btn-block"  href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar </span></a>
 
 
-<!--    <div class="accordion" id="accordion2">
-    <div class="accordion-group">
-      <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </div>
-      <div id="collapseOne" class="accordion-body collapse in">
-        <div class="accordion-inner">
-          Anim pariatur cliche...
-        </div>
-      </div>
-    </div>
-    <div class="accordion-group">
-      <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </div>
-      <div id="collapseTwo" class="accordion-body collapse">
-        <div class="accordion-inner">
-          Anim pariatur cliche...
-        </div>
-      </div>
-    </div>
-  </div>
+<script type="text/javascript">
 
--->
-<!--  <div class="container tamMenu">
-      <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Impuestos Federales
-          <h5><strong><i class="fa fa-table"></i>
-          &nbsp;Impuestos Federales</strong></h5>
-        </strong></a>
+  var dominio=window.location.host;
+  var absoluta="/vhc/vhc/";
 
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu left" role="menu" aria-labelledby="menu1">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-        <li role="presentation" class="divider"></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-      </ul>
-  </div>
+  aCFF=document.getElementById('aCFF');
 
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">Financiero
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-        <li role="presentation" class="divider"></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-      </ul>
-    </div>
+  var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php"
 
-</div>
--->
+  aInicio.href="http://"+dominio+absoluta+rCFF;
+
+</script>
