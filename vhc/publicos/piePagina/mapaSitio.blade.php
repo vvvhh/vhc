@@ -36,9 +36,10 @@
           </div>
           <div class="row">
             <ul class="">
-              <li ><a href="{{ URL::to('publicos/sobreNosotros#imgS2')}}" class="grisObscuro enlaceSimple"> Misión</a></li>
+              <li ><a  href="{{ URL::to('publicos/sobreNosotros#titMision')}}" class="grisObscuro enlaceSimple"> Misión</a></li>
               <li ><a href="{{ URL::to('publicos/sobreNosotros#mision')}}" class="grisObscuro enlaceSimple"> Visión </a></li>
-              <li ><a href="{{ URL::to('publicos/sobreNosotros#vision')}}" class="grisObscuro enlaceSimple"> Valores</a></li>
+              <li ><a href="{{ URL::to('publicos/sobreNosotros#titVision')}}" class="grisObscuro enlaceSimple"> Valores</a></li>
+              <li ><a href="{{ URL::to('publicos/sobreNosotrosCCconduta')}}" class="grisObscuro enlaceSimple"> Código de conducta</a></li>
             </ul>
           </div>
         </div>
@@ -48,18 +49,23 @@
           </div>
           <div class="row">
             <ul>
-              <li ><a href="{{ URL::to('publicos/servicios/auditoria')}}" class="grisObscuro enlaceSimple"> Servicios de Auditoría </a></li>
-              <li ><a href="{{ URL::to('publicos/servicios/contables')}}" class="grisObscuro enlaceSimple"> Servicios Contables </a></li>
-              <li ><a href="{{ URL::to('publicos/servicios/asesoria')}}" class="grisObscuro enlaceSimple"> Servicios de Asesoría</a></li>
-              <li ><a href="{{ URL::to('publicos/servicios/obtenerAsesoria')}}" class="grisObscuro enlaceSimple"> Servicios de Asesoría Online</a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/contables')}}" class="grisObscuro enlaceSimple"> Contables </a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/asesoria')}}" class="grisObscuro enlaceSimple"> Asesorías</a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/auditoria')}}" class="grisObscuro enlaceSimple"> Auditorías </a></li>
+
+
+            <!--    <li ><a href="{{ URL::to('publicos/servicios/obtenerAsesoria')}}" class="grisObscuro enlaceSimple"> Servicios de Asesoría Online</a></li>
+            -->
               <ul>
                 <!--  <li><a href="{{ URL::to('publicos/servicios/asesoriaServ/consultaAsesoria')}}" class="grisObscuro enlaceSimple">Realizar Consulta Gratuita</a></li> -->
-                <li ><a href="{{  URL::to('publicos/servicios/obtenerAsesoria#btnContratar')}}" class="grisObscuro enlaceSimple"> Contratar Paquete</a></li>
+              <!--    <li ><a href="{{  URL::to('publicos/servicios/obtenerAsesoria#btnContratar')}}" class="grisObscuro enlaceSimple"> Contratar Paquete</a></li>
+              -->
                 <!--  <li><a href="{{ URL::to('publicos/servicios/asesoriaServ/consultaAsesoria')}}" class="grisObscuro enlaceSimple">Pagar Paquete</a></li>-->
               </ul>
-              <li ><a href="{{ URL::to('publicos/servicios/pLavado')}}" class="grisObscuro enlaceSimple"> Prevención de Lavado de Dinero (PLD) </a></li>
-              <li ><a href="{{ URL::to('publicos/servicios/juridico')}}" class="grisObscuro enlaceSimple"> Servicio Jurídico </a></li>
-              <li ><a href="{{ URL::to('publicos/servicios/fiscal')}}" class="grisObscuro enlaceSimple"> Servicio Fiscal </a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/juridico')}}" class="grisObscuro enlaceSimple">  Jurídicos </a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/fiscal')}}" class="grisObscuro enlaceSimple">  Fiscal </a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/pLavado')}}" class="grisObscuro enlaceSimple"> Prevención de Lavado de Dinero </a></li>
+              <li ><a href="{{ URL::to('publicos/servicios/laborales')}}" class="grisObscuro enlaceSimple"> Laborales</a></li>
               <li ><a href="{{ URL::to('publicos/servicios/otros')}}" class="grisObscuro enlaceSimple"> Otros servicios </a></li>
             </ul>
           </div>
@@ -94,7 +100,7 @@
               <li ><a href="{{ URL::to('publicos/sInteres#sitiosFiscales')}}"  class="grisObscuro enlaceSimple">Fiscales</li></a>
               <li ><a href="{{ URL::to('publicos/sInteres#sitiosLaborales')}}"  class="grisObscuro enlaceSimple">Laborales</li></a>
               <li ><a href="{{ URL::to('publicos/sInteres#sitiosSSocial')}}"  class="grisObscuro enlaceSimple">Seguridad Social</li></a>
-              <li ><a href="{{ URL::to('publicos/sInteres#sitiosJudirico')}}"  class="grisObscuro enlaceSimple">judírico Corporativo</li></a>
+              <li ><a href="{{ URL::to('publicos/sInteres#sitiosJudirico')}}"  class="grisObscuro enlaceSimple">Judírico Corporativo</li></a>
             </ul>
           </div>
         </div>
@@ -110,7 +116,8 @@
               <li ><a href="{{ URL::to('publicos/integrate/integrateDesarrollo')}}" class="grisObscuro enlaceSimple">Tu desarrollo profesional y personal</li></a>
               <li ><a href="{{ URL::to('publicos/integrate/integrateRol')}}" class="grisObscuro enlaceSimple">Tu rol en la firma</li></a>
               <li ><a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="grisObscuro enlaceSimple">Vacantes</li></a>
-              <li ><a href="{{ URL::to('publicos/integrate/integratePostulate')}}" class="grisObscuro enlaceSimple">Postulate</li></a>
+              <li ><a href="{{ URL::to('publicos/integrate/integratePostulate')}}" class="grisObscuro enlaceSimple">Postúlate</li></a>
+              <li ><a href="{{ URL::to('publicos/integrate/integrateAvisoP')}}" class="grisObscuro enlaceSimple">Aviso de privacidad para aspirantes</li></a>
             </ul>
           </div>
         </div>

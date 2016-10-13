@@ -20,7 +20,7 @@
 
         <!-- CONTENIDO DEL ARTICULO -->
         <h3>
-          ¿Conoces la PRODECOM?
+          ¿Conoces la PRODECON?
         </h3>
         <div class="row">
 
