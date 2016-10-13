@@ -93,7 +93,7 @@
 
 
   <script>
-  	$('#navServicios').addClass('activoLi');
+  	$('#navInfoteca').addClass('activoLi');
   </script>
 
 

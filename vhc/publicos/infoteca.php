@@ -95,7 +95,7 @@
 
     <div class="col-md-3 col-sm-6 transladarDerecha" id="portfolio">
       <div class="portfolio-item ">
-          <a href="publicos/infoteca/resenas/resena1.php" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/resenas/resena1.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"> <i class="fa fa-plus fa-3x"></i> reseñas</h2>
