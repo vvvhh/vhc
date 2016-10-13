@@ -165,7 +165,7 @@
 
         <marquee  behavior="scroll" scrollamount=3 direction="left">
           <a class="enlaceSimple"  target="_blanck" href="<?php echo $feed->get_image_link(); ?>" target="_blanck" ><?php echo $textoMarquee ?>
-            <?php echo $textoMarquee1 ?> 
+            <?php echo $textoMarquee1 ?>
         </marquee>
    </div>
 
@@ -209,6 +209,60 @@
 
      <!--/Video -->
     <!-- Indicadores financieros -->
+
+
+       <div class="col-md-12 ">
+           <div class="row">
+               <div  class="well text-center trasparenteClaroPlus">
+                <?php
+                      $urlfeedDolar = "http://www.banxico.org.mx/rsscb/rss?BMXC_canal=fix&BMXC_idioma=es";
+                      $feedDolar = new SimplePie();
+                      $feedDolar->set_feed_url($urlfeedDolar);
+                      $feedDolar->set_cache_location("cache");
+                      $feedDolar->init();
+                      $feedDolar->handle_content_type();
+
+                      $itemDolar  = $feedDolar->get_item(0);
+
+                      $urlfeedEuro = "http://www.banxico.org.mx/rsscb/rss?BMXC_canal=fix&BMXC_idioma=es";
+                      $feedEuro = new SimplePie();
+                      $feedEuro->set_feed_url($urlfeedEuro);
+                      $feedEuro->set_cache_location("cache");
+                      $feedEuro->init();
+                      $feedEuro->handle_content_type();
+
+                      $itemEuro = $feedEuro->get_item(0);
+
+                    ?>
+                    <table class="table table-bordered ">
+                      <thead>
+                        <tr> <th colspan="2" class="colorNav blanco text-center">
+                          <i class="fa fa-line-chart"></i> Indicadores Financieros
+                        </th> </tr>
+                      </thead>
+
+                      <tbody class="animEscalarFila">
+                         <tr class="item">
+                            <td >
+                              <h5 class=""><a class="grisObscuro" href="<?php echo $itemDolar->get_permalink(); ?>" target="_blank">
+                                <i class="fa fa-usd"></i><br>
+                                   <?php echo $itemDolar->get_title(); ?> <sup> 4</sup>
+                                   <input type="text" class="hidden" name="name" value="<?php echo $itemDolar->get_title(); ?>" id="txtValDolarBM">
+                              </h5></a>
+                            </td>
+                            <td>
+                              <h5 class=""><a class="grisObscuro" href="<?php echo $itemEuro->get_permalink(); ?>" target="_blank">
+                                <i class="fa fa-eur"></i> <br>
+                                  <?php echo $itemEuro->get_title(); ?> <sup> 4</sup>
+                                </h5></a>
+                            </td>
+                          </tr>
+
+                       </tbody>
+                     </table>
+                   </div>
+           </div>
+</div>
 
       <!-- Panel En VHC -->
       <div>
