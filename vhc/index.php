@@ -427,7 +427,105 @@
 
       <br>
 
-     <!--  *************************** / N O T I C I A S *************************************** -->
+      <!-- ******************* N O T I C I A S ********************************* -->
+ <div class="well col-md-4 col-sm-12 col-xs-12 noticiasWell lateral">
+   <h3 class="text-center grisObscuro"><strong><i class="fa fa-newspaper-o"></i> Noticias</strong></h3>
+       <div id="carouselNoticias" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+           <li data-target="#carouselNoticias" data-slide-to="0" class="liInicio2 active"></li>
+           <li data-target="#carouselNoticias" data-slide-to="1" class="liInicio2"></li>
+           <li data-target="#carouselNoticias" data-slide-to="2" class="liInicio2"></li>
+         </ol>
+
+         <div class="carousel-inner">
+           <div class="item active">
+             <div class="table-responsive tamNoticia" >
+               <h3 class="text-center">
+                <strong>  <a class="grisObscuro enlaceSimple"  href=""  target="_blanck">
+                    El Economista
+                  </a></strong>
+              </h3>
+              <?php
+
+                $urlfeedEconomista = "http://eleconomista.com.mx/ultimas-noticias/rss";
+                $feedEconomista = new SimplePie();
+                $feedEconomista->set_feed_url($urlfeedEconomista);
+                $feedEconomista->set_cache_location("cache");
+                $feedEconomista->enable_order_by_date(true);
+                $feedEconomista->init();
+
+                foreach ($feedEconomista->get_items() as $itemEconomista) {
+              ?>
+              <table class="table ">
+
+                  <tr class="item">
+                    <td>
+                      <p>
+                       <h4><a class="enlaceSimple" href="<?php echo $itemEconomista->get_permalink(); ?>" target="_blank">
+                         <?php echo $itemEconomista->get_title(); ?>
+                       </a><br><small>Fecha: <?php echo $itemEconomista->get_date('j/m/Y, g:i a'); ?> </small></h4>
+                        <small class="text-justify grisObscuro"><?php echo $itemEconomista->get_description(); ?></small>
+                      </p>
+                    </td>
+                  </tr>
+
+                </table>
+                <?php  } ?>
+
+             </div>
+           </div>
+
+           <div class="item">
+             <div class="tamNoticia">
+               <div class="tab-pane active in fade" id="rssFinanciero">
+               <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="450" width="100%"  scrolling="yes" ></iframe>
+               -->
+
+             <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="300" width="300" frameborder="1" scrolling="yes" ></iframe>
+           -->
+               </div>
+             </div>
+
+           </div>
+
+           <div class="item">
+
+               <div class="table-responsive tamNoticia" >
+
+                 <h3 class="text-center">
+                      <strong><a class="grisObscuro enlaceSimple"target="blanck" href="">
+                       Diario Oficial de la Federación
+                     </a></strong>
+                 </h3>
+
+
+                  <table class="table ">
+
+                   <tr class="item">
+                     <td>
+                       <p>
+                        <h4><a class="enlaceSimple" href="" target="_blank">
+
+                        </a><br><small>Fecha: </small></h4>
+                        <small class="text-justify grisObscuro"></small>
+                       </p>
+                     </td>
+                   </tr>
+
+                 </table>
+
+             </div>
+           </div>
+
+
+
+         </div>
+
+
+       </div>
+     </div> <!-- /carusel Infoteca -->
+      <!--  *************************** / N O T I C I A S *************************************** -->
+
 
      <!--  *************************** I N F O T E C A  *************************************** -->
       <div class="well col-md-4 col-sm-12 col-xs-12 noticiasWell lateral">
