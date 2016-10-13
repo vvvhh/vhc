@@ -1,19 +1,28 @@
-@extends('layout')
 
-@section('head')
-@stop
+  <!DOCTYPE html>
+  <html lang="es">
 
-@section('title')
-  Servicios de Asesoría | Vázquez Hernández Contadores, S. C.
-@stop
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="author" content="edSantiago" />
+      <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+      <title>    Servicios de Asesoría | Vázquez Hernández Contadores, S. C.</title>
 
-@section('body')
-@stop
+      <link href="../../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+      <link href="../../css/publicos/pagina.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+      <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../../img/inicio/491207279.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
@@ -73,7 +82,7 @@
         <div class="row">
             <br>
             <div class="col-md-4">
-              <img class="img-rounded img-responsive imgS" src="{{URL::asset('img/servicios/464236751.jpg')}}"/>
+              <img class="img-rounded img-responsive imgS" src="../../img/servicios/464236751.jpg"/>
             </div>
 
             <div class="col-md-8">
@@ -107,9 +116,9 @@
               Proceso de Due Diligence
 
               <ul class="formatoTexto">
-                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=1#tituloServicios')}}">Due Diligence estratégico:</a> enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.</li>
-                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=2#tituloServicios')}}">Due Diligence Operativo:</a> enfocado a detectar las áreas de riesgo en la operación.</li>
-                  <li>	<a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=3#tituloServicios')}}">Due Diligence Financiero-Contable:</a> enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.</li>
+                  <li>	<a href="auditoria.php?tipoDue=1#tituloServicios">Due Diligence estratégico:</a> enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.</li>
+                  <li>	<a href="auditoria.php?tipoDue=2#tituloServicios">Due Diligence Operativo:</a> enfocado a detectar las áreas de riesgo en la operación.</li>
+                  <li>	<a href="auditoria.php?tipoDue=3#tituloServicios">Due Diligence Financiero-Contable:</a> enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.</li>
 
                 </ul>
 
@@ -127,7 +136,7 @@
 
         <div class="row">
           <div class="col-md-4">
-            <img class="img-rounded img-responsive imgS" src="{{URL::asset('img/servicios/487967033.jpg')}}"/>
+            <img class="img-rounded img-responsive imgS" src="../../img/servicios/487967033.jpg"/>
           </div>
           <div class="col-md-8">
             <p id="parrafoI" class="sangria formatoTexto">
@@ -154,10 +163,17 @@
 
   </div>
 </div>
-@stop
 
-@section('javascript')
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+
+</body>
+
+</html>
