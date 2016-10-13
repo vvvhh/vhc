@@ -1,20 +1,43 @@
-@extends('layoutArticulo')
+<!DOCTYPE html>
+<html lang="es">
 
-@section('head')
-@stop
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="edSantiago" />
+  <link rel="icon" type="../../../image/png" href="./favicon.png"/>
+
+  <title>
+
+    Artículos | Vázquez Hernández Contadores, S. C.
+  </title>
+
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="../../../css/publicos/pagina.css" rel="stylesheet">
+</head>
 
 
-@section('title')
-Artículos | Vázquez Hernández Contadores, S. C.
-@stop
+  <body>
+      <?php include ("../../../seccionesVista/barraNavegacionPagina.php"); ?>
 
-@section('css')
-@stop
+        <div class="fondoInfoteca fondo paddingMenu">
+            <div class="row">
+              <div class="col-lg-12">
+                <br>
+                <h1 class="tamTitulo grisClaro texto3D tituloEntrada"><i class="fa fa-book"></i> Artículos</h1>
+                <br>
+              </div>
+            </div>
 
-@section('body')
-@stop
+            <div class="row">
 
-@section('content')
+              <div class="col-md-9 animacionContenido">
+                 <!--CONTENIDO DEL ARTICULO **************************-->
+
+
 <div class="well transparenteClaroMTxt">  <!-- Well Articulo1 -->
   <div class="row">
     <div class="col-md-12">
@@ -84,14 +107,39 @@ Artículos | Vázquez Hernández Contadores, S. C.
   <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
 </div>  <!-- /Well Articulo1 -->
 
-@stop
 
-@section('js')
-@stop
+                 <!-- ************************************************************************************ -->
+              </div>
 
-@section('javascript')
-  <script>
-    $('#ulArtTem1').addClass('in');
-    $('#liArt5').addClass('activoBorde');
-  </script>
-@stop
+              <div class="col-md-3 transladarIzquierda">
+                  <!--MENU DE LOS ARTICULOS menuArticulo.blde.php -->
+                <?php include ("../../../seccionesVista/menuArticulo.php"); ?>
+                <br>
+                <a class="btn btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar Infoteca</span></a>
+              </div>
+
+          </div>
+        </div>
+
+        <?php include ("../../../seccionesVista/piePagina.php"); ?>
+        <script src="../../../js/jquery.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+      <script>
+        $('#navInfoteca').addClass('activoLi');
+        //jQuery to collapse the navbar on scroll
+        $(window).scroll(function() {
+            if ($(".navbar").offset().top > 50) {
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });
+      </script>
+
+      <script>
+      $('#ulArtTem1').addClass('in');
+      $('#liArt5').addClass('activoBorde');
+    </script>	
+
+  </body>
+</html>
