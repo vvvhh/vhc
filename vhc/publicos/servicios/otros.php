@@ -1,19 +1,28 @@
-@extends('layout')
 
-@section('head')
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Otros Servicios | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+    <title>    Otros Servicios | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('body')
-@stop
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
 <div style="background-image:url('../../img/inicio/166150527.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
@@ -34,7 +43,7 @@
 
           <div class="row">
             <!--  <div class="col-md-4">
-              <img id="imgI" src="{{URL::asset('img/servicios/454171577.jpg')}}" class="img-rounded img-responsive"/>
+              <img id="imgI" src="../../img/servicios/454171577.jpg')}}" class="img-rounded img-responsive"/>
             </div> -->
             <div class="col-md-12">
 <br>
@@ -102,7 +111,7 @@
 
             </div>
             <div class="col-md-4">
-              <img id="imgI" src="{{URL::asset('img/servicios/454171577.jpg')}}" class="img-rounded img-responsive"/>
+              <img id="imgI" src="../../img/servicios/454171577.jpg" class="img-rounded img-responsive"/>
             </div>
           </div>
 
@@ -162,10 +171,16 @@
     </div>
   </div>
 </div>
-@stop
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 
-@section('javascript')
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+
+</body>
+
+</html>
