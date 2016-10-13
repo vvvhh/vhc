@@ -37,9 +37,8 @@
                 <div class="well trasparenteClaroPlus">  <!-- Well -->
                   <div class="row">
                     <div class="col-md-12">
-                      <iframe height="500" width="99%"
-                        src="//www.youtube.com/embed/lMkihL5YOhk?rel=0">
-                      </iframe>
+                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/nZjiQPEQ1mA?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
+
                     <!--    <video height="500" width="99%" controls>
                         <source src="{{URL::asset('video/pagoDeUnFiniquito.mp4')}}"  type="video/mp4">
 
@@ -49,7 +48,8 @@
 
                   <div class="row">
                     <div class="col-md-12 text-center">
-                      <h3 class="texto3d grisObscuro"></h3>
+                      <h3 class="texto3d grisObscuro"> Discrepancia Fiscal
+          </h3>
                     </div>
                   </div>
 
@@ -90,7 +90,7 @@
 
         <script>
           $('#ulVideosTem1').addClass('in');
-          $('#liVideo1').addClass('activoBorde');
+          $('#liVideo2').addClass('activoBorde');
         </script>
 
   </body>

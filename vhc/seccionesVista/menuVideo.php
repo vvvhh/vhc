@@ -13,19 +13,19 @@
                       </a>
                   </li>
                   <li id="liVideo2">
-                      <a class="grisClaro texto3d" href="video2.php')}}">
+                      <a class="grisClaro texto3d" href="video2.php">
                         - Discrepancia Fiscal</a>
                   </li>
                   <li id="liVideo4">
-                    <a class="grisClaro texto3d" href="video5.php')}}">
+                    <a class="grisClaro texto3d" href="video5.php">
                       - Enajenación de bienes</a>
                 </li>
                 <li id="liVideo4">
-                  <a class="grisClaro texto3d" href="video4.php')}}">
+                  <a class="grisClaro texto3d" href="video4.php">
                     - Tarjetas de crédito</a>
               </li>
                     <li id="liVideo3">
-                      <a class="grisClaro texto3d" href="video3.php')}}">
+                      <a class="grisClaro texto3d" href="video3.php">
                         - Cumplimiento de las obligaciones fiscales cuando una persona fallece </a>
                   </li>
 
