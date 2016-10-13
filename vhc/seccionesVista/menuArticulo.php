@@ -9,52 +9,52 @@
         <ul id="ulArtTem1" class="nav nav-sidebar colorNav collapse in">
 
             <li id="liArt2">
-                <a class="grisClaro texto3d" href="articulo2.php')}}">
+                <a class="grisClaro texto3d" href="articulo2.php">
                   Promesa de Contrato
                 </a>
             </li>
             <li id="liArt4">
-                <a class="grisClaro texto3d" href="articulo4.php')}}">
+                <a class="grisClaro texto3d" href="articulo4.php">
                   La importancia de los impuestos
                 </a>
             </li>
             <li id="liArt3">
-                <a class="grisClaro texto3d" href="articulo3.php')}}">
+                <a class="grisClaro texto3d" href="articulo3.php">
                   Contraseña
                 </a>
             </li>
             <li id="liArt5">
-                <a class="grisClaro texto3d" href="articulo5.php')}}">
+                <a class="grisClaro texto3d" href="articulo5.php">
                   Protección de datos personales
                 </a>
             </li>
             <li id="liArt6">
-                <a class="grisClaro texto3d" href="articulo6.php')}}">
+                <a class="grisClaro texto3d" href="articulo6.php">
                   ¿Existe vida después de la muerte?
                 </a>
             </li>
             <li id="liArt7">
-                <a class="grisClaro texto3d" href="articulo7.php')}}">
+                <a class="grisClaro texto3d" href="articulo7.php">
                   ¿Has ejercido tus derechos ARCO?
                 </a>
             </li>
             <li id="liArt8">
-                <a class="grisClaro texto3d" href="articulo8.php')}}">
+                <a class="grisClaro texto3d" href="articulo8.php">
                   ¡Otra forma de hacer “la vaquita”!
                 </a>
             </li>
             <li id="liArt9">
-                <a class="grisClaro texto3d" href="articulo9.php')}}">
+                <a class="grisClaro texto3d" href="articulo9.php">
                   Los bancos en México
                 </a>
             </li>
             <li id="liArt10">
-                <a class="grisClaro texto3d" href="articulo10.php')}}">
+                <a class="grisClaro texto3d" href="articulo10.php">
                   ¿Conoces la PRODECON?
                 </a>
             </li>
             <li id="liArt11">
-                <a class="grisClaro texto3d" href="articulo11.php')}}">
+                <a class="grisClaro texto3d" href="articulo11.php">
                   El fin del ciclo del contribuyente
                 </a>
             </li>
