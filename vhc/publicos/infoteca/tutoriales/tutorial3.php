@@ -1,56 +1,87 @@
-@extends('layoutTutorial')
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="edSantiago" />
+  <link rel="icon" type="../../../image/png" href="./favicon.png"/>
 
-@section('head')
-@stop
+  <title>    Tutoriales | Vázquez Hernández Contadores, S. C.
+  </title>
 
-@section('title')
-  Tutoriales | Vázquez Hernández Contadores, S. C.
-@stop
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('body')
-@stop
+  <link href="../../../css/publicos/pagina.css" rel="stylesheet">
+</head>
+  <body>
 
-@section('content')
-    <div class="well trasparenteClaroPlus">  <!-- Well -->
-<!--
-      <div class="row">
-        <div class="col-md-12">
-          <iframe height="500" width="99%"
-            src="https://www.youtube.com/embed/bbG-draj6gI">
-          </iframe>
+      <?php include ("../../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+        <div class="fondoInfoteca fondo paddingMenu">
+            <div class="row">
+              <div class="col-lg-12">
+                <br>
+                <h1 class="tamTitulo grisClaro texto3D tituloEntrada"><i class="fa fa-book"></i> Tutoriales</h1>
+                <br>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-9 animacionContenido">
+                  <!--CONTENIDO DEL ARTICULO-->
+
+                      <div class="well trasparenteClaroPlus">  <!-- Well -->
+
+                        <video height="400" width="100%" controls preload>
+                            <source src="{{URL::asset('video/infoteca/tutoriales/consultaCurp.mp4')}}" >
+                          <!--
+                           <source src="{{URL::asset('video/infoteca/tutoriales/CFDI - Master.mp4')}}"  type="video/mp4">
+                      -->
+                      </video>
+
+                      <h3 class="text-center">
+                        Consulta tu CURP por internet
+                      </h3>
+                      </div> <!-- /well -->
+
+                        <!-- ///*****************************  -->
+
+              </div>
+
+              <div class="col-md-3 transladarIzquierda">
+                   <!--MENU DE LOS ARTICULOS menuArticulo.blde.php -->
+                  <?php include ("../../../seccionesVista/menuTutorial.php"); ?>
+                <br>
+                <a class="btn btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar</span></a>
+              </div>
+
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h3 class="texto3d grisObscuro">Tutorial 1</h3>
-        </div>
-      </div>
--->
-<!--   <video height="400" width="100%" controls>
-  <source src="{{URL::asset('video/SpotVHC.mp4')}}">
-</video>
--->
-  <video height="400" width="100%" controls preload>
-      <source src="{{URL::asset('video/infoteca/tutoriales/consultaCurp.mp4')}}" >
-    <!--
-     <source src="{{URL::asset('video/infoteca/tutoriales/CFDI - Master.mp4')}}"  type="video/mp4">
--->
-</video>
+        <?php include ("../../../seccionesVista/piePagina.php"); ?>
+        <script src="../../../js/jquery.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
 
-<h3 class="text-center">
-  Consulta tu CURP por internet
-</h3>
+      <script>
+        $('#navInfoteca').addClass('activoLi');
+        //jQuery to collapse the navbar on scroll
+        $(window).scroll(function() {
+            if ($(".navbar").offset().top > 50) {
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });
+      </script>
 
-    </div> <!-- /well -->
-@stop
+      <script>
+      $('#ulTutorialTem1').addClass('in');
+      $('#liTutorial3').addClass('activoBorde');
+    </script>
 
-@section('js')
-@stop
 
-@section('javascript')
-  <script>
-    $('#ulTutorialTem1').addClass('in');
-    $('#liTutorial3').addClass('activoBorde');
-  </script>
-@stop
+  </body>
+</html>
