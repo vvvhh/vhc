@@ -22,7 +22,7 @@
 <body onload="alertInicio();">
 
 
-  <?php include ("seccionesVista/barraNavegacionPagina.php"); ?>
+  <?php include ("./seccionesVista/barraNavegacionPagina.php"); ?>
 
 <!-- carousel -->
 <!-- {{ HTML::style('css/inicio.css', array('media'=>"none",'onload'=>"if(media!='all')media='all'")) }} -->
@@ -58,62 +58,62 @@
       <div class="fill" style="background-image:url('img/inicio/461998221.jpg');"></div>
 
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/auditoria')}}"><h2 class="texto3D textAzul3"><strong>Servicios de Auditoría</strong> </h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="texto3D textAzul3"><strong>Servicios de Auditoría</strong> </h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/101371076.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/contables')}}"><h2 class="texto3D textAzul3">Servicios Contables</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/contables.php"><h2 class="texto3D textAzul3">Servicios Contables</h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/487967033.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/asesoria')}}"><h2 class="texto3D textAzul2">Servicios de Asesoría</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/asesoria.php"><h2 class="texto3D textAzul2">Servicios de Asesoría</h2></a>
       </div>
     </div>
 
     <!--  <div class="item">
       <div class="fill" style="background-image:url('img/inicio/491207279.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/obtenerAsesoria')}}"><h2 class="texto3D textAzul2">Servicios de Asesoría Online</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/obtenerAsesoria.php"><h2 class="texto3D textAzul2">Servicios de Asesoría Online</h2></a>
       </div>
     </div> -->
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/91430302.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/pLavado')}}"><h2 class="texto3D textAzul2">Prevención de Lavado de Dinero (PLD)</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/pLavado.php"><h2 class="texto3D textAzul2">Prevención de Lavado de Dinero (PLD)</h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/180256715.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/juridico')}}"><h2 class="texto3D textAzul2">Servicio Jurídico</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/juridico.php"><h2 class="texto3D textAzul2">Servicio Jurídico</h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/178709202.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/fiscal')}}"><h2 class="texto3D textAzul2">Servicio Fiscal</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><h2 class="texto3D textAzul2">Servicio Fiscal</h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/servicios/83017290.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/auditoriaG')}}"><h2 class="texto3D textAzul2">Auditoría Gubernamental</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/auditoriaG.php"><h2 class="texto3D textAzul2">Auditoría Gubernamental</h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/478771527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/fiscal')}}"><h2 class="texto3D textAzul2">Servicios Laborales</h2><a href="{{ URL::to('publicos/servicios/autodiagnostico?c=0')}}" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
+        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><h2 class="texto3D textAzul2">Servicios Laborales</h2><a href="publicos/servicios/autodiagnostico?c=0.php" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/166150527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="{{ URL::to('publicos/servicios/otros')}}"><h2 class="texto3D textAzul2">Otros Servicios</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/otros.php"><h2 class="texto3D textAzul2">Otros Servicios</h2></a>
       </div>
     </div>
 
@@ -131,63 +131,18 @@
 </div>
 
 
-<!--
-<div class="">
- <div class="row">
-     <div class="footer-ribbon transladarIzquierda2" style="left: 0">
-
-         <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="enlaceSimple">
-           <h4 class="txtRibbon" style="margin: 0;padding: 5px 10px">
-
-             ¡Únete a nuestro<br>
-              gran equipo!
-              <br>
-              Consulta nuestras <br>
-              vacantes
-           </h4  >
-         </a>
-     </div>
- </div>
-</div>
--->
 <!-- finCarousel -->
 <div id="banner" class="transladarOpaco2">
-          <?php
-             $dolar="0";
-             $textoMarquee="";
-             $textoMarquee1="";
-             $max = $feed[3]->get_item_quantity();
-
-             for ($x = 0; $x < $max; $x++):
-               $itemDOF1 = $feed[3]->get_item($x);
-               ?>
-
-               <?php $textoMarquee = $textoMarquee.$itemDOF1->get_title(); ?>
-               <?php $textoMarquee = $textoMarquee." "; ?>
-               <?php $textoMarquee = $textoMarquee.$itemDOF1->get_description(); ?>
-               <?php $textoMarquee = $textoMarquee.'<sup>1</sup>' ?>
-               <?php $textoMarquee = $textoMarquee."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-               <?php if ($x==0) { $dolar = $itemDOF1->get_description();} ?>
-             <?php endfor; ?>
-           <?php $textoMarquee1 = $textoMarquee1."Salario mínimo: $ 73.04<sup>2</sup>  &nbsp; " ?>
-           <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-           <?php $textoMarquee1 = $textoMarquee1."INPC: 119.211<sup>2</sup> " ?>
-           <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-           <?php $textoMarquee1 = $textoMarquee1."CETES 28: 4.23<sup>3</sup>" ?>
-
-          <input type="text" class="hidden" name="name" value="<?php echo $dolar ?>" id="txtValDolar">
-
-          <marquee  behavior="scroll" scrollamount=3 direction="left"><a class="enlaceSimple" href="<?php echo $feed[3]->get_image_link(); ?>" target="_blanck" ><?php echo $textoMarquee; ?> </a> <a class="enlaceSimple"> <?php echo $textoMarquee1?></a></marquee>
-     </div>
+               </div>
 
 
 <!--Contenido pagina-->
-<div class="fondo paddingInicio" style="background-image:url('../img/inicio/101152541.jpg');">
+<div class="fondo paddingInicio" style="background-image:url('img/inicio/101152541.jpg');">
 
   <div class="row botonVacantes">
     <div class="col-md-2">
       <br><br>
-      <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" id="btnEncuesta"type="button" class="btn btn-md btn-primary animacionEscalaLoop" >
+      <a href="publicos/integrate/integrateVacantes.php" id="btnEncuesta"type="button" class="btn btn-md btn-primary animacionEscalaLoop" >
 
         ¡Únete a nuestro<br>
          equipo! <br>
@@ -209,52 +164,16 @@
       </iframe>
 
       -->
-      <video height="400" width="100%" controls>
-        <source src="{{URL::asset('video/SpotVHC.mp4')}}"  type="video/mp4">
+      <!--  <video height="400" width="100%" controls>
+        <source src="video/SpotVHC.mp4"  type="video/mp4">
       </video>
-
+-->
       <br><br>
     </div>
 
 
      <!--/Video -->
     <!-- Indicadores financieros -->
-        <div class="col-md-12 ">
-            <div class="row">
-                <div  class="well text-center trasparenteClaroPlus">
-                 <?php
-                       $itemDolar  = $feed[4]->get_item(0);
-                       $itemEuro = $feed[5]->get_item(0);
-                     ?>
-                     <table class="table table-bordered ">
-                       <thead>
-                         <tr> <th colspan="2" class="colorNav blanco text-center">
-                           <i class="fa fa-line-chart"></i> Indicadores Financieros
-                         </th> </tr>
-                       </thead>
-
-                       <tbody class="animEscalarFila">
-                          <tr class="item">
-                             <td >
-                               <h5 class=""><a class="grisObscuro" href="<?php echo $itemDolar->get_permalink(); ?>" target="_blank">
-                                 <i class="fa fa-usd"></i><br>
-                                    <?php echo $itemDolar->get_title(); ?> <sup> 4</sup>
-                                    <input type="text" class="hidden" name="name" value="<?php echo $itemDolar->get_title(); ?>" id="txtValDolarBM">
-                               </h5></a>
-                             </td>
-                             <td>
-                               <h5 class=""><a class="grisObscuro" href="<?php echo $itemEuro->get_permalink(); ?>" target="_blank">
-                                 <i class="fa fa-eur"></i> <br>
-                                 <?php echo $itemEuro->get_title(); ?> <sup> 4</sup>
-                                 </h5></a>
-                             </td>
-                           </tr>
-
-                        </tbody>
-                      </table>
-                    </div>
-            </div>
-        </div>
 
       <!-- Panel En VHC -->
       <div>
@@ -264,7 +183,7 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-md-8 col-md-offset-2" >
-              <img id="imgI1" class="img-rounded img-responsive" src="{{URL::asset('img/inicio/164123455.jpg')}}"/>
+              <img id="imgI1" class="img-rounded img-responsive" src="img/inicio/164123455.jpg"/>
             </div>
           </div>
           <br>
@@ -296,7 +215,7 @@
               </p>
             </div>
             <div class="col-md-5" >
-              <img id="imgI1" class="img-rounded img-responsive" src="{{URL::asset('img/inicio/84008609.jpg')}}"/>
+              <img id="imgI1" class="img-rounded img-responsive" src="img/inicio/84008609.jpg"/>
             </div>
           </div>
         </div>
@@ -355,24 +274,27 @@
           <div class="row">
             <br>
             <h3 class="text-center grisObscuro"> <strong><i class="fa fa-users"></i> Clientes</strong></h3>
-            {{ Form::open(array('url' => 'login', 'method' => 'post', 'class' => 'form-signin')) }}
+            <form class="form-signin" action="login.php" method="post">
+
                   <div class="control-group form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                      {{ Form::text('usuario', null,
-                          array('placeholder' => 'Usuario', 'class' => 'form-control', 'maxlength' => '50', 'required')); }}
+                      <input type="text" name="usuario" value="" placeholder="Usuario" class="form-control" maxlength="50" required>
+
                     </div>
                   </div>
 
                   <div class="control-group form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                        {{ Form::password('pass',
-                          array('placeholder' => 'Contraseña', 'class' => 'form-control', 'required')); }}
+                      <input type="password" name="pass" value="" placeholder="Contraseña" class="form-control" required>
+
                     </div>
                   </div>
-                  {{ Form::submit('Login', array('class' => 'btn btn-primary btn-block')); }}
-                {{ Form::close() }}
+                  <input type="submit" name="name" value="Login" class="btn btn-primary btn-block">
+
+
+            </form>
                 <br>
           </div>
         </div>  <!-- /Login -->
@@ -416,109 +338,11 @@
 
       <br>
 
-<!-- ******************* N O T I C I A S ********************************* -->
-<div class="well col-md-4 col-sm-12 col-xs-12 noticiasWell lateral">
-  <h3 class="text-center grisObscuro"><strong><i class="fa fa-newspaper-o"></i> Noticias</strong></h3>
-      <div id="carouselNoticias" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselNoticias" data-slide-to="0" class="liInicio2 active"></li>
-          <li data-target="#carouselNoticias" data-slide-to="1" class="liInicio2"></li>
-          <li data-target="#carouselNoticias" data-slide-to="2" class="liInicio2"></li>
-        </ol>
-
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="table-responsive tamNoticia" >
-              <h3 class="text-center">
-               <strong>  <a class="grisObscuro enlaceSimple"  href="<?php echo $feed[0]->get_permalink(); ?>"  target="_blanck">
-                   El Economista
-                 </a></strong>
-             </h3>
-             <table class="table ">
-                 <?php
-                   $max = $feed[0]->get_item_quantity();
-                   for ($x = 0; $x < $max; $x++):
-                       $item = $feed[0]->get_item($x);
-                 ?>
-                 <tr class="item">
-                   <td>
-                     <p>
-                      <h4><a class="enlaceSimple" href="<?php echo $item->get_permalink(); ?>" target="_blank">
-                          <?php echo $item->get_title(); ?>
-                      </a><br><small>Fecha: <?php echo $item->get_date('j/m/Y, g:i a'); ?></small></h4>
-                       <small class="text-justify grisObscuro"><?php echo $item->get_description(); ?></small>
-                     </p>
-                   </td>
-                 </tr>
-               <?php endfor; ?>
-               </table>
-
-
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="tamNoticia">
-              <div class="tab-pane active in fade" id="rssFinanciero">
-              <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="450" width="100%"  scrolling="yes" ></iframe>
-              -->
-
-            <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="300" width="300" frameborder="1" scrolling="yes" ></iframe>
-          -->
-              </div>
-            </div>
-
-          </div>
-
-          <div class="item">
-
-              <div class="table-responsive tamNoticia" >
-
-                <h3 class="text-center">
-                     <strong><a class="grisObscuro enlaceSimple"target="blanck" href="<?php echo $feed[2]->get_permalink(); ?>">
-                      Diario Oficial de la Federación
-                    </a></strong>
-                </h3>
-
-                 <table class="table ">
-                  <?php
-                    $max = $feed[2]->get_item_quantity();
-                    for ($x = 0; $x < $max; $x++):
-                        $item = $feed[2]->get_item($x);
-                  ?>
-                  <tr class="item">
-                    <td>
-                      <p>
-                       <h4><a class="enlaceSimple" href="<?php echo $item->get_permalink(); ?>" target="_blank">
-                           <?php echo $item->get_title(); ?>
-                       </a><br></h4>
-                       <small class="text-justify" target="_blank"><?php echo $item->get_description(); ?></small>
-                      </p>
-                    </td>
-                  </tr>
-                <?php endfor; ?>
-                </table>
-            </div>
-          </div>
-
-
-
-        </div>
-
-      <!--    <a class="left carousel-control" href="#carouselNoticias" data-slide="prev">
-          <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#carouselNoticias" data-slide="next">
-          <span class="icon-next"></span>
-        </a>
-        -->
-      </div>
-    </div> <!-- /carusel Infoteca -->
      <!--  *************************** / N O T I C I A S *************************************** -->
 
      <!--  *************************** I N F O T E C A  *************************************** -->
       <div class="well col-md-4 col-sm-12 col-xs-12 noticiasWell lateral">
-        <h3 class="text-center"><a href="{{ URL::to('publicos/infoteca')}}" class="grisObscuro enlaceSimple"><strong><i class="fa fa-folder-open"></i> Infoteca</strong></a></h3>
+        <h3 class="text-center"><a href="publicos/infoteca.php" class="grisObscuro enlaceSimple"><strong><i class="fa fa-folder-open"></i> Infoteca</strong></a></h3>
             <div id="carouselInfoteca" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselInfoteca" data-slide-to="0" class="liInicio2 active"></li>
@@ -532,31 +356,31 @@
 
               <div class="carousel-inner ">
                 <div class="item active paddingCarousel">
-                  <a href="{{URL::to('publicos/infoteca/videos/video1')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/490377069.jpg')}}" alt="videos" />Videos</h3></a>
+                  <a href="publicos/infoteca/videos/video1.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/490377069.jpg" alt="videos" />Videos</h3></a>
                 </div>
 
                 <div class="item paddingCarousel">
-                  <a href="{{URL::to('publicos/infoteca/podcast')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/103583035.jpg')}}"/>Podcast</h3></a>
+                  <a href="publicos/infoteca/podcast.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/103583035.jpg"/>Podcast</h3></a>
                 </div>
 
                 <div class="item paddingCarousel">
-                  <a href="{{ URL::to('publicos/infoteca/articulos/articulo1')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/465911039.jpg')}}"/>Artículos </h3></a>
+                  <a href="publicos/infoteca/articulos/articulo1.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/465911039.jpg"/>Artículos </h3></a>
                 </div>
 
                 <div class="item paddingCarousel">
-                  <a href="{{ URL::to('publicos/infoteca/resenas/resena1')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/488046651.jpg')}}"/>Reseñas </h3></a>
+                  <a href="publicos/infoteca/resenas/resena1.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/488046651.jpg"/>Reseñas </h3></a>
                 </div>
 
                 <div class="item paddingCarousel">
-                  <a href="{{ URL::to('publicos/infoteca/tutoriales/tutorial1')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/493918821.jpg')}}"/>Tutoriales </h3></a>
+                  <a href="publicos/infoteca/tutoriales/tutorial1.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/493918821.jpg"/>Tutoriales </h3></a>
                 </div>
 
                 <div class="item paddingCarousel">
-                  <a href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssCuotas')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/464236751.jpg')}}"/>Indicadores fiscales </h3></a>
+                  <a href="publicos/infoteca/indicadoresF/seguridadS/ssCuotas.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/464236751.jpg"/>Indicadores fiscales </h3></a>
                 </div>
 
                 <div class="item paddingCarousel">
-                  <a href="{{ URL::to('publicos/infoteca/legislacion')}}" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="{{URL::asset('img/infoteca/156628164.jpg')}}"/>Legislación </h3></a>
+                  <a href="publicos/infoteca/legislacion.php" class="enlaceSimple"><h3 class="text-center grisObscuro"><img class="img-responsive imgResena" src="img/infoteca/156628164.jpg"/>Legislación </h3></a>
                 </div>
               </div>
 
@@ -598,8 +422,7 @@
          </a></small>
          <br>
           <small><sup>4</sup>
-           <small><?php echo $itemDolar->get_description(); ?></small><br>
-         </a></small>
+           
         </div>
       </div>
 
@@ -671,7 +494,7 @@
 
 
 
-    <?php include ("seccionesVista/piePagina.php"); ?>
+    <?php include ("./seccionesVista/piePagina.php"); ?>
 
 </body>
 

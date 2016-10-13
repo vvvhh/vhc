@@ -7,41 +7,41 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/">
-        <img id="imgI" class="img-responsive" src="{{URL::asset('img/logoNombre.png')}}">
+        <img id="imgI" class="img-responsive" src="img/logoNombre.png">
       </a>
     </div>
 
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li id="navInicio">
-          <a  href="{{ URL::to('/')}}">Inicio</a>
+          <a  href="/">Inicio</a>
         </li>
         <li id="navNosotros">
-          <a  href="{{ URL::to('publicos/sobreNosotros')}}" id="aNosotros">Sobre Nosotros</a>
+          <a  href="publicos/sobreNosotros.php" id="aNosotros">Sobre Nosotros</a>
         </li>
         <li id="navServicios">
-          <a  href="{{ URL::to('publicos/servicios')}}" id="aServicios">Servicios</a>
+          <a  href="publicos/servicios.php" id="aServicios">Servicios</a>
         </li>
         <li id="navInfoteca">
-          <a href="{{ URL::to('publicos/infoteca')}}" id="aInfoteca">Infoteca</a>
+          <a href="publicos/infoteca.php" id="aInfoteca">Infoteca</a>
         </li>
         <li id="navInteres">
-          <a href="{{ URL::to('publicos/sInteres')}}" id="aSitios">Sitios de Interés</a>
+          <a href="publicos/sInteres.php" id="aSitios">Sitios de Interés</a>
         </li>
         <li id="navIntegrate">
-          <a href="{{ URL::to('publicos/integrate')}}" id="aIntegrate">Intégrate</a>
+          <a href="publicos/integrate.php" id="aIntegrate">Intégrate</a>
         </li>
         <li id="navPortafolio">
-          <a href="{{ URL::to('publicos/portafolio')}}" id="aPortafolio">Portafolio</a>
+          <a href="publicos/portafolio.php" id="aPortafolio">Portafolio</a>
         </li>
         <li id="navContacto">
-          <a  href="{{ URL::to('publicos/contacto')}}" id="aContato">Contacto</a>
+          <a  href="publicos/contacto.php" id="aContato">Contacto</a>
         </li>
 
       </ul>
     </div>
 
-    
+
 
 
 </nav>

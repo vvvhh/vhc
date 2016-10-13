@@ -45,17 +45,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 colorTxtPieBajo">
-          <a href="{{ URL::to('publicos/piePagina/propiedadIntelectual')}}" id="condicion">&copy; VHC 2016</a>
+          <a href="publicos/piePagina/propiedadIntelectual.php" id="condicion">&copy; VHC 2016</a>
           |
-          <a href="{{ URL::to('publicos/piePagina/avisoPrivacidadClientes')}}" id="aPrivacidad" class="enlacePie">Aviso privacidad</a>
+          <a href="publicos/piePagina/avisoPrivacidadClientes.php" id="aPrivacidad" class="enlacePie">Aviso privacidad</a>
           |
-    <!--        <a href="{{ URL::to('publicos/piePagina/avisoPrivacidadProveedores')}}" id="condicion">Aviso privacidad proveedores</a>
+    <!--        <a href="publicos/piePagina/avisoPrivacidadProveedores.php" id="condicion">Aviso privacidad proveedores</a>
           |
-          <a href="{{ URL::to('publicos/piePagina/avisoPrivacidadEmpleados')}}" id="condicion">Aviso privacidad empleados</a>
+          <a href="publicos/piePagina/avisoPrivacidadEmpleados.php" id="condicion">Aviso privacidad empleados</a>
           |-->
-          <a href="{{ URL::to('publicos/piePagina/politicaUso')}}" id="aPolitica" class="enlacePie">Política de uso y privacidad del sitio web</a>
+          <a href="publicos/piePagina/politicaUso.php" id="aPolitica" class="enlacePie">Política de uso y privacidad del sitio web</a>
           |
-          <a href="{{ URL::to('publicos/piePagina/mapaSitio')}}" id="aMapa" class="enlacePie">Mapa del sitio</a>
+          <a href="publicos/piePagina/mapaSitio.php" id="aMapa" class="enlacePie">Mapa del sitio</a>
         </div>
       </div>
     </div>
@@ -78,10 +78,10 @@
           aMapa.attr('href', ' ');
     }
     else {
-      condicion.attr('href', "{{ URL::to('publicos/piePagina/propiedadIntelectual')}}");
-      aPrivacidad.attr('href', "{{ URL::to('publicos/piePagina/avisoPrivacidadClientes')}}");
-      aPolitica.attr('href', "{{ URL::to('publicos/piePagina/politicaUso')}}");
-      aMapa.attr('href', "{{ URL::to('publicos/piePagina/mapaSitio')}}");
+      condicion.attr('href', "publicos/piePagina/propiedadIntelectual.php");
+      aPrivacidad.attr('href', "publicos/piePagina/avisoPrivacidadClientes.php");
+      aPolitica.attr('href', "publicos/piePagina/politicaUso.php");
+      aMapa.attr('href', "publicos/piePagina/mapaSitio.php");
     }
 
 
