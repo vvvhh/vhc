@@ -871,7 +871,7 @@ nav div.footer-ribbon span{
 .efecto1{
   -webkit-transition: background-image 0.3s ease, background-position 0.3s;
 	transition: background-image 0.3s ease, background-position 0.3s;
-  background-image: url('../../img/servicios/101371076s.jpg');
+  background-image: url('../img/servicios/101371076s.jpg');
 }
 
 .efecto2:hover{

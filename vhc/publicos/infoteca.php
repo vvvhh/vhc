@@ -1,21 +1,31 @@
-@extends('layout')
+<!DOCTYPE html>
+<html lang="es">
 
-@section('head')
-  <meta name="description" content="Contenido multimedia relativo al área contable.">
-  <meta name="keywords" content="videos, podcast, artículos, reseñas, tutoriales, indicadores fiscales, legislación mexicana" />
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <meta name="description" content="Contenido multimedia relativo al área contable.">
+    <meta name="keywords" content="videos, podcast, artículos, reseñas, tutoriales, indicadores fiscales, legislación mexicana" />
 
-@section('title')
-  Infoteca | Vázquez Hernández Contadores, S. C.
-@stop
+    <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+    <title>  Infoteca | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('body')
-@stop
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+    <link href="../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../img/infoteca/467228677.jpg');"class="fondo paddingTexto">
   <div class="row">
     <br>
@@ -37,14 +47,14 @@
   <div class="row">
     <div class="col-md-3 col-sm-6 transladarDerecha" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{URL::to('publicos/infoteca/videos/video1')}}" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/videos/video1.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"> <i class="fa fa-plus fa-3x"></i> videos</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/490377069.jpg')}}" alt="videos" />
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/490377069.jpg" alt="videos" />
                     <h4><i class="fa fa-film"></i> Videos</h4>
               </div>
           </a>
@@ -53,14 +63,14 @@
 
     <div class="col-md-3 col-sm-6 transladarAbajo" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{ URL::to('publicos/infoteca/podcast')}}" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/podcast.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"> <i class="fa fa-plus fa-3x"></i> podcast</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/103583035.jpg')}}"/>
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/103583035.jpg"/>
                   <h4><i class="fa fa-microphone"></i> Podcast</h4>
               </div>
           </a>
@@ -69,14 +79,14 @@
 
     <div class="col-md-3 col-sm-6 transladarIzquierda" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{ URL::to('publicos/infoteca/articulos/articulo1')}}" class="portfolio-link" data-toggle="modal">
+          <a href="infoteca/articulos/articulo1.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"><i class="fa fa-plus fa-3x"></i> artículos</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/465911039.jpg')}}"/>
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/465911039.jpg"/>
                   <h4><i class="fa fa-file-text-o"></i> Artículos </h4>
               </div>
           </a>
@@ -85,14 +95,14 @@
 
     <div class="col-md-3 col-sm-6 transladarDerecha" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{ URL::to('publicos/infoteca/resenas/resena1')}}" class="portfolio-link" data-toggle="modal">
+          <a href="publicos/infoteca/resenas/resena1.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"> <i class="fa fa-plus fa-3x"></i> reseñas</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/488046651.jpg')}}"/>
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/488046651.jpg"/>
                   <h4><i class="fa fa-pencil"></i> Reseñas</h4>
               </div>
           </a>
@@ -101,14 +111,14 @@
 
     <div class="col-md-3 col-sm-6 transladarAbajo" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{ URL::to('publicos/infoteca/tutoriales/tutorial1')}}" class="portfolio-link" data-toggle="modal">
+          <a href="publicos/infoteca/tutoriales/tutorial1.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"> <i class="fa fa-plus fa-3x"></i> tutoriales</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/493918821.jpg')}}"/>
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/493918821.jpg"/>
                   <h4><i class="fa fa-book"></i> Tutoriales</h4>
               </div>
           </a>
@@ -117,14 +127,14 @@
 
     <div class="col-md-3 col-sm-6 transladarIzquierda" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssCuotasImss')}}" class="portfolio-link" data-toggle="modal">
+          <a href="publicos/infoteca/indicadoresF/seguridadS/ssCuotasImss.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"><i class="fa fa-plus fa-3x"></i> indicadores</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/464236751.jpg')}}"/>
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/464236751.jpg"/>
                   <h4><i class="fa fa-line-chart"></i> Indicadores</h>
               </div>
           </a>
@@ -133,14 +143,14 @@
 
     <div class="col-md-3 col-sm-6 transladarDerecha" id="portfolio">
       <div class="portfolio-item ">
-          <a href="{{ URL::to('publicos/infoteca/legislacion')}}" class="portfolio-link" data-toggle="modal">
+          <a href="publicos/infoteca/legislacion.php" class="portfolio-link" data-toggle="modal">
               <div class="caption">
                   <div class="caption-content">
                       <h2 class="grisClaro"><i class="fa fa-plus fa-3x"></i> legislación</h2>
                   </div>
               </div>
               <div class="well noticiasWell grisObscuro text-center">
-                  <img id="imgI" class="img-responsive imgResena" src="{{URL::asset('img/infoteca/156628164.jpg')}}"/>
+                  <img id="imgI" class="img-responsive imgResena" src="../img/infoteca/156628164.jpg"/>
                   <h4><i class="fa fa-gavel"></i> Legislación</h4>
               </div>
           </a>
@@ -150,10 +160,13 @@
 
 </div>
 </div>
-@stop
+<?php include ("../seccionesVista/piePagina.php"); ?>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
-@section('javascript')
   <script>
   	$('#navInfoteca').addClass('activoLi');
   </script>
-@stop
+</body>
+
+</html>
