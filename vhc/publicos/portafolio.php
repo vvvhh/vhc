@@ -1,21 +1,33 @@
-@extends('layout')
 
-@section('head')
-  <meta name="description" content="Testimonios y algunos clientes en Vázquez Hernández Contadores, S.C.">
-  <meta name="keywords" content="testimonios, clientes" />
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Portafolio | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <meta name="description" content="Testimonios y algunos clientes en Vázquez Hernández Contadores, S.C.">
+    <meta name="keywords" content="testimonios, clientes" />
 
-@section('css')
-@stop
+    <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-@section('body')
-@stop
+    <title> Portafolio | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('content')
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    
+    <link href="../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../img/inicio/471979333.jpg ');"class="fondo paddingTexto">
 
   <div class="row">
@@ -48,13 +60,13 @@
 
           <div class="carousel-inner">
             <div class="item active">
-              <img class="img-responsive imgPortafolio" src="{{URL::asset('img/portafolio/tes1.png')}}" >
+              <img class="img-responsive imgPortafolio" src="../img/portafolio/tes1.png" >
             </div>
             <div class="item">
-              <img class="img-responsive imgPortafolio" src="{{URL::asset('img/portafolio/tes2.png')}}" >
+              <img class="img-responsive imgPortafolio" src="../img/portafolio/tes2.png" >
             </div>
             <div class="item">
-              <img class="img-responsive imgPortafolio" src="{{URL::asset('img/portafolio/tes3.png')}}">
+              <img class="img-responsive imgPortafolio" src="../img/portafolio/tes3.png">
             </div>
           </div>
 
@@ -79,31 +91,31 @@
 
     <div class="row center-block transladarDerecha">
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/CEstrategias.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CEstrategias.jpg">
       </div>
 
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/CfernandezE.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CfernandezE.jpg">
       </div>
 
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/CFinanet.png')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CFinanet.png">
       </div>
 
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/Cpikoff.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/Cpikoff.jpg">
       </div>
 
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/CPM.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CPM.jpg">
       </div>
 
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/CUBI.jpg')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CUBI.jpg">
       </div>
 
       <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
-        <img class="imgS2 img-responsive img-rounded" src="{{URL::asset('img/portafolio/CXventure.png')}}">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CXventure.png">
       </div>
 
     </div>
@@ -111,13 +123,18 @@
     </div> <!-- /Container -->
 
 </div>
-@stop
 
-@section('javascript')
+<?php include ("../seccionesVista/piePagina.php"); ?>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
 <script>
   $('#carouselTestimonios').carousel({
     interval: 4000
   });
 	$('#navPortafolio').addClass('activoLi');
 </script>
-@stop
+
+</body>
+
+</html>
