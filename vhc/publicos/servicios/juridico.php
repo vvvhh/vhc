@@ -1,19 +1,29 @@
-@extends('layout')
 
-@section('head')
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Servicio Jurídico | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+    <title>
+      Servicio Jurídico | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('body')
-@stop
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
 <div style="background-image:url('../../img/inicio/180256715.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
@@ -37,7 +47,7 @@
       <br>
       <div class="row">
         <div class="col-md-4 ">
-          <img id="imgI" src="{{URL::asset('img/servicios/156628164.jpg')}}" class="img-rounded img-responsive"/>
+          <img id="imgI" src="../../img/servicios/156628164.jpg" class="img-rounded img-responsive"/>
         </div>
         <div class="col-md-8 ">
           <h3 class="grisObscuro  texto3d text-left tituloEntrada">
@@ -113,7 +123,7 @@
         <div class="col-md-12">
 
         <h3 class="grisObscuro  texto3d text-center tituloEntrada">
-          <a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=4#tituloServicios')}}">Due diligence legal </a>
+          <a href="auditoria.php?tipoDue=4#tituloServicios">Due diligence legal </a>
         </h3>
         <p class="formatoTexto text-justify ">
           Soporte estructural de las negociaciones, llevando a cabo el proceso de revisión del cumplimiento de las disposiciones legales aplicables a la entidad, con especial atención a litigios actuales o amenaza de ellos.
@@ -139,7 +149,7 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img id="imgI" src="{{URL::asset('img/servicios/135520668.jpg')}}" class="img-rounded img-responsive"/>
+          <img id="imgI" src="../../img/servicios/135520668.jpg')}}" class="img-rounded img-responsive"/>
         </div>
 
       </div> -->
@@ -156,10 +166,16 @@
 
   </div>
 </div>
-@stop
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 
-@section('javascript')
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+
+</body>
+
+</html>
