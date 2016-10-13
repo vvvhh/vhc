@@ -63,30 +63,30 @@
                  </a>
              </li>
              <li id="liTArrendamiento" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTArrendamientoTrimestral')}}">
+                 <a class="grisClaro " href="#" id="aArrendamiento">
                    <p>- Tarifa mensual y trimestral de arrendamiento</p>
                  </a>
              </li>
              <li id="liTActividades" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTMensualActividad')}}">
+                 <a class="grisClaro " href="#" id="aTProfesionales">
                    <p>- Tarifa mensual actividades empresariales y profesionales</p>
                  </a>
              </li>
 
            <li id="liFiCalendario" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifCalendarioObligaciones')}}">
+                 <a class="grisClaro " href="#" id="aCObligaciones">
                    <p>- Calendario de obligaciones</p>
                  </a>
            </li>
 
            <li id="liTRecargos2" class="liInfoteca">
-             <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifTasasRecargo2')}}">
+             <a class="grisClaro " href="#" id="aTRecargos">
                  <p>- Tasas de recargos
              </a>
            </li>
 
            <li id="liInstituciones" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/impuestosF/ifInstitucionesCredito')}}">
+                 <a class="grisClaro " href="#" id="aInstituciones">
                    <p>- Instituciones de crédito autorizadas para recibir declaraciones</p>
                  </a>
              </li>
@@ -318,6 +318,11 @@
   aReincos=document.getElementById('aReincos');
   aSemestralesP=document.getElementById('aSemestralesP');
   aTSueldos=document.getElementById('aTSueldos');
+  aArrendamiento=document.getElementById('aArrendamiento');
+  aTProfesionales=document.getElementById('aTProfesionales');
+  aCObligaciones=document.getElementById('aCObligaciones');
+  aTRecargos=document.getElementById('aTRecargos');
+  aInstituciones=document.getElementById('aInstituciones');
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
   var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
@@ -325,6 +330,11 @@
   var rReincos= "publicos/infoteca/indicadoresF/impuestosF/ifReincos.php";
   var rSemestralesP= "publicos/infoteca/indicadoresF/impuestosF/ifTSemestralesPrimario.php";
   var rTSueldos= "publicos/infoteca/indicadoresF/impuestosF/ifTSueldosSalarios.php";
+  var rArrendamiento = "publicos/infoteca/indicadoresF/impuestosF/ifTArrendamientoTrimestral.php";
+  var rTProfesionales = "publicos/infoteca/indicadoresF/impuestosF/ifTMensualActividad.php";
+  var rCObligaciones = "publicos/infoteca/indicadoresF/impuestosF/ifCalendarioObligaciones.php";
+  var rTRecargos = "publicos/infoteca/indicadoresF/impuestosF/ifTasasRecargo2.php";
+  var rInstituciones = "publicos/infoteca/indicadoresF/impuestosF/ifInstitucionesCredito.php";
 
 
 
@@ -334,5 +344,10 @@
   aReincos.href="http://"+dominio+absoluta+rReincos;
   aSemestralesP.href="http://"+dominio+absoluta+rSemestralesP;
   aTSueldos.href="http://"+dominio+absoluta+rTSueldos;
+  aArrendamiento.href="http://"+dominio+absoluta+rArrendamiento;
+  aTProfesionales.href="http://"+dominio+absoluta+rTProfesionales;
+  aCObligaciones.href="http://"+dominio+absoluta+rCObligaciones;
+  aTRecargos.href="http://"+dominio+absoluta+rTRecargos;
+  aInstituciones.href="http://"+dominio+absoluta+rInstituciones;
 
 </script>
