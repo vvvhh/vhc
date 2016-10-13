@@ -1,23 +1,29 @@
-@extends('layoutInicio')
+<!DOCTYPE html>
+<html lang="es">
 
-@section('head')
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="edSantiago" />
   <meta name="description" content="Vázquez Hernández Contadores, S.C. Firma Méxicana especializada en servicios de contaduría. Somos la solución confiable a sus necesidades de negocio.">
   <meta name="keywords" content="contaduría, contabilidad, despacho contable, servicio contable, servicio online,  servicio asesoría, servicio auditoría, servicios jurídico, servicio fiscal" />
-@stop
+  <link rel="icon" type="./image/png" href="./favicon.png"/>
 
-@section('title')
-  Vázquez Hernández Contadores, S. C.
-@stop
+  <title>Vázquez Hernández Contadores, S. C.</title>
 
-@section('css')
-{{ HTML::style('css/inicio.css') }}
-@stop
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="css/inicio.css" rel="stylesheet">
+</head>
 
 
-@section('content') <!-- onload="alertInicio();" -->
 <body onload="alertInicio();">
 
-  @include('seccionesVista.barraNavegacionPagina')
+
+  <?php include ("seccionesVista/barraNavegacionPagina.php"); ?>
+
 <!-- carousel -->
 <!-- {{ HTML::style('css/inicio.css', array('media'=>"none",'onload'=>"if(media!='all')media='all'")) }} -->
 
@@ -610,11 +616,12 @@
 {{ HTML::script('js/lib/bootbox.min.js', array('async' => 'async'))}}
 {{ HTML::script('js/inicio.js', array('async' => 'async'))}}
 -->
-{{ HTML::script('js/jquery.js')}}
-{{ HTML::script('js/bootstrap.min.js')}}
-{{ HTML::script('js/lib/bootbox.min.js')}}
-{{ HTML::script('js/lib/accounting.min.js')}}
-{{ HTML::script('js/inicio.js')}}
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lib/bootbox.min.js"></script>
+<script src="js/lib/accounting.min.js"></script>
+<script src="js/inicio.js"></script>
+
   <script>
     $('#carouselResena').carousel({
       interval: 4000
@@ -662,6 +669,16 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-  @include('seccionesVista.piePagina')
+
+
+    <?php include ("seccionesVista/piePagina.php"); ?>
+
 </body>
-@stop
+
+
+
+
+
+</body>
+
+</html>
