@@ -64,7 +64,7 @@
                   <!-- MENU DE LAS RESEÑAS menuResena.blde.php -->
                 <?php include ("../../../seccionesVista/menuVideo.php"); ?>
                 <br>
-                <a class="btn btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar Infoteca</span></a>
+                <a class="btn btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar </span></a>
               </div>
 
 

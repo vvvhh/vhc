@@ -16,7 +16,7 @@
                       <a class="grisClaro texto3d" href="video2.php">
                         - Discrepancia Fiscal</a>
                   </li>
-                  <li id="liVideo4">
+                  <li id="liVideo3">
                     <a class="grisClaro texto3d" href="video5.php">
                       - Enajenación de bienes</a>
                 </li>
@@ -24,7 +24,7 @@
                   <a class="grisClaro texto3d" href="video4.php">
                     - Tarjetas de crédito</a>
               </li>
-                    <li id="liVideo3">
+                    <li id="liVideo5">
                       <a class="grisClaro texto3d" href="video3.php">
                         - Cumplimiento de las obligaciones fiscales cuando una persona fallece </a>
                   </li>
