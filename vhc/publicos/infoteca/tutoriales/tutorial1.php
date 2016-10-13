@@ -36,7 +36,7 @@
                       <div class="well trasparenteClaroPlus">  <!-- Well -->
 
                         <video height="400" width="100%" controls>
-                          <source src="../../../video/infoteca/tutoriales/descarga_xml.mov')}}">
+                          <source src="../../../video/infoteca/tutoriales/descarga_xml.mov">
                         </video>
                         <h3 class="text-center">
                           Recupera tus facturas electrónicas
@@ -58,9 +58,10 @@
           </div>
         </div>
 
-        <?php include ("../../../seccionesVista/piePagina.php"); ?>
+
         <script src="../../../js/jquery.js"></script>
         <script src="../../../js/bootstrap.min.js"></script>
+        <?php include ("../../../seccionesVista/piePagina.php"); ?>
 
       <script>
         $('#navInfoteca').addClass('activoLi');
