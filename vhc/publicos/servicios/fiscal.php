@@ -1,19 +1,29 @@
-@extends('layout')
 
-@section('head')
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Servicio Físcal | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+    <title>  Servicio Físcal | Vázquez Hernández Contadores, S. C.
+    </title>
 
-@section('body')
-@stop
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-@section('content')
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
+
 <div style="background-image:url('../../img/inicio/178709202.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
@@ -29,7 +39,7 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-4">
-              <img id="imgI" src="{{URL::asset('img/servicios/483424523.jpg')}}" class="img-rounded img-responsive"/>
+              <img id="imgI" src="../../img/servicios/483424523.jpg" class="img-rounded img-responsive"/>
             </div>
             <div class="col-md-8">
               <p class="text-justify formatoTexto2 sangria">
@@ -49,7 +59,7 @@ Derivado del profundo estudio de las leyes en la materia, así como de reglament
                   <li> Servicios de operación. </li>
                   <li> Servicios de asesoría y consultoría fiscal. </li>
                   <li> Servicios de planeación financiera e impositiva.</li>
-                  <li>Proceso de <a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=5#tituloServicios')}}">Due Diligence Fiscal. </a></li>
+                  <li>Proceso de <a href="auditoria.php?tipoDue=5#tituloServicios">Due Diligence Fiscal. </a></li>
                 </ul>
               </p>
 
@@ -67,10 +77,16 @@ Derivado del profundo estudio de las leyes en la materia, así como de reglament
 
   </div>
 </div>
-@stop
+<?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 
-@section('javascript')
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+
+</body>
+
+</html>
