@@ -146,14 +146,15 @@
 
           $textoMarquee="";
           $textoMarquee1="";
-
+          $x=0;
           foreach ($feed->get_items() as $item) {
             $textoMarquee = $textoMarquee.$item->get_title();
             $textoMarquee = $textoMarquee." ";
             $textoMarquee = $textoMarquee.$item->get_content();
             $textoMarquee = $textoMarquee.'<sup>1</sup>';
             $textoMarquee = $textoMarquee."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-
+            if ($x==1) { $dolar = $item->get_description();}
+            $x++;
             }
 
        ?>
@@ -162,6 +163,7 @@
        <?php $textoMarquee1 = $textoMarquee1."INPC: 119.211<sup>2</sup> " ?>
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
        <?php $textoMarquee1 = $textoMarquee1."CETES 28: 4.23<sup>3</sup>" ?>
+       <input type="text" class="hidden" name="name" value="<?php echo $dolar ?>" id="txtValDolar">
 
         <marquee  behavior="scroll" scrollamount=3 direction="left">
           <a class="enlaceSimple"  target="_blanck" href="<?php echo $feed->get_image_link(); ?>" target="_blanck" ><?php echo $textoMarquee ?>

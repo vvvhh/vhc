@@ -18,7 +18,7 @@ function alertInicio(){
       centrado="center";
 
       bootbox.dialog({
-        message: "<div align='"+centrado+"'> <img src='"+urlImg+"'><br><h4><strong>Bienvenido(a)</strong></h4><p>Al visitar este sitio, usted está de acuerdo con la Política de Uso y Privacidad.</p> <p><a href='publicos/piePagina/politicaUso'>Leer Política de Uso y Privacidad</a></p> </div>",
+        message: "<div align='"+centrado+"'> <img src='"+urlImg+"'><br><h4><strong>Bienvenido(a)</strong></h4><p>Al visitar este sitio, usted está de acuerdo con la Política de Uso y Privacidad.</p> <p><a href='publicos/piePagina/politicaUso.php'>Leer Política de Uso y Privacidad</a></p> </div>",
         closeButton: false,
         animate: true,
         buttons: {
