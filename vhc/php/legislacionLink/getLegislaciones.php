@@ -6,7 +6,7 @@
 
     include('ConsultasLegislacion.php');
     $ConsultasLegislacion = new ConsultasLegislacion;
-    $consulta = 'SELECT legId, legNombre, legLink, legTipo FROM legislacionLink WHERE legTipo = '.$tp.';';
+    $consulta = 'SELECT legId, legNombre, legLink, legTipo FROM legislacionlink WHERE legTipo = '.$tp.';';
     $response = $ConsultasLegislacion -> consultaGetLegislacion($consulta);
   }
   else {
