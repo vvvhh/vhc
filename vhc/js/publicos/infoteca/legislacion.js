@@ -81,7 +81,7 @@ var liLegEs1=$('#liLegEs1'),
 function buscarLegislacion(){
   tblResultados.removeClass('hidden');
         var datos = $.ajax({
-          url: 'getLegislacion',
+          url: '../../php/legislacionLink/getLegislacion.php',
           data: {
             bsc: txtBuscar.val()
           },
