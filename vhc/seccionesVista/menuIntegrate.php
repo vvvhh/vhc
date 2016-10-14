@@ -11,7 +11,7 @@
             <i class="fa fa-check-circle"></i> Tu desarrollo profesional y personal</a>
         </li>
         <li id="liRol">
-            <a class="grisClaro texto3d" id="aIntegrate">
+            <a class="grisClaro texto3d" id="aRol">
               <i class="fa fa-check-circle"></i> Tu rol en la firma
             </a>
         </li>
@@ -45,7 +45,7 @@
 <script type="text/javascript">
 var aElegirnos=document.getElementById('aElegirnos');
     aDesarrollo=document.getElementById('aDesarrollo');
-    aIntegrate=document.getElementById('aIntegrate');
+    aRol=document.getElementById('aRol');
     aCodigoC=document.getElementById('aCodigoC');
     aVacantes=document.getElementById('aVacantes');
     aPostulate=document.getElementById('aPostulate');
@@ -54,7 +54,7 @@ var aElegirnos=document.getElementById('aElegirnos');
 
   var rElegirnos="publicos/integrate/integratePElegir.php";
   var rDesarrollo="publicos/integrate/integrateDesarrollo.php";
-  var rIntegrate="publicos/integrate/integrateRol.php";
+  var rRol="publicos/integrate/integrateRol.php";
   var rCodigoC="publicos/integrate/eCConducta.php";
   var rVAcantes="publicos/integrate/integrateVacantes.php";
   var rPostulate="publicos/integrate/integratePostulate.php";
@@ -65,7 +65,7 @@ var aElegirnos=document.getElementById('aElegirnos');
 
   aElegirnos.href="http://"+dominio+absoluta2+rElegirnos;
   aDesarrollo.href="http://"+dominio+absoluta2+rDesarrollo;
-  aIntegrate.href="http://"+dominio+absoluta2+rIntegrate;
+  aRol.href="http://"+dominio+absoluta2+rRol;
   aCodigoC.href="http://"+dominio+absoluta2+rCodigoC;
   aVacantes.href="http://"+dominio+absoluta2+rVAcantes;
   aPostulate.href="http://"+dominio+absoluta2+rPostulate;
