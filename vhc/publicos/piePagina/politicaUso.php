@@ -1,19 +1,33 @@
-@extends('layout')
 
-@section('head')
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Propiedad Intelectual e Industrial | ContadoresVH
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <meta name="description" content="Contáctenos para recibir un diagnóstico, una opinión o una asesoría, con gusto uno de nuestros asesores le atenderá.">
+    <meta name="keywords" content="domicilio fiscal, direccion, teléfono, horario atención, mensaje, contacto" />
 
-@section('css')
-@stop
+    <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-@section('body')
-@stop
+    <title>Propiedad Intelectual e Industrial | ContadoresVH
+    </title>
 
-@section('content')
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/lib/sweet-alert.css" rel="stylesheet">
+    <link href="../../css/inicio.css" rel="stylesheet">
+
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+
+    <body>
+
+      <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
 <div class="fondo paddingTexto" style="background-image:url('../../img/piePagina/490457535.jpg ');">
   <div class="container"> <!-- Container -->
 
@@ -136,5 +150,13 @@
 
   </div>
 </div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<?php include ("../../seccionesVista/piePagina.php"); ?>
 
-@stop
+
+
+
+</body>
+
+</html>

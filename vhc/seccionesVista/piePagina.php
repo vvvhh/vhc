@@ -45,17 +45,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 colorTxtPieBajo">
-          <a href="publicos/piePagina/propiedadIntelectual.php" id="condicion">&copy; VHC 2016</a>
+          <a href="" id="condicion">&copy; VHC 2016</a>
           |
-          <a href="publicos/piePagina/avisoPrivacidadClientes.php" id="aPrivacidad" class="enlacePie">Aviso privacidad</a>
+          <a href="" id="aPrivacidad" class="enlacePie">Aviso privacidad</a>
           |
     <!--        <a href="publicos/piePagina/avisoPrivacidadProveedores.php" id="condicion">Aviso privacidad proveedores</a>
           |
           <a href="publicos/piePagina/avisoPrivacidadEmpleados.php" id="condicion">Aviso privacidad empleados</a>
           |-->
-          <a href="publicos/piePagina/politicaUso.php" id="aPolitica" class="enlacePie">Política de uso y privacidad del sitio web</a>
+          <a href="" id="aPolitica" class="enlacePie">Política de uso y privacidad del sitio web</a>
           |
-          <a href="publicos/piePagina/mapaSitio.php" id="aMapa" class="enlacePie">Mapa del sitio</a>
+          <a href="" id="aMapa" class="enlacePie">Mapa del sitio</a>
         </div>
       </div>
     </div>
@@ -70,6 +70,18 @@
         aPolitica=$('#aPolitica')
         aMapa=$('#aMapa');
 
+        var dominio=window.location.host;
+        var absoluta="/vhc/vhc/";
+        var rCondicion="publicos/piePagina/propiedadIntelectual.php";
+        var rPrivacidad="publicos/piePagina/avisoPrivacidadClientes.php";
+        var rPolitica="publicos/piePagina/politicaUso.php";
+        var rMapa = "publicos/piePagina/mapaSitio.php";
+
+      condicion.attr('href', "http://"+dominio+absoluta+rCondicion);
+      aPrivacidad.attr('href', "http://"+dominio+absoluta+rPrivacidad);
+      aPolitica.attr('href',  "http://"+dominio+absoluta+rPolitica);
+      aMapa.attr('href', "http://"+dominio+absoluta+rMapa);
+
     if(valor!="1"){
 
           condicion.attr('href', ' ');
@@ -77,12 +89,8 @@
           aPolitica.attr('href', ' ');
           aMapa.attr('href', ' ');
     }
-    else {
-      condicion.attr('href', "publicos/piePagina/propiedadIntelectual.php");
-      aPrivacidad.attr('href', "publicos/piePagina/avisoPrivacidadClientes.php");
-      aPolitica.attr('href', "publicos/piePagina/politicaUso.php");
-      aMapa.attr('href', "publicos/piePagina/mapaSitio.php");
-    }
+
+      //  var aInicio=document.getElementById('aInicio');
 
 
   </script>

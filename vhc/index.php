@@ -548,7 +548,7 @@
                 <li data-target="#carouselInfoteca" data-slide-to="3" class="liInicio2"></li>
                 <li data-target="#carouselInfoteca" data-slide-to="4" class="liInicio2"></li>
                 <li data-target="#carouselInfoteca" data-slide-to="5" class="liInicio2"></li>
-                
+
               </ol>
 
               <div class="carousel-inner ">
@@ -619,7 +619,8 @@
          </a></small>
          <br>
           <small><sup>4</sup>
-
+            Este tipo de cambio es determinado por el Banco de México los días hábiles bancarios con base en un promedio de las cotizaciones del mercado de cambios al mayoreo para operaciones liquidables el segundo día hábil bancario siguiente.
+          </small>
         </div>
       </div>
 
