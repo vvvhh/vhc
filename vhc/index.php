@@ -226,7 +226,7 @@
 
                       $itemDolar  = $feedDolar->get_item(0);
 
-                      $urlfeedEuro = "http://www.banxico.org.mx/rsscb/rss?BMXC_canal=fix&BMXC_idioma=es";
+                      $urlfeedEuro = "http://www.banxico.org.mx/rsscb/rss?BMXC_canal=euro&BMXC_idioma=es";
                       $feedEuro = new SimplePie();
                       $feedEuro->set_feed_url($urlfeedEuro);
                       $feedEuro->set_cache_location("cache");
@@ -255,7 +255,7 @@
                             <td>
                               <h5 class=""><a class="grisObscuro" href="<?php echo $itemEuro->get_permalink(); ?>" target="_blank">
                                 <i class="fa fa-eur"></i> <br>
-                                  <?php echo $itemEuro->get_title(); ?> <sup> 4</sup>
+                                  <?php echo $itemEuro->get_title(); ?>
                                 </h5></a>
                             </td>
                           </tr>
@@ -651,7 +651,7 @@
          </a></small>
          <br>
           <small><sup>4</sup>
-            Este tipo de cambio es determinado por el Banco de México los días hábiles bancarios con base en un promedio de las cotizaciones del mercado de cambios al mayoreo para operaciones liquidables el segundo día hábil bancario siguiente.
+            Tipo de cambio en dólares de los EE.UU.A. (FIX): Este tipo de cambio es determinado por el Banco de México los días hábiles bancarios con base en un promedio de las cotizaciones del mercado de cambios al mayoreo para operaciones liquidables el segundo día hábil bancario siguiente.
           </small>
         </div>
       </div>
