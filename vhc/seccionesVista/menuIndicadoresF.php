@@ -202,7 +202,7 @@
 
         <ul class="colorNav liInfoteca" style="list-style-type: none">
                  <li id="liCuotas" class="liInfoteca">
-                     <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssCuotasImss')}}">
+                     <a class="grisClaro " href="#" id="aCImss">
                        <p>- Cuotas al IMSS e INFONAVIT</p>
                      </a>
                  </li>
@@ -213,7 +213,7 @@
                  </li>
                  -->
                  <li id="liSanciones" class="liInfoteca">
-                     <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/seguridadS/ssSancion')}}">
+                     <a class="grisClaro " href="#" id="aSanciones">
                        <p>- Sanciones establecidas LSS e INFONAVIT</p>
                      </a>
                  </li>
@@ -238,7 +238,7 @@
 
       <ul  class="colorNav liInfoteca" style="list-style-type: none">
                   <li id="liLimite" class="liInfoteca">
-                      <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/lavadoD/ldLimite')}}">
+                      <a class="grisClaro " href="#" id="aVulnerables">
                         <p>- Catálogo de actividades vulnerables</p>
                       </a>
                   </li>
@@ -260,12 +260,12 @@
 
       <ul class="colorNav liInfoteca" style="list-style-type: none">
                    <li id="liSalario"  class="liInfoteca">
-                       <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/laboral/laSalario')}}">
+                       <a class="grisClaro " href="#" id="aSalarioM">
                          <p>- Salarios mínimos generales</p>
                        </a>
                    </li>
                    <li id="liSalarioP"  class="liInfoteca">
-                       <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/laboral/laSalarioProfecionales')}}">
+                       <a class="grisClaro " href="#" id="aSalarioP">
                          <p>- Salarios mínimos profesionales</p>
                        </a>
                    </li>
@@ -287,7 +287,7 @@
 
       <ul  class="colorNav liInfoteca" style="list-style-type: none">
                    <li id="liMultas" class="liInfoteca">
-                       <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera')}}">
+                       <a class="grisClaro " href="#" id="aMultas">
                          <p>- Multas ley aduanera</p>
                        </a>
                    </li>
@@ -333,6 +333,12 @@
   aTiie=document.getElementById('aTiie');
   aUdis=document.getElementById('aUdis');
   aTasaP=document.getElementById('aTasaP');
+  aCImss=document.getElementById('aCImss');
+  aSanciones=document.getElementById('aSanciones');
+  aVulnerables=document.getElementById('aVulnerables');
+  aSalarioM=document.getElementById('aSalarioM');
+  aSalarioP=document.getElementById('aSalarioP');
+  aMultas=document.getElementById('aMultas');
 
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
@@ -356,6 +362,12 @@
   rTiie  ="publicos/infoteca/indicadoresF/financiero/fiTiie.php";
   rUdis = "publicos/infoteca/indicadoresF/financiero/fiUdis.php";
   rTasaP = "publicos/infoteca/indicadoresF/financiero/fiInflacion.php";
+  rcImss = "publicos/infoteca/indicadoresF/seguridadS/ssCuotasImss.php";
+  rSanciones = "publicos/infoteca/indicadoresF/seguridadS/ssSancion.php";
+  rVulnerables = "publicos/infoteca/indicadoresF/lavadoD/ldLimite.php";
+  rSalarioM = "publicos/infoteca/indicadoresF/laboral/laSalario.php";
+  rSalarioP = "publicos/infoteca/indicadoresF/laboral/laSalarioProfecionales.php";
+  rMultas = "publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera.php";
 
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
@@ -379,5 +391,11 @@
   aTiie.href="http://"+dominio+absoluta+rTiie;
   aUdis.href="http://"+dominio+absoluta+rUdis;
   aTasaP.href="http://"+dominio+absoluta+rTasaP;
+  aCImss.href="http://"+dominio+absoluta+rcImss;
+  aSanciones.href="http://"+dominio+absoluta+rSanciones;
+  aVulnerables.href="http://"+dominio+absoluta+rVulnerables;
+  aSalarioM.href="http://"+dominio+absoluta+rSalarioM;
+  aSalarioP.href="http://"+dominio+absoluta+rSalarioP;
+  aMultas.href="http://"+dominio+absoluta+rMultas;
 
 </script>
