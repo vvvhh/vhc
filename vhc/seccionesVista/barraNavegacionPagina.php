@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/">
-        <img id="imgI" class="img-responsive" src="img/logoNombre.png">
+        <img id="imgI" class="img-responsive" src="">
       </a>
     </div>
 
@@ -78,6 +78,7 @@
         aIntegrate=document.getElementById('aIntegrate');
         aPortafolio=document.getElementById('aPortafolio');
         aContato=document.getElementById('aContato');
+        imgI=document.getElementById('imgI');
 
     var dominio=window.location.host;
     var absoluta="/vhc/vhc/";                   /*------------------------------------------------------------------*/
@@ -91,6 +92,7 @@
     var rIntegrate="publicos/integrate.php"
     var rportafolio="publicos/portafolio.php"
     var rContacto="publicos/contacto.php"
+    var rImagen="img/logoNombre.png";
 
     aInicio.href="http://"+dominio+absoluta+rInicio;
     aNosotros.href="http://"+dominio+absoluta+rNosotros;
@@ -101,6 +103,7 @@
     aPortafolio.href="http://"+dominio+absoluta+rportafolio;
     aContato.href="http://"+dominio+absoluta+rContacto;
 
+    imgI.src="http://"+dominio+absoluta+rImagen;
     console.log(dominio);
 
 
