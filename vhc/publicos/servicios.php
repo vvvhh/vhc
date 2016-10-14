@@ -17,7 +17,8 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="../css/inicio.css" rel="stylesheet">
+    
+    <link href="../css/publicos/pagina.css" rel="stylesheet">
   </head>
 
   <body>

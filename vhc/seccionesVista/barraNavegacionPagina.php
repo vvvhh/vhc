@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/">
+      <a href="">
         <img id="imgI" class="img-responsive" src="">
       </a>
     </div>

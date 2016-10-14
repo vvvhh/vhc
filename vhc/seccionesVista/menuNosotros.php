@@ -43,7 +43,7 @@
         </li>
 
         <li data-toggle="collapse" data-target="#ulVideosTem1" >
-          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotrosCCconduta"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotrosCCconduta.php"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;Código conducta
           </strong></a>
