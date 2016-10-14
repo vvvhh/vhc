@@ -18,7 +18,7 @@ function enviar(){
   procesoEnviar.removeClass('hidden');
 
   var datos = $.ajax({
-    url:'enviarContacto',
+    url:'../php/contacto/enviarContacto.php',
     data: {
       nombreContacto: inpNombre.val(),
       telefonoContacto: inpTelefono.val(),
