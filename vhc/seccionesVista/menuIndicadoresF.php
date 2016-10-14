@@ -132,37 +132,37 @@
                  </a>
              </li>
              <li id="liEquivalenciaO" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiEquivalenciaO')}}">
+                 <a class="grisClaro " href="#" id="aOtrasMonedas">
                    <p>- Equivalencia de otras monedas</p>
                  </a>
              </li>
              <li id="liIncp" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiIncp')}}">
+                 <a class="grisClaro " href="#" id="aInpc">
                    <p>- INPC</p>
                  </a>
              </li>
              <li id="liCetes" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiCetes')}}">
+                 <a class="grisClaro " href="#" id="aCetes">
                    <p>- CETES</p>
                  </a>
              </li>
              <li id="liCppc" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiCppc')}}">
+                 <a class="grisClaro " href="#" id="aCppc">
                    <p>- CPP</p>
                  </a>
              </li>
              <li id="liTiie" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiTiie')}}">
+                 <a class="grisClaro " href="#" id="aTiie">
                    <p>- TIIE</p>
                  </a>
              </li>
              <li id="liUdis" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiUdis')}}">
+                 <a class="grisClaro " href="#" id="aUdis">
                    <p>- UDIS</p>
                  </a>
              </li>
              <li id="liInflacion" class="liInfoteca">
-                 <a class="grisClaro " href="{{ URL::to('publicos/infoteca/indicadoresF/financiero/fiInflacion')}}">
+                 <a class="grisClaro " href="#" id="aTasaP">
                    <p>- Tasa porcentual de inflación</p>
                  </a>
              </li>
@@ -325,8 +325,15 @@
   aInstituciones=document.getElementById('aInstituciones');
   aDirectorio=document.getElementById('aDirectorio');
   aCantidadesPagar=document.getElementById('aCantidadesPagar');
-
   aDolar=document.getElementById('aDolar');
+  aOtrasMonedas=document.getElementById('aOtrasMonedas');
+  aInpc=document.getElementById('aInpc');
+  aCetes=document.getElementById('aCetes');
+  aCppc=document.getElementById('aCppc');
+  aTiie=document.getElementById('aTiie');
+  aUdis=document.getElementById('aUdis');
+  aTasaP=document.getElementById('aTasaP');
+
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
   var rTarifasPp="publicos/infoteca/indicadoresF/impuestosF/ifIsr-pp.php";
@@ -341,8 +348,15 @@
   var rInstituciones = "publicos/infoteca/indicadoresF/impuestosF/ifInstitucionesCredito.php";
   var rDirectorio = "publicos/infoteca/indicadoresF/impuestosF/ifDirectorioSat.php";
   var rCantidadesPagar = "publicos/infoteca/indicadoresF/impuestosF/ifPagarDerechos.php";
-
   var rDolar = "publicos/infoteca/indicadoresF/financiero/fiEquivalenciaDolar.php";
+  var rOtrasMonedas = "publicos/infoteca/indicadoresF/financiero/fiEquivalenciaO.php";
+  var rOtrasMonedas = "publicos/infoteca/indicadoresF/financiero/fiIncp.php";
+  var rCetes = "publicos/infoteca/indicadoresF/financiero/fiCetes.php";
+  rCppc ="publicos/infoteca/indicadoresF/financiero/fiCppc.php";
+  rTiie  ="publicos/infoteca/indicadoresF/financiero/fiTiie.php";
+  rUdis = "publicos/infoteca/indicadoresF/financiero/fiUdis.php";
+  rTasaP = "publicos/infoteca/indicadoresF/financiero/fiInflacion.php";
+
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
   aTarifasPp.href="http://"+dominio+absoluta+rTarifasPp;
@@ -357,7 +371,13 @@
   aInstituciones.href="http://"+dominio+absoluta+rInstituciones;
   aDirectorio.href="http://"+dominio+absoluta+rDirectorio;
   aCantidadesPagar.href="http://"+dominio+absoluta+rCantidadesPagar;
-
   aDolar.href="http://"+dominio+absoluta+rDolar;
+  aOtrasMonedas.href="http://"+dominio+absoluta+rOtrasMonedas;
+  aInpc.href="http://"+dominio+absoluta+rOtrasMonedas;
+  aCetes.href="http://"+dominio+absoluta+rCetes;
+  aCppc.href="http://"+dominio+absoluta+rCppc;
+  aTiie.href="http://"+dominio+absoluta+rTiie;
+  aUdis.href="http://"+dominio+absoluta+rUdis;
+  aTasaP.href="http://"+dominio+absoluta+rTasaP;
 
 </script>
