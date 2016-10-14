@@ -160,19 +160,19 @@
                       <div class="row">
                         <div class="col-md-6">
                           <ul class="text-justify formatoTexto2">
-                            <li id="liConfianza" class="liSomos">Confianza</li>
-                            <li id="liCompromiso" class="liSomos">Compromiso</li>
-                            <li id="liPerseverancia" class="liSomos">Perseverancia</li>
-                            <li id="liRespeto" class="liSomos">Respeto</li>
-                            <li id="liEtica" class="liSomos"> Ética Profesional</li>
+                            <li id="liConfianza" class="liSomos text-primary">Confianza</li>
+                            <li id="liCompromiso" class="liSomos text-primary">Compromiso</li>
+                            <li id="liPerseverancia" class="liSomos text-primary">Perseverancia</li>
+                            <li id="liRespeto" class="liSomos text-primary">Respeto</li>
+                            <li id="liEtica" class="liSomos text-primary"> Ética Profesional</li>
                           </ul>
                         </div>
                         <div class="col-md-6">
                           <ul class="text-justify formatoTexto2">
-                            <li id="liTrabajo" class="liSomos">Trabajo en Equipo</li>
-                            <li id="liExelencia" class="liSomos">Excelencia</li>
-                            <li id="liLiderazgo" class="liSomos">Liderazgo</li>
-                            <li id="liEntusiasmo" class="liSomos">Entusiasmo</li>
+                            <li id="liTrabajo" class="liSomos text-primary">Trabajo en Equipo</li>
+                            <li id="liExelencia" class="liSomos text-primary">Excelencia</li>
+                            <li id="liLiderazgo" class="liSomos text-primary">Liderazgo</li>
+                            <li id="liEntusiasmo" class="liSomos text-primary">Entusiasmo</li>
                           </ul>
                         </div>
 
