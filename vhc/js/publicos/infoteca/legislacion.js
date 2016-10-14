@@ -662,7 +662,7 @@ function ocultarLegEstatal(){
 
 function getLegislaciones(tipo){
   var datos = $.ajax({
-    url: 'getLegislaciones',
+    url: '../../php/legislacionLink/getLegislaciones.php',
     data: {
       tp: tipo
     },
