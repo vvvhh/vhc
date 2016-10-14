@@ -82,6 +82,7 @@
            <li id="liTRecargos2" class="liInfoteca">
              <a class="grisClaro " href="#" id="aTRecargos">
                  <p>- Tasas de recargos
+                 </p>
              </a>
            </li>
 
@@ -95,12 +96,14 @@
            <li id="liDSat" class="liInfoteca">
                <a class="grisClaro " href="#" id="aDirectorio">
                  <p>- Directorio de oficinas del SAT DF
+                 </p>
                </a>
            </li>
 
            <li id="liPagosDerecho" class="liInfoteca">
                <a class="grisClaro " href="#" id="aCantidadesPagar">
                  <p>- Cantidades a pagar por concepto de derecho 2016
+                 </p>
                </a>
            </li>
 
