@@ -156,13 +156,13 @@
                   <div class="checkbox"> <!-- animacionEscalaLoop -->
                     <label class="grisClaro" id="aceptoCheck">
                       <input type="checkbox" id="chkAcepto" name="acepto">
-                        *Al hacer clic en el botón, acepto la <a href="{{ URL::to('publicos/piePagina/politicaUso')}}">Política de uso y privacidad del sitio web</a> y el <a href="{{ URL::to('publicos/piePagina/avisoPrivacidadClientes')}}" >Aviso de privacidad para clientes</a>.
+                        *Al hacer clic en el botón, acepto la <a href="piePagina/politicaUso.php">Política de uso y privacidad del sitio web</a> y el <a href="piePagina/avisoPrivacidadClientes.php" >Aviso de privacidad para clientes</a>.
                       </label>
                   </div>
                 </div>
                 <div>
                   <input type="hidden" name="contactoh" id="contactoh" value="contacto">
-                  <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+                  <input type="hidden" name="_token" value="4862">
                 </div>
 
                 <div class="col-md-8 col-md-offset-2">
@@ -186,13 +186,14 @@
 
 </div>
 
-<?php include ("../seccionesVista/piePagina.php"); ?>
+
 
   <script src="../js/jquery.js"></script>
   <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/publicos/contacto.js"></script>
   <script src="../js/lib/sweet-alert.min.js"></script>
+  <script src="../js/publicos/contacto.js"></script>
 
+  <?php include ("../seccionesVista/piePagina.php"); ?>
 
   <script>
   	$('#navContacto').addClass('activoLi');

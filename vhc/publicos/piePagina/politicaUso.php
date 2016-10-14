@@ -140,7 +140,7 @@
     <div class="row">
       <br>
       <div class="col-md-2">
-        <a class="btn btn-md btn-primary btn-block" href="{{ asset('doc/Politica_de_Uso_y_Privacidad_del_Sitio_Web_VHC.pdf') }}" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
+        <a class="btn btn-md btn-primary btn-block" href="../../doc/Politica_de_Uso_y_Privacidad_del_Sitio_Web_VHC.pdf" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
       </div>
       <div class="col-md-2 col-md-offset-8">
         <br>

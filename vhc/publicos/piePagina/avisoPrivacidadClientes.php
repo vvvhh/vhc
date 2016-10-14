@@ -434,7 +434,7 @@
       <div class="col-md-2">
         <br>
         <!--   <a class="btn btn-md btn-primary btn-block" href="{{ asset('doc/AVISO_DE_PRIVACIDAD_CLIENTES_VHC.pdf') }}" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>   -->
-        <a class="btn btn-md btn-primary btn-block" href="{{ asset('doc/AVISO DE PRIVACIDAD SIMPLIFICADO CLIENTES.pdf') }}" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
+        <a class="btn btn-md btn-primary btn-block" href="../../doc/AVISO_DE_PRIVACIDAD_SIMPLIFICADO_CLIENTES.pdf" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
         <!--  <a class="btn btn-lg btn-default btn-block" href="{{ URL::to('publicos/integrate/aspirantePDF')}}"><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>-->
       </div>
       <div class="col-md-2 col-md-offset-8">

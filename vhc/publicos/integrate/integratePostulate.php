@@ -123,7 +123,7 @@
                      </div>
                      <div class="col-md-4">
                        <br>
-                      <a href="integrateVacantes.php')}}" class="btn btn-md"><strong>Ver vacantes</strong></a>
+                      <a href="integrateVacantes.php" class="btn btn-md"><strong>Ver vacantes</strong></a>
                      </div>
 
 
@@ -152,7 +152,7 @@
                   <div class="control-group form-group">
                     <div class="input-group" id="aceptoCheck">
                       <input type="checkbox" id="chkAcepto" name="chkAcepto" />
-                        Acepto haber leído y estar de acuerdo con la <a href="{{ URL::to('publicos/piePagina/politicaUso')}}">"Política de uso y privacidad del sitio web"</a> y el <a href="{{  URL::to('publicos/integrate/integrateAvisoP')}}" >"Aviso de privacidad para aspirantes"</a> de Vázquez Hernández Contadores, S.C.
+                        Acepto haber leído y estar de acuerdo con la <a href="../piePagina/politicaUso.php">"Política de uso y privacidad del sitio web"</a> y el <a href="integrateAvisoP.php" >"Aviso de privacidad para aspirantes"</a> de Vázquez Hernández Contadores, S.C.
                     </div>
                   <!--    <p>
                       *Al hacer clic en el botón, usted confirma haber leído y reconoce la <a href="{{ URL::to('publicos/piePagina/politicaUso')}}">Política de uso y privacidad del sitio web</a> y el <a href="{{ URL::to('publicos/integrate/integrateAvisoP')}}" >Aviso de privacidad para aspirantes</a>.

@@ -100,7 +100,7 @@
     <div class="row">
       <div class="col-md-2">
         <br>
-        <a class="btn btn-md btn-primary btn-block" href="{{ asset('doc/PROPIEDAD_INDUSTRIAL_E_INTELECTUAL_VHC_2015.pdf') }}" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
+        <a class="btn btn-md btn-primary btn-block" href="../../doc/PROPIEDAD_INDUSTRIAL_E_INTELECTUAL_VHC_2015.pdf" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
       </div>
       <div class="col-md-2 col-md-offset-8">
         <br>
