@@ -20,3 +20,4 @@ app/storage/*
 app/tests/*
 vhc/img/*
 vhc/doc/*
+vhc/cache/*
