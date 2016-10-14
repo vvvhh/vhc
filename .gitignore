@@ -19,3 +19,4 @@ app/start/*
 app/storage/*
 app/tests/*
 vhc/img/*
+vhc/doc/*
