@@ -57,7 +57,7 @@
                         </h4>
                         <br>
                         <h4 class="text-center">
-                            <strong>  <a href="{{ URL::to('publicos/integrate/integrateVacantes')}}" class="enlaceSimple ">Ver vacantes</a></strong>
+                            <strong>  <a href="integrate/integrateVacantes.php" class="enlaceSimple ">Ver vacantes</a></strong>
                         </h4>
                       </div>
 
@@ -80,7 +80,7 @@
       <script src="../js/jquery.js"></script>
       <script src="../js/bootstrap.min.js"></script>
       <?php include ("../seccionesVista/piePagina.php"); ?>
-      
+
       <script>
         $('#navIntegrate').addClass('activoLi');
       </script>
