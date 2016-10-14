@@ -1,6 +1,6 @@
 <?php
 require '../PHPMailerAutoload.php';
- 
+
   $token = ($_POST['_token']);
 //  $archivo = Input::get('_archivo');
 $archivo = $_FILES['_archivo']['name'];
@@ -8,12 +8,12 @@ $archivo = $_FILES['_archivo']['name'];
 
 if(isset($token)) {
   $data = array(
-    'nombre' => Input::get('_nombre'),
+    'nombre' => ($_POST['_nombre']),
     //'postula'=> Input::get('_postula'),
-    'postula'=> Input::get('_inpPuesto'),
-    'area'=> Input::get('_inpArea'),
-    'correo'=> Input::get('_correo'),
-    'empresa'=> Input::get('_empresa'),
+    'postula'=> ($_POST['_inpPuesto']),
+    'area'=> ($_POST['_inpArea']),
+    'correo'=> ($_POST['_correo']),
+    'empresa'=> ($_POST['_empresa']),
   );
 
   $_name=$_FILES["_archivo"]["name"];
@@ -85,5 +85,7 @@ if(isset($token)) {
       'message' => 'Su información se envío correctamente.'
     );
   }
-  return Response::json( $response );
+  $jsonFinal = json_encode($response);
+  echo $jsonFinal;
+
 }
