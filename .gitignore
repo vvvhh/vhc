@@ -21,3 +21,4 @@ app/tests/*
 vhc/img/*
 vhc/doc/*
 vhc/cache/*
+vhc/conexion.php
