@@ -53,7 +53,7 @@
               </p>
             </div>
             <div class="col-md-5">
-              <img src="{{URL::asset('img/servicios/158546528.jpg')}}" class="img-rounded img-responsive" />
+              <img src="../../img/servicios/158546528.jpg" class="img-rounded img-responsive" />
             </div>
           </div>
 
@@ -69,13 +69,13 @@
 
             <div class="row">
               <div class="col-md-4"  style="padding-bottom: 5%">
-                <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=0')}}" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block"><i class="fa fa-suitcase"></i> Condiciones generales de trabajo</a>
+                <a href="autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block"><i class="fa fa-suitcase"></i> Condiciones generales de trabajo</a>
               </div>
               <div class="col-md-4" style="padding-bottom: 5%">
-                <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=1')}}" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block"><i class="fa fa-male"></i> Capacitación y adiestramiento.</a>
+                <a href="autodiagnostico.php?c=1" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block"><i class="fa fa-male"></i> Capacitación y adiestramiento.</a>
               </div>
               <div class="col-md-4" style="padding-bottom: 5%">
-                <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=2')}}" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block"><i class="fa fa-medkit"></i> Seguridad e higiene</a>
+                <a href="autodiagnostico.php?c=2" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block"><i class="fa fa-medkit"></i> Seguridad e higiene</a>
               </div>
             </div>
 
@@ -86,7 +86,7 @@
                 </p>
               </div>
               <div class="col-md-4 col-md-offset-4">
-                <a href="{{ URL::to('publicos/servicios/autodiagnostico?c=0')}}" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block" ><i class="fa fa-pencil-square-o"></i> Diagnóstico Completo</a>
+                <a href="autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary btn-block" ><i class="fa fa-pencil-square-o"></i> Diagnóstico Completo</a>
               </div>
             </div>
 
