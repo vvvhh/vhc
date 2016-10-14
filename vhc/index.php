@@ -481,19 +481,44 @@
              </div>
            </div>
 
-           <div class="item">
-             <div class="tamNoticia">
-               <div class="tab-pane active in fade" id="rssFinanciero">
-               <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="450" width="100%"  scrolling="yes" ></iframe>
-               -->
+           <div class="item ">
+             <div class="table-responsive tamNoticia" >
+               <h3 class="text-center">
+                <strong>  <a class="grisObscuro enlaceSimple"  href=""  target="_blanck">
+                    El Financiero
+                  </a></strong>
+              </h3>
+              <?php
 
-             <!--      <iframe src="http://graficos.elfinanciero.com.mx/dev/widget/rss.php" name="widgetEF" height="300" width="300" frameborder="1" scrolling="yes" ></iframe>
-           -->
-            
-               </div>
+                $urlfeedFinanciero = "http://www.elfinanciero.com.mx/rss/";
+                $feedFinanciero = new SimplePie();
+                $feedFinanciero->set_feed_url($urlfeedFinanciero);
+                $feedFinanciero->set_cache_location("cache");
+                $feedFinanciero->enable_order_by_date(true);
+                $feedFinanciero->init();
+
+                foreach ($feedFinanciero->get_items() as $itemFinanciero) {
+              ?>
+              <table class="table ">
+
+                  <tr class="item">
+                    <td>
+                      <p>
+                       <h4><a class="enlaceSimple" href="<?php echo $itemFinanciero->get_permalink(); ?>" target="_blank">
+                         <?php echo $itemFinanciero->get_title(); ?>
+                       </a><br><small>Fecha: <?php echo $itemFinanciero->get_date('j/m/Y, g:i a'); ?> </small></h4>
+                        <small class="text-justify grisObscuro"><?php echo $itemFinanciero->get_description(); ?></small>
+                      </p>
+                    </td>
+                  </tr>
+
+                </table>
+                <?php  } ?>
+
              </div>
-
            </div>
+
+
 
            <div class="item">
 
