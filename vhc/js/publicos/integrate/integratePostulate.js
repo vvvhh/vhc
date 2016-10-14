@@ -39,7 +39,7 @@ function enviarCV(){
 
 
   var datos = $.ajax({
-    url:'enviarCurriculum',
+    url:'../../php/integrate/enviarCurriculum.php',
     data: formData,
     type:'post',
     dataType:'json',

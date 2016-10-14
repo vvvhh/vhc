@@ -17,6 +17,7 @@
   </title>
 
   <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/lib/sweet-alert.css" rel="stylesheet">
   <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 
