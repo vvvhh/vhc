@@ -203,7 +203,7 @@
         <source src="video/SpotVHC.mp4"  type="video/mp4">
       </video>
 -->
-      <br><br>
+      <br><br><br>
     </div>
 
 
@@ -263,9 +263,10 @@
                    </div>
            </div>
 </div>
-
+<br><br><br><br>
       <!-- Panel En VHC -->
       <div>
+        <br><br><br>
         <h2 class="grisObscuro text-center"><strong onload="alertInicio();">En Vázquez Hernández Contadores, S.C.</strong></h2>
       </div>
       <div class="well text-center trasparenteClaroPlus">
@@ -286,7 +287,7 @@
         </div>
       </div>
       <!-- ./Panel En VHC -->
-      <br>
+      <br><br>
 
       <!-- Panel Clientes -->
       <div>
@@ -309,7 +310,7 @@
           </div>
         </div>
         <!-- ./Panel Clientes -->
-        <br>
+        <br><br>
 
 
         <!-- /well reseña -->
@@ -335,6 +336,9 @@
               -->
             </div>
           </div>  <!-- /.botonAsesoria-->
+          <div class="row">
+            <br><br><br><br><br><br><br><br><br>
+          </div>
 
       </section>
 

@@ -462,7 +462,7 @@ function  clicElemento(){
         label: "Postularse",
         className: "btn-primary",
         callback: function() {
-            location.href="integratePostulate?emp=VHC"+"&area="+vacantes[vacSelect][19] ;
+            location.href="integratePostulate.php?emp=VHC"+"&area="+vacantes[vacSelect][19] ;
         }
       },
       danger: {
@@ -493,7 +493,7 @@ function clicSinVacante(){
         label: "Postularse",
         className: "btn-primary",
         callback: function() {
-            location.href="integratePostulate?emp=VHC"+"&area="+vacantes[vacSelect][5];
+            location.href="integratePostulate.php?emp=VHC"+"&area="+vacantes[vacSelect][5];
         }
       },
       danger: {
@@ -544,7 +544,7 @@ function  clicEmpresa(){
         label: "Postularse",
         className: "btn-primary",
         callback: function() {
-            location.href="integratePostulate?emp=Empresa_Privada"+"&area="+empresa[vacSelect][15];
+            location.href="integratePostulate.php?emp=Empresa_Privada"+"&area="+empresa[vacSelect][15];
         }
       },
       danger: {
