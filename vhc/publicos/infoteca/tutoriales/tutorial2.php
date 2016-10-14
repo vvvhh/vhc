@@ -35,9 +35,15 @@
 
                       <div class="well trasparenteClaroPlus">  <!-- Well -->
 
-                        <video height="400" width="100%" controls>
+                        <!--  <video height="400" width="100%" controls>
                           <source src="{{URL::asset('video/infoteca/tutoriales/formasDeAhorro.mov')}}"  >
                         </video>
+                        -->
+                        <iframe height="500" width="99%"
+                        src="https://www.youtube.com/embed/ykbbIcO9a6w?controls=1&rel=0"
+                        frameborder="0" allowfullscreen></iframe>
+
+                        
                         <h3 class="text-center">
                             Formas de ahorro
                         </h3>

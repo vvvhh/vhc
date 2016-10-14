@@ -35,9 +35,17 @@
 
                       <div class="well trasparenteClaroPlus">  <!-- Well -->
 
-                        <video height="400" width="100%" controls>
+                      <!--    <video height="400" width="100%" controls>
                           <source src="../../../video/infoteca/tutoriales/descarga_xml.mov">
                         </video>
+-->
+
+
+                        <iframe height="500" width="99%"
+                        src="https://www.youtube.com/embed/9dyona1hmPg?controls=1&rel=0"
+                        frameborder="0" allowfullscreen></iframe>
+
+
                         <h3 class="text-center">
                           Recupera tus facturas electrónicas
                         </h3>
