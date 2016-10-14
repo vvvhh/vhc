@@ -1,17 +1,29 @@
-@extends('layout')
 
-@section('head')
-  {{ HTML::style('css/lib/sweet-alert.css') }}
-@stop
+<!DOCTYPE html>
+<html lang="es">
 
-@section('title')
-  Servicios Laborales | Vázquez Hernández Contadores, S. C.
-@stop
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="edSantiago" />
+    <link rel="icon" type="../../image/png" href="./favicon.png"/>
 
-@section('css')
-@stop
+    <title>      Servicios Laborales | Vázquez Hernández Contadores, S. C.
+      </title>
 
-@section('content')
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/lib/sweet-alert.css" rel="stylesheet">
+
+    <link href="../../css/publicos/pagina.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
+
 <div style="background-image:url('../../img/inicio/478771527.jpg');"class="fondo paddingTexto">
   <div class="container">
 
@@ -299,15 +311,18 @@
 
   </div>
 </div>
-@stop
 
-@section('js')
-  {{ HTML::script('js/publicos/servicios/autodiagnostico.js') }}
-  {{ HTML::script('js/lib/sweet-alert.min.js')}}
-@stop
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/lib/sweet-alert.min.js"></script>
+<script src="../../js/publicos/servicios/autodiagnostico.js"></script>
+<?php include ("../../seccionesVista/piePagina.php"); ?>
 
-@section('javascript')
+
   <script>
   	$('#navServicios').addClass('activoLi');
   </script>
-@stop
+
+  </body>
+
+</html>

@@ -75,7 +75,7 @@
               <br>
               <p>
                 En este sentido, nuestros servicios incluyen acciones encaminadas a comprobar el correcto cumplimiento de las obligaciones laborales enumeradas anteriormente mediante la
-                 <strong><a class="enlaceSimple" href="{{ URL::to('publicos/servicios/laboral2')}}"> elaboración de un autodiagnóstico</a></strong>
+                 <strong><a class="enlaceSimple" href="laboral2.php"> elaboración de un autodiagnóstico</a></strong>
                  que determinen el grado de desempeño del patrón en dichas obligaciones. Lo anterior conlleva a realizar de manera conjunta –despacho VHC y Patrón- las acciones oportunas, preventivas y correctivas que contribuyan al correcto cumplimiento de los deberes laborales, evitando de esta manera sanciones durante la inspección que lleva a cabo la autoridad laboral.
               </p>
               <br>
@@ -87,13 +87,13 @@
         <div class="row">
           <div class="col-md-3 animacionContenido ">
             <!--    <a href="{{ URL::to('publicos/servicios/autodiagnostico')}}" id="btnEncuesta"type="button" class="btn btn-md btn-success btn-block" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico</a>-->
-            <a href="{{ URL::to('publicos/servicios/laboral2')}}" id="btnEncuesta"type="button" class="btn btn-md btn-primary btn-block" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico</a>
+            <a href="laboral2.php" id="btnEncuesta"type="button" class="btn btn-md btn-primary btn-block" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico</a>
           </div>
         </div>
         <br>
         <div class="row">
           <div class="col-md-12">
-            Adicionalmente podemos desarrollar el proceso de <a href="{{ URL::to('publicos/servicios/auditoria?tipoDue=6#tituloServicios')}}">Due Diligence </a> enfocado a los recursos humanos u organizacional
+            Adicionalmente podemos desarrollar el proceso de <a href="auditoria.php?tipoDue=6#tituloServicios">Due Diligence </a> enfocado a los recursos humanos u organizacional
           </div>
         </div>
 

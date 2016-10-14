@@ -107,7 +107,7 @@
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/478771527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><h2 class="texto3D textAzul2">Servicios Laborales</h2><a href="publicos/servicios/autodiagnostico?c=0.php" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
+        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><h2 class="texto3D textAzul2">Servicios Laborales</h2><a href="publicos/servicios/autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
       </div>
     </div>
     <div class="item">
