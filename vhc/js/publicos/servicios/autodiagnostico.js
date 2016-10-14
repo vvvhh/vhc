@@ -143,13 +143,13 @@ function mostrarRes(){
     barSuccess.css('width','0%');
     barWarning.css('width',cal+'%');
     barDanger.css('width','0%');
-    txtResultado.innerHTML = '<p class="text-warning"><i class="fa fa-exclamation-circle"></i> En terminos generales usted cumple con el <strong>'+cal+'%</strong> en la parte de: <br> <strong>'+tipoCuestionario+'</strong></p><br><p class="text-justify"> Es importante cumplir con la normatividad aplicable, ya que es muy probable que su empresa sea sancionada, suspendida o, incluso,  clausurada, dependiendo de la gravedad de la omisión, o debido a la repetición de la(s) misma(s). </p> <p><a class="enlacesimple" href="../contacto">Contáctenos</a> para mayor información</p>';
+    txtResultado.innerHTML = '<p class="text-warning"><i class="fa fa-exclamation-circle"></i> En terminos generales usted cumple con el <strong>'+cal+'%</strong> en la parte de: <br> <strong>'+tipoCuestionario+'</strong></p><br><p class="text-justify"> Es importante cumplir con la normatividad aplicable, ya que es muy probable que su empresa sea sancionada, suspendida o, incluso,  clausurada, dependiendo de la gravedad de la omisión, o debido a la repetición de la(s) misma(s). </p> <p><a class="enlacesimple" href="../contacto.php">Contáctenos</a> para mayor información</p>';
   }
   if (cal<60) {
     barSuccess.css('width','0%');
     barWarning.css('width','0%');
     barDanger.css('width',cal+'%');
-    txtResultado.innerHTML = '<p class="text-danger"><i class="fa fa-times-circle"></i>  Exhorto, Usted cumple con el <strong>'+cal+'%</strong> en el cumplimiento en cuestiones relacionadas a:<br> <strong>'+tipoCuestionario+'</strong><br> </p><p class="text-justify">Es urgente realizar acciones, correctivas que apoyen en el correcto cumplimiento de la normatividad vigente, ya que el riesgo de ser sancionado por la autoridad laboral es inminente y pondría en conflicto la estabilidad de la empresa. <p><a class="enlacesimple" href="../contacto">Contáctenos</a> para mayor información</p>';
+    txtResultado.innerHTML = '<p class="text-danger"><i class="fa fa-times-circle"></i>  Exhorto, Usted cumple con el <strong>'+cal+'%</strong> en el cumplimiento en cuestiones relacionadas a:<br> <strong>'+tipoCuestionario+'</strong><br> </p><p class="text-justify">Es urgente realizar acciones, correctivas que apoyen en el correcto cumplimiento de la normatividad vigente, ya que el riesgo de ser sancionado por la autoridad laboral es inminente y pondría en conflicto la estabilidad de la empresa. <p><a class="enlacesimple" href="../contacto.php">Contáctenos</a> para mayor información</p>';
   }
 }
 

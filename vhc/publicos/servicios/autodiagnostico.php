@@ -258,12 +258,12 @@
                 <div class="checkbox">
                   <label class="grisObscuro">
                     <input type="checkbox" id="chkAcepto" name="acepto"  > <!--  y el <a href="{{ URL::to('publicos/piePagina/avisoPrivacidadClientes')}}" >Aviso de privacidad para clientes</a>. -->
-                      *Al hacer clic en el botón, acepto la <a href="{{ URL::to('publicos/piePagina/politicaUso')}}">Política de uso y privacidad del sitio web</a>
+                      *Al hacer clic en el botón, acepto la <a href="../piePagina/politicaUso.php">Política de uso</a> y  <a href="../piePagina/avisoPrivacidadClientes.php">privacidad del sitio web. </a>
                     </label>
                 </div>
               </div>
               <br>
-              <input type="hidden" name="_token" id="_token" value="<?php echo csrf_token(); ?>">
+              <input type="hidden" name="_token" id="_token" value="8845>">
               <div class="col-md-8 col-md-offset-2">
                 <button id="btnEnviar"  class="btn btn-primary btn-block"><i class="fa fa-paper-plane "></i> Iniciar cuestionario</button>
               </div>
