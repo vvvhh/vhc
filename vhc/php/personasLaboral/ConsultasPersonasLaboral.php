@@ -48,13 +48,13 @@ class ConsultasPersonasLaboral {
     return $response;
   }
 
-  public function insertarPersonaLaboral(){
+  public function insertarPersonaLaboral($nombre, $telefono, $correo, $fecha, $aceptacion, $completo){
     include('../Consultas.php');
     $Consultas = new Consultas;
-    $consulta = 'INSERT INTO culturas (culNombre) VALUES("'.$nombreCultura.'");';
+    $consulta = 'INSERT INTO personasLaboral (clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto) VALUES("'.$nombre.'", "'.$telefono.'", "'.$correo.'", "'.$fecha.'", "'.$aceptacion.'", '.$completo.' );';
     //$Consultas -> validarSesion();
     $response = $Consultas -> consultaInsertEditEliminar($consulta);
-    
+    return $response;
   }
 
 

@@ -24,14 +24,18 @@
     $porcentaje2 = Input::get('porcentaje2');
 */
 
-  
+
       $formatoT = "d-m-Y-H:i:s-";
       $fechaT =  date($formatoT, $timestamp);
       $sufijo = "-cuestionarioLaboral";
       $aceptacion = $fechaT.$data['nombre'].$sufijo;
 
+      include('../personasLaboral/ConsultasPersonasLaboral.php');
+      $ConsultasPersonasLaboral = new ConsultasPersonasLaboral;
+      $insert = $ConsultasPersonasLaboral -> insertarPersonaLaboral( trim($data['nombre']), trim($data['telefono']), trim($data['correo']), $fecha, $aceptacion, $data['completo'] );
 
-      $insert = PersonasLaboral::insert(array(
+//$insert=1;
+      /*$insert = PersonasLaboral::insert(array(
         'clabNombre'       => trim($data['nombre']),
         'clabRFC'          => trim($data['nombre']),
         'clabTelefono'     => trim($data['telefono']),
@@ -40,9 +44,10 @@
         'clabCondicion'    => $aceptacion,
         'clabCompleto'     => trim($data['completo'])
       ));
+      */
 
       if ( $insert ){                                                           /*despues insert persona que contesto--------------------*/
-        $getCPersona = PersonasLaboral::where('clabNombre', $data['nombre'])
+      /*  $getCPersona = PersonasLaboral::where('clabNombre', $data['nombre'])
         ->where('clabFecha', $fecha)
         ->get(array(
           'clabId'
@@ -54,8 +59,13 @@
         $insertC=false;
         $insertC=false;
         $insertS=false;
+*/
 
-        $res0 = Input::get('respuesta0');
+                $insertC=true;
+                $insertC=true;
+                $insertS=true;
+
+      /*  $res0 = Input::get('respuesta0');
         if (isset($res0)) {
 
             $arrayGeneral=array(
@@ -87,9 +97,9 @@
               'cgeRespuesta' => $jGeneral,
               'cgePersonaLaboral' => $idCPersona
             ));
-        }
+        }*/
 
-        $res1 = Input::get('respuesta1');
+      /*  $res1 = Input::get('respuesta1');
         if (isset($res1)) {
             $arrayCapacitacion=array(
               '0'=> $res1[0],
@@ -121,9 +131,9 @@
               'ccaPersonaLaboral' => $idCPersona
             ));
 
-        }
+        }*/
 
-        $res2 = Input::get('respuesta2');
+      /*  $res2 = Input::get('respuesta2');
         if (isset($res2)) {
             $arraySeguridad=array(
               '0'=> $res1[0],
@@ -153,31 +163,18 @@
               'csePersonaLaboral' => $idCPersona
             ));
 
-        }
+        }*/
 
           if($insertC || $insertG || $insertS){
-            $porcentajeSuma =   $porcentaje0 +   $porcentaje1 +  $porcentaje2;
+          /*  $porcentajeSuma =   $porcentaje0 +   $porcentaje1 +  $porcentaje2;
             $porcentajeTotal = ($porcentajeSuma*100)/300;
-
-            $resTotal = "En teminos generales de servicios laborales usted cuenta con el: ".$porcentajeTotal." de cumplimiento.";
-            $resIndividualG = "";
+*/
+          //  $resTotal = "En teminos generales de servicios laborales usted cuenta con el: ".$porcentajeTotal." de cumplimiento.";
+        /*    $resIndividualG = "";
             $resIndividualC = "";
             $resIndividualS = "";
 
-          /*  $cal0=0;
-            $cal1=0;
-            $cal2=0;
 
-            foreach ($arrayCapacitacion as $valor){
-              if ($valor ==1) {
-                $cal0 ++;
-              }
-            }
-            foreach ($arrayCapacitacion as $valor){
-              if ($valor ==1) {
-                $cal0 ++;
-              }
-            }*/
 
             if ($porcentaje0 >=80) {
                 $resIndividualG = "En terminos generales usted esta al ".$porcentaje0."% en el área correspondiente: Condiciones Generales de Trabajo. Excelente, usted cumple con un desempeño sobresaliente, conoce sus obligaciones y las aplica en su entorno laboral. ";
@@ -209,18 +206,6 @@
                $resIndividualS = "Exhorto, Usted cumple con el ".$porcentaje2."% en el cumplimiento en cuestiones relacionadas a: Seguridad e higiene. Es urgente realizar acciones, correctivas que apoyen en el correcto cumplimiento de la normatividad vigente, ya que el riesgo de ser sancionado por la autoridad laboral es inminente y pondría en conflicto la estabilidad de la empresa.";
             }
 
-            $dataCorreo = array(
-              'resIndividualG' => $resIndividualG,
-              'resIndividualC' => $resIndividualC,
-              'resIndividualS' => $resIndividualS,
-              'resTotal' => $resTotal
-            );
-
-          /*  $toEmail = $data['correo'];//envia al correo del cliente
-            Mail::send('emails.resultadoCompleto', $dataCorreo, function($message) use($toEmail){
-                $message->to($toEmail);
-                $message->subject('Resultados del Test Laboral.');
-              });
 */
 
             $response = array(
@@ -237,7 +222,7 @@
       else
         $response = array(
           'status' => 'ERROR 1',
-          'message' => 'No se pudo agregar el comentario, intente de nuevo');
+          'message' => 'No se pudo agregar el comentario, intente de nuevo.p');
 
   }
   else{
@@ -246,80 +231,7 @@
       'message' => 'Vuelva a intentar en un momento'
     );
   }
-  return Response::json( $response );
-//  return Response::$jCapacitacion;
-
-
-//****************************************************************************************************
-
-  $data = array(
-
-  );
-
-
-  $timestamp = time();
-  $formatoT = "d-m-Y-H:i:s-";
-  $fechaT =  date($formatoT, $timestamp);
-  $sufijo = "-contactenos";
-  $aceptacion = $fechaT.$data['nombre'].$sufijo;
-
-
-  $mail = new PHPMailer;
-    $nombre = "VHC_Contacto";
-    $email = "VHC";
-    $mensaje = "Mensaje de Contacto";
-
-    $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
-    $mail->SMTPAuth = true;
-    $mail->Username = 'difusionvhc@gmail.com';
-    $mail->Password = 'dif#=216V';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
-
-    $mail->From = $data['correo'];
-    $mail->FromName = $nombre;
-
-  //  $mail->addAddress('reclutamiento@contadoresvh.com'); /*********************/
-    $mail->addAddress('edgar.santiago@contadoresvh.com');
-
-  $mail->isHTML(true);
-  $mail->CharSet = 'UTF-8';
-
-  $mail->Subject = 'Mensaje de contacto desde sitio web';
-
-  $mail->Body    ="<p><h3><strong>Mensaje desde sitio Web</strong></h3></p>".
-                  "<p><strong>Nombre: </strong>".$data['nombre']."</p>".
-                //  "<p><strong>Área a postularse: </strong>".$data['area']."</p>".
-                  "<p><strong>Teléfono: </strong>".$data['telefono']."</p>".
-                  "<p><strong>Correo: </strong>".$data['correo']."</p>".
-                  "<p><strong>Mensaje: </strong>".$data['mensaje']."</p>".
-                  "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para clientes: </strong>".$aceptacion."</small></p>";
-
-
-
-  $mail->AltBody = '';
-  $exito = $mail->send();
-  $intentos=1;
-
-  while ((!$exito) && ($intentos < 5)) {
-    sleep(5);
-    $exito = $mail->send();
-    $intentos=$intentos+1;
-  }
-  if(!$exito){
-    $response = array(
-      'status' => 'ERROR',
-      'message' => 'Gracias por ponerse en contacto con nosotros.'
-    );
-  }
-  else{
-    $response = array(
-      'status' => 'OK',
-      'message' => 'Su información se envío correctamente.'
-    );
-  }
   $jsonFinal = json_encode($response);
   echo $jsonFinal;
 
-}
+//****************************************************************************************************

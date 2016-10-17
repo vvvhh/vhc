@@ -37,17 +37,14 @@ class Consultas {
             $database = $ConexionBD->conectarBD();
 
             if($database->connect_errno) {
-              $response = array(
-                  'status' => 'ERROR',
-                  'message' => 'No se puede conectar a la base de datos'
-                );
+              $response ='No se puede conectar a la base de datos';
              }
              else{
                if ( $result = $database->query($consulta) ) {
                  $response = 1;
               } else {
                 $response = $database->error;
-                  );
+                  
               }
               $ConexionBD->desconectarDB($database);
             }

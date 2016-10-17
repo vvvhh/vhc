@@ -556,7 +556,7 @@ function enviar(){
   /*if ( !verificarContenido() )
     return false;*/
   var datos = $.ajax({
-    url:'enviarAutodiagnostico',
+    url:'../../php/autodiagnostico/enviarAutodiagnostico.php',
     data: {
       nombre: inpNombre.val(),
       telefono: inpTelefono.val(),
