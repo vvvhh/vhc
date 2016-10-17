@@ -29,7 +29,7 @@ class Consultas {
 
   public function consultaInsertEditEliminar($consulta) {
       //  $this->validarSesion();
-        if ($this->validarAdmin) {
+      //  if ($this->validarAdmin) {
 
                       /****************************Consulta despues de validar *************/
 
@@ -44,14 +44,9 @@ class Consultas {
              }
              else{
                if ( $result = $database->query($consulta) ) {
-                 $response = array(
-                         'status' => 'OK',
-                         'message' => 'Consulta realizada con exito'
-                       );
+                 $response = 1;
               } else {
-                $response = array(
-                    'status' => 'ERROR',
-                    'message' => $database->error
+                $response = $database->error;
                   );
               }
               $ConexionBD->desconectarDB($database);
@@ -59,12 +54,12 @@ class Consultas {
 
                             /**************************** /Consulta despues de validar *************/
 
-      }else {     // $validarAdmin
+    /*  }else {     // $validarAdmin
         $response = array(
           'status' => 'ERROR',
           'message'=>'Verifique que su sesión sea administrador'
         );
-      }
+      }*/
 
     return $response;
   }
