@@ -30,9 +30,22 @@
       $sufijo = "-cuestionarioLaboral";
       $aceptacion = $fechaT.$data['nombre'].$sufijo;
 
+      include('../Consultas.php');
+      $Consultas = new Consultas;
+      $ConexionBD = $Consultas->establecerConexion();
+      $database = $ConexionBD->conectarBD();
+
+      if($database->connect_errno) {
+        $response = array(
+            'status' => 'ERROR',
+            'message' => 'No se puede conectar a la base de datos'
+          );
+       }
+       else{
+
       include('../personasLaboral/ConsultasPersonasLaboral.php');
       $ConsultasPersonasLaboral = new ConsultasPersonasLaboral;
-      $insert = $ConsultasPersonasLaboral -> insertarPersonaLaboral( trim($data['nombre']), trim($data['telefono']), trim($data['correo']), $fecha, $aceptacion, $data['completo'] );
+      $insert = $ConsultasPersonasLaboral -> insertarPersonaLaboral( trim($data['nombre']), trim($data['telefono']), trim($data['correo']), $fecha, $aceptacion, $data['completo'], $database );
 
 //$insert=1;
       /*$insert = PersonasLaboral::insert(array(
@@ -47,6 +60,10 @@
       */
 
       if ( $insert ){                                                           /*despues insert persona que contesto--------------------*/
+        $consultaGet = 'SELECT clabId, clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto FROM personasLaboral WHERE clabNombre = "'.$data['nombre'].'" AND clabFecha = "'.$fecha.'";';
+        $getCPersona = $ConsultasPersonasLaboral -> consultaGetPerosnaLaboral($consultaGet, $database);
+        //echo $getCPersona;
+
       /*  $getCPersona = PersonasLaboral::where('clabNombre', $data['nombre'])
         ->where('clabFecha', $fecha)
         ->get(array(
@@ -224,6 +241,7 @@
           'status' => 'ERROR 1',
           'message' => 'No se pudo agregar el comentario, intente de nuevo.p');
 
+        }
   }
   else{
     $response = array(

@@ -1,29 +1,31 @@
 <?php
 class ConsultasPersonasLaboral {
-  public function consultaGetCultura($consulta) {
+  public function consultaGetPerosnaLaboral($consulta, $database) {
 
-    include('../Consultas.php');
-    $Consultas = new Consultas;
-    $ConexionBD = $Consultas->establecerConexion();
-    $database = $ConexionBD->conectarBD();
 
-    if($database->connect_errno) {
-      $response = array(
-          'status' => 'ERROR',
-          'message' => 'No se puede conectar a la base de datos'
-        );
-     }
-     else{
        if ( $result = $database->query($consulta) ) {
 
          if( $result->num_rows > 0 ) {
-           $i=0;
+           
            while($row = mysqli_fetch_array($result, MYSQL_BOTH)) {
-             $empNombre = $row['empNombre'];
-             $empId = $row['empId'];
-             $data[]= array('empId'=>$empId, 'empNombre' => $empNombre);
-             $i++;
+             $clabId=$row['clabId'];
+            $clabNombre=$row['clabNombre'];
+            $clabTelefono=$row['clabTelefono'];
+            $clabCorreo=$row['clabCorreo'];
+            $clabFecha=$row['clabFecha'];
+            $clabCondicion=$row['clabCondicion'];
+            $clabCompleto=$row['clabCompleto'];
 
+
+            $data[]= array(
+                           'clabId'   => $clabId,
+                           'clabNombre'   => $clabNombre,
+                           'clabTelefono' => $clabTelefono,
+                           'clabCorreo'   => $clabCorreo,
+                           'clabFecha'    => $clabFecha,
+                           'clabCondicion'=> $clabCondicion,
+                           'clabCompleto' => $clabCompleto,
+                         );
            }
            $response = array(
                'status' => 'OK',
@@ -43,17 +45,22 @@ class ConsultasPersonasLaboral {
             'message' => $database->error
           );
       }
-      $ConexionBD->desconectarDB($database);
-    }
+    //  $ConexionBD->desconectarDB($database);
+
     return $response;
   }
 
-  public function insertarPersonaLaboral($nombre, $telefono, $correo, $fecha, $aceptacion, $completo){
-    include('../Consultas.php');
-    $Consultas = new Consultas;
+  public function insertarPersonaLaboral($nombre, $telefono, $correo, $fecha, $aceptacion, $completo, $database){
+  //  include('../Consultas.php');
+  //  $Consultas = new Consultas;
     $consulta = 'INSERT INTO personasLaboral (clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto) VALUES("'.$nombre.'", "'.$telefono.'", "'.$correo.'", "'.$fecha.'", "'.$aceptacion.'", '.$completo.' );';
     //$Consultas -> validarSesion();
-    $response = $Consultas -> consultaInsertEditEliminar($consulta);
+    if ( $result = $database->query($consulta) ) {
+      $response = 1;
+    } else {
+     $response = $database->error;
+
+    }
     return $response;
   }
 
