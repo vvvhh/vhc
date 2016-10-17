@@ -77,17 +77,17 @@
           ->toArray();
         $datos = $getCPersona[0];
         $idCPersona = $datos['clabId'];
-
-        $insertC=false;
-        $insertC=false;
-        $insertS=false;
 */
+        $insertC=0;
+        $insertC=0;
+        $insertS=0;
 
-                $insertC=true;
-                $insertC=true;
-                $insertS=true;
 
-      /*  $res0 = Input::get('respuesta0');
+            /*    $insertC=true;
+                $insertC=true;
+                $insertS=true;*/
+
+        $res0 = $_POST['respuesta0'];
         if (isset($res0)) {
 
             $arrayGeneral=array(
@@ -115,13 +115,16 @@
 
             $jGeneral = json_encode($arrayGeneral);
 
-            $insertG = CGeneral::insert(array(
+            $consultaG = 'INSERT INTO cGeneral (cgeRespuesta, cgePersonaLaboral) VALUES("'.$jGeneral.'", '.$idCPersona.');';
+
+            $insertG = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaG, $database );
+          /*  $insertG = CGeneral::insert(array(
               'cgeRespuesta' => $jGeneral,
               'cgePersonaLaboral' => $idCPersona
-            ));
-        }*/
+            ));*/
+        }
 
-      /*  $res1 = Input::get('respuesta1');
+        $res1 = $_POST['respuesta1'];
         if (isset($res1)) {
             $arrayCapacitacion=array(
               '0'=> $res1[0],
@@ -148,12 +151,16 @@
 
             $jCapacitacion = json_encode($arrayCapacitacion);
 
-            $insertC = CCapacitacion::insert(array(
+            $consultaC = 'INSERT INTO cGeneral (ccaRespuesta, ccaPersonaLaboral) VALUES("'.$jCapacitacion.'", '.$idCPersona.');';
+
+            $insertC = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaC, $database );
+
+            /*$insertC = CCapacitacion::insert(array(
               'ccaRespuesta' => $jCapacitacion,
               'ccaPersonaLaboral' => $idCPersona
-            ));
+            ));*/
 
-        }*/
+        }
 
       /*  $res2 = Input::get('respuesta2');
         if (isset($res2)) {
@@ -232,7 +239,7 @@
 
             $response = array(
               'status' => 'OK',
-              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.'.$idCPersona);
+              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.');
           }
           else
             $response = array(
