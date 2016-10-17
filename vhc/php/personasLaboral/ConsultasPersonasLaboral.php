@@ -6,7 +6,7 @@ class ConsultasPersonasLaboral {
        if ( $result = $database->query($consulta) ) {
 
          if( $result->num_rows > 0 ) {
-           
+
            while($row = mysqli_fetch_array($result, MYSQL_BOTH)) {
              $clabId=$row['clabId'];
             $clabNombre=$row['clabNombre'];
@@ -50,11 +50,10 @@ class ConsultasPersonasLaboral {
     return $response;
   }
 
-  public function insertarPersonaLaboral($nombre, $telefono, $correo, $fecha, $aceptacion, $completo, $database){
-  //  include('../Consultas.php');
-  //  $Consultas = new Consultas;
-    $consulta = 'INSERT INTO personasLaboral (clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto) VALUES("'.$nombre.'", "'.$telefono.'", "'.$correo.'", "'.$fecha.'", "'.$aceptacion.'", '.$completo.' );';
-    //$Consultas -> validarSesion();
+  public function insertarPersonaLaboral($consulta, $database){
+
+
+
     if ( $result = $database->query($consulta) ) {
       $response = 1;
     } else {

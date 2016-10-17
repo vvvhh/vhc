@@ -45,7 +45,8 @@
 
       include('../personasLaboral/ConsultasPersonasLaboral.php');
       $ConsultasPersonasLaboral = new ConsultasPersonasLaboral;
-      $insert = $ConsultasPersonasLaboral -> insertarPersonaLaboral( trim($data['nombre']), trim($data['telefono']), trim($data['correo']), $fecha, $aceptacion, $data['completo'], $database );
+      $consulta = 'INSERT INTO personasLaboral (clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto) VALUES("'.$data['nombre'].'", "'.$data['telefono'].'", "'.$data['correo'].'", "'.$fecha.'", "'.$aceptacion.'", '.$data['completo'].' );';
+      $insert = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consulta, $database );
 
 //$insert=1;
       /*$insert = PersonasLaboral::insert(array(
