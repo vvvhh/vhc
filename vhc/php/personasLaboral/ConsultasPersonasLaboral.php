@@ -27,11 +27,7 @@ class ConsultasPersonasLaboral {
                            'clabCompleto' => $clabCompleto,
                          );
            }
-           $response = array(
-               'status' => 'OK',
-               'data' => $data,
-               'message' => 'Resultados obtenidos'
-            );
+           $response =  $data;
 
          } else {
            $response = array(

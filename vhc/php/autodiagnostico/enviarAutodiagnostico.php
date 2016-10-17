@@ -63,6 +63,10 @@
       if ( $insert ){                                                           /*despues insert persona que contesto--------------------*/
         $consultaGet = 'SELECT clabId, clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto FROM personasLaboral WHERE clabNombre = "'.$data['nombre'].'" AND clabFecha = "'.$fecha.'";';
         $getCPersona = $ConsultasPersonasLaboral -> consultaGetPerosnaLaboral($consultaGet, $database);
+
+        $datos = $getCPersona[0];
+        $idCPersona = $datos['clabId'];
+
         //echo $getCPersona;
 
       /*  $getCPersona = PersonasLaboral::where('clabNombre', $data['nombre'])
@@ -228,7 +232,7 @@
 
             $response = array(
               'status' => 'OK',
-              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.');
+              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.'.$idCPersona);
           }
           else
             $response = array(
