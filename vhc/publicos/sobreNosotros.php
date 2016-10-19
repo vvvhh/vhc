@@ -37,7 +37,7 @@
 
 
 
-            <div class="row">
+            <div class="row"  id="titQuienes">
 
 
               <div class="col-md-2 transladarIzquierda">
@@ -57,7 +57,7 @@
                 <!--  -->     <!-- MUESTRA CONTENIDO DEL ARTICULO DESDE SU BLADE -->
 
 
-                <div class="well trasparenteClaroPlus animacionContenido" id="titQuienes">
+                <div class="well trasparenteClaroPlus animacionContenido">
 
                   <div class="row">
                     <div class="col-md-4">

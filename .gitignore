@@ -23,3 +23,4 @@ vhc/doc/*
 vhc/cache/*
 vhc/conexion.php
 vhc/php/Conexion.php
+doc/*

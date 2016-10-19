@@ -359,7 +359,7 @@
   var rCantidadesPagar = "publicos/infoteca/indicadoresF/impuestosF/ifPagarDerechos.php";
   var rDolar = "publicos/infoteca/indicadoresF/financiero/fiEquivalenciaDolar.php";
   var rOtrasMonedas = "publicos/infoteca/indicadoresF/financiero/fiEquivalenciaO.php";
-  var rOtrasMonedas = "publicos/infoteca/indicadoresF/financiero/fiIncp.php";
+  var rINPC = "publicos/infoteca/indicadoresF/financiero/fiIncp.php";
   var rCetes = "publicos/infoteca/indicadoresF/financiero/fiCetes.php";
   rCppc ="publicos/infoteca/indicadoresF/financiero/fiCppc.php";
   rTiie  ="publicos/infoteca/indicadoresF/financiero/fiTiie.php";
@@ -388,7 +388,7 @@
   aCantidadesPagar.href="http://"+dominio+absoluta+rCantidadesPagar;
   aDolar.href="http://"+dominio+absoluta+rDolar;
   aOtrasMonedas.href="http://"+dominio+absoluta+rOtrasMonedas;
-  aInpc.href="http://"+dominio+absoluta+rOtrasMonedas;
+  aInpc.href="http://"+dominio+absoluta+rINPC;
   aCetes.href="http://"+dominio+absoluta+rCetes;
   aCppc.href="http://"+dominio+absoluta+rCppc;
   aTiie.href="http://"+dominio+absoluta+rTiie;

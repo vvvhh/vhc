@@ -3,7 +3,7 @@
   <ul class="nav nav-sidebar colorNav">
 
         <li data-toggle="collapse" data-target="#ulVideosTem1">
-          <a class="grisClaro texto3d" style="cursor:pointer" href="/sobreNosotros.php#titQuienes"><strong>
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros.php#titQuienes"><strong>
             <i class="fa fa-check-square"></i>
             &nbsp;¿Quienes somos?
           </strong></a>
