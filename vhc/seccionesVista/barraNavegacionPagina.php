@@ -50,7 +50,7 @@
 </nav>
 
 <script type="text/javascript">
-function verificarAceptadoAviso(){
+function verificarAceptadoAvisoNavegacion(){
   var valor=sessionStorage.getItem("visita");
 
   var aInicio=document.getElementById('aInicio'),
@@ -106,6 +106,6 @@ function verificarAceptadoAviso(){
 
 }
 
-verificarAceptadoAviso();
+verificarAceptadoAvisoNavegacion();
 
 </script>

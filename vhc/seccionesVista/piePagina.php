@@ -45,53 +45,56 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 colorTxtPieBajo">
-          <a href="" id="condicion">&copy; VHC 2016</a>
+          <a href="#" id="condicion">&copy; VHC 2016</a>
           |
-          <a href="" id="aPrivacidad" class="enlacePie">Aviso privacidad</a>
+          <a href="#" id="aPrivacidad" class="enlacePie">Aviso privacidad</a>
           |
     <!--        <a href="publicos/piePagina/avisoPrivacidadProveedores.php" id="condicion">Aviso privacidad proveedores</a>
           |
           <a href="publicos/piePagina/avisoPrivacidadEmpleados.php" id="condicion">Aviso privacidad empleados</a>
           |-->
-          <a href="" id="aPolitica" class="enlacePie">Política de uso y privacidad del sitio web</a>
+          <a href="#" id="aPolitica" class="enlacePie">Política de uso y privacidad del sitio web</a>
           |
-          <a href="" id="aMapa" class="enlacePie">Mapa del sitio</a>
+          <a href="#" id="aMapa" class="enlacePie">Mapa del sitio</a>
         </div>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
+function verificarAceptadoAvisoPie(){
 
-    var valor=sessionStorage.getItem("visita");
+  var valor=sessionStorage.getItem("visita");
 
-    var condicion=$('#condicion'),
-        aPrivacidad=$('#aPrivacidad'),
-        aPolitica=$('#aPolitica')
-        aMapa=$('#aMapa');
+  var condicion=document.getElementById('condicion'),
+      aPrivacidad=document.getElementById('aPrivacidad'),
+      aPolitica=document.getElementById('aPolitica'),
+      aMapa=document.getElementById('aMapa');
 
-        var dominio=window.location.host;
-        var absoluta="/vhc/vhc/";
-        var rCondicion="publicos/piePagina/propiedadIntelectual.php";
-        var rPrivacidad="publicos/piePagina/avisoPrivacidadClientes.php";
-        var rPolitica="publicos/piePagina/politicaUso.php";
-        var rMapa = "publicos/piePagina/mapaSitio.php";
+      var dominio=window.location.host;
+      var absoluta="/vhc/vhc/";
+      var rCondicion="publicos/piePagina/propiedadIntelectual.php",
+          rPrivacidad="publicos/piePagina/avisoPrivacidadClientes.php",
+          rPolitica="publicos/piePagina/politicaUso.php",
+          rMapa = "publicos/piePagina/mapaSitio.php";
 
-      condicion.attr('href', "http://"+dominio+absoluta+rCondicion);
-      aPrivacidad.attr('href', "http://"+dominio+absoluta+rPrivacidad);
-      aPolitica.attr('href',  "http://"+dominio+absoluta+rPolitica);
-      aMapa.attr('href', "http://"+dominio+absoluta+rMapa);
+if((valor=="1") && (valor!=null)){
 
-    if(valor!="1"){
-
-          condicion.attr('href', ' ');
-          aPrivacidad.attr('href', ' ');
-          aPolitica.attr('href', ' ');
-          aMapa.attr('href', ' ');
+    condicion.href="http://"+dominio+absoluta+rCondicion;
+    aPrivacidad.href= "http://"+dominio+absoluta+rPrivacidad;
+    aPolitica.href= "http://"+dominio+absoluta+rPolitica;
+    aMapa.href= "http://"+dominio+absoluta+rMapa;
+    console.log("pie aceptado");
     }
-
-      //  var aInicio=document.getElementById('aInicio');
-
+  else{
+        condicion.href= '#';
+        aPrivacidad.href=  '#';
+        aPolitica.href=  '#';
+        aMapa.href=  '#';
+        console.log("pie no aceptado");
+  }
+}
+verificarAceptadoAvisoPie();
 
   </script>
 </footer>

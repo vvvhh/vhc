@@ -46,7 +46,8 @@ function alertInicio(){
                   aPrivacidad.attr('href', 'publicos/piePagina/avisoPrivacidadClientes');
                   aPolitica.attr('href', 'publicos/piePagina/politicaUso');
                   aMapa.attr('href', 'publicos/piePagina/mapaSitio');*/
-                  verificarAceptadoAviso(); //desde js de inicio
+                  verificarAceptadoAvisoNavegacion(); //desde js de inicio
+                  verificarAceptadoAvisoPie();
             }
           }
         }
