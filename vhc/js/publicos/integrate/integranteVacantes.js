@@ -20,7 +20,7 @@ var vacantes= [
   [
     "Senior",       //Puesto    0*---------------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
@@ -44,7 +44,7 @@ var vacantes= [
   [
     "Semi senior ",           //PUESTO 1
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros, entre otras. ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
@@ -68,7 +68,7 @@ var vacantes= [
   [
     "Asistente",       //Puesto    2--------------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), entre otras. ",        //Actividades Relacionadas con el Puesto:		3
     "$4,500 - $5,500",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
@@ -168,7 +168,7 @@ var vacantes= [
   [
     "Senior",       //Puesto    6---------------------A U D I T O R I A-----------------------------------------------------------------------------
     "13",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realización de auditorías",        //Actividades Relacionadas con el Puesto:		3
     "$10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
@@ -192,7 +192,7 @@ var vacantes= [
   [
     "Semi senior",     // 7------------------------------------------------------------
     "1",
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realizacion de auditorías financieras ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
@@ -218,7 +218,7 @@ var vacantes= [
   [
     "Asistente",       //Puesto    8--------------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realización de auditoría y contabilidad",        //Actividades Relacionadas con el Puesto:		3
     "$4,500 - $5,500",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
@@ -242,7 +242,7 @@ var vacantes= [
   [
     "Gerente",       //Puesto    9*-------    Gerente contable--------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
@@ -267,7 +267,7 @@ var vacantes= [
   [
     "Gerente",       //Puesto    10*---- Gerente consulta-----------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
@@ -291,7 +291,7 @@ var vacantes= [
   [
     "Gerente",       //Puesto    11*--------- Gerente auditor------------------------------------------------------------------------------------------
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
@@ -340,7 +340,7 @@ var empresa= [
   [
     "Semi_senior",
     "1",                          //Número de Plazas:
-    "Contrato",                   //Tipo de Contrato:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros. ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
