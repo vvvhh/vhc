@@ -52,49 +52,35 @@
 <script type="text/javascript">
   var valor=sessionStorage.getItem("visita");
 
-  if(valor!="1"){
-/*    var aNosotros=$('#aNosotros'),
-        aServicios=$('#aServicios'),
-        aInfoteca=$('#aInfoteca'),
-        aSitios=$('#aSitios'),
-        aIntegrate=$('#aIntegrate'),
-        aPortafolio=$('#aPortafolio'),
-        aContato=$('#aContato');
+  var aInicio=document.getElementById('aInicio'),
+      aNosotros=document.getElementById('aNosotros'),
+      aServicios=document.getElementById('aServicios'),
+      aInfoteca=document.getElementById('aInfoteca'),
+      aSitios=document.getElementById('aSitios'),
+      aIntegrate=document.getElementById('aIntegrate'),
+      aPortafolio=document.getElementById('aPortafolio'),
+      aContato=document.getElementById('aContato'),
+      imgI=document.getElementById('imgI');
 
-        aNosotros.attr('href', ' ');
-        aServicios.attr('href', ' ');
-        aInfoteca.attr('href', ' ');
-        aSitios.attr('href', ' ');
-        aIntegrate.attr('href', ' ');
-        aPortafolio.attr('href', ' ');
-        aContato.attr('href', ' ');
-*/
-  }
-    var aInicio=document.getElementById('aInicio');
-        aNosotros=document.getElementById('aNosotros');
-        aServicios=document.getElementById('aServicios');
-        aInfoteca=document.getElementById('aInfoteca');
-        aSitios=document.getElementById('aSitios');
-        aIntegrate=document.getElementById('aIntegrate');
-        aPortafolio=document.getElementById('aPortafolio');
-        aContato=document.getElementById('aContato');
-        imgI=document.getElementById('imgI');
+  var rInicio="index.php",
+      rNosotros="publicos/sobreNosotros.php",
+      rServicios="publicos/servicios.php",
+      rInfoteca="publicos/infoteca.php",
+      rInteres="publicos/sInteres.php",
+      rIntegrate="publicos/integrate.php",
+      rportafolio="publicos/portafolio.php",
+      rContacto="publicos/contacto.php",
+      rImagen="img/logoNombre.png";
 
-    var dominio=window.location.host;
-    var absoluta="/vhc/vhc/";                   /*------------------------------------------------------------------*/
+  var dominio=window.location.host;
+  var absoluta="/vhc/vhc/";                   /*------------------------------------------------------------------*/
 
+  aInicio.href="http://"+dominio+absoluta+rInicio;
+  imgI.src="http://"+dominio+absoluta+rImagen;
 
-    var rInicio="index.php";
-    var rNosotros="publicos/sobreNosotros.php"
-    var rServicios="publicos/servicios.php"
-    var rInfoteca="publicos/infoteca.php"
-    var rInteres="publicos/sInteres.php"
-    var rIntegrate="publicos/integrate.php"
-    var rportafolio="publicos/portafolio.php"
-    var rContacto="publicos/contacto.php"
-    var rImagen="img/logoNombre.png";
+  console.log(valor);
+  if((valor!="1") && (valor!=null)){
 
-    aInicio.href="http://"+dominio+absoluta+rInicio;
     aNosotros.href="http://"+dominio+absoluta+rNosotros;
     aServicios.href="http://"+dominio+absoluta+rServicios;
     aInfoteca.href="http://"+dominio+absoluta+rInfoteca;
@@ -103,8 +89,23 @@
     aPortafolio.href="http://"+dominio+absoluta+rportafolio;
     aContato.href="http://"+dominio+absoluta+rContacto;
 
-    imgI.src="http://"+dominio+absoluta+rImagen;
+
     console.log(dominio);
+
+  }
+  else {
+    aNosotros.href="#";
+    aServicios.href="#";
+    aInfoteca.href="#";
+    aSitios.href="#";
+    aIntegrate.href="#";
+    aPortafolio.href="#";
+    aContato.href="#";
+  }
+
+
+
+
 
 
 

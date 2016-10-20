@@ -12,7 +12,7 @@ function alertInicio(){
     valor=1;
   }
   else{
-      //sessionStorage.setItem("visita", "1");
+      
       urlImg="img/inicio/Logonombre1.png";
       centrado="text-center";
       centrado="center";
