@@ -135,9 +135,7 @@
      </div>
      <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
      <br>
-     <small>
-     1. Albacea.- Persona encargada por el testador o por el juez de cumplir la última voluntad del finado, custodiando sus bienes y dándoles el destino que corresponde según la herencia. Diccionario de la Real Academia Española.
-     </small>
+     
    </div>  <!-- /Well Articulo1 -->
 
 

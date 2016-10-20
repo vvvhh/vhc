@@ -57,7 +57,7 @@ function alertInicio(){
 
 function cambioDolar(){
   var now = new Date();
-    if (now.getDay() == 6){
+    if ((now.getDay() == 6) || (now.getDay() == 0)){
       valDolBM=txtValDolarBM.val();
       valDolar=valDolBM.substr(5,6);
       console.log("cambioDolar dol"+valDolar);

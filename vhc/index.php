@@ -341,6 +341,27 @@
           <div class="row">
             <br><br><br><br><br><br><br><br><br>
           </div>
+          <div class="row">
+            <div class="col-md-6">
+              <small><sup>1</sup><a href="http://dof.gob.mx/filtroRss.php" target=black  class="enlaceSimple">
+                Fuente: Diario Oficial de la Federación
+              </a></small>
+
+             <br>
+            <small class="formatoTexto12"><sup>2</sup><a href="http://www.sat.gob.mx/informacion_fiscal/tablas_indicadores/Paginas/inpc_2016.aspx" class="enlaceSimple" target=blanck>
+               Fuente: Servicio de Administración Tributaria
+             </a></small>
+             <br>
+              <small class="formatoTexto12"><sup>3</sup><a href="http://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?accion=consultarCuadro&idCuadro=CF107&sector=22&locale=es" class="enlaceSimple" target=blanck>
+               Fuente: Banco de México
+             </a></small>
+             <br>
+              <small class="formatoTexto12"><sup>4</sup>
+                Tipo de cambio en dólares de los EE.UU.A. (FIX): Este tipo de cambio es determinado por el Banco de México los días hábiles bancarios con base en un promedio de las cotizaciones del mercado de cambios al mayoreo para operaciones liquidables el segundo día hábil bancario siguiente.
+              </small>
+            </div>
+          </div>
+
 
       </section>
 
@@ -405,7 +426,7 @@
 
                   <div class="control-group form-group">
                     <div class="input-group">
-                      <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i> USD:</span>
+                      <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i> *USD:</span>
                         <input id="inpUsd" name="nombreContacto" pattern="[1-9]+"  class="form-control grisObscuro"  placeholder="*Cantidad en número" maxlength="20" />
                     </div>
                     <p class="text-danger" id="spnNombre"> </p>
@@ -415,7 +436,7 @@
 
                   <div class="control-group form-group">
                     <div class="input-group">
-                      <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i> MXN:</span>
+                      <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i> *MXN:</span>
                         <input id="inpMxn" name="nombreContacto" pattern="[1-9]+" type="text" class="form-control grisObscuro"  placeholder="*Equivalencia en pesos Mexicanos" maxlength="20" />
                     </div>
                     <p class="text-danger" id="spnNombre"> </p>
@@ -645,26 +666,7 @@
 
     <!-- ./AREA lateral -->
 
-      <div class="row">
-        <div class="col-md-6">
-          <small><sup>1</sup><a href="http://dof.gob.mx/filtroRss.php" target=black  class="enlaceSimple">
-            Fuente: Diario Oficial de la Federación
-          </a></small>
 
-         <br>
-        <small><sup>2</sup><a href="http://www.sat.gob.mx/informacion_fiscal/tablas_indicadores/Paginas/inpc_2016.aspx" class="enlaceSimple" target=blanck>
-           Fuente: Servicio de Administración Tributaria
-         </a></small>
-         <br>
-          <small><sup>3</sup><a href="http://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?accion=consultarCuadro&idCuadro=CF107&sector=22&locale=es" class="enlaceSimple" target=blanck>
-           Fuente: Banco de México
-         </a></small>
-         <br>
-          <small><sup>4</sup>
-            Tipo de cambio en dólares de los EE.UU.A. (FIX): Este tipo de cambio es determinado por el Banco de México los días hábiles bancarios con base en un promedio de las cotizaciones del mercado de cambios al mayoreo para operaciones liquidables el segundo día hábil bancario siguiente.
-          </small>
-        </div>
-      </div>
 
 
   </div>
@@ -708,6 +710,16 @@
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
         }
     });
+
+
+
+ /*var link = document.createElement('link');
+     link.id = 'dynamic-favicon';
+     link.rel = 'shortcut icon';
+     link.href = "www.contadoresvh.com/favicon.png";
+
+ document.head.appendChild(link);
+*/
   </script>
 
   <!--  <script charset="utf-8" sync=true>
