@@ -50,6 +50,7 @@
 </nav>
 
 <script type="text/javascript">
+function verificarAceptadoAviso(){
   var valor=sessionStorage.getItem("visita");
 
   var aInicio=document.getElementById('aInicio'),
@@ -78,8 +79,8 @@
   aInicio.href="http://"+dominio+absoluta+rInicio;
   imgI.src="http://"+dominio+absoluta+rImagen;
 
-  console.log(valor);
-  if((valor!="1") && (valor!=null)){
+  console.log("sesion:"+valor);
+  if((valor=="1") && (valor!=null)){
 
     aNosotros.href="http://"+dominio+absoluta+rNosotros;
     aServicios.href="http://"+dominio+absoluta+rServicios;
@@ -103,10 +104,8 @@
     aContato.href="#";
   }
 
+}
 
-
-
-
-
+verificarAceptadoAviso();
 
 </script>

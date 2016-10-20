@@ -12,7 +12,7 @@ function alertInicio(){
     valor=1;
   }
   else{
-      
+
       urlImg="img/inicio/Logonombre1.png";
       centrado="text-center";
       centrado="center";
@@ -37,7 +37,7 @@ function alertInicio(){
             callback: function() {
               //location.href="publicos/piePagina/politicaUso";
               sessionStorage.setItem("visita", "1");
-              var condicion=$('#condicion'),
+            /*  var condicion=$('#condicion'),
                   aPrivacidad=$('#aPrivacidad'),
                   aPolitica=$('#aPolitica')
                   aMapa=$('#aMapa');
@@ -45,7 +45,8 @@ function alertInicio(){
                   condicion.attr('href', 'publicos/piePagina/propiedadIntelectual');
                   aPrivacidad.attr('href', 'publicos/piePagina/avisoPrivacidadClientes');
                   aPolitica.attr('href', 'publicos/piePagina/politicaUso');
-                  aMapa.attr('href', 'publicos/piePagina/mapaSitio');
+                  aMapa.attr('href', 'publicos/piePagina/mapaSitio');*/
+                  verificarAceptadoAviso(); //desde js de inicio
             }
           }
         }
