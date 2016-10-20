@@ -21,8 +21,8 @@ if(isset($token)) {
   $sufijo = "-contactenos";
   $aceptacion = $fechaT.$data['nombre'].$sufijo;
 
-
-  $mail = new PHPMailer;
+/*
+   $mail = new PHPMailer;
     $nombre = "VHC_Contacto";
     $email = "VHC";
     $mensaje = "Mensaje de Contacto";
@@ -38,7 +38,7 @@ if(isset($token)) {
     $mail->From = $data['correo'];
     $mail->FromName = $nombre;
 
-  //  $mail->addAddress('reclutamiento@contadoresvh.com'); /*********************/
+  //  $mail->addAddress('reclutamiento@contadoresvh.com');
     $mail->addAddress('edgar.santiago@contadoresvh.com');
 
   $mail->isHTML(true);
@@ -59,10 +59,28 @@ if(isset($token)) {
   $mail->AltBody = '';
   $exito = $mail->send();
   $intentos=1;
+*/
+  $para  = 'edgar.santiago@contadoresvh.com';
+  $título = 'Mensaje de contacto desde sitio web';
+  $mensaje = "<html>".
+  "<p><h3><strong>Mensaje desde sitio Web</strong></h3></p>".
+                  "<p><strong>Nombre: </strong>".$data['nombre']."</p>".
+                //  "<p><strong>Área a postularse: </strong>".$data['area']."</p>".
+                  "<p><strong>Teléfono: </strong>".$data['telefono']."</p>".
+                  "<p><strong>Correo: </strong>".$data['correo']."</p>".
+                  "<p><strong>Mensaje: </strong>".$data['mensaje']."</p>".
+                  "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para clientes: </strong>".$aceptacion."</small></p>".
+                  "</html>";
+  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+  $exito =mail($para, $título, $mensaje, $cabeceras);
+  $intentos=1;
 
   while ((!$exito) && ($intentos < 5)) {
     sleep(5);
-    $exito = $mail->send();
+    //$exito = $mail->send();
+    $exito =mail($para, $título, $mensaje, $cabeceras);
     $intentos=$intentos+1;
   }
   if(!$exito){
