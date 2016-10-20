@@ -41,6 +41,9 @@ html {
 .formatoTexto14{
   font-size: 0.875em;
 }
+.formatoTexto12{
+  font-size: 0.75em;
+}
 .noticiasWell{
   background-color: rgba(208,217,221, 0.8);
   border-top: #eceff1;

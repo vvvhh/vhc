@@ -425,6 +425,16 @@
                     <button  class="btn btn-default " name="button" id="btnConvertir"> <i class="fa fa-exchange" aria-hidden="true"></i>
                       convertir</button>
                   </div>
+                  <br>
+                  <a href="http://dof.gob.mx/indicadores.xml">
+                    <small class="formatoTexto12"> *Información para días hábiles desde el D.O.F.
+                    </small>
+                  </a>  <br>
+
+                  <a href="http://www.banxico.org.mx/repositorios/dgobc-web/sisfix/fix48.html">
+                    <small class="formatoTexto12">*Para días inhábiles se usa tipo de cambio (FIX) que es determinado por el Banco de México.
+                    </small>
+                  </a>
 
             </div>
           </div>
