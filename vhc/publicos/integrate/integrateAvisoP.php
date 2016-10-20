@@ -206,12 +206,12 @@
   <div class="row">
     <div class="col-md-2">
     <!--   <a class="btn btn-md btn-primary btn-block" href="{{ asset('doc/AVISO_DE_PRIVACIDAD_ASPIRANTES_VHC.pdf') }}" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>  -->
-    <a class="btn btn-md btn-primary btn-block" href="{{ asset('doc/AVISO DE PRIVACIDAD SIMPLIFICADO ASPIRANTES.pdf') }}" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
+    <a class="btn btn-md btn-primary btn-block" href="../../doc/AVISO_DE_PRIVACIDAD_SIMPLIFICADO_ASPIRANTES.pdf" download><i class="fa fa-file-pdf-o"></i><span class="network-name"> Imprimir</span></a>
 
     </div>
   </div>
 
-  
+
 
 
 
