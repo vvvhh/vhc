@@ -119,7 +119,7 @@
 
         }
 
-    /*    $res1 = $_POST['respuesta1'];
+        $res1 = $_POST['respuesta1'];
         if (isset($res1)) {
             $arrayCapacitacion=array(
               '0'=> $res1[0],
@@ -147,13 +147,13 @@
             $jCapacitacion = json_encode($arrayCapacitacion);
             $consultaC = "INSERT INTO cCapacitacion (ccaRespuesta, ccaPersonaLaboral) VALUES('".$jCapacitacion."', ".$idCPersona.");";
             $insertC = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaC, $database );
-*/
+
             /*$insertC = CCapacitacion::insert(array(
               'ccaRespuesta' => $jCapacitacion,
               'ccaPersonaLaboral' => $idCPersona
             ));*/
 
-      //  }
+        }
 
   /*      $res2 = Input::get('respuesta2');
         if (isset($res2)) {
@@ -237,7 +237,7 @@
 
             $response = array(
               'status' => 'OK',
-              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.');
+              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.'.$insertC);
           }
           else
             $response = array(
