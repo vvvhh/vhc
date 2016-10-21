@@ -148,14 +148,9 @@
             $consultaC = "INSERT INTO cCapacitacion (ccaRespuesta, ccaPersonaLaboral) VALUES('".$jCapacitacion."', ".$idCPersona.");";
             $insertC = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaC, $database );
 
-            /*$insertC = CCapacitacion::insert(array(
-              'ccaRespuesta' => $jCapacitacion,
-              'ccaPersonaLaboral' => $idCPersona
-            ));*/
-
         }
 
-  /*      $res2 = Input::get('respuesta2');
+        $res2 = $_POST['respuesta2'];
         if (isset($res2)) {
             $arraySeguridad=array(
               '0'=> $res1[0],
@@ -180,17 +175,17 @@
               '19'=> $res2[19]
             );
 
-            $jCapacitacion = json_encode($arrayCapacitacion);
-            $consultaC = "INSERT INTO CSeguridad (cseRespuesta, csePersonaLaboral) VALUES('".$jCapacitacion."', ".$idCPersona.");";
-            $insertS = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaC, $database );
-*/
+            $jSeguridad = json_encode($arraySeguridad);
+            $consultaS = "INSERT INTO cSeguridad (cseRespuesta, csePersonaLaboral) VALUES('".$jSeguridad."', ".$idCPersona.");";
+            $insertS = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaS, $database );
+
 /*            $jSeguridad = json_encode($arraySeguridad);
             $insertS = CSeguridad::insert(array(
               'cseRespuesta' => $jSeguridad,
               'csePersonaLaboral' => $idCPersona
             ));
 */
-    //    }
+        }
 
           if($insertC || $insertG || $insertS){
           /*  $porcentajeSuma =   $porcentaje0 +   $porcentaje1 +  $porcentaje2;
@@ -237,7 +232,7 @@
 
             $response = array(
               'status' => 'OK',
-              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.'.$insertC);
+              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.');
           }
           else
             $response = array(
