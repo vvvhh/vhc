@@ -131,7 +131,7 @@
 
 <script>
   $('#carouselTestimonios').carousel({
-    interval: 4000
+    interval: 20000
   });
 	$('#navPortafolio').addClass('activoLi');
 </script>
