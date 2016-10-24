@@ -5,12 +5,18 @@
         <div class="footer-col col-md-3 col-sm-4">
           <h4>Ciudad de México</h4>
           <p class="formatoTexto14">Huatabampo 72 Int. 1, 2<br>Col. Roma Sur, Cuauhtémoc, Cd. Méx., México  <br> C.P. 06760</p>
+          <p class="formatoTexto14">
+            55 74 41 91 - 55 74 27 95 <br> 55 64 38 07 - 55 84 26 12
+          </p>
         </div>
         <div class="footer-col col-md-3 col-sm-4">
           <h4>Cancún</h4>
         <!--    <p class="formatoTexto14">Av. Nichupte Mza. 2 Lt. 20 <br>Piso 4 Int. 415 SM. 19<br> Plaza Atrium, <br> Cancún, Quintana Roo.</p>
         -->
-          <p class="formatoTexto14">Av. Xpuhil sur <br>Mza. 2, Lote 23, Despacho 201, <br> Supermanzana 19, <br> Benito Juárez, Quintana Roo. <br> C.P. 77505</p>
+          <p class="formatoTexto14">Av. Xpuhil sur <br>Mza. 2, Lote 23, Despacho 201, 208 <br> Supermanzana 19, <br> Benito Juárez, Quintana Roo. <br> C.P. 77505</p>
+          <p clas="formatoTexto14">
+            (998) 868 30 55
+          </p>
         </div>
         <div class="footer-col col-md-3 col-sm-4">
           <h4>Mérida</h4>

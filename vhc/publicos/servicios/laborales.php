@@ -28,14 +28,18 @@
 <div style="background-image:url('../../img/inicio/478771527.jpg');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisObscuro texto3d"><i class="fa fa-suitcase"></i> Servicios Laborales</h1>
-      </div>
-    </div>
+    <br><br>
 
     <div class="well transparenteClaroTxt animacionContenido">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <br>
+          <h1 class="tituloEntrada tamTitulo grisObscuro text-center"><i class="fa fa-suitcase"></i> Servicios Laborales</h1>
+        </div>
+      </div>
+      <br>
+
         <div class="row text-justify">
           <div class="col-md-12">
             <div class="row">

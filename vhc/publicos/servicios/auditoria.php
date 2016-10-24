@@ -26,14 +26,18 @@
 <div style="background-image:url('../../img/inicio/461998221.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisObscuro texto3d text-center"><i class="fa fa-search"></i> Servicios de Auditoría</h1>
-      </div>
-    </div>
 
+<br><br>
     <div class="well transparenteClaroTxt animacionContenido">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <br>
+          <h1 class="tituloEntrada tamTitulo grisObscuro   text-center"><i class="fa fa-search"></i> Servicios de Auditoría</h1>
+        </div>
+      </div>
+      <br><br>
+
         <div class="row text-justify">
           <div class="col-md-12">
             <div class="row">
@@ -41,7 +45,7 @@
                 <img id="imgI" src="../../img/servicios/156607306.jpg" class="img-rounded img-responsive"/>
               </div>
               <div class="col-md-8 ">
-                <p class="formatoTexto sangria">
+                <p class="formatoTexto ">
                   Siempre es importante una opinión independiente respecto a la coherencia de la información financiera de una empresa, o sobre la efectividad de la estructura de su sistema de control interno, así como de los procedimientos implementados en ciertos sectores, ya que permite detectar áreas de mejora y como consecuencia focalizar el trabajo en los puntos débiles detectados.
                   <br><br>
                   Examen sistemático de los estados financieros de una entidad, de los registros contables de sus transacciones, transformaciones y de todos los eventos económicos que se hayan realizado, con la finalidad de determinar si están de acuerdo con las Normas de Información Financiera y con las políticas establecidas por la dirección de su institución y con cualquier otro tipo de exigencias legales o voluntariamente aceptadas. <br><br> Por lo tanto, una auditoría tendrá por objeto verificar la razonabilidad, integridad, objetividad y autenticidad de los estados financieros de la entidad, cualquiera que esta sea.
@@ -135,17 +139,20 @@
     </div>  <!-- Well -->
 
 <br><br>
-    <div  >
-      <h2 class="grisObscuro  texto3d text-center tituloEntrada"><i class="fa fa-check-square"></i>
-        Auditoría Gubernamental
-      </h2>
-    </div>
+
     <div class="well transparenteClaroTxt animacionContenido">
+
+      <div  >
+        <h2 class="grisObscuro text-center tituloEntrada"><i class="fa fa-check-square"></i>
+          Auditoría Gubernamental
+        </h2>
+      </div>
+      <br>
         <div class="row text-justify">
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-12">
-                <p class="formatoTexto sangria">
+                <p class="formatoTexto">
                   Elaboración profesional de auditorías, para entidades públicas, en puntos estratégicos, relevantes y prioritarios, apegadas a la normatividad vigente para generar las recomendaciones a implementar y mejorar así la eficiencia de forma preventiva y correctiva.
                 </p>
               </div>

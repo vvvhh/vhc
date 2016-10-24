@@ -103,6 +103,10 @@
              “Todo tiene su tiempo y todo lo que se quiere debajo del cielo tiene su hora”
            </p>
 
+           <small class="text-justify">
+            <sup>1</sup> Primeras palabras de la fórmula latina “de cujus succesione agitur” (aquel de cuya sucesión se trata); utilizada en nuestros días para designar al difunto causante de la sucesión: se dice el “de cujus”. Palabra que designa a la persona cuya sucesión ha sido abierta. Véase en <a href="http://www.enciclopedia-juridica.biz14.com/d/de-cujus/de-cujus.htm" target="blanck">http://www.enciclopedia-juridica.biz14.com/d/de-cujus/de-cujus.htm</a> 
+           </small>
+
          <!-- /CONTENIDO DEL ARTICULO -->
 
        </div>

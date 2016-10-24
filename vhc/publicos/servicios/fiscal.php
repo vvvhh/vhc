@@ -27,14 +27,17 @@
 <div style="background-image:url('../../img/inicio/178709202.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisClaro"><i class="fa fa-gavel"></i> Servicio Fiscal</h1>
-      </div>
-    </div>
+<br><br>
 
     <div class="well transparenteClaroTxt animacionContenido">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <h1 class="tituloEntrada tamTitulo grisObscuro  text-center"><i class="fa fa-gavel"></i> Servicio Fiscal</h1>
+          <br>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-12">
           <div class="row">
@@ -42,7 +45,7 @@
               <img id="imgI" src="../../img/servicios/483424523.jpg" class="img-rounded img-responsive"/>
             </div>
             <div class="col-md-8">
-              <p class="text-justify formatoTexto2 sangria">
+              <p class="text-justify formatoTexto2">
                 Los servicios que ofrecemos en este rubro, se encuentran orientados hacia la detección de áreas de oportunidades en eficiencia fiscal.
                 <br><br>
 Derivado del profundo estudio de las leyes en la materia, así como de reglamentaciones locales, podemos llevar a cabo el control y vigilancia de los impuestos a cargo de nuestros clientes, desde el establecimiento, hasta la prevención y el diseño o ajuste de estrategias, que le permitan al cliente cumplir de forma ágil y oportuna con sus obligaciones tributarias, siempre de acuerdo y en apego estricto al marco legal vigente.

@@ -43,8 +43,7 @@
     <li data-target="#carouselPrincipal" data-slide-to="6" class="liInicio"></li>
     <li data-target="#carouselPrincipal" data-slide-to="7" class="liInicio"></li>
     <li data-target="#carouselPrincipal" data-slide-to="8" class="liInicio"></li>
-    <li data-target="#carouselPrincipal" data-slide-to="9" class="liInicio"></li>
-    <li data-target="#carouselPrincipal" data-slide-to="10" class="liInicio"></li>
+    <li data-target="#carouselPrincipal" data-slide-to="9" class="liInicio"></li>  
   </ol>
 
   <div class="carousel-inner">
@@ -58,62 +57,62 @@
       <div class="fill" style="background-image:url('img/inicio/461998221.jpg');"></div>
 
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="texto3D textAzul3"><strong>Servicios de Auditoría</strong> </h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios de Auditoría </h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/101371076.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/contables.php"><h2 class="texto3D textAzul3">Servicios Contables</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/contables.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios Contables</h2></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/487967033.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/asesoria.php"><h2 class="texto3D textAzul2">Servicios de Asesoría</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/asesoria.php"><p class="texto3DC textAzul2 formatoTextoC">Servicios de Asesoría</p></a>
       </div>
     </div>
 
     <!--  <div class="item">
       <div class="fill" style="background-image:url('img/inicio/491207279.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/obtenerAsesoria.php"><h2 class="texto3D textAzul2">Servicios de Asesoría Online</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/obtenerAsesoria.php"><h2 class="texto3DC textAzul2">Servicios de Asesoría Online</h2></a>
       </div>
     </div> -->
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/91430302.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/pLavado.php"><h2 class="texto3D textAzul2">Prevención de Lavado de Dinero (PLD)</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/pLavado.php"><p class="texto3DC textAzul2 formatoTextoC">Prevención de Lavado de Dinero (PLD)</p></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/180256715.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/juridico.php"><h2 class="texto3D textAzul2">Servicio Jurídico</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/juridico.php"><p class="texto3DC textAzul2 formatoTextoC">Servicio Jurídico</p></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/178709202.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><h2 class="texto3D textAzul2">Servicio Fiscal</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="texto3DC textAzul2 formatoTextoC">Servicio Fiscal</p></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/servicios/83017290.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/auditoriaG.php"><h2 class="texto3D textAzul2">Auditoría Gubernamental</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/auditoriaG.php"><p class="texto3DC textAzul2 formatoTextoC">Auditoría Gubernamental</p></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/478771527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><h2 class="texto3D textAzul2">Servicios Laborales</h2><a href="publicos/servicios/autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
+        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="texto3DC textAzul2 formatoTextoC">Servicios Laborales</p><a href="publicos/servicios/autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/166150527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/otros.php"><h2 class="texto3D textAzul2">Otros Servicios</h2></a>
+        <a class="enlaceSimple" href="publicos/servicios/otros.php"><p class="texto3DC textAzul2 formatoTextoC">Otros Servicios</p></a>
       </div>
     </div>
 

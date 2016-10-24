@@ -23,26 +23,21 @@
     <?php include ("../../seccionesVista/barraNavegacionPagina.php"); ?>
 
 
-@stop
 
-@section('css')
-@stop
-
-@section('body')
-@stop
-
-@section('content')
 <div style="background-image:url('../../img/inicio/91430302.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-money"></i> Servicios de Asesoría en materia de Prevención de Lavado de Dinero (PLD)</h1>
-      </div>
-    </div>
+<br><br>
 
       <div class="well text-justify transparenteClaroTxt animacionContenido">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <br>
+            <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-money"></i> Servicios de Asesoría en materia de Prevención de Lavado de Dinero (PLD)</h1>
+          </div>
+        </div>
+        <br><br>
         <div class="row">
           <div class="col-md-12">
             <div class="row">

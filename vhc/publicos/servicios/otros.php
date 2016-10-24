@@ -25,19 +25,24 @@
 
 <div style="background-image:url('../../img/inicio/166150527.jpg ');"class="fondo paddingTexto">
   <div class="container">
-
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-th"></i> Otros servicios</h1>
-      </div>
-    </div>
-
+    <br><br>
     <div class="well transparenteClaroTxt animacionContenido">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <br>
+          <h1 class="tituloEntrada tamTitulo grisObscuro text-center"><i class="fa fa-th"></i> Otros servicios</h1>
+        </div>
+      </div>
+      <br>
+
       <div class="text-justify">
         <div class="row">
           <div class="col-md-12 formatoTexto">
-            Como complemento de nuestros servicios fundamentales también ofrecemos otros trabajos que según el caso particular de nuestro cliente pueden ser necesarios o de gran utilidad en el desarrollo de su negocio.
+            <p class="formatoTexto3">
+                Como complemento de nuestros servicios fundamentales también ofrecemos otros trabajos que según el caso particular de nuestro cliente pueden ser necesarios o de gran utilidad en el desarrollo de su negocio.
+            </p>
+
           </div>
         </div>
 
@@ -46,10 +51,11 @@
               <img id="imgI" src="../../img/servicios/454171577.jpg')}}" class="img-rounded img-responsive"/>
             </div> -->
             <div class="col-md-12">
-<br>
-              <h4 class="grisObscuro">Trámites ante las diferentes dependencias públicas, como pueden ser:</h4>
+              <br>
+             <h4 class="grisObscuro">Trámites ante las diferentes dependencias públicas, como pueden ser:</h4>
+
               <ul>
-                <li class="formatoTexto">	Trámite de alta en el Registro Federal de Contribuyentes para personas morales y físicas.</li>
+                <li class="formatoTexto">	Trámite de alta en el Registro Federal de Contribuyentes para personas morales y físicas. </li>
                 <li class="formatoTexto">	Inscripciones al IMSS.</li>
                 <li class="formatoTexto">	Inscripciones al Infonavit.</li>
                 <li class="formatoTexto">	Entre otros.</li>

@@ -45,7 +45,7 @@
 
       include('../personasLaboral/ConsultasPersonasLaboral.php');
       $ConsultasPersonasLaboral = new ConsultasPersonasLaboral;
-      $consulta = 'INSERT INTO personasLaboral (clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto) VALUES("'.$data['nombre'].'", "'.$data['telefono'].'", "'.$data['correo'].'", "'.$fecha.'", "'.$aceptacion.'", '.$data['completo'].' );';
+      $consulta = 'INSERT INTO personaslaboral (clabNombre, clabTelefono, clabCorreo, clabFecha, clabCondicion, clabCompleto) VALUES("'.$data['nombre'].'", "'.$data['telefono'].'", "'.$data['correo'].'", "'.$fecha.'", "'.$aceptacion.'", '.$data['completo'].' );';
       $insert = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consulta, $database );
 
 //$insert=1;
@@ -114,7 +114,7 @@
            );
 
             $jGeneral = json_encode($arrayGeneral);
-            $consultaG = "INSERT INTO cGeneral (cgeRespuesta, cgePersonaLaboral) VALUES('".$jGeneral."', ".$idCPersona.");";
+            $consultaG = "INSERT INTO cgeneral (cgeRespuesta, cgePersonaLaboral) VALUES('".$jGeneral."', ".$idCPersona.");";
             $insertG = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaG, $database );
 
         }
@@ -145,7 +145,7 @@
             );
 
             $jCapacitacion = json_encode($arrayCapacitacion);
-            $consultaC = "INSERT INTO cCapacitacion (ccaRespuesta, ccaPersonaLaboral) VALUES('".$jCapacitacion."', ".$idCPersona.");";
+            $consultaC = "INSERT INTO ccapacitacion (ccaRespuesta, ccaPersonaLaboral) VALUES('".$jCapacitacion."', ".$idCPersona.");";
             $insertC = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaC, $database );
 
         }
@@ -176,7 +176,7 @@
             );
 
             $jSeguridad = json_encode($arraySeguridad);
-            $consultaS = "INSERT INTO cSeguridad (cseRespuesta, csePersonaLaboral) VALUES('".$jSeguridad."', ".$idCPersona.");";
+            $consultaS = "INSERT INTO cseguridad (cseRespuesta, csePersonaLaboral) VALUES('".$jSeguridad."', ".$idCPersona.");";
             $insertS = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaS, $database );
 
 /*            $jSeguridad = json_encode($arraySeguridad);

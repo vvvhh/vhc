@@ -28,14 +28,19 @@
 <div style="background-image:url('../../img/inicio/101371076.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisClaro"><i class="fa fa-table"></i> Servicios Contables</h1>
-      </div>
-    </div>
 
+<br><br>
     <div class="well  transparenteClaroTxt animacionContenido">
+
+      <div class="row"> <!-- style="background-color: black;" -->
+        <div class="col-lg-12" >
+
+          <h1 class="tituloEntrada tamTitulo grisObscuro text-center"><i class="fa fa-table"></i> Servicios Contables</h1>
+          <br>
+        </div>
+      </div>
+
+
         <div class="row text-justify">
           <div class="col-md-12">
               <div class="row">
@@ -44,10 +49,10 @@
                 </div>
                 <div class="col-md-8">
                   <br>
-                  <p class="formatoTexto sangria">
+                  <p class="formatoTexto ">
                     En materia de negocios, sabemos la importancia que tiene el hecho de que los empresarios concentren su atención en su actividad principal (objeto de su industria), sin desviarse con tareas contables que obstaculicen su crecimiento. Considerando a la contabilidad como una técnica que se utiliza para el registro de las operaciones que afectan económicamente a la entidad y que produce sistemática y estructuradamente información financiera. Tal información es cuantitativa y se expresa en unidades monetarias, mostrando la posición y desempeño financiero de una organización y busca ser útil para tomar decisiones económicas mediante la evaluación del desempeño y comportamiento futuro de dicha organización, situaciones que se manifiestan fundamentalmente en los estados financieros.
                   </p>
-                  <p class="formatoTexto sangria">
+                  <p class="formatoTexto ">
                     Es por ello que la generación de información financiera está basada en un Sistema de Información Contable, en el cuál se fundamentan los servicios brindados a nuestros clientes y que están enfocados principalmente en dos vertientes:
                   </p>
 

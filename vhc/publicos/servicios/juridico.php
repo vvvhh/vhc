@@ -27,19 +27,23 @@
 <div style="background-image:url('../../img/inicio/180256715.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisClaro"><i class="fa fa-book"></i> Servicio Jurídico</h1>
-      </div>
-    </div>
 
+<br><br>
       <!--  Nuestro servicio incluye las siguientes materias: -->
 
     <div class="well transparenteClaroTxt animacionContenido">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <br>
+          <h1 class="tituloEntrada tamTitulo grisObscuro text-left text-center"><i class="fa fa-book"></i> Servicio Jurídico</h1>
+        </div>
+      </div>
+      <br>
+
       <div class="row">
         <div class="col-md-12">
-          <p class="formatoTexto text-justify sangria">
+          <p class="formatoTexto text-justify">
             Nos preocupamos por el funcionamiento integral de su empresa, es por ello que le ofrecemos soluciones legales en el debido cumplimiento de la normatividad vigente, los demás aplicables a su entorno, evitando así futuras controversias y asegurando su correcto desempeño.
           </p>
         </div>
@@ -50,13 +54,13 @@
           <img id="imgI" src="../../img/servicios/156628164.jpg" class="img-rounded img-responsive"/>
         </div>
         <div class="col-md-8 ">
-          <h3 class="grisObscuro  texto3d text-left tituloEntrada">
+          <h3 class="grisObscuro   text-left tituloEntrada">
             Cumplimiento a las disposiciones legales
           </h3>
           <p class="formatoTexto text-justify">
             Para dar cumplimiento a las disposiciones legales realizamos un análisis de las áreas de impacto según sus actividades y nos cercioramos de que estén en cumplimiento con la legislación aplicable vigente, previendo y evitando posibles multas por parte de dependencias gubernamentales.
           </p>
-          <h3 class="grisObscuro  texto3d text-left tituloEntrada">
+          <h3 class="grisObscuro   text-left tituloEntrada">
             Derecho Corporativo
           </h3>
           <p class="formatoTexto text-justify">
@@ -69,7 +73,7 @@
       <div class="row">
         <div class="col-md-12">
 
-        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+        <h3 class="grisObscuro   text-center tituloEntrada">
           Propiedad Intelectual
         </h3>
         <p class="formatoTexto text-justify ">
@@ -82,7 +86,7 @@
       <div class="row">
         <div class="col-md-12">
 
-        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+        <h3 class="grisObscuro   text-center tituloEntrada">
           Derecho Mercantil
         </h3>
         <p class="formatoTexto text-justify ">
@@ -95,7 +99,7 @@
       <div class="row">
         <div class="col-md-12">
 
-        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+        <h3 class="grisObscuro   text-center tituloEntrada">
           Auditoría Legal
         </h3>
         <p class="formatoTexto text-justify ">
@@ -108,7 +112,7 @@
       <div class="row">
         <div class="col-md-12">
 
-        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+        <h3 class="grisObscuro   text-center tituloEntrada">
           Avisos de privacidad
         </h3>
         <p class="formatoTexto text-justify ">
@@ -122,7 +126,7 @@
       <div class="row">
         <div class="col-md-12">
 
-        <h3 class="grisObscuro  texto3d text-center tituloEntrada">
+        <h3 class="grisObscuro   text-center tituloEntrada">
           <a href="auditoria.php?tipoDue=4#tituloServicios">Due diligence legal </a>
         </h3>
         <p class="formatoTexto text-justify ">

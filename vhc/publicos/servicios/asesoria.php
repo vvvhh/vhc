@@ -26,12 +26,7 @@
 <div style="background-image:url('../../img/inicio/491207279.jpg ');"class="fondo paddingTexto">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <br>
-        <h1 class="tituloEntrada tamTitulo grisClaro texto3d"><i class="fa fa-coffee"></i> Servicios de Asesoría</h1>
-      </div>
-    </div>
+
 
   <!--    <div  >
       <h2 class="grisObscuro texto3D text-center tituloEntrada"><i class="fa fa-check-square"></i>
@@ -62,12 +57,23 @@
       </div>
     </div>
     -->
-    <br>
-    <div  >
-      <h2 class="grisObscuro  texto3d text-center tituloEntrada"><i class="fa fa-check-square"></i>
-      Consultoría Financiera</h2>
-    </div>
+    <br><br>
+
     <div class="well text-justify transparenteClaroTxt animacionContenido">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <br>
+          <h1 class="tituloEntrada tamTitulo grisObscuro  text-center"><i class="fa fa-coffee"></i> Servicios de Asesoría</h1>
+        </div>
+      </div>
+
+      <div  >
+        <h2 class="grisObscuro  text-center tituloEntrada"><i class="fa fa-check-square"></i>
+        Consultoría Financiera</h2>
+      </div>
+      <br><br>
+
         <div class="row">
           <div class="col-md-12">
               <h4><b>
@@ -116,9 +122,9 @@
               Proceso de Due Diligence
 
               <ul class="formatoTexto">
-                  <li>	<a href="auditoria.php?tipoDue=1#tituloServicios">Due Diligence estratégico:</a> enfocado a la creación de valor, alineando las metas estratégicas con el proceso de generación y realización de operaciones.</li>
-                  <li>	<a href="auditoria.php?tipoDue=2#tituloServicios">Due Diligence Operativo:</a> enfocado a detectar las áreas de riesgo en la operación.</li>
-                  <li>	<a href="auditoria.php?tipoDue=3#tituloServicios">Due Diligence Financiero-Contable:</a> enfocado a determinar la racionalidad de los criterios contables y de la información financiera que genera.</li>
+                  <li>	<a href="auditoria.php?tipoDue=1#tituloServicios">Due Diligence estratégico</a> </li>
+                  <li>	<a href="auditoria.php?tipoDue=2#tituloServicios">Due Diligence Operativo</a> </li>
+                  <li>	<a href="auditoria.php?tipoDue=3#tituloServicios">Due Diligence Financiero-Contable</a> </li>
 
                 </ul>
 
@@ -127,19 +133,22 @@
 
       </div>
 
-    <div>
-      <h2 class="grisObscuro  texto3d text-center tituloEntrada"><i class="fa fa-check-square"></i>
-        Consultoría Administrativa
-      </h2>
-    </div>
+
     <div class="well text-justify transparenteClaroTxt animacionContenido">
+
+      <div>
+        <h2 class="grisObscuro  text-center tituloEntrada"><i class="fa fa-check-square"></i>
+          Consultoría Administrativa
+        </h2>
+      </div>
+      <br>
 
         <div class="row">
           <div class="col-md-4">
             <img class="img-rounded img-responsive imgS" src="../../img/servicios/487967033.jpg"/>
           </div>
           <div class="col-md-8">
-            <p id="parrafoI" class="sangria formatoTexto">
+            <p id="parrafoI" class=" formatoTexto">
               Brindamos asesoría profesional para la administración de las empresas, organismos públicos u otro tipo de entidades.
             </p>
             <p>

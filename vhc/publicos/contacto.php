@@ -90,7 +90,7 @@
           </div>
           <div class="col-md-4">
             <p class="texto3D grisClaro">
-              <i class="fa fa-map-marker"></i>  Av. Xpuhil sur <br>Mza. 2, Lote 23,<br> Despacho 201, <br> Supermanzana 19, <br> Benito Juárez, <br>C.P. 77505 <br> Quintana Roo. <br>
+              <i class="fa fa-map-marker"></i>  Av. Xpuhil sur <br>Mza. 2, Lote 23,<br> Despacho 201, 208 <br> Supermanzana 19, <br> Benito Juárez, <br>C.P. 77505 <br> Quintana Roo. <br>
               <p class="texto3D grisClaro"><i class="fa fa-phone"></i> (998) 868 30 55</p>
             </p>
           </div>
