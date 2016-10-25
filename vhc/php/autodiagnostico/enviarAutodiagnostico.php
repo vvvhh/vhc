@@ -87,9 +87,12 @@
                 $insertC=true;
                 $insertS=true;*/
 
-        $res0 = $_POST['respuesta0'];
-        if (isset($res0)) {
 
+        if (isset($_POST['respuesta0'])) {
+          $res0 = $_POST['respuesta0'];
+        /*}
+        if (isset($res0)) {
+*/
             $arrayGeneral=array(
               '0'=> $res0[0],
               '1'=> $res0[1],
@@ -119,8 +122,12 @@
 
         }
 
-        $res1 = $_POST['respuesta1'];
+        if (isset( $_POST['respuesta1'])) {
+            $res1 = $_POST['respuesta1'];
+        /*}
+
         if (isset($res1)) {
+        */
             $arrayCapacitacion=array(
               '0'=> $res1[0],
               '1'=> $res1[1],
@@ -150,40 +157,42 @@
 
         }
 
-        $res2 = $_POST['respuesta2'];
-        if (isset($res2)) {
-            $arraySeguridad=array(
-              '0'=> $res1[0],
-              '1'=> $res2[1],
-              '2'=> $res2[2],
-              '3'=> $res2[3],
-              '4'=> $res2[4],
-              '5'=> $res2[5],
-              '6'=> $res2[6],
-              '7'=> $res2[7],
-              '8'=> $res2[8],
-              '9'=> $res2[9],
-              '10'=> $res2[10],
-              '11'=> $res2[11],
-              '12'=> $res2[12],
-              '13'=> $res2[13],
-              '14'=> $res2[14],
-              '15'=> $res2[15],
-              '16'=> $res2[16],
-              '17'=> $res2[17],
-              '18'=> $res2[18],
-              '19'=> $res2[19]
-            );
+        if (isset($_POST['respuesta2'])) {
 
-            $jSeguridad = json_encode($arraySeguridad);
-            $consultaS = "INSERT INTO cseguridad (cseRespuesta, csePersonaLaboral) VALUES('".$jSeguridad."', ".$idCPersona.");";
-            $insertS = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaS, $database );
+          $res2 = $_POST['respuesta2'];
+          //if (isset($res2)) {
+              $arraySeguridad=array(
+                '0'=> $res1[0],
+                '1'=> $res2[1],
+                '2'=> $res2[2],
+                '3'=> $res2[3],
+                '4'=> $res2[4],
+                '5'=> $res2[5],
+                '6'=> $res2[6],
+                '7'=> $res2[7],
+                '8'=> $res2[8],
+                '9'=> $res2[9],
+                '10'=> $res2[10],
+                '11'=> $res2[11],
+                '12'=> $res2[12],
+                '13'=> $res2[13],
+                '14'=> $res2[14],
+                '15'=> $res2[15],
+                '16'=> $res2[16],
+                '17'=> $res2[17],
+                '18'=> $res2[18],
+                '19'=> $res2[19]
+              );
 
-/*            $jSeguridad = json_encode($arraySeguridad);
-            $insertS = CSeguridad::insert(array(
-              'cseRespuesta' => $jSeguridad,
-              'csePersonaLaboral' => $idCPersona
-            ));
+              $jSeguridad = json_encode($arraySeguridad);
+              $consultaS = "INSERT INTO cseguridad (cseRespuesta, csePersonaLaboral) VALUES('".$jSeguridad."', ".$idCPersona.");";
+              $insertS = $ConsultasPersonasLaboral -> insertarPersonaLaboral($consultaS, $database );
+
+  /*            $jSeguridad = json_encode($arraySeguridad);
+              $insertS = CSeguridad::insert(array(
+                'cseRespuesta' => $jSeguridad,
+                'csePersonaLaboral' => $idCPersona
+              ));
 */
         }
 
