@@ -23,7 +23,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "8:00 - 18:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -47,7 +47,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros, entre otras. ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, s, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "No",   //Disponibilidad para viajar:
@@ -71,7 +71,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), entre otras. ",        //Actividades Relacionadas con el Puesto:		3
     "$4,500 - $5,500",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "No",   //Disponibilidad para viajar:
@@ -171,7 +171,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realización de auditorías",        //Actividades Relacionadas con el Puesto:		3
     "$10,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "8:00 - 18:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -195,7 +195,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realizacion de auditorías financieras ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -221,7 +221,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realización de auditoría y contabilidad",        //Actividades Relacionadas con el Puesto:		3
     "$4,500 - $5,500",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -245,7 +245,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "8:00 - 18:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -270,7 +270,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "8:00 - 18:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -294,7 +294,7 @@ var vacantes= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Coordinación de proyectos ",        //Actividades Relacionadas con el Puesto:		3
     "$10,000-15,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "8:00 - 18:00",  // Horario de Trabajo
     "Sí",   //Disponibilidad para viajar:
@@ -343,7 +343,7 @@ var empresa= [
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, elaboración de nómina, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), elaboración de Estados Financieros. ",        //Actividades Relacionadas con el Puesto:		3
     "$8,000 - $10,000",              //Sueldo
-    " Huatabampo  No. 72-1, Roma Sur, Cuauhtemoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 9:00 - 19:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "No",   //Disponibilidad para viajar:

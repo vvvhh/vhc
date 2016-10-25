@@ -64,7 +64,7 @@
                       <img class="imgS2 img-responsive img-rounded" src="../img/somos/491208519.jpg">
                     </div>
                     <div class="col-md-8">
-                    <h3 class="grisObscuro"><strong>¿Quienes somos?</strong></h3>
+                    <h3 class="grisObscuro"><strong>¿Quiénes somos?</strong></h3>
                       <p class="text-justify formatoTexto2">
                         <strong>Vázquez Hernández Contadores, S. C.</strong>, se funda en la Ciudad de México, en 1993 por contadores activamente involucrados en la práctica y en todas las áreas de la Contaduría y de la Administración.
                       </p>
