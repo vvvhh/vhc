@@ -104,14 +104,15 @@ function verificarContenido(){
       swal("Favor de ingresar el archivo con su C.V. o verificar la extención del archivo.","", "warning");
       return false;
   }*/
-  if ((extension.toLowerCase() == "pdf") || (extension.toLowerCase() == "doc") || (extension.toLowerCase() == "docx")){
+
+  /*if ((extension.toLowerCase() == "pdf") || (extension.toLowerCase() == "doc") || (extension.toLowerCase() == "docx")){
     extArchivo=true;
   }
   else{
     swal("Favor de ingresar el archivo con su C.V. o verificar la extención del archivo.","", "warning");
     return false;
-  }
-  //return false;
+  }*/
+
   return true;
 }
 
