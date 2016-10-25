@@ -241,7 +241,7 @@
 
             $response = array(
               'status' => 'OK',
-              'message' => 'Gracias por realizar el cuestionario, contactenos para más detalles sobre los resultados.');
+              'message' => 'Gracias por realizar el cuestionario, contáctenos para más detalles sobre los resultados.');
           }
           else
             $response = array(

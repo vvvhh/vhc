@@ -103,8 +103,9 @@
              “Todo tiene su tiempo y todo lo que se quiere debajo del cielo tiene su hora”
            </p>
 
+           <small>Autor: L.C. Enrique Arturo Vázquez Hernández</small> <br><br>
            <small class="text-justify">
-            <sup>1</sup> Primeras palabras de la fórmula latina “de cujus succesione agitur” (aquel de cuya sucesión se trata); utilizada en nuestros días para designar al difunto causante de la sucesión: se dice el “de cujus”. Palabra que designa a la persona cuya sucesión ha sido abierta. Véase en <a href="http://www.enciclopedia-juridica.biz14.com/d/de-cujus/de-cujus.htm" target="blanck">http://www.enciclopedia-juridica.biz14.com/d/de-cujus/de-cujus.htm</a> 
+            <sup>1</sup> Primeras palabras de la fórmula latina “de cujus succesione agitur” (aquel de cuya sucesión se trata); utilizada en nuestros días para designar al difunto causante de la sucesión: se dice el “de cujus”. Palabra que designa a la persona cuya sucesión ha sido abierta. Véase en <a href="http://www.enciclopedia-juridica.biz14.com/d/de-cujus/de-cujus.htm" target="blanck">http://www.enciclopedia-juridica.biz14.com/d/de-cujus/de-cujus.htm</a>
            </small>
 
          <!-- /CONTENIDO DEL ARTICULO -->
@@ -113,7 +114,7 @@
      </div>
 
 
-     <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
+
    </div>  <!-- /Well Articulo1 -->
 
 
