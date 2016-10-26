@@ -1,9 +1,6 @@
 <?php
-//require '../PHPMailerAutoload.php';
 
   $token = ($_POST['_token']);
-//$archivo = $_FILES['_archivo']['name'];
-
 
 if(isset($token)) {
   $nombre = "";
@@ -27,25 +24,11 @@ if(isset($token)) {
   if (isset ($_POST['_empresa'])) {
     $empresa = $_POST['_empresa'];
   }
-
-
-/*  $data = array(
-    'nombre' => (),
-    //'postula'=> Input::get('_postula'),
-    'postula'=> ($_POST['']),
-    'area'=> ($_POST['']),
-    'correo'=> ($_POST['_correo']),
-    'empresa'=> ($_POST['_empresa']),
-  );
-  */
-
   $_name=$_FILES["_archivo"]["name"];
   $_type=$_FILES["_archivo"]["type"];
   $_size=$_FILES["_archivo"]["size"];
   $_temp=$_FILES["_archivo"]["tmp_name"];
-//  $uploads_dir = $_SERVER['DOCUMENT_ROOT'].'/cargas/';
- $uploads_dir = './cargas/';
-
+  $uploads_dir = './cargas/';
 
   $timestamp = time();
   $formatoT = "d-m-Y-H:i:s-";
@@ -64,7 +47,6 @@ if(isset($token)) {
   $content = chunk_split(base64_encode($content));
    $uid = md5(uniqid(time()));
 
-
   $para  = 'edgar.santiago@contadoresvh.com';
   $titulo = 'Postulación desde sitio web';
   $from = 'sitio web';
@@ -77,23 +59,10 @@ if(isset($token)) {
                   "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para aspirantes: </strong>".$aceptacion."</small></p>".
                   "</html>";
 
-/*  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-  $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-  $cabeceras .= $mensaje;
-*/
-/*  $header .= "--".$uid."\r\n";
-  $header .= "Content-Type: application/octet-stream; name=\"".$_name."\"\r\n";
-  $header .= "Content-Transfer-Encoding: base64\r\n";
-  $header .= "Content-Disposition: attachment; filename=\"".$_name."\"\r\n\r\n";
-  $header .= $content."\r\n\r\n";
-  $header .= "--".$uid."--";
-*/
-  $message = "mensaje";
   $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
   $cabeceras .= "This is a multi-part message in MIME format.\r\n";
   $cabeceras .= "--".$uid."\r\n";
-
 
   $cabeceras .= "Content-type: text/html; charset=UTF-8\r\n";
   $cabeceras .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
@@ -106,10 +75,7 @@ if(isset($token)) {
   $cabeceras .= "Content-Disposition: attachment"."\r\n"."\r\n";
   $cabeceras .= $content."\r\n"."\r\n";
 
-
-
   $exito = mail($para, $titulo, "", $cabeceras);
-//  $exito =1;
 
   $intentos=1;
 
@@ -127,10 +93,9 @@ if(isset($token)) {
   else{
     $response = array(
       'status' => 'OK',
-      'message' => 'Su información se envío correctamente.'.$archivo
+      'message' => 'Su información se envío correctamente.'
     );
   }
   $jsonFinal = json_encode($response);
   echo $jsonFinal;
-
 }
