@@ -99,57 +99,34 @@ if(isset($token)) {
   */
 
   $para  = 'edgar.santiago@contadoresvh.com';
-  $título = 'Postulación desde sitio web';
+  $titulo = 'Postulación desde sitio web';
   $from = 'sitio web';
-  /*$mensaje = "<html>".
+  $mensaje = "<html>".
   "<p><h3><strong>Postulación desde sitio web</strong></h3></p>".
   "<p><strong>Nombre postulante: </strong>".$nombre."</p>".
-                //  "<p><strong>Área a postularse: </strong>".$data['area']."</p>".
                   "<p><strong>Vacante a postularse: </strong>".$puesto."</p>".
                   "<p><strong>Correo: </strong>".$correo."</p>".
                   "<p><strong>Empresa: </strong>".$empresa."</p>".
                   "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para aspirantes: </strong>".$aceptacion."</small></p>".
                   "</html>";
-                  */
 
 
-  // attachment
-
-
-  // main header
-/*  $headers  = "From: ".$from.$eol;
-  $headers .= "MIME-Version: 1.0".$eol;
-  $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"".$eol.$eol;
-  $headers .= "Content-Transfer-Encoding: 7bit".$eol;
-  $headers .= "This is a MIME encoded message.".$eol.$eol;
-*/
-  // message
-/*  $headers .= "--".$separator.$eol;
-  $headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
-  $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
-  $headers .= $mensaje.$eol.$eol;
-*/
-  // attachment
-//  $headers .= "--".$separator.$eol;
-  /*$headers .= "Content-Type: application/octet-stream; name=\"".$filename."\""."\r\n";
-  $headers .= "Content-Transfer-Encoding: base64"."\r\n";
-  $headers .= "Content-Disposition: attachment"."\r\n"."\r\n";
-  $headers .= $attachment."\r\n"."\r\n";
-  $headers .= "--".$separator."--";
-*/
-  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  /*$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
+  */
+  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+  $cabeceras .= $mensaje;
 
-
-  $cabeceras .= "Content-Type: application/octet-stream; name=\"".$filename."\""."\r\n";
+/*  $cabeceras .= "Content-Type: application/octet-stream; name=\"".$filename."\""."\r\n";
   $cabeceras .= "Content-Transfer-Encoding: base64"."\r\n";
   $cabeceras .= "Content-Disposition: attachment"."\r\n"."\r\n";
   $cabeceras .= $attachment."\r\n"."\r\n";
+*/
 
-//  $headers .= "--".$separator."--";
 
 
-  $exito = mail($para, $título, $mensaje, $cabeceras);
+  $exito = mail($para, $título, "", $cabeceras);
 
   $intentos=1;
 
