@@ -38,12 +38,13 @@ if(isset($token)) {
     'empresa'=> ($_POST['_empresa']),
   );
   */
-
-/*  $_name=$_FILES["_archivo"]["name"];
+  $archivo = $_FILES['_archivo']['name'];
+  $_name=$_FILES["_archivo"]["name"];
   $_type=$_FILES["_archivo"]["type"];
   $_size=$_FILES["_archivo"]["size"];
   $_temp=$_FILES["_archivo"]["tmp_name"];
-  */
+  $uploads_dir = './cargas/';
+
 
   $timestamp = time();
   $formatoT = "d-m-Y-H:i:s-";
@@ -51,12 +52,14 @@ if(isset($token)) {
   $sufijo = "-postulate";
   $aceptacion = $fechaT.$nombre.$sufijo;
 
-  $uploads_dir = './cargas/';
-  $filename = "Procedimiento Contable.docx";
+  move_uploaded_file($_temp, "$uploads_dir/$archivo");
+
+  /*$filename = "Procedimiento Contable.docx";
   $archivo = $uploads_dir.$filename;
   $attachment = chunk_split(base64_encode($archivo));
   $eol = PHP_EOL;
   $separator = md5(time());
+  */
 
 //  move_uploaded_file($_temp, "$uploads_dir/$archivo");
 
@@ -144,7 +147,7 @@ if(isset($token)) {
   else{
     $response = array(
       'status' => 'OK',
-      'message' => 'Su información se envío correctamente.'
+      'message' => 'Su información se envío correctamente.'.$archivo
     );
   }
   $jsonFinal = json_encode($response);
