@@ -68,7 +68,7 @@ if(isset($token)) {
   $para  = 'edgar.santiago@contadoresvh.com';
   $titulo = 'Postulación desde sitio web';
   $from = 'sitio web';
-/*  $mensaje = "<html>".
+  $mensaje = "<html>".
   "<p><h3><strong>Postulación desde sitio web</strong></h3></p>".
   "<p><strong>Nombre postulante: </strong>".$nombre."</p>".
                   "<p><strong>Vacante a postularse: </strong>".$puesto."</p>".
@@ -76,7 +76,7 @@ if(isset($token)) {
                   "<p><strong>Empresa: </strong>".$empresa."</p>".
                   "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para aspirantes: </strong>".$aceptacion."</small></p>".
                   "</html>";
-*/
+
 /*  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
   $cabeceras .= $mensaje;
@@ -94,15 +94,10 @@ if(isset($token)) {
   $cabeceras .= "This is a multi-part message in MIME format.\r\n";
   $cabeceras .= "--".$uid."\r\n";
 
-/*  $header .= "Content-type:text/plain; charset=iso-8859-1\r\n";
-  $header .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
-  $header .= $message."\r\n\r\n";
-  $header .= "--".$uid."\r\n";
-*/
 
-  $cabeceras .= "Content-type:text/plain; charset=iso-8859-1\r\n";
+  $cabeceras .= "Content-type: text/html; charset=UTF-8\r\n";
   $cabeceras .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
-  $cabeceras .= $message."\r\n\r\n";
+  $cabeceras .= $mensaje."\r\n\r\n";
   $cabeceras .= "--".$uid."\r\n";
 
   $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
