@@ -51,7 +51,7 @@ if(isset($token)) {
   $sufijo = "-postulate";
   $aceptacion = $fechaT.$nombre.$sufijo;
 
-  $uploads_dir = './cargas';
+  $uploads_dir = './cargas/';
   $filename = "Procedimiento Contable.docx";
   $archivo = $uploads_dir.$filename;
   $attachment = chunk_split(base64_encode($archivo));
@@ -140,7 +140,7 @@ if(isset($token)) {
   $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
 
-  
+
   $cabeceras .= "Content-Type: application/octet-stream; name=\"".$filename."\""."\r\n";
   $cabeceras .= "Content-Transfer-Encoding: base64"."\r\n";
   $cabeceras .= "Content-Disposition: attachment"."\r\n"."\r\n";
