@@ -90,6 +90,16 @@ if(isset($token)) {
 */
 
   $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  $cabeceras .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
+  $cabeceras .= "This is a multi-part message in MIME format.\r\n";
+  $cabeceras .= "--".$uid."\r\n";
+
+/*  $header .= "Content-type:text/plain; charset=iso-8859-1\r\n";
+  $header .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+  $header .= $message."\r\n\r\n";
+  $header .= "--".$uid."\r\n";
+*/
+
   $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
   $cabeceras .= "Content-Type: application/octet-stream; name=\"".$_name."\""."\r\n";
   $cabeceras .= "Content-Transfer-Encoding: base64"."\r\n";
