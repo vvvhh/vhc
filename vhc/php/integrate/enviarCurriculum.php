@@ -38,12 +38,13 @@ if(isset($token)) {
     'empresa'=> ($_POST['_empresa']),
   );
   */
-  $archivo = $_FILES['_archivo']['name'];
+
   $_name=$_FILES["_archivo"]["name"];
   $_type=$_FILES["_archivo"]["type"];
   $_size=$_FILES["_archivo"]["size"];
   $_temp=$_FILES["_archivo"]["tmp_name"];
-  $uploads_dir = './cargas/';
+//  $uploads_dir = $_SERVER['DOCUMENT_ROOT'].'/cargas/';
+ $uploads_dir = './cargas/';
 
 
   $timestamp = time();
@@ -52,54 +53,17 @@ if(isset($token)) {
   $sufijo = "-postulate";
   $aceptacion = $fechaT.$nombre.$sufijo;
 
-  move_uploaded_file($_temp, "$uploads_dir/$archivo");
+  move_uploaded_file($_temp, "$uploads_dir/$_name");
 
-  /*$filename = "Procedimiento Contable.docx";
-  $archivo = $uploads_dir.$filename;
-  $attachment = chunk_split(base64_encode($archivo));
-  $eol = PHP_EOL;
-  $separator = md5(time());
-  */
+  $archivo = $uploads_dir.$_name;
 
-//  move_uploaded_file($_temp, "$uploads_dir/$archivo");
+  $handle = fopen($archivo, "r");
+  $content = fread($handle, $_size);
+  fclose($handle);
 
-  /*$mail = new PHPMailer;
-    $nombreCorreo = "VHC_Reclutamiento";
-    $email = "VHC";
-    $mensaje = "VHC_Reclutamiento";
+  $content = chunk_split(base64_encode($content));
+   $uid = md5(uniqid(time()));
 
-    $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
-    $mail->SMTPAuth = true;
-    $mail->Username = 'difusionvhc@gmail.com';
-    $mail->Password = 'dif#=216V';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
-
-    $mail->From = $correo;
-    $mail->FromName = $nombreCorreo;
-
-  //  $mail->addAddress('reclutamiento@contadoresvh.com');
-    $mail->addAddress('edgar.santiago@contadoresvh.com');
-
-  $mail->isHTML(true);
-  $mail->CharSet = 'UTF-8';
-
-  $mail->Subject = 'Postulación desde sitio web';
-
-  $mail->Body    = "<p><strong>Nombre postulante: </strong>".$nombre."</p>".
-                //  "<p><strong>Área a postularse: </strong>".$data['area']."</p>".
-                  "<p><strong>Vacante a postularse: </strong>".$puesto."</p>".
-                  "<p><strong>Correo: </strong>".$correo."</p>".
-                  "<p><strong>Empresa: </strong>".$empresa."</p>".
-                  "<p><small><strong>Cadena aceptación aviso de privacidad: </strong>".$aceptacion."</small></p>";
-
-
-  $mail->AltBody = '';
-
-//  $mail->AddAttachment("$uploads_dir/$archivo", $archivo);
-  $exito = $mail->send();
-  */
 
   $para  = 'edgar.santiago@contadoresvh.com';
   $titulo = 'Postulación desde sitio web';
@@ -113,23 +77,29 @@ if(isset($token)) {
                   "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para aspirantes: </strong>".$aceptacion."</small></p>".
                   "</html>";
 
-
-  /*$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-  $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
-  */
-  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+/*  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
   $cabeceras .= $mensaje;
-
-/*  $cabeceras .= "Content-Type: application/octet-stream; name=\"".$filename."\""."\r\n";
-  $cabeceras .= "Content-Transfer-Encoding: base64"."\r\n";
-  $cabeceras .= "Content-Disposition: attachment"."\r\n"."\r\n";
-  $cabeceras .= $attachment."\r\n"."\r\n";
+*/
+/*  $header .= "--".$uid."\r\n";
+  $header .= "Content-Type: application/octet-stream; name=\"".$_name."\"\r\n";
+  $header .= "Content-Transfer-Encoding: base64\r\n";
+  $header .= "Content-Disposition: attachment; filename=\"".$_name."\"\r\n\r\n";
+  $header .= $content."\r\n\r\n";
+  $header .= "--".$uid."--";
 */
 
+  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
+  $cabeceras .= "Content-Type: application/octet-stream; name=\"".$_name."\""."\r\n";
+  $cabeceras .= "Content-Transfer-Encoding: base64"."\r\n";
+  $cabeceras .= "Content-Disposition: attachment"."\r\n"."\r\n";
+  $cabeceras .= $content."\r\n"."\r\n";
 
 
-  $exito = mail($para, $título, "", $cabeceras);
+
+  $exito = mail($para, $titulo, "", $cabeceras);
+//  $exito =1;
 
   $intentos=1;
 
