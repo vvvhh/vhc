@@ -7,11 +7,11 @@
             &nbsp;Videos
           </strong></a>
               <ul id="ulVideosTem1" class="nav nav-sidebar colorNav collapse">
-                  <li id="liVideo1">
+                <!--    <li id="liVideo1">
                       <a class="grisClaro texto3d" href="video1.php">
                         - Introducción
                       </a>
-                  </li>
+                  </li> -->
                   <li id="liVideo2">
                       <a class="grisClaro texto3d" href="video2.php">
                         - Discrepancia Fiscal</a>
