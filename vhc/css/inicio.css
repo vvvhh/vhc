@@ -666,3 +666,34 @@ div.footer-ribbon {
   color:#ffffff;
 }
 */
+
+
+
+
+
+
+/*.carousel-caption {*/
+    /*  max-width: 600px;
+      padding: 0 20px;
+      margin:0 auto;
+      float: top;
+      margin-top: 50px;
+      text-align:center;
+      */
+  /*  top: 0;
+    bottom: auto;
+    */
+
+.carousel-caption-arriba{
+  top: 13%;
+  /*bottom: auto;*/
+  bottom: auto;
+
+}
+
+.carousel-option-arriba{
+  top: 10%;
+  /*bottom: auto;*/
+  bottom: auto;
+
+}

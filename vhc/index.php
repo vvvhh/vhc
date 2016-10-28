@@ -42,10 +42,7 @@
 
 <div id="carouselPrincipal" class="carousel slide" >
 
-  <ol class="carousel-indicators transladarAbajo">
-
-
-
+  <ol class="carousel-indicators transladarAbajo carousel-option-arriba">
 
     <li data-target="#carouselPrincipal" data-slide-to="0" class="active liInicio" ></li>
     <li data-target="#carouselPrincipal" data-slide-to="1" class="liInicio"></li>
@@ -59,6 +56,7 @@
     <li data-target="#carouselPrincipal" data-slide-to="9" class="liInicio"></li>
   </ol>
 
+
   <div class="carousel-inner">
     <div class="item active">
       <div class="fill" style="background-image:url('img/inicio/491663823.jpg');"></div>
@@ -69,14 +67,22 @@
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/461998221.jpg');"></div>
 
-      <div class="carousel-caption">
+      <div class="carousel-caption carousel-caption-arriba">
         <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios de Auditoría </h2></a>
+      </div>
+      <div class="carousel-caption">
+        <br>
+        <i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i>
       </div>
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/101371076.jpg');"></div>
-      <div class="carousel-caption">
+      <div class="carousel-caption carousel-caption-arriba">
         <a class="enlaceSimple" href="publicos/servicios/contables.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios Contables</h2></a>
+      </div>
+      <div class="carousel-caption">
+        <br>
+        <i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i>
       </div>
     </div>
     <div class="item">
@@ -120,6 +126,8 @@
       <div class="fill" style="background-image:url('img/inicio/478771527.jpg');"></div>
       <div class="carousel-caption">
         <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="texto3DC textAzul2 formatoTextoC">Servicios Laborales</p><a href="publicos/servicios/autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
+
+
       </div>
     </div>
     <div class="item">
@@ -465,7 +473,7 @@
                   </a>  <br>
 
                   <a href="http://www.banxico.org.mx/repositorios/dgobc-web/sisfix/fix48.html">
-                    <small class="formatoTexto12">*Para días inhábiles se usa tipo de cambio (FIX) que es determinado por el Banco de México.
+                    <small class="formatoTexto12">*Para días inhábiles se usa el tipo de cambio del último día hábil.
                     </small>
                   </a>
 

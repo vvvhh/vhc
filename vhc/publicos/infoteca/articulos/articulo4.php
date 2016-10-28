@@ -144,7 +144,7 @@
 
     </div>
   </div>
-  <small>Autora: L.C. Bibiana I. Nuñez Aguilar</small>
+  <small>Autor: L.C. Enrique Arturo Vázquez Hernández</small>
 </div>  <!-- /Well Articulo1 -->
 
 <!-- ************************************************************************************ -->
