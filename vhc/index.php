@@ -61,39 +61,46 @@
 
     <div class="item active">
       <div class="fill" style="background-image:url('img/inicio/491663823.jpg');"></div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/461998221.jpg');"></div>
       <div class="carousel-caption carousel-caption-arriba">
-        <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios de Auditoría </h2></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="formatoTextoC">Servicios de Auditoría </h2></a>
+        </div>
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
-            <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
-      </div>
+
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/101371076.jpg');"></div>
-       <div class="carousel-caption fondoCarousel">
-        <a class="enlaceSimple" href="publicos/servicios/contables.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios Contables</h2></a>
+       <div class="carousel-caption">
+         <div class="fondoCarousel">
+            <a class="enlaceSimple " href="publicos/servicios/contables.php"><h2 class="formatoTextoC">Servicios Contables</h2></a>
+         </div>
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/487967033.jpg');"></div>
       <div class="carousel-caption ">
-        <a class="enlaceSimple" href="publicos/servicios/asesoria.php"><p class="texto3DC textAzul2 formatoTextoC">Servicios de Asesoría</p></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/asesoria.php"><p class="formatoTextoC">Servicios de Asesoría</p></a>
+        </div>
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <!--  <div class="item">
@@ -105,61 +112,85 @@
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/91430302.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/pLavado.php"><p class="texto3DC textAzul2 formatoTextoC">Prevención de <br> Lavado de Dinero (PLD)</p></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/pLavado.php"><p class="formatoTextoC">Prevención de <br> Lavado de Dinero (PLD)</p></a>
+        </div>
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/180256715.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/juridico.php"><p class="texto3DC textAzul2 formatoTextoC">Servicio Jurídico</p></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/juridico.php"><p class="formatoTextoC">Servicio Jurídico</p></a>
+        </div>
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/178709202.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="texto3DC textAzul2 formatoTextoC">Servicio Fiscal</p></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="formatoTextoC">Servicio Fiscal</p></a>
+        </div>
+
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/servicios/83017290.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/auditoriaG.php"><p class="texto3DC textAzul2 formatoTextoC">Auditoría Gubernamental</p></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/auditoriaG.php"><p class="formatoTextoC">Auditoría Gubernamental</p></a>
+        </div>
+
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/478771527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="texto3DC textAzul2 formatoTextoC">Servicios Laborales</p><a href="publicos/servicios/autodiagnostico.php?c=0" id="btnEncuesta"type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/fiscal.php"><p class="formatoTextoC">Servicios Laborales</p></a>
+        </div>
+        <p>
+          <a href="publicos/servicios/autodiagnostico.php?c=0" id=""type="button" class="btn btn-lg btn-primary animacionEscalaLoop" ><i class="fa fa-pencil-square-o"></i> Elaborar diagnóstico laboral</a>
+        </p>
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/166150527.jpg');"></div>
       <div class="carousel-caption">
-        <a class="enlaceSimple" href="publicos/servicios/otros.php"><p class="texto3DC textAzul2 formatoTextoC">Otros Servicios</p></a>
+        <div class="fondoCarousel">
+            <a class="enlaceSimple" href="publicos/servicios/otros.php"><p class="formatoTextoC">Otros Servicios</p></a>
+        </div>
+
       </div>
-      <div class="carousel-caption carousel-caption-derecha">
+    <!--    <div class="carousel-caption carousel-caption-derecha">
             <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
       </div>
+      -->
     </div>
 
   </div>
@@ -232,6 +263,10 @@
         vacantes
       </a>
     </div>
+  </div>
+
+  <div class="row botonAbajoCarousel">
+        <a href="#banner" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down " aria-hidden="true"></i> </a>
   </div>
 
 
