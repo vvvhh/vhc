@@ -72,7 +72,7 @@
       </div>
       <div class="carousel-caption">
         <br>
-        <i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i>
+      <a href="#">  <i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i> </a>
       </div>
     </div>
     <div class="item">
@@ -82,7 +82,7 @@
       </div>
       <div class="carousel-caption">
         <br>
-        <i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i>
+      <a href="#">  <i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i> </a>
       </div>
     </div>
     <div class="item">
