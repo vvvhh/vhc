@@ -56,6 +56,10 @@ html {
 .formatoTextoC{
   font-size: 3.75em; /*18*/
 }
+.formatoTextoBOton{
+  font-size: 1.5625em; /*18*/
+}
+
 .noticiasWell{
   background-color: rgba(208,217,221, 0.8);
   border-top: #eceff1;
@@ -233,6 +237,13 @@ footer .footer-below {
   -o-animation:      transladarAB 2s;
   animation:         transladarAB 2s;
 }
+.animacionEscalaLoop2{
+  animation-duration: .8s;
+  animation-name: escala;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .animacionEscalaLoop{
   animation-duration: 2s;
   animation-name: escala;
@@ -695,5 +706,18 @@ div.footer-ribbon {
   top: 10%;
   /*bottom: auto;*/
   bottom: auto;
+}
 
+.carousel-caption-derecha{
+  top: 80%;
+  /*bottom: auto;*/
+  left: 80%;
+  bottom: auto;
+/*  font-size: 2.5;*/
+}
+
+.fondoCarousel{
+  background-color: rgba(236, 239, 241, 0.6);
+  height: 90px;
+  width: 700px;
 }

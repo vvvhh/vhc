@@ -8,6 +8,9 @@
           <p class="formatoTexto14">
             55 74 41 91 - 55 74 27 95 <br> 55 64 38 07 - 55 84 26 12
           </p>
+          <p class="formatoTexto14">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i> 55 55 08 52 13
+          </p>
         </div>
         <div class="footer-col col-md-3 col-sm-4">
           <h4>Cancún</h4>
@@ -17,6 +20,7 @@
           <p clas="formatoTexto14">
             (998) 868 30 55
           </p>
+
         </div>
         <div class="footer-col col-md-3 col-sm-4">
           <h4>Mérida</h4>

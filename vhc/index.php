@@ -42,7 +42,7 @@
 
 <div id="carouselPrincipal" class="carousel slide" >
 
-  <ol class="carousel-indicators transladarAbajo carousel-option-arriba">
+  <ol class="carousel-indicators transladarAbajo">
 
     <li data-target="#carouselPrincipal" data-slide-to="0" class="active liInicio" ></li>
     <li data-target="#carouselPrincipal" data-slide-to="1" class="liInicio"></li>
@@ -71,23 +71,26 @@
         <a class="enlaceSimple" href="publicos/servicios/auditoria.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios de Auditoría </h2></a>
       </div>
       <div class="carousel-caption">
-        <br>
-      <a href="#">  <i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i> </a>
+      <br>
+        <a href="#">  <i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i> </a>
       </div>
+
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/101371076.jpg');"></div>
-      <div class="carousel-caption carousel-caption-arriba">
+      <div class="carousel-caption carousel-caption-derecha">
+            <a href="#" class="formatoTextoBOton animacionEscalaLoop2">  <i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i> </a>
+      </div>
+       <div class="carousel-caption fondoCarousel">
         <a class="enlaceSimple" href="publicos/servicios/contables.php"><h2 class="texto3DC textAzul2 formatoTextoC">Servicios Contables</h2></a>
-      </div>
-      <div class="carousel-caption">
         <br>
-      <a href="#">  <i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i> </a>
+
       </div>
+
     </div>
     <div class="item">
       <div class="fill" style="background-image:url('img/inicio/487967033.jpg');"></div>
-      <div class="carousel-caption">
+      <div class="carousel-caption ">
         <a class="enlaceSimple" href="publicos/servicios/asesoria.php"><p class="texto3DC textAzul2 formatoTextoC">Servicios de Asesoría</p></a>
       </div>
     </div>

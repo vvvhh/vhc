@@ -30,7 +30,7 @@
 
       ga('create', 'UA-86348185-1', 'auto');
       ga('send', 'pageview');
-    
+
   </script>
   </head>
 
@@ -81,6 +81,9 @@
 
             <p class="texto3D grisClaro">
                 <i class="fa fa-clock-o"></i> Lunes - Viernes: 8:00 AM a 6:00 PM</p>
+            <p class="texto3D grisClaro">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i> 55 55 08 52 13
+            </p>
           </div>
         </div>
 
