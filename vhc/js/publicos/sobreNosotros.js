@@ -108,7 +108,7 @@ function exelencia(){
   "	La perfección no es un fin, es un camino que se llama excelencia. Anónimo.<br><br>"+
   "	La perfeccion, no es alcanzable, pero si perseguimos la perfeccion, podemos alcanzar la excelencia. V. Lombardi. <br><br>"+
   "	Nunca pares, nunca te conformes, hasta que lo bueno sea mejor y lo mejor excelente. Anónimo <br><br>"+
-  "	La voluntad de ganar, el deseo de tener éxito, la necesidad de llegar a tu máximo potencial… estas son las llaves que abrirán las llaves a la excelencia personal. Confucio.";
+  "	La voluntad de ganar, el deseo de tener éxito, la necesidad de llegar a tu máximo potencial… estas son las llaves que abrirán las llaves a la excelencia personal. Confucio.";
   mostrarTexto(titulo, texto)
 }
 function liderazgo(){

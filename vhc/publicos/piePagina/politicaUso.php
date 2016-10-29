@@ -152,10 +152,36 @@
 </div>
 <script src="../../js/jquery.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/lib/bootbox.min.js"></script>
 <?php include ("../../seccionesVista/piePagina.php"); ?>
+<script src="../../js/publicos/piePagina/politicaUso.js"></script>
 
 
 
+<div class="modal fade" id="modAceptacion" role="dialog"> <!-- * * * * * * * * * * * * modFinales  * * * * * * *  *  * -->
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h3 class="textoAzulLi text-justify">
+           VIII.	Consideraciones Finales
+         </h3>
+       </div>
+      <div class="modal-body text-justify">
+        <br>
+          <h4><strong>Bienvenido(a)</strong></h4>
+          <p>Para poder seguir navegando primero debé aceptar la Política de Uso y Privacidad de www.contadoresvh.com</p>
+      </div>
+      <div class="modal-footer">
+       <button type="button" class="btn btn-default" data-dismiss="modal">Seguir leyendo</button>
+        <button type="button" class="btn btn-primary" id="btnAceptacion">He leído y acepto la Política de Uso y Privacidad</button>
+     </div>
+
+    </div>
+
+  </div>
+</div> <!-- * * * * * * * * * * * * / modFinales   * * * * * * *  *  * -->
 
 </body>
 

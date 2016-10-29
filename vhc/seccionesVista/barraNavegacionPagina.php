@@ -50,19 +50,19 @@
 </nav>
 
 <script type="text/javascript">
+var aInicio=document.getElementById('aInicio'),
+    aNosotros=document.getElementById('aNosotros'),
+    aServicios=document.getElementById('aServicios'),
+    aInfoteca=document.getElementById('aInfoteca'),
+    aSitios=document.getElementById('aSitios'),
+    aIntegrate=document.getElementById('aIntegrate'),
+    aPortafolio=document.getElementById('aPortafolio'),
+    aContato=document.getElementById('aContato'),
+    imgI=document.getElementById('imgI');
+
+
 function verificarAceptadoAvisoNavegacion(){
   var valor=sessionStorage.getItem("visita");
-
-  var aInicio=document.getElementById('aInicio'),
-      aNosotros=document.getElementById('aNosotros'),
-      aServicios=document.getElementById('aServicios'),
-      aInfoteca=document.getElementById('aInfoteca'),
-      aSitios=document.getElementById('aSitios'),
-      aIntegrate=document.getElementById('aIntegrate'),
-      aPortafolio=document.getElementById('aPortafolio'),
-      aContato=document.getElementById('aContato'),
-      imgI=document.getElementById('imgI');
-
   var rInicio="index.php",
       rNosotros="publicos/sobreNosotros.php",
       rServicios="publicos/servicios.php",
