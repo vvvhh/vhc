@@ -7,17 +7,13 @@ function alertConfirmar(){
   centrado="center";
 
   bootbox.dialog({
-    message: "<div align='"+centrado+"'> <img src='"+urlImg+"'><br><h4><strong>Bienvenido(a)</strong></h4><p>Para poder seguir navegando en www.contadoresvh.com deberá aceptar la Leer Política de Uso y Privacidad</p> </div>",
+    message: "<div align='"+centrado+"'> <img src='"+urlImg+"'><br><h4><strong>Bienvenido(a)</strong></h4><p>Para poder seguir navegando en www.contadoresvh.com deberá aceptar la <strong> Política de Uso y Privacidad </strong></p> </div>",
     closeButton: false,
     animate: true,
     buttons: {
       main: {
         label: "Seguir leyendo",
         className: "btn-default",
-      /*  callback: function() {
-          sessionStorage.setItem("visita", "1");
-        }*/
-
       },
       success: {
         label: "He leído y acepto la Política de Uso y Privacidad",
@@ -26,15 +22,6 @@ function alertConfirmar(){
         callback: function() {
           //location.href="publicos/piePagina/politicaUso";
           sessionStorage.setItem("visita", "1");
-        /*  var condicion=$('#condicion'),
-              aPrivacidad=$('#aPrivacidad'),
-              aPolitica=$('#aPolitica')
-              aMapa=$('#aMapa');
-
-              condicion.attr('href', 'publicos/piePagina/propiedadIntelectual');
-              aPrivacidad.attr('href', 'publicos/piePagina/avisoPrivacidadClientes');
-              aPolitica.attr('href', 'publicos/piePagina/politicaUso');
-              aMapa.attr('href', 'publicos/piePagina/mapaSitio');*/
               verificarAceptadoAvisoNavegacion(); //desde js de inicio
               verificarAceptadoAvisoPie();
         }
@@ -55,19 +42,12 @@ function verificarAceptacion(){
 }
 
 function aceptacionAviso(){
-/*  console.log("boton aceptar");
-  sessionStorage.setItem("visita", "1");
-  valor=sessionStorage.getItem("visita");
-  console.log(valor);
-  verificarAceptadoAvisoNavegacion(); //desde js de inicio
-  verificarAceptadoAvisoPie();
-  */
   $("#modAceptacion").modal({show: false});
 }
 
-/*aInicio.addEventListener("click", myFunction);*/
   /*la definicio de los objetos del menu se realizo de forma global en seccionesVista/barraNavegacionPagina*/
-  btnAceptacion.on('click',aceptacionAviso);
+    btnAceptacion.on('click',aceptacionAviso);
+
     aNosotros.addEventListener("click", verificarAceptacion);
     aServicios.addEventListener("click", verificarAceptacion);
     aInfoteca.addEventListener("click", verificarAceptacion);
@@ -75,3 +55,8 @@ function aceptacionAviso(){
     aIntegrate.addEventListener("click", verificarAceptacion);
     aPortafolio.addEventListener("click", verificarAceptacion);
     aContato.addEventListener("click", verificarAceptacion);
+/*La definicion de los objetos de pie de pagina desde seccionesVista/piePagina*/
+    condicion.addEventListener("click", verificarAceptacion);
+    aPrivacidad.addEventListener("click", verificarAceptacion);
+    aPolitica.addEventListener("click", verificarAceptacion);
+    aMapa.addEventListener("click", verificarAceptacion);
