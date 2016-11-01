@@ -84,6 +84,10 @@
             <p class="texto3D grisClaro">
                 <i class="fa fa-whatsapp" aria-hidden="true"></i> 55 55 08 52 13
             </p>
+            <p class="texto3D grisClaro">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              contacto.cdmx@contadoresvh.com
+            </p>
           </div>
         </div>
 
@@ -107,6 +111,13 @@
               <i class="fa fa-map-marker"></i>  Av. Xpuhil sur <br>Mza. 2, Lote 23,<br> Despacho 201, 208 <br> Supermanzana 19, <br> Benito Juárez, <br>C.P. 77505 <br> Quintana Roo. <br>
               <p class="texto3D grisClaro"><i class="fa fa-phone"></i> (998) 868 30 55</p>
             </p>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center texto3D grisClaro">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            contacto.cancun@contadoresvh.com
           </div>
         </div>
       </div>
@@ -123,6 +134,12 @@
             <p class="texto3D grisClaro">
               <i class="fa fa-map-marker"></i>  Calle 33 No. 618A<br> Col. Pedregales de Ciudad Caucel, CP. 97314,<br> Mérida, Yucatán.<br>
             </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center texto3D grisClaro">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            contacto.merida@contadoresvh.com
           </div>
         </div>
       </div>
