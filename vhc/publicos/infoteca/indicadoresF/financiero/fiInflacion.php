@@ -61,7 +61,7 @@
 <tr  class="activoLiMenu">	<th>	Año	</th>	<th>	Enero	</th>	<th>	Febrero	</th>	<th>	Marzo	</th>	<th>	Abril	</th>	<th>	Mayo	</th>	<th>	Junio	</th>	<th>	Julio	</th>	<th>	Agosto	</th>	<th>	Septiembre	</th>	<th>	Octubre	</th>	<th>	Noviembre	</th>	<th>	Diciembre	</th>	<th>	Año	</th>	</tr>
 </thead>
 <tbody class="animEscalarFila">
-<tr>	<td>	2016	  </td>	<td>	0.38	  </td>	<td>	0.44	  </td>	<td>	0.15	  </td>	<td>	-0.32	  </td>	<td>	 -0.45	  </td>	<td>	0.11	  </td>	<td>	0.26	  </td>	<td>	0.28	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>	2016	  </td>	</tr>
+<tr>	<td>	2016	  </td>	<td>	0.38	  </td>	<td>	0.44	  </td>	<td>	0.15	  </td>	<td>	-0.32	  </td>	<td>	 -0.45	  </td>	<td>	0.11	  </td>	<td>	0.26	  </td>	<td>	0.28	  </td>	<td>		0.61	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>	2016	  </td>	</tr>
 <tr>	<td>	2015	  </td>	<td>	-0.09	  </td>	<td>	0.19	  </td>	<td>	0.41	  </td>	<td>	-0.26	  </td>	<td>	  -0.50	  </td>	<td>	0.17	  </td>	<td>	0.15	  </td>	<td>	0.21	  </td>	<td>	0.37	  </td>	<td>	0.52	  </td>	<td>	0.55	  </td>	<td>	0.42	  </td>	<td>	2015	  </td>	</tr>
 <tr>	<td>	2014	  </td>	<td>	0.89	  </td>	<td>	0.25	  </td>	<td>	0.27	  </td>	<td>	-0.18	  </td>	<td>	-0.31	  </td>	<td>	0.17	  </td>	<td>	0.28	  </td>	<td>	0.36	  </td>	<td>	0.44	  </td>	<td>	0.55	  </td>	<td>	0.81	  </td>	<td>	0.49	  </td>	<td>	2014	  </td>	</tr>
 <tr>	<td>	2013	  </td>	<td>	0.40	  </td>	<td>	0.49	  </td>	<td>	0.73	  </td>	<td>	0.07	  </td>	<td>	-0.33	  </td>	<td>	-0.06	  </td>	<td>	-0.03	  </td>	<td>	0.28	  </td>	<td>	0.38	  </td>	<td>	0.48	  </td>	<td>	0.93	  </td>	<td>	0.57	  </td>	<td>	2013	  </td>	</tr>

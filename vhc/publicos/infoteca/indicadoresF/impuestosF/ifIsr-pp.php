@@ -51,7 +51,7 @@
     <h3 class="text-center">A. Tarifas para cálculo de ISR. Pagos provisionales </h3>
 <!-- ******************** -->
 
-<h4 class="text-center">	Tarifa para el cálculo de los pagos provisionales que se deban efectuar durante 2016, tratándose de enajenación de inmuebles a que se refiere la regla 3.15.4., de la Resolución Miscelánea Fiscal  para 2016.
+<h4 class="text-center">1.	Tarifa para el cálculo de los pagos provisionales que se deban efectuar durante 2016, tratándose de enajenación de inmuebles a que se refiere la regla 3.15.4., de la Resolución Miscelánea Fiscal  para 2016.
 </h4>
 
 
@@ -88,7 +88,7 @@
     <h3 class="text-center">B. Tarifas aplicables a retenciones </h3>
 <!-- ******************** -->
 
-<h4 class="text-center">	Tarifa aplicable en función de la cantidad de trabajo realizado y no de días laborados, correspondiente a 2016, calculada en días.
+<h4 class="text-center">1.	Tarifa aplicable en función de la cantidad de trabajo realizado y no de días laborados, correspondiente a 2016, calculada en días.
 </h4>
 
 
@@ -122,8 +122,9 @@
 <div class="col-md-12">
 <div class="table-responsive">
 <table class="table table-striped  table-bordered table-condensed">
-  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3>
+
 <!-- ******************** -->
+<h4 class="text-center">	Tabla del subsidio para el empleo aplicable a la tarifa del numeral 1 del rubro B.
 <h4 class="text-center">	Monto de ingresos que sirven de base para calcular el impuesto
 </h4>
 <thead>
@@ -156,7 +157,7 @@
 <div class="col-md-12">
 <div class="table-responsive">
 <table class="table table-striped  table-bordered table-condensed">
-  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3>
+
 <!-- ******************** -->
 <h4 class="text-center">	Tarifa que incluye el subsidio para el empleo, aplicable a la tarifa del numeral 1 del rubro B.
 </h4>
@@ -707,17 +708,17 @@
 <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
 </thead>
 <tbody class="animEscalarFila">
-<tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	496.07	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
-<tr>	<td class="text-center">	496.08	  </td>	<td class="text-center">	4,210.41	   </td>	<td class="text-center">	9.52	  </td>	<td class="text-center">	6.4	   </td>	</tr>
-<tr>	<td class="text-center">	4,210.42	  </td>	<td class="text-center">	7,399.42	   </td>	<td class="text-center">	247.24	</td>	<td class="text-center">	10.88	 </td>	</tr>
-<tr>	<td class="text-center">	7,399.43	  </td>	<td class="text-center">	8,601.50	 </td>	<td class="text-center">	594.21	</td>	<td class="text-center">	16	   </td>	</tr>
-<tr>	<td class="text-center">	8,601.51	  </td>	<td class="text-center">	10,298.35	 </td>	<td class="text-center">	786.54	</td>	<td class="text-center">	17.92	 </td>	</tr>
-<tr>	<td class="text-center">	10,298.36	  </td>	<td class="text-center">	20,770.29	 </td>	<td class="text-center">	1,090.61	</td>	<td class="text-center">	21.36	 </td>	</tr>
-<tr>	<td class="text-center">	20,770.30	  </td>	<td class="text-center">	32,736.83	 </td>	<td class="text-center">	3,327.42	</td>	<td class="text-center">	23.52	 </td>	</tr>
-<tr>	<td class="text-center">	32,736.84	  </td>	<td class="text-center">	62,500.00	 </td>	<td class="text-center">	6,141.95	</td>	<td class="text-center">	30	   </td>	</tr>
-<tr>	<td class="text-center">	62,500.01	  </td>	<td class="text-center">	83,333.33	 </td>	<td class="text-center">	15,070.90	</td>	<td class="text-center">	32	   </td>	</tr>
-<tr>	<td class="text-center">	83,333.34	  </td>	<td class="text-center">	250,000.00	 </td>	<td class="text-center">	21,737.57	</td>	<td class="text-center">	34	   </td>	</tr>
-<tr>	<td class="text-center">	250,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	78,404.23	</td>	<td class="text-center">	35	   </td>	</tr>
+  <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	992.14	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+  <tr>	<td class="text-center">	992.15	  </td>	<td class="text-center">	8,420.82	   </td>	<td class="text-center">	19.04	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+  <tr>	<td class="text-center">	8,420.83	  </td>	<td class="text-center">	14,798.84	   </td>	<td class="text-center">	494.48	</td>	<td class="text-center">	10.88	 </td>	</tr>
+  <tr>	<td class="text-center">	14,798.85	  </td>	<td class="text-center">	17,203.00	 </td>	<td class="text-center">	1,188.42	</td>	<td class="text-center">	16	   </td>	</tr>
+  <tr>	<td class="text-center">	17,203.01	  </td>	<td class="text-center">	20,596.70	 </td>	<td class="text-center">	1,573.08	</td>	<td class="text-center">	17.92	 </td>	</tr>
+  <tr>	<td class="text-center">	20,596.71	  </td>	<td class="text-center">	41,540.58	 </td>	<td class="text-center">	2,181.22	</td>	<td class="text-center">	21.36	 </td>	</tr>
+  <tr>	<td class="text-center">	41,540.59	  </td>	<td class="text-center">	65,473.66	 </td>	<td class="text-center">	6,654.84	</td>	<td class="text-center">	23.52	 </td>	</tr>
+  <tr>	<td class="text-center">	65,473.67	  </td>	<td class="text-center">	125,000.00	 </td>	<td class="text-center">	12,283.90	</td>	<td class="text-center">	30	   </td>	</tr>
+  <tr>	<td class="text-center">	125,000.01	  </td>	<td class="text-center">	166,666.66	 </td>	<td class="text-center">	30,141.80	</td>	<td class="text-center">	32	   </td>	</tr>
+  <tr>	<td class="text-center">	166,666.67	  </td>	<td class="text-center">	500,000.00	 </td>	<td class="text-center">	43,475.14	</td>	<td class="text-center">	34	   </td>	</tr>
+  <tr>	<td class="text-center">	500,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	156,808.46	</td>	<td class="text-center">	35	   </td>	</tr>
 
 </tbody>
 <!-- **************** -->
@@ -1007,40 +1008,6 @@
 
 
 
-<div class="row">
-<div class="col-md-12">
-<div class="table-responsive">
-<table class="table table-striped  table-bordered table-condensed">
-  <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
-  <h4>
-    Tarifa para el pago provisional del mes de octubre de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
-  </h4>
-<!-- ******************** -->
-<thead>
-<tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
-</thead>
-<tbody class="animEscalarFila">
-<tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	4,960.70	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
-<tr>	<td class="text-center">	4,960.71	  </td>	<td class="text-center">	42,104.10	   </td>	<td class="text-center">	95.2	  </td>	<td class="text-center">	6.4	   </td>	</tr>
-<tr>	<td class="text-center">	42,104.11	  </td>	<td class="text-center">	73,994.20	   </td>	<td class="text-center">	2,472.40	</td>	<td class="text-center">	10.88	 </td>	</tr>
-<tr>	<td class="text-center">	73,994.21	  </td>	<td class="text-center">	86,015.00	 </td>	<td class="text-center">	5,942.10	</td>	<td class="text-center">	16	   </td>	</tr>
-<tr>	<td class="text-center">	86,015.01	  </td>	<td class="text-center">	102,983.50	 </td>	<td class="text-center">	7,865.40	</td>	<td class="text-center">	17.92	 </td>	</tr>
-<tr>	<td class="text-center">	102,983.51	  </td>	<td class="text-center">	207,702.90	 </td>	<td class="text-center">	10,906.10	</td>	<td class="text-center">	21.36	 </td>	</tr>
-<tr>	<td class="text-center">	207,702.91	  </td>	<td class="text-center">	327,368.30	 </td>	<td class="text-center">	33,274.20	</td>	<td class="text-center">	23.52	 </td>	</tr>
-<tr>	<td class="text-center">	327,368.31	  </td>	<td class="text-center">	625,000.00	 </td>	<td class="text-center">	61,419.50	</td>	<td class="text-center">	30	   </td>	</tr>
-<tr>	<td class="text-center">	625,000.01	  </td>	<td class="text-center">	833,333.30	 </td>	<td class="text-center">	150,709.00	</td>	<td class="text-center">	32	   </td>	</tr>
-<tr>	<td class="text-center">	833,333.31	  </td>	<td class="text-center">	2,500,000.00	 </td>	<td class="text-center">	217,375.70	</td>	<td class="text-center">	34	   </td>	</tr>
-<tr>	<td class="text-center">	2,500,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	784,042.30	</td>	<td class="text-center">	35	   </td>	</tr>
-
-</tbody>
-<!-- **************** -->
-</table>
-</div>
-</div>
-
-</div>
-
-
 
 <div class="row">
 <div class="col-md-12">
@@ -1111,7 +1078,38 @@
 </div>
 
 
+    <div class="row">
+    <div class="col-md-12">
+    <div class="table-responsive">
+    <table class="table table-striped  table-bordered table-condensed">
+      <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
+      <h4>
+        Tarifa aplicable para el cálculo de los pagos provisionales trimestrales correspondientes a 2016, que efectúen los contribuyentes a que se refiere el Capítulo III, del Título IV de la Ley del Impuesto sobre la Renta, que obtengan ingresos por arrendamiento y en general por el otorgamiento del uso o goce temporal de  bienes inmuebles.
+      </h4>
+    <!-- ******************** -->
+    <thead>
+    <tr  class="activoLiMenu">	<th class="text-center">	Límite inferior $	</th>	<th class="text-center">	Límite superior $	</th>	<th class="text-center">	Cuota fija $	</th>	<th class="text-center">	Por ciento para aplicarse sobre el excedente del límite inferior %	</th>	</tr>
+    </thead>
+    <tbody class="animEscalarFila">
+      <tr>	<td class="text-center">	0.01	      </td>	<td class="text-center">	496.07	   </td>	<td class="text-center">	0	        </td>	<td class="text-center">	1.92	 </td>	</tr>
+      <tr>	<td class="text-center">	496.08	  </td>	<td class="text-center">	4,210.41	   </td>	<td class="text-center">	9.52	  </td>	<td class="text-center">	6.4	   </td>	</tr>
+      <tr>	<td class="text-center">	4,210.42	  </td>	<td class="text-center">	7,399.42	   </td>	<td class="text-center">	247.24	</td>	<td class="text-center">	10.88	 </td>	</tr>
+      <tr>	<td class="text-center">	7,399.43	  </td>	<td class="text-center">	8,601.50	 </td>	<td class="text-center">	594.21	</td>	<td class="text-center">	16	   </td>	</tr>
+      <tr>	<td class="text-center">	8,601.51	  </td>	<td class="text-center">	10,298.35	 </td>	<td class="text-center">	786.54	</td>	<td class="text-center">	17.92	 </td>	</tr>
+      <tr>	<td class="text-center">	10,298.36	  </td>	<td class="text-center">	20,770.29	 </td>	<td class="text-center">	1,090.61	</td>	<td class="text-center">	21.36	 </td>	</tr>
+      <tr>	<td class="text-center">	20,770.30	  </td>	<td class="text-center">	32,736.83	 </td>	<td class="text-center">	3,327.42	</td>	<td class="text-center">	23.52	 </td>	</tr>
+      <tr>	<td class="text-center">	32,736.84	  </td>	<td class="text-center">	62,500.00	 </td>	<td class="text-center">	6,141.95	</td>	<td class="text-center">	30	   </td>	</tr>
+      <tr>	<td class="text-center">	62,500.01	  </td>	<td class="text-center">	83,333.33	 </td>	<td class="text-center">	15,070.90	</td>	<td class="text-center">	32	   </td>	</tr>
+      <tr>	<td class="text-center">	83,333.34	  </td>	<td class="text-center">	250,000.00	 </td>	<td class="text-center">	21,737.57	</td>	<td class="text-center">	34	   </td>	</tr>
+      <tr>	<td class="text-center">	250,000.01	  </td>	<td class="text-center">	En adelante	 </td>	<td class="text-center">	78,404.23	</td>	<td class="text-center">	35	   </td>	</tr>
 
+    </tbody>
+    <!-- **************** -->
+    </table>
+    </div>
+    </div>
+
+    </div>
 
 
 <div class="row">
@@ -1247,10 +1245,7 @@
             }
         });
       </script>
-      <script>
-      $('#ulIFe').addClass('in');
-      $('#liCantidadesCFF').addClass('activoBorde');
-      </script>
+
       <script>
         $('#ulIFe').addClass('in');
         $('#liTarifasPp').addClass('activoBorde');

@@ -57,11 +57,12 @@
                    <p>- Tarifas semestrales sector primario</p>
                  </a>
              </li>
-             <li id="liTSueldos" class="liInfoteca">
+            <!--   <li id="liTSueldos" class="liInfoteca">
                  <a class="grisClaro " href="#" id="aTSueldos">
                    <p>- Tablas y tarifas para sueldos y salarios, semanales, diarias, decenal, quincenal</p>
                  </a>
              </li>
+             -->
              <li id="liTArrendamiento" class="liInfoteca">
                  <a class="grisClaro " href="#" id="aArrendamiento">
                    <p>- Tarifa mensual y trimestral de arrendamiento</p>
@@ -320,7 +321,7 @@
   aTarifaDa=document.getElementById('aTarifaDa');
   aReincos=document.getElementById('aReincos');
   aSemestralesP=document.getElementById('aSemestralesP');
-  aTSueldos=document.getElementById('aTSueldos');
+//  aTSueldos=document.getElementById('aTSueldos');
   aArrendamiento=document.getElementById('aArrendamiento');
   aTProfesionales=document.getElementById('aTProfesionales');
   aCObligaciones=document.getElementById('aCObligaciones');
@@ -378,7 +379,7 @@
   aTarifaDa.href="http://"+dominio+absoluta+rTarifaDa;
   aReincos.href="http://"+dominio+absoluta+rReincos;
   aSemestralesP.href="http://"+dominio+absoluta+rSemestralesP;
-  aTSueldos.href="http://"+dominio+absoluta+rTSueldos;
+//  aTSueldos.href="http://"+dominio+absoluta+rTSueldos;
   aArrendamiento.href="http://"+dominio+absoluta+rArrendamiento;
   aTProfesionales.href="http://"+dominio+absoluta+rTProfesionales;
   aCObligaciones.href="http://"+dominio+absoluta+rCObligaciones;

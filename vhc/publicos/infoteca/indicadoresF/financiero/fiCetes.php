@@ -55,46 +55,51 @@
     	<tr  class="activoLiMenu">	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Publicion en el D.O.F.	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	28 Días	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	91 Días	</th>	</tr>
     </thead>
   <tbody class="animEscalarFila">
-    <tr>	<td class="text-center">	07/01/2016	<td class="text-center">	3,05	</td>  <td class="text-center">	3,27	</td> </tr>
-    <tr>	<td class="text-center">	14/01/2016	<td class="text-center">	3,05	</td>  <td class="text-center">	3,28	</td> </tr>
-    <tr>	<td class="text-center">	21/01/2016	<td class="text-center">	3,09	</td>  <td class="text-center">	3,29	</td> </tr>
-    <tr>	<td class="text-center">	28/01/2016	<td class="text-center">	3,14	</td>  <td class="text-center">	3,34	</td> </tr>
-    <tr>	<td class="text-center">	04/02/2016	<td class="text-center">	3,16	</td>  <td class="text-center">	3,36	</td> </tr>
-    <tr>	<td class="text-center">	11/02/2016	<td class="text-center">	3,20	</td>  <td class="text-center">	3,38	</td> </tr>
-    <tr>	<td class="text-center">	18/02/2016	<td class="text-center">	3,23	</td>  <td class="text-center">	3,40	</td> </tr>
-    <tr>	<td class="text-center">	25/02/2016	<td class="text-center">	3,85	</td>  <td class="text-center">	3,99	</td> </tr>
-    <tr>	<td class="text-center">	03/03/2016	<td class="text-center">	3,88	</td>  <td class="text-center">	3,98	</td> </tr>
-    <tr>	<td class="text-center">	10/03/2016	<td class="text-center">	3,78	</td>  <td class="text-center">	3,93	</td> </tr>
-    <tr>	<td class="text-center">	17/03/2016	<td class="text-center">	3,80	</td>  <td class="text-center">	3,91	</td> </tr>
-    <tr>	<td class="text-center">	23/03/2016	<td class="text-center">	3,78	</td>  <td class="text-center">	3,87	</td> </tr>
-    <tr>	<td class="text-center">	31/03/2016	<td class="text-center">	3,76	</td>  <td class="text-center">	3,87	</td> </tr>
-    <tr>	<td class="text-center">	07/04/2016	<td class="text-center">	3,73	</td>  <td class="text-center">	3,86	</td> </tr>
-    <tr>	<td class="text-center">	14/04/2016	<td class="text-center">	3,74	</td>  <td class="text-center">	3,84	</td> </tr>
-    <tr>	<td class="text-center">	21/04/2016	<td class="text-center">	3,74	</td>  <td class="text-center">	3,79	</td> </tr>
-    <tr>	<td class="text-center">	28/04/2016	<td class="text-center">	3,76	</td>  <td class="text-center">	3,83	</td> </tr>
-    <tr>	<td class="text-center">	05/05/2016	<td class="text-center">	3,77	</td>  <td class="text-center">	3,82	</td> </tr>
-    <tr>	<td class="text-center">	12/05/2016	<td class="text-center">	3,77	</td>  <td class="text-center">	3,85	</td> </tr>
-    <tr>	<td class="text-center">	19/05/2016	<td class="text-center">	3,81	</td>  <td class="text-center">	3,87	</td> </tr>
-    <tr>	<td class="text-center">	26/05/2016	<td class="text-center">	3,90	</td>  <td class="text-center">	4,20	</td> </tr>
-    <tr>	<td class="text-center">	02/06/2016	<td class="text-center">	3,80	</td>  <td class="text-center">	4,13	</td> </tr>
-    <tr>	<td class="text-center">	09/06/2016	<td class="text-center">	3,78	</td>  <td class="text-center">	4,05	</td> </tr>
-    <tr>	<td class="text-center">	16/06/2016	<td class="text-center">	3,83	</td>  <td class="text-center">	4,21	</td> </tr>
-    <tr>	<td class="text-center">	23/06/2016	<td class="text-center">	3,76	</td>  <td class="text-center">	4,10	</td> </tr>
-    <tr>	<td class="text-center">	30/06/2016	<td class="text-center">	3,86	</td>  <td class="text-center">	4,19	</td> </tr>
-    <tr>	<td class="text-center">	07/07/2016	<td class="text-center">	4,23	</td>  <td class="text-center">	4,40	</td> </tr>
-    <tr>	<td class="text-center">	14/07/2016	<td class="text-center">	4,19	</td>  <td class="text-center">	4,38	</td> </tr>
-    <tr>	<td class="text-center">	21/07/2016	<td class="text-center">	4,21	</td>  <td class="text-center">	4,38	</td> </tr>
-    <tr>	<td class="text-center">	28/07/2016	<td class="text-center">	4,21	</td>  <td class="text-center">	4,40	</td> </tr>
-    <tr>	<td class="text-center">	04/08/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.38	</td> </tr>
-    <tr>	<td class="text-center">	11/08/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.35	</td> </tr>
-    <tr>	<td class="text-center">	18/08/2016	<td class="text-center">	4.27	</td>  <td class="text-center">	4.33	</td> </tr>
-    <tr>	<td class="text-center">	25/08/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
-    <tr>	<td class="text-center">	25/08/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
-    <tr>	<td class="text-center">	01/09/2016	<td class="text-center">	4.29	</td>  <td class="text-center">	4.40	</td> </tr>
-    <tr>	<td class="text-center">	08/09/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
-    <tr>	<td class="text-center">	15/09/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.34	</td> </tr>
-    <tr>	<td class="text-center">	22/09/2016	<td class="text-center">	4.27	</td>  <td class="text-center">	4.50	</td> </tr>
-    <tr>	<td class="text-center">	29/09/2016	<td class="text-center">	4.41	</td>  <td class="text-center">	4.79	</td> </tr>
+    <tr>	<td class="text-center">	07/01/2016	<td class="text-center">	3.05	</td>  <td class="text-center">	3.27	</td> </tr>
+<tr>	<td class="text-center">	14/01/2016	<td class="text-center">	3.05	</td>  <td class="text-center">	3.28	</td> </tr>
+<tr>	<td class="text-center">	21/01/2016	<td class="text-center">	3.09	</td>  <td class="text-center">	3.29	</td> </tr>
+<tr>	<td class="text-center">	28/01/2016	<td class="text-center">	3.14	</td>  <td class="text-center">	3.34	</td> </tr>
+<tr>	<td class="text-center">	04/02/2016	<td class="text-center">	3.16	</td>  <td class="text-center">	3.36	</td> </tr>
+<tr>	<td class="text-center">	11/02/2016	<td class="text-center">	3.20	</td>  <td class="text-center">	3.38	</td> </tr>
+<tr>	<td class="text-center">	18/02/2016	<td class="text-center">	3.23	</td>  <td class="text-center">	3.40	</td> </tr>
+<tr>	<td class="text-center">	25/02/2016	<td class="text-center">	3.85	</td>  <td class="text-center">	3.99	</td> </tr>
+<tr>	<td class="text-center">	03/03/2016	<td class="text-center">	3.88	</td>  <td class="text-center">	3.98	</td> </tr>
+<tr>	<td class="text-center">	10/03/2016	<td class="text-center">	3.78	</td>  <td class="text-center">	3.93	</td> </tr>
+<tr>	<td class="text-center">	17/03/2016	<td class="text-center">	3.80	</td>  <td class="text-center">	3.91	</td> </tr>
+<tr>	<td class="text-center">	23/03/2016	<td class="text-center">	3.78	</td>  <td class="text-center">	3.87	</td> </tr>
+<tr>	<td class="text-center">	31/03/2016	<td class="text-center">	3.76	</td>  <td class="text-center">	3.87	</td> </tr>
+<tr>	<td class="text-center">	07/04/2016	<td class="text-center">	3.73	</td>  <td class="text-center">	3.86	</td> </tr>
+<tr>	<td class="text-center">	14/04/2016	<td class="text-center">	3.74	</td>  <td class="text-center">	3.84	</td> </tr>
+<tr>	<td class="text-center">	21/04/2016	<td class="text-center">	3.74	</td>  <td class="text-center">	3.79	</td> </tr>
+<tr>	<td class="text-center">	28/04/2016	<td class="text-center">	3.76	</td>  <td class="text-center">	3.83	</td> </tr>
+<tr>	<td class="text-center">	05/05/2016	<td class="text-center">	3.77	</td>  <td class="text-center">	3.82	</td> </tr>
+<tr>	<td class="text-center">	12/05/2016	<td class="text-center">	3.77	</td>  <td class="text-center">	3.85	</td> </tr>
+<tr>	<td class="text-center">	19/05/2016	<td class="text-center">	3.81	</td>  <td class="text-center">	3.87	</td> </tr>
+<tr>	<td class="text-center">	26/05/2016	<td class="text-center">	3.90	</td>  <td class="text-center">	4.20	</td> </tr>
+<tr>	<td class="text-center">	02/06/2016	<td class="text-center">	3.80	</td>  <td class="text-center">	4.13	</td> </tr>
+<tr>	<td class="text-center">	09/06/2016	<td class="text-center">	3.78	</td>  <td class="text-center">	4.05	</td> </tr>
+<tr>	<td class="text-center">	16/06/2016	<td class="text-center">	3.83	</td>  <td class="text-center">	4.21	</td> </tr>
+<tr>	<td class="text-center">	23/06/2016	<td class="text-center">	3.76	</td>  <td class="text-center">	4.10	</td> </tr>
+<tr>	<td class="text-center">	30/06/2016	<td class="text-center">	3.86	</td>  <td class="text-center">	4.19	</td> </tr>
+<tr>	<td class="text-center">	07/07/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.40	</td> </tr>
+<tr>	<td class="text-center">	14/07/2016	<td class="text-center">	4.19	</td>  <td class="text-center">	4.38	</td> </tr>
+<tr>	<td class="text-center">	21/07/2016	<td class="text-center">	4.21	</td>  <td class="text-center">	4.38	</td> </tr>
+<tr>	<td class="text-center">	28/07/2016	<td class="text-center">	4.21	</td>  <td class="text-center">	4.40	</td> </tr>
+<tr>	<td class="text-center">	04/08/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.38	</td> </tr>
+<tr>	<td class="text-center">	11/08/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.35	</td> </tr>
+<tr>	<td class="text-center">	18/08/2016	<td class="text-center">	4.27	</td>  <td class="text-center">	4.33	</td> </tr>
+<tr>	<td class="text-center">	25/08/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
+<tr>	<td class="text-center">	01/09/2016	<td class="text-center">	4.29	</td>  <td class="text-center">	4.40	</td> </tr>
+<tr>	<td class="text-center">	08/09/2016	<td class="text-center">	4.23	</td>  <td class="text-center">	4.38	</td> </tr>
+<tr>	<td class="text-center">	15/09/2016	<td class="text-center">	4.22	</td>  <td class="text-center">	4.34	</td> </tr>
+<tr>	<td class="text-center">	22/09/2016	<td class="text-center">	4.27	</td>  <td class="text-center">	4.50	</td> </tr>
+<tr>	<td class="text-center">	29/09/2016	<td class="text-center">	4.41	</td>  <td class="text-center">	4.79	</td> </tr>
+<tr>	<td class="text-center">	06/10/2016	<td class="text-center">	4.70	</td>  <td class="text-center">	4.84	</td> </tr>
+<tr>	<td class="text-center">	13/10/2016	<td class="text-center">	4.70	</td>  <td class="text-center">	4.87	</td> </tr>
+<tr>	<td class="text-center">	20/10/2016	<td class="text-center">	4.67	</td>  <td class="text-center">	4.81	</td> </tr>
+<tr>	<td class="text-center">	27/10/2016	<td class="text-center">	4.68	</td>  <td class="text-center">	4.87	</td> </tr>
+<tr>	<td class="text-center">	03/11/2016	<td class="text-center">	4.75	</td>  <td class="text-center">	4.91	</td> </tr>
+
 
 
 

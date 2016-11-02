@@ -34,7 +34,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "-",      //edad Maxima
     "Indistinto", //Sexo
-    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    "3 años  de experiencia en contabilidad e impuestos, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
     "Contable",  //area para postularse
@@ -58,7 +58,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Mínimo dos años",  //Experiencia Requerida
+    "Mínimo dos años, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización.", //Habilidades
     "Contable",  //area para postularse
@@ -82,7 +82,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Medio año",  //Experiencia Requerida
+    "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo.", //Habilidades
     "Contable",  //area para postularse
@@ -182,7 +182,7 @@ var vacantes= [
     "30",      //Edad Mínima
     "-",      //edad Maxima
     "Indistinto", //Sexo
-    "4 años de experiencia",  //Experiencia Requerida
+    "4 años de experiencia, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Confianza, conocimientos técnicos profesionales.", //Habilidades
     "Auditoria",
@@ -206,7 +206,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Mínimo dos años",  //Experiencia Requerida
+    "Mínimo dos años, 2 cartas de recomendación",  //Experiencia Requerida
     "- ",     //idiomas
     "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",
     "Auditoria",
@@ -232,7 +232,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Medio año",  //Experiencia Requerida
+    "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",   //itras hailidades
     "Auditoria",
@@ -256,7 +256,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "-",      //edad Maxima
     "Indistinto", //Sexo
-    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    "3 años  de experiencia en contabilidad e impuestos, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
     "Contable",  //area
@@ -281,7 +281,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "-",      //edad Maxima
     "Indistinto", //Sexo
-    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    "3 años  de experiencia en contabilidad e impuestos, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
     "Consultoria",  //area
@@ -305,7 +305,7 @@ var vacantes= [
     "20",      //Edad Mínima
     "-",      //edad Maxima
     "Indistinto", //Sexo
-    "3 años  de experiencia en contabilidad e impuestos",  //Experiencia Requerida
+    "3 años  de experiencia en contabilidad e impuestos, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Adaptibilidad, comunicación, confianza, conocimientos técnicos profesionales.", //Habilidades
     "Auditoria",  //area
@@ -332,7 +332,7 @@ var empresa= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Requerida",  //Experiencia Requerida
+    "Requerida, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Confianza, conocimientos técnicos profesionales.", //Habilidades
     "Contable"
@@ -354,7 +354,7 @@ var empresa= [
     "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Mínimo un año",  //Experiencia Requerida
+    "Mínimo un año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización, aprendizaje continuo y crecimiento, asesorías.", //Habilidades
     "Contable",  //area para postularse
