@@ -37,7 +37,10 @@
                 <div class="well trasparenteClaroPlus">  <!-- Well -->
                   <div class="row">
                     <div class="col-md-12">
-                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/sZEWpmmWjp4?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
+                      <!--    <iframe height="500" width="99%" src="https://www.youtube.com/embed/sZEWpmmWjp4?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
+                      -->
+                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/5ueXVNdANIc?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
+
 
                     <!--    <video height="500" width="99%" controls>
                         <source src="{{URL::asset('video/pagoDeUnFiniquito.mp4')}}"  type="video/mp4">
