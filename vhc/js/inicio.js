@@ -54,19 +54,21 @@ function alertInicio(){
       });
     }
     inpUsd.val('1');
-    inpMxn.val(txtValDolar.val());
+  //  inpMxn.val(txtValDolar.val());
+  cambioDolar();
 }
 
 function cambioDolar(){
   var now = new Date();
     if ((now.getDay() == 6) || (now.getDay() == 0)){
       valDolBM=txtValDolarBM.val();
-      valDolar=valDolBM.substr(5,6);
+      valDolar=valDolBM.substr(4,6);
       console.log("cambioDolar dol"+valDolar);
     }
     else {
         valDolar=txtValDolar.val();
     }
+
     cantidadDolar0=inpUsd.val();
     cantidadDolar = cantidadDolar0.replace(',','');
     console.log("cambioDolar "+txtValDolar.val());
@@ -75,6 +77,25 @@ function cambioDolar(){
     inpMxn.val(pesoDecimal);
 
 }
+
+function cambioPeso(){
+  var now = new Date();
+  if (now.getDay() == 6){
+    valDolBM=txtValDolarBM.val();
+    valDolar=valDolBM.substr(4,6);
+    console.log("cambioPeso dol: "+valDolar);
+  }
+  else {
+      valDolar=txtValDolar.val();
+  }
+
+  cantidadPeso0=inpMxn.val();
+  cantidadPeso=cantidadPeso0.replace(',','');
+  valorDolar=cantidadPeso/valDolar;
+  dolarDecimal=valorDolar.toFixed(4);
+  inpUsd.val(dolarDecimal);
+}
+
 
 function introDolar(){
   introducirDolar=1;
@@ -85,22 +106,6 @@ function introPeso(){
   introducirDolar=0;
 }
 
-function cambioPeso(){
-  var now = new Date();
-  if (now.getDay() == 6){
-    valDolBM=txtValDolarBM.val();
-    valDolar=valDolBM.substr(5,6);
-    console.log("cambioPeso dol: "+valDolar);
-  }
-  else {
-      valDolar=txtValDolar.val();
-  }
-  cantidadPeso0=inpMxn.val();
-  cantidadPeso=cantidadPeso0.replace(',','');
-  valorDolar=cantidadPeso/valDolar;
-  dolarDecimal=valorDolar.toFixed(4);
-  inpUsd.val(dolarDecimal);
-}
 
 inpUsd.keydown(function (e){
   if (e.which == 13) {

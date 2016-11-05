@@ -129,6 +129,10 @@
         <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/CXventure.png">
       </div>
 
+      <div class="col-md-4 col-sm-6 animEscalarSimple" id="portafolio">
+        <img class="imgS2 img-responsive img-rounded" src="../img/portafolio/nemachtilo.png">
+      </div>
+
     </div>
 
     </div> <!-- /Container -->

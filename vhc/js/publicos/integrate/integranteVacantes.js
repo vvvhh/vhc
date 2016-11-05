@@ -60,7 +60,7 @@ var vacantes= [
     "Indistinto", //Sexo
     "Mínimo dos años, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
-    "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización.", //Habilidades
+    "Conocimientos técnicos profesionales, iniciativa, trabajo bajo presión, trabajo en equipo, planeación y organización.", //Habilidades
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
     "Manejo de NOI, COI, Excel, Word, Outlook, aspectos fiscales."
@@ -84,7 +84,7 @@ var vacantes= [
     "Indistinto", //Sexo
     "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
-    "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo.", //Habilidades
+    "Conocimientos técnicos profesionales, iniciativa, trabajo bajo presión, trabajo en equipo.", //Habilidades
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
     "Manejo de NOI, COI, Excel, Word, Outlook, aspectos fiscales.",
@@ -208,7 +208,7 @@ var vacantes= [
     "Indistinto", //Sexo
     "Mínimo dos años, 2 cartas de recomendación",  //Experiencia Requerida
     "- ",     //idiomas
-    "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",
+    "Adaptabilidad, aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, trabajo bajo presión.",
     "Auditoria",
 
     "Auditoría",
@@ -234,7 +234,7 @@ var vacantes= [
     "Indistinto", //Sexo
     "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
-    "Adaptabilidad, Aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, tolerancia al estrés.",   //itras hailidades
+    "Adaptabilidad, aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, trabajo bajo presión.",   //itras hailidades
     "Auditoria",
     "Auditoría",
     "Uso de SIPRED, conocimiento y entendimiento de NIF, reportes de auditoría",
@@ -356,7 +356,7 @@ var empresa= [
     "Indistinto", //Sexo
     "Mínimo un año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
-    "Conocimientos técnicos profesionales, iniciativa, tolerancia al estrés, trabajo en equipo, planeación y organización, aprendizaje continuo y crecimiento, asesorías.", //Habilidades
+    "Conocimientos técnicos profesionales, iniciativa, trabajo bajo presión, trabajo en equipo, planeación y organización, aprendizaje continuo y crecimiento, asesorías.", //Habilidades
     "Contable",  //area para postularse
     "Contable",  //area para mostrar
     "Manejo de NOI, COI, SAE, Excel, Word, Outlook, aspectos fiscales.",

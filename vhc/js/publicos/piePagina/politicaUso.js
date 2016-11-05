@@ -12,7 +12,7 @@ function alertConfirmar(){
     animate: true,
     buttons: {
       main: {
-        label: "Seguir leyendo",
+        label: "Seguir leyendo la Política de Uso y Privacidad <br>",
         className: "btn-default",
       },
       success: {

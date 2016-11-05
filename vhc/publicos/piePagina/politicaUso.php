@@ -12,7 +12,7 @@
 
     <link rel="icon" type="../image/png" href="./favicon.png"/>
 
-    <title>Propiedad Intelectual e Industrial | ContadoresVH
+    <title>Política de uso y privacidad | ContadoresVH
     </title>
 
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -164,9 +164,7 @@
     <div class="modal-content">
       <div class="modal-header">
          <button type="button" class="close" data-dismiss="modal">&times;</button>
-         <h3 class="textoAzulLi text-justify">
-           VIII.	Consideraciones Finales
-         </h3>
+      
        </div>
       <div class="modal-body text-justify">
         <br>
@@ -174,8 +172,9 @@
           <p>Para poder seguir navegando primero debé aceptar la Política de Uso y Privacidad de www.contadoresvh.com</p>
       </div>
       <div class="modal-footer">
-       <button type="button" class="btn btn-default" data-dismiss="modal">Seguir leyendo</button>
-        <button type="button" class="btn btn-primary" id="btnAceptacion">He leído y acepto la Política de Uso y Privacidad</button>
+       <button type="button" class="btn btn-default" data-dismiss="modal">Seguir leyendo la Política de Uso y Privacidad</button>
+       <button type="button" class="btn btn-primary" id="btnAceptacion">He leído y acepto la Política de Uso y Privacidad</button>
+
      </div>
 
     </div>
