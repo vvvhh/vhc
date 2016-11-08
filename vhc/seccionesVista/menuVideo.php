@@ -29,6 +29,11 @@
                         - Cumplimiento de las obligaciones fiscales cuando una persona fallece </a>
                   </li>
 
+                  <li id="liVideo6">
+                    <a class="grisClaro texto3d" href="video6.php">
+                      - Personas físicas y los servicios de fisioterapia
+                </li>
+
 
               </ul>
         </li>

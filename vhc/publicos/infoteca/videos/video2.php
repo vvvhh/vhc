@@ -37,10 +37,10 @@
                 <div class="well trasparenteClaroPlus">  <!-- Well -->
                   <div class="row">
                     <div class="col-md-12">
-                  <!--      <iframe height="500" width="99%" src="https://www.youtube.com/embed/nZjiQPEQ1mA?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
--->
-                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/L4DqYa9YPpY?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
 
+                      <!--    <iframe height="500" width="99%" src="https://www.youtube.com/embed/L4DqYa9YPpY?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
+                      -->
+                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/7Q5mvWOenZQ?controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
 
                     <!--    <video height="500" width="99%" controls>
                         <source src="{{URL::asset('video/pagoDeUnFiniquito.mp4')}}"  type="video/mp4">
@@ -55,6 +55,32 @@
           </h3>
                     </div>
                   </div>
+
+                  <div class="row">
+                    <div class="col-md-6 text-left well">
+                      <p>
+                        <strong>Teléfonos:</strong> 5574 2795,  5564 3807,  5574 4191,  5584 2612
+                      </p>
+                      <p>
+                        <strong>Facebook:</strong> <a href="https://www.facebook.com/VazquezHernandezContadoresSC" target="blanck">VazquezHernandezContadoresSC</a>
+                      </p>
+                      <p>
+                        <strong>Twitter:</strong> <a href="https://twitter.com/contadoresvhc" target="blanck">contadoresvhc</a>
+                      </p>
+                      <p>
+                        <strong>Google +:</strong> <a href="https://plus.google.com/+V%C3%A1zquezHern%C3%A1ndezContadoresSCCiudaddeM%C3%A9xico" target="blanck">VázquezHernándezContadoresSCCiudaddeMéxico</a>
+                      </p>
+                      <p>
+                        <strong>Pinterest:</strong> <a href="https://es.pinterest.com/ContadoresVH/" target="blanck">ContadoresVH</a>
+                      </p>
+                      <p>
+                        <strong>Youtube:</strong> <a href="https://www.youtube.com/channel/UC1RJyIURezwLVA9bAH6dirQ" target="blanck">
+Vázquez Henández Contadores, S.C. </a>
+                      </p>
+
+                    </div>
+                  </div>
+
 
                 </div> <!-- /well -->
 
@@ -99,3 +125,19 @@
 
   </body>
 </html>
+
+<!--
+
+Visita nuestro sitio web para solicitar mayor información: http://www.contadoresvh.com/
+
+Teléfonos:  5574 2795,  5564 3807,  5574 4191,  5584 2612
+
+Facebook: https://www.facebook.com/VazquezHernandezContadoresSC
+
+Twitter: https://twitter.com/contadoresvhc
+
+Pinterest: https://es.pinterest.com/ContadoresVH/
+
+Google +: https://plus.google.com/+V%C3%A1zquezHern%C3%A1ndezContadoresSCCiudaddeM%C3%A9xico
+
+-->

@@ -37,25 +37,35 @@
                 <div class="well trasparenteClaroPlus">  <!-- Well -->
                   <div class="row">
                     <div class="col-md-12">
-<!--                        <iframe height="500" width="99%" src="https://www.youtube.com/embed/1VIzYRDV8CA?rel=0" frameborder="0" allowfullscreen></iframe>
--->
-                                            <iframe height="500" width="99%" src="https://www.youtube.com/embed/8Z4xFC9QdTg?rel=0" frameborder="0" allowfullscreen></iframe>
 
+                    <!--
+
+                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/3L9esePgy7Q?rel=0" frameborder="0" allowfullscreen></iframe>
+-->
+                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/DhwVvDUgd2w?rel=0" frameborder="0" allowfullscreen></iframe>
 
                     <!--    <video height="500" width="99%" controls>
                         <source src="{{URL::asset('video/pagoDeUnFiniquito.mp4')}}"  type="video/mp4">
 
                       </video> -->
+
+
+
+
+
+
+
+
                     </div>
                   </div>
 
                   <div class="row">
                     <div class="col-md-12 text-center">
-                      <h3 class="texto3d grisObscuro"> Tarjetas de crédito
+                      <h3 class="texto3d grisObscuro">
+                        Personas físicas y los servicios de fisioterapia
                       </h3>
                     </div>
                   </div>
-
                   <div class="row">
                     <div class="col-md-6 text-left well">
                       <p>
@@ -81,6 +91,7 @@ Vázquez Henández Contadores, S.C. </a>
                     </div>
                   </div>
 
+
                 </div> <!-- /well -->
 
 
@@ -92,7 +103,7 @@ Vázquez Henández Contadores, S.C. </a>
                   <!-- MENU DE LAS RESEÑAS menuResena.blde.php -->
                 <?php include ("../../../seccionesVista/menuVideo.php"); ?>
                 <br>
-                <a class="btn btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar </span></a>
+                <a class="btn btn-primary btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i><span class="network-name"> Regresar Infoteca</span></a>
               </div>
 
 
@@ -119,7 +130,7 @@ Vázquez Henández Contadores, S.C. </a>
 
         <script>
           $('#ulVideosTem1').addClass('in');
-          $('#liVideo4').addClass('activoBorde');
+          $('#liVideo6').addClass('activoBorde');
         </script>
 
   </body>
