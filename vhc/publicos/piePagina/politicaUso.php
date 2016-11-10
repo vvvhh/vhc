@@ -34,7 +34,7 @@
     <div class="row">
       <div class="col-lg-12">
         <br>
-        <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-file-text"></i> Politíca de uso y privacidad del sitio web </h1>
+        <h1 class="tituloEntrada tamTitulo grisObscuro"><i class="fa fa-file-text"></i> Política de uso y privacidad del sitio web </h1>
       </div>
     </div>
 
@@ -164,7 +164,7 @@
     <div class="modal-content">
       <div class="modal-header">
          <button type="button" class="close" data-dismiss="modal">&times;</button>
-      
+
        </div>
       <div class="modal-body text-justify">
         <br>
