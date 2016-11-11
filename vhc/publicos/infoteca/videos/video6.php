@@ -42,8 +42,7 @@
 
                       <iframe height="500" width="99%" src="https://www.youtube.com/embed/3L9esePgy7Q?rel=0" frameborder="0" allowfullscreen></iframe>
 -->
-                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/DhwVvDUgd2w?rel=0" frameborder="0" allowfullscreen></iframe>
-
+                      <iframe height="500" width="99%" src="https://www.youtube.com/embed/8gEpw01MVqU?rel=0" frameborder="0" allowfullscreen></iframe>
                     <!--    <video height="500" width="99%" controls>
                         <source src="{{URL::asset('video/pagoDeUnFiniquito.mp4')}}"  type="video/mp4">
 
