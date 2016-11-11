@@ -18,9 +18,12 @@ app/lang/*
 app/start/*
 app/storage/*
 app/tests/*
-vhc/img/*
 vhc/doc/*
 vhc/cache/*
 vhc/conexion.php
 vhc/php/Conexion.php
 doc/*
+img/*
+php/Conexion.php
+cache/*
+cargas/*
