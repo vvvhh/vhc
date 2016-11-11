@@ -76,14 +76,14 @@
       aPrivacidad=document.getElementById('aPrivacidad'),
       aPolitica=document.getElementById('aPolitica'),
       aMapa=document.getElementById('aMapa');
-      
+
 function verificarAceptadoAvisoPie(){
 
   var valor=sessionStorage.getItem("visita");
 
 
       var dominio=window.location.host;
-      var absoluta="/vhc/vhc/";
+      var absoluta="/vhc/";
       var rCondicion="publicos/piePagina/propiedadIntelectual.php",
           rPrivacidad="publicos/piePagina/avisoPrivacidadClientes.php",
           rPolitica="publicos/piePagina/politicaUso.php",

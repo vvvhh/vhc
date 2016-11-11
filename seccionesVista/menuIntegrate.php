@@ -61,7 +61,7 @@ var aElegirnos=document.getElementById('aElegirnos');
   var rAviso="publicos/integrate/integrateAvisoP.php";
 
   var dominio=window.location.host;
-  var absoluta2="/vhc/vhc/";
+  var absoluta2="/vhc/";
 
   aElegirnos.href="http://"+dominio+absoluta2+rElegirnos;
   aDesarrollo.href="http://"+dominio+absoluta2+rDesarrollo;

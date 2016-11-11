@@ -74,7 +74,7 @@ function verificarAceptadoAvisoNavegacion(){
       rImagen="img/logoNombre.png";
 
   var dominio=window.location.host;
-  var absoluta="/vhc/vhc/";                   /*------------------------------------------------------------------*/
+  var absoluta="/vhc/";                   /*------------------------------------------------------------------*/
 
   aInicio.href="http://"+dominio+absoluta+rInicio;
   imgI.src="http://"+dominio+absoluta+rImagen;

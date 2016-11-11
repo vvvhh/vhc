@@ -314,7 +314,7 @@
 <script type="text/javascript">
 
   var dominio=window.location.host;
-  var absoluta="/vhc/vhc/";
+  var absoluta="/vhc/";
 
   aCFF=document.getElementById('aCFF');
   aTarifasPp=document.getElementById('aTarifasPp');
