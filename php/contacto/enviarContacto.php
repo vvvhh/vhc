@@ -60,7 +60,7 @@ if(isset($token)) {
   $exito = $mail->send();
   $intentos=1;
 */
-  $para  = 'edgar.santiago@contadoresvh.com';
+  $para  = 'contacto.cdmx@contadoresvh.com';
   $título = 'Mensaje de contacto desde sitio web';
   $mensaje = "<html>".
   "<p><h3><strong>Mensaje desde sitio Web</strong></h3></p>".
