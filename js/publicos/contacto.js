@@ -8,6 +8,12 @@ var btnEnviar = $('#btnEnviar'),
 var procesoEnviar=$('#procesoEnviar'),
     aceptoCheck =$('#aceptoCheck');
 var RegExPattern=/^([\w\s\n\-\¿\?.,:áéíóúÁÉÍÓÚñÑ])+$/;
+//var regExTelefono=/^\+?\d{1,3}?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/;
+var regExTelefono=/^(\d{2})*\d{8}$/;
+/*var RegExTelInternacional= \^\(\+\d{2,3}\)\d{9,10}$\;
+var RegExTelInternacional= \^\d{9}$\;
+*/
+var regExCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
 
 function enviar(){
 
@@ -16,6 +22,7 @@ function enviar(){
     return false;
   }
   procesoEnviar.removeClass('hidden');
+//  alert("envio");
 
   var datos = $.ajax({
     url:'../php/contacto/enviarContacto.php',
@@ -55,6 +62,7 @@ function enviar(){
   }
   swal(tituloAlert, textoAlert, estdoAlert);
   procesoEnviar.addClass('hidden');
+  
 }
 
 function limpiar(){
@@ -87,14 +95,30 @@ function verificarContenido(){
     swal("Favor de indicar número telefonico.","", "warning");
     return false;
   }
+  if(! regExTelefono.test(inpTelefono.val())){
+    inpTelefono .focus();
+    swal("Favor de ingresar un número teléfonico válido.","", "warning");
+    return false;
+  }
+
   if((inpEmail.val() == '' )||(inpEmail == null)){
     inpEmail.focus();
     swal("Favor de indicar correo electrónico.","", "warning");
     return false;
   }
+  if(! regExCorreo.test(inpEmail.val())){
+    inpEmail.focus();
+    swal("Favor de ingresar un correo válido.","", "warning");
+    return false;
+  }
   if((txtMensaje.val() == '' )||(txtMensaje == null)){
     txtMensaje.focus();
     swal("Favor de ingresar su mensaje.","", "warning");
+    return false;
+  }
+  if(! RegExPattern.test(txtMensaje.val())){
+    inpEmail.focus();
+    swal("Algún caracter del mensaje no es válido, no se admiten comillas, punto y coma, etc.","", "warning");
     return false;
   }
 
