@@ -99,6 +99,10 @@
 <tr>	<td class="text-center">	20/10/2016	<td class="text-center">	4.67	</td>  <td class="text-center">	4.81	</td> </tr>
 <tr>	<td class="text-center">	27/10/2016	<td class="text-center">	4.68	</td>  <td class="text-center">	4.87	</td> </tr>
 <tr>	<td class="text-center">	03/11/2016	<td class="text-center">	4.75	</td>  <td class="text-center">	4.91	</td> </tr>
+<tr>	<td class="text-center">	10/11/2016	<td class="text-center">	4.81	</td>  <td class="text-center">	5.07	</td> </tr>
+<tr>	<td class="text-center">	17/11/2016	<td class="text-center">	5.56	</td>  <td class="text-center">	5.96	</td> </tr>
+<tr>	<td class="text-center">	24/11/2016	<td class="text-center">	5.48	</td>  <td class="text-center">	5.94	</td> </tr>
+<tr>	<td class="text-center">	01/12/2016	<td class="text-center">	5.62	</td>  <td class="text-center">	5.99	</td> </tr>
 
 
 
