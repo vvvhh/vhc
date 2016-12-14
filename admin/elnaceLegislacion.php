@@ -191,6 +191,13 @@
                       <option value="58">58</option>
                       <option value="59">59</option>
                       <option value="60">60</option>
+                      <option value="61">61</option>
+                      <option value="62">62 Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. Actualizada con la 1ra, 2da, 3ra y 4ta Resolución de Modificaciones.</option>
+                      <option value="63">63 Quinta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos</option>
+                      <option value="64">64 Resolución Miscelánea Fiscal para 2016</option>
+                      <option value="65">65 Anexo 1-A de la Resolución Miscelánea Fiscal para 2017 anticipada</option>
+                      <option value="66">66 Resolución Miscelánea Fiscal 2017 anticipada</option>
+
                     </select>
                   </div>
                 </div>
@@ -307,6 +314,11 @@
                       <option value="58">58</option>
                       <option value="59">59</option>
                       <option value="60">60</option>
+                      <option value="61">61 Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. Actualizada con la 1ra, 2da, 3ra y 4ta Resolución de Modificaciones.</option>
+                      <option value="62">62 Quinta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos</option>
+                      <option value="63">63 Resolución Miscelánea Fiscal para 2016</option>
+                      <option value="64">64 Anexo 1-A de la Resolución Miscelánea Fiscal para 2017 anticipada</option>
+                      <option value="65">65 Resolución Miscelánea Fiscal 2017 anticipada</option>
                     </select>
                   </div>
                 </div>

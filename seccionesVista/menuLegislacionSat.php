@@ -33,53 +33,68 @@
             <div id="ulCo" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
-                           <li id="li7Resolucionli" class="liInfoteca">
-                               <a class="grisClaro " id="li7Resolucion"  style="cursor:pointer">
-                                 <p>
-                                   - Publicada el 23 de diciembre de 2015 - Resolución Miscelánea Fiscal para 2016 y su anexo 19.
-                                 </p>
-                               </a>
-                           </li>
+                <li id="li7Resolucion17li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion17"  style="cursor:pointer">
+                           <p>
+                             - Resolución Miscelánea Fiscal 2017 anticipada.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion16li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion16"  style="cursor:pointer">
+                           <p>
+                             - Anexo 1-A de la Resolución Miscelánea Fiscal para 2017 anticipada
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion15li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion15"  style="cursor:pointer">
+                           <p>
+                             - Resolución Miscelánea Fiscal para 2016 (Actualizada a la Quinta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1, 1-A, 23 y 25-Bis del 1 de diciembre de 2016)
+                           </p>
+                      </a>
+                </li>
 
-                  <li id="li7Resolucion2li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion2"  style="cursor:pointer">
+              <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                <li id="li7Resolucion14li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion14"  style="cursor:pointer">
+                           <p>
+                             - Quinta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1, 1-A, 15, 23 y 25-Bis. - Publicada el 1 de diciembre de 2016
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion13li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion13"  style="cursor:pointer">
+                           <p>
+                             - Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. Actualizada con la 1ra, 2da, 3ra y 4ta Resolución de Modificaciones. - Publicadas en el DOF el 1 de abril, 6 de mayo, 14 de julio y 4 de octubre de 2016
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion12li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion12"  style="cursor:pointer">
+                           <p>
+                             - Publicada el 04 de octubre de 2016 - Cuarta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A y 24.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion11li" class="liInfoteca">
+                    <a class="grisClaro " id="li7Resolucion11"  style="cursor:pointer">
+                      <p>
+                        - Publicados el 15 de julio de 2016 - Anexos 3, 11, 14, 15, 23 y 25-Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 14 de julio de 2016.
+                      </p>
+                    </a>
+               </li>
+               <li id="li7Resolucion10li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion10"  style="cursor:pointer">
                          <p>
-                           - Publicados el 24 de diciembre de 2015 - Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
+                           - Publicada el 14 de julio de 2016 - ​Tercera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1 y 1-A.
                          </p>
                        </a>
-                  </li>
-                  <li id="li7Resolucion3li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion3"  style="cursor:pointer">
+                </li>
+                <li id="li7Resolucion9li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion9"  style="cursor:pointer">
                          <p>
-                           - Publicados el 12 de enero de 2016 - Anexos 3, 4, 5, 6, 7, 8, 11, 14, 17, 23, 25 y 25 Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
-                         </p>
-                       </a>
-                  </li>
-                  <li id="li7Resolucion4li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion4"  style="cursor:pointer">
-                         <p>
-                           - Publicados el 13 de enero de 2016 - Anexos 15 y 24 de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
-                         </p>
-                       </a>
-                  </li>
-                  <li id="li7Resolucion5li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion5"  style="cursor:pointer">
-                         <p>
-                           - Publicada el 01 de abril de 2016 - ​Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A, 23 y 27.
-                         </p>
-                       </a>
-                  </li>
-                  <li id="li7Resolucion6li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion6"  style="cursor:pointer">
-                         <p>
-                           - Publicada el 06 de mayo de 2016 - ​Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016.
-                         </p>
-                       </a>
-                  </li>
-                  <li id="li7Resolucion7li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion7"  style="cursor:pointer">
-                         <p>
-                           - Publicado el 09 de mayo de 2016 - Anexo 1, 1A, 3, 7, 9 11, 14, 15 y 25 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016.
+                           - Publicado el 23 de mayo de 2016 - Anexo 16-A de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016.
                          </p>
                        </a>
                   </li>
@@ -90,36 +105,55 @@
                          </p>
                        </a>
                   </li>
-                  <li id="li7Resolucion9li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion9"  style="cursor:pointer">
+                  <li id="li7Resolucion7li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion7"  style="cursor:pointer">
                          <p>
-                           - Publicado el 23 de mayo de 2016 - Anexo 16-A de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016.
+                           - Publicado el 09 de mayo de 2016 - Anexo 1, 1A, 3, 7, 9 11, 14, 15 y 25 de la Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016, publicada el 6 de mayo de 2016.
                          </p>
                        </a>
                   </li>
-                  <li id="li7Resolucion10li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion10"  style="cursor:pointer">
+                  <li id="li7Resolucion6li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion6"  style="cursor:pointer">
                          <p>
-                           - Publicada el 14 de julio de 2016 - ​Tercera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1 y 1-A.
+                           - Publicada el 06 de mayo de 2016 - ​Segunda Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016.
                          </p>
                        </a>
                   </li>
-
-                  <li id="li7Resolucion11li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion11"  style="cursor:pointer">
+                  <li id="li7Resolucion5li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion5"  style="cursor:pointer">
                          <p>
-                           - Publicados el 15 de julio de 2016 - Anexos 3, 11, 14, 15, 23 y 25-Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 14 de julio de 2016.
+                           - Publicada el 01 de abril de 2016 - ​Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A, 23 y 27.
                          </p>
                        </a>
                   </li>
-                  <li id="li7Resolucion12li" class="liInfoteca">
-                       <a class="grisClaro " id="li7Resolucion12"  style="cursor:pointer">
+                  <li id="li7Resolucion4li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion4"  style="cursor:pointer">
                          <p>
-                           - Publicada el 04 de octubre de 2016 - Cuarta Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016 y sus anexos 1-A y 24.
+                           - Publicados el 13 de enero de 2016 - Anexos 15 y 24 de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
                          </p>
                        </a>
                   </li>
-
+                  <li id="li7Resolucion3li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion3"  style="cursor:pointer">
+                         <p>
+                           - Publicados el 12 de enero de 2016 - Anexos 3, 4, 5, 6, 7, 8, 11, 14, 17, 23, 25 y 25 Bis de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
+                         </p>
+                       </a>
+                  </li>
+                  <li id="li7Resolucion2li" class="liInfoteca">
+                       <a class="grisClaro " id="li7Resolucion2"  style="cursor:pointer">
+                         <p>
+                           - Publicados el 24 de diciembre de 2015 - Anexos 1 y 1 A de la Resolución Miscelánea Fiscal para 2016, publicada el 23 de diciembre de 2015.
+                         </p>
+                       </a>
+                  </li>
+                  <li id="li7Resolucionli" class="liInfoteca">
+                        <a class="grisClaro " id="li7Resolucion"  style="cursor:pointer">
+                          <p>
+                          - Publicada el 23 de diciembre de 2015 - Resolución Miscelánea Fiscal para 2016 y su anexo 19.
+                          </p>
+                        </a>
+                 </li>
 
               </ul>
 

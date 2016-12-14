@@ -53,7 +53,12 @@ var li7Resolucion=$('#li7Resolucion'),
     li7Resolucion9=$('#li7Resolucion9'),
     li7Resolucion10=$('#li7Resolucion10'),
     li7Resolucion11=$('#li7Resolucion11'),
-    li7Resolucion12=$('#li7Resolucion12');
+    li7Resolucion12=$('#li7Resolucion12'),
+    li7Resolucion13=$('#li7Resolucion13'),
+    li7Resolucion14=$('#li7Resolucion14'),
+    li7Resolucion15=$('#li7Resolucion15'),
+    li7Resolucion16=$('#li7Resolucion16'),
+    li7Resolucion17=$('#li7Resolucion17');
   var li8Comercio1=$('#li8Comercio1'),
       li8Comercio2=$('#li8Comercio2'),
       li8Comercio3=$('#li8Comercio3'),
@@ -477,6 +482,41 @@ function get7Resolucion12(){
   limpiarResolucion();
   $('#li7Resolucion12li').addClass('activoBorde');
 }
+function get7Resolucion13(){
+  tipo = 62;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion13li').addClass('activoBorde');
+}
+function get7Resolucion14(){
+  tipo = 63;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion14li').addClass('activoBorde');
+}
+function get7Resolucion15(){
+  tipo = 64;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion15li').addClass('activoBorde');
+}
+function get7Resolucion16(){
+  tipo = 65;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion16li').addClass('activoBorde');
+}
+function get7Resolucion17(){
+  tipo = 66;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion17li').addClass('activoBorde');
+}
 
 function get8Comercio1(){
   tipo = 38;
@@ -736,6 +776,12 @@ function limpiarResolucion(){
   $('#li7Resolucion10li').removeClass('activoBorde');
   $('#li7Resolucion11li').removeClass('activoBorde');
   $('#li7Resolucion12li').removeClass('activoBorde');
+  $('#li7Resolucion13li').removeClass('activoBorde');
+  $('#li7Resolucion14li').removeClass('activoBorde');
+  $('#li7Resolucion15li').removeClass('activoBorde');
+  $('#li7Resolucion16li').removeClass('activoBorde');
+  $('#li7Resolucion17li').removeClass('activoBorde');
+
   limiarMenuNivel1();
 }
 function limpiarReglas(){
@@ -853,6 +899,11 @@ li7Resolucion9.on('click',get7Resolucion9);
 li7Resolucion10.on('click',get7Resolucion10);
 li7Resolucion11.on('click',get7Resolucion11);
 li7Resolucion12.on('click',get7Resolucion12);
+li7Resolucion13.on('click',get7Resolucion13);
+li7Resolucion14.on('click',get7Resolucion14),
+li7Resolucion15.on('click',get7Resolucion15),
+li7Resolucion16.on('click',get7Resolucion16),
+li7Resolucion17.on('click',get7Resolucion17);
 
 li9Res1.on('click',get9Res1);
 li9Res2.on('click',get9Res2);
