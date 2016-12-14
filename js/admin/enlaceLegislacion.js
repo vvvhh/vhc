@@ -294,7 +294,7 @@ function getLegislacion(){
 
 function agregarEnlace(){
   var datos = $.ajax({
-    url:'agregarEnlace',
+    url:'../php/legislacionLink/agregarLegislacion.php',
     data: {
       nom:  txtNombreA.val(),
       enl:  txtEnlaceA.val(),
