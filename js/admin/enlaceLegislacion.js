@@ -75,7 +75,7 @@ function eliminarEnlaceLeg(){
 function editarELegislacion(){
 
   var datos = $.ajax({
-    url:'../php/legislacionLink/editarELegislacion.php',
+    url:'../php/legislacionLink/editarLegislacion.php',
     data: {
       id:   txtIdE.val(),
       nom:  txtNombre.val(),
