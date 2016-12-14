@@ -470,7 +470,7 @@
           <div class="row">
             <br>
             <h3 class="text-center grisObscuro"> <strong><i class="fa fa-users"></i> Clientes</strong></h3>
-            <form class="form-signin" action="login.php" method="post">
+            <form class="form-signin" action="php/sesion/login.php" method="post">
 
                   <div class="control-group form-group">
                     <div class="input-group">
