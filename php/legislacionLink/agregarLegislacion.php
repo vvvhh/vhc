@@ -7,7 +7,7 @@
 
           include('../Consultas.php');
           $Consultas = new Consultas;
-          $consulta = 'INSERT INTO legislacionLink (legNombre, legLink, legTipo) VALUES("'.$nombre.'", "'.$enlace.'", "'.$tipo.'");';
+          $consulta = 'INSERT INTO legislacionlink (legNombre, legLink, legTipo) VALUES("'.$nombre.'", "'.$enlace.'", "'.$tipo.'");';
           $Consultas -> validarSesion();
           $response = $Consultas -> consultaInsertEditEliminar($consulta);
         }

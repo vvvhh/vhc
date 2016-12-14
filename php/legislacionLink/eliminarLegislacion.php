@@ -6,7 +6,7 @@
 
           include('../Consultas.php');
           $Consultas = new Consultas;
-          $consulta = 'DELETE FROM legislacionLink WHERE legId = '.$id.' ;';
+          $consulta = 'DELETE FROM legislacionlink WHERE legId = '.$id.' ;';
           $Consultas -> validarSesion();
           $response = $Consultas -> consultaInsertEditEliminar($consulta);
         }

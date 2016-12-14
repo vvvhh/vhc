@@ -9,7 +9,7 @@
 
           include('../Consultas.php');
           $Consultas = new Consultas;
-          $consulta = 'UPDATE legislacionLink SET legNombre = "'.$nombre.'", legLink = "'.$enlace.'", legTipo = "'.$tipo.'"  WHERE legId = '.$id.' ;';
+          $consulta = 'UPDATE legislacionlink SET legNombre = "'.$nombre.'", legLink = "'.$enlace.'", legTipo = "'.$tipo.'"  WHERE legId = '.$id.' ;';
           $Consultas -> validarSesion();
           $response = $Consultas -> consultaInsertEditEliminar($consulta);
         }
