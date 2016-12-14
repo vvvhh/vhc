@@ -236,9 +236,9 @@
        ?>
        <?php $textoMarquee1 = $textoMarquee1."Salario mínimo: $ 73.04<sup>2</sup>  &nbsp; " ?>
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-       <?php $textoMarquee1 = $textoMarquee1."INPC: 119.211<sup>2</sup> " ?>
+       <?php $textoMarquee1 = $textoMarquee1."INPC: 121.953<sup>2</sup> " ?>
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 5.62<sup>3</sup>" ?>
+       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 5.70<sup>3</sup>" ?>
        <input type="text" class="hidden" name="name" value="<?php echo $dolar ?>" id="txtValDolar">
 
         <marquee  behavior="scroll" scrollamount=3 direction="left">
