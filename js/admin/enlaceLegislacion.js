@@ -44,7 +44,7 @@ function eliminarEnlaceLeg(){
   var id = $(this).attr('id');
 
   var datos = $.ajax({
-    url: 'eliminarEnlaceLeg',
+    url: '../php/legislacionLink/eliminarLegislacion.php',
     data: {
       id: id,
 
@@ -73,8 +73,9 @@ function eliminarEnlaceLeg(){
 }
 
 function editarELegislacion(){
+
   var datos = $.ajax({
-    url:'editarELegislacion',
+    url:'../php/legislacionLink/editarELegislacion.php',
     data: {
       id:   txtIdE.val(),
       nom:  txtNombre.val(),
@@ -112,7 +113,7 @@ function editarELegislacion(){
     id = $(this).attr('id');
 
     var datos = $.ajax({
-      url:'getLegEspecifico',
+      url:'../php/legislacionLink/getLegislacionId.php',
       data: {
         id: id
       },
@@ -157,7 +158,7 @@ function editarELegislacion(){
 
 function getLegTodos(){
   var datos = $.ajax({
-    url: 'getLegTodos',
+    url: '../php/legislacionLink/getTodoLegislacion.php',
     type: 'get',
     async:false
       }).error(function(e){
@@ -220,7 +221,7 @@ function getLegTodos(){
 
 function getLegislacion(){
       var datos = $.ajax({
-        url: 'getLegislacion',
+        url: '../php/legislacionLink/getLegislacion.php',
         data: {
           bsc: txtBuscar.val(),
           adm:1
