@@ -210,6 +210,42 @@
                                </a>
                            </li>
 
+                           <li id="li8Comercio6li" class="liInfoteca">
+                               <a class="grisClaro " id="li8Comercio6"  style="cursor:pointer">
+                                 <p>
+                                   - Segunda Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. (Publicada el 19 de octubre de 2016)
+                                 </p>
+                               </a>
+                           </li>
+                           <li id="li8Comercio7li" class="liInfoteca">
+                               <a class="grisClaro " id="li8Comercio7"  style="cursor:pointer">
+                                 <p>
+                                   - Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Segunda Resolución de Modificaciones a las RGCE para 2016. (Publicado el 19 de octubre de 2016)
+                                 </p>
+                               </a>
+                           </li>
+                           <li id="li8Comercio8li" class="liInfoteca">
+                               <a class="grisClaro " id="li8Comercio8"  style="cursor:pointer">
+                                 <p>
+                                   - Anexo Glosario de Definiciones y Acrónimos 1, 15, 21, 22 y 29 de la Segunda Resolución de modificaciones a las Reglas Generales de Comercio Exterior para 2016, publicada el 19 de octubre de 2016. (Publicados el 25 de octubre de 2016)
+                                 </p>
+                               </a>
+                           </li>
+                           <li id="li8Comercio9li" class="liInfoteca">
+                               <a class="grisClaro " id="li8Comercio9"  style="cursor:pointer">
+                                 <p>
+                                   - Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 y sus anexos 1, 4, 21 y 22.
+                                 </p>
+                               </a>
+                           </li>
+                           <li id="li8Comercio10li" class="liInfoteca">
+                               <a class="grisClaro " id="li8Comercio10"  style="cursor:pointer">
+                                 <p>
+                                   - Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. (Publicadas el 25 de noviembre de 2016).
+                                 </p>
+                               </a>
+                           </li>
+
 
 
 

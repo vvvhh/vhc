@@ -197,6 +197,11 @@
                       <option value="64">64 Resolución Miscelánea Fiscal para 2016</option>
                       <option value="65">65 Anexo 1-A de la Resolución Miscelánea Fiscal para 2017 anticipada</option>
                       <option value="66">66 Resolución Miscelánea Fiscal 2017 anticipada</option>
+                      <option value="67">67 Segunda Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. (Publicada el 19 de octubre de 2016)</option>
+                      <option value="68">68 Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Segunda Resolución de Modificaciones a las RGCE para 2016.</option>
+                      <option value="69">69 Anexo Glosario de Definiciones y Acrónimos 1, 15, 21, 22 y 29 de la Segunda Resolución de modificaciones a las Reglas Generales de Comercio Exterior para 2016</option>
+                      <option value="70">70 Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 </option>
+                      <option value="71">71 Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. </option>
 
                     </select>
                   </div>
@@ -319,6 +324,12 @@
                       <option value="63">63 Resolución Miscelánea Fiscal para 2016</option>
                       <option value="64">64 Anexo 1-A de la Resolución Miscelánea Fiscal para 2017 anticipada</option>
                       <option value="65">65 Resolución Miscelánea Fiscal 2017 anticipada</option>
+                      <option value="66">66 Resolución Miscelánea Fiscal 2017 anticipada</option>
+                      <option value="67">67 Segunda Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. (Publicada el 19 de octubre de 2016)</option>
+                      <option value="68">68 Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Segunda Resolución de Modificaciones a las RGCE para 2016.</option>
+                      <option value="69">69 Anexo Glosario de Definiciones y Acrónimos 1, 15, 21, 22 y 29 de la Segunda Resolución de modificaciones a las Reglas Generales de Comercio Exterior para 2016</option>
+                      <option value="70">70 Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 </option>
+                      <option value="71">71 Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. </option>
                     </select>
                   </div>
                 </div>

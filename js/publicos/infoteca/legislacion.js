@@ -63,7 +63,12 @@ var li7Resolucion=$('#li7Resolucion'),
       li8Comercio2=$('#li8Comercio2'),
       li8Comercio3=$('#li8Comercio3'),
       li8Comercio4=$('#li8Comercio4'),
-      li8Comercio5=$('#li8Comercio5');
+      li8Comercio5=$('#li8Comercio5'),
+      li8Comercio6=$('#li8Comercio6'),
+      li8Comercio7=$('#li8Comercio7'),
+      li8Comercio8=$('#li8Comercio8'),
+      li8Comercio9=$('#li8Comercio9'),
+      li8Comercio10=$('#li8Comercio10');
   var li9Res1=$('#li9Res1'),
       li9Res2=$('#li9Res2');
 var liTesis=$('#liTesis'),
@@ -553,6 +558,41 @@ function get8Comercio5(){
   limpiarReglas();
   $('#li8Comercio5li').addClass('activoBorde');
 }
+function get8Comercio6(){
+  tipo = 67;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio6li').addClass('activoBorde');
+}
+function get8Comercio7(){
+  tipo = 68;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio7li').addClass('activoBorde');
+}
+function get8Comercio8(){
+  tipo = 69;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio8li').addClass('activoBorde');
+}
+function get8Comercio9(){
+  tipo = 70;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio9li').addClass('activoBorde');
+}
+function get8Comercio10(){
+  tipo = 71;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio10li').addClass('activoBorde');
+}
 
 
 function get9Res1(){
@@ -790,6 +830,12 @@ function limpiarReglas(){
   $('#li8Comercio3li').removeClass('activoBorde');
   $('#li8Comercio4li').removeClass('activoBorde');
   $('#li8Comercio5li').removeClass('activoBorde');
+  $('#li8Comercio6li').removeClass('activoBorde');
+  $('#li8Comercio7li').removeClass('activoBorde');
+  $('#li8Comercio8li').removeClass('activoBorde');
+  $('#li8Comercio9li').removeClass('activoBorde');
+  $('#li8Comercio10li').removeClass('activoBorde');
+
   limiarMenuNivel1();
 }
 function limpiarPld(){
@@ -895,6 +941,12 @@ li8Comercio2.on('click',get8Comercio2);
 li8Comercio3.on('click',get8Comercio3);
 li8Comercio4.on('click',get8Comercio4);
 li8Comercio5.on('click',get8Comercio5);
+li8Comercio6.on('click',get8Comercio6);
+li8Comercio7.on('click',get8Comercio7);
+li8Comercio8.on('click',get8Comercio8);
+li8Comercio9.on('click',get8Comercio9);
+li8Comercio10.on('click',get8Comercio10);
+
 li7Resolucion9.on('click',get7Resolucion9);
 li7Resolucion10.on('click',get7Resolucion10);
 li7Resolucion11.on('click',get7Resolucion11);
