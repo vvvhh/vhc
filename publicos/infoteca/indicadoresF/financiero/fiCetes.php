@@ -43,6 +43,37 @@
   <!--  -->      <!-- MUESTRA EL CONTENIDO DEL ARTICULO -->
 
 
+
+
+    <div class="well transparenteClaroTxt">  <!-- Well -->
+      <div class="row">
+        <div class="col-md-12">
+         <div>
+                <table class="table table-striped  table-bordered table-condensed">
+              <!-- *********** -->
+              <h3 class="text-center">	Certificados de la Tesorería 2017	</h3>
+
+      <thead>
+      	<tr  class="activoLiMenu">	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Publicion en el D.O.F.	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	28 Días	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	91 Días	</th>	</tr>
+      </thead>
+    <tbody class="animEscalarFila">
+      <tr>	<td class="text-center">	05/01/2017	<td class="text-center">	6.02	</td>  <td class="text-center">	5.82	</td> </tr>
+
+
+
+
+             </tbody>
+              <!-- * -->
+                    </table>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+
+
+
   <div class="well transparenteClaroTxt">  <!-- Well -->
     <div class="row">
       <div class="col-md-12">
@@ -105,6 +136,8 @@
   <tr>	<td class="text-center">	01/12/2016	<td class="text-center">	5.99	</td>  <td class="text-center">	5.62	</td> </tr>
   <tr>	<td class="text-center">	08/12/2016	<td class="text-center">	5.85	</td>  <td class="text-center">	5.59	</td> </tr>
   <tr>	<td class="text-center">	15/12/2016	<td class="text-center">	5.70	</td>  <td class="text-center">	5.51	</td> </tr>
+  <tr>	<td class="text-center">	22/12/2016	<td class="text-center">	5.83	</td>  <td class="text-center">	5.65	</td> </tr>
+  <tr>	<td class="text-center">	29/12/2016	<td class="text-center">	5.96	</td>  <td class="text-center">	5.69	</td> </tr>
 
 
 

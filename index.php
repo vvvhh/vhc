@@ -238,7 +238,7 @@
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
        <?php $textoMarquee1 = $textoMarquee1."INPC: 121.953<sup>2</sup> " ?>
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 5.70<sup>3</sup>" ?>
+       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 6.02 <sup>3</sup>" ?>
        <input type="text" class="hidden" name="name" value="<?php echo $dolar ?>" id="txtValDolar">
 
         <marquee  behavior="scroll" scrollamount=3 direction="left">

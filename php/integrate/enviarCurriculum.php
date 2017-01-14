@@ -50,7 +50,7 @@ if(isset($token)) {
   fclose($handle);
   $content = chunk_split(base64_encode($content));
    $uid = md5(uniqid(time()));
-  $para  = 'edgar.santiago@contadoresvh.com';
+  $para  = 'karen.uribe@contadoresvh.com';
   $titulo = 'Postulación desde sitio web';
   $from = 'sitio web';
   $mensaje = "<html>".

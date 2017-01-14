@@ -202,13 +202,6 @@
                                  </p>
                                </a>
                            </li>
-                           <li id="li8Comercio5li" class="liInfoteca">
-                               <a class="grisClaro " id="li8Comercio5"  style="cursor:pointer">
-                                 <p>
-                                  - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016.
-                                 </p>
-                               </a>
-                           </li>
 
                            <li id="li8Comercio6li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio6"  style="cursor:pointer">
@@ -246,7 +239,13 @@
                                </a>
                            </li>
 
-
+                           <li id="li8Comercio5li" class="liInfoteca">
+                               <a class="grisClaro " id="li8Comercio5"  style="cursor:pointer">
+                                 <p>
+                                  - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016.
+                                 </p>
+                               </a>
+                           </li>  
 
 
                   </ul>
