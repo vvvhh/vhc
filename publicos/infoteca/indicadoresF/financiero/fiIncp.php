@@ -65,6 +65,7 @@
 
 <tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	 ​08 de julio de 2015	  </td>	</tr>
 -->
+<tr>	<td class="text-center">	Diciembre	</td>	<td class="text-center">	 	*122.515	  </td>	<td class="text-center">	10 de enero de 2017 </td>	</tr>
 <tr>	<td class="text-center">	Noviembre	</td>	<td class="text-center">	 	*121.953	  </td>	<td class="text-center">	09 de diciembre de 2016 </td>	</tr>
 <tr>	<td class="text-center">	Octubre	</td>	<td class="text-center">	 	​​​​​​​​​​​​*121.007	  </td>	<td class="text-center">	10 de noviembre de 2016 </td>	</tr>
 <tr>	<td class="text-center">	Septiembre	</td>	<td class="text-center">	 	​​​​​​*120.277	  </td>	<td class="text-center">	10 de octubre de 2016 </td>	</tr>

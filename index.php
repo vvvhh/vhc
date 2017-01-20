@@ -222,23 +222,27 @@
 
           $textoMarquee="";
           $textoMarquee1="";
+          //$date_format = 'j/m/Y, g:i a';
+          $date_format = 'j/m/Y';
           $x=0;
           foreach ($feed->get_items() as $item) {
             $textoMarquee = $textoMarquee.$item->get_title();
-            $textoMarquee = $textoMarquee." ";
-            $textoMarquee = $textoMarquee.$item->get_content();
+            $textoMarquee = $textoMarquee."&nbsp&nbsp";
+            $textoMarquee = $textoMarquee.'<strong>'.$item->get_content().'</strong>';
+            $textoMarquee = $textoMarquee."&nbsp&nbsp";
+            $textoMarquee = $textoMarquee.$item->get_date($date_format);
             $textoMarquee = $textoMarquee.'<sup>1</sup>';
             $textoMarquee = $textoMarquee."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-            if ($x==1) { $dolar = $item->get_description();}
+            if ($x==1) { $dolar = $item->get_description();}   //para convertidor
             $x++;
             }
 
        ?>
-       <?php $textoMarquee1 = $textoMarquee1."Salario mínimo: $ 73.04<sup>2</sup>  &nbsp; " ?>
+       <?php $textoMarquee1 = $textoMarquee1."Salario mínimo: $ 80.04 <sup>2</sup>  &nbsp; " ?>
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-       <?php $textoMarquee1 = $textoMarquee1."INPC: 121.953<sup>2</sup> " ?>
+       <?php $textoMarquee1 = $textoMarquee1."INPC: 122.515<sup>2</sup> " ?>
        <?php $textoMarquee1 = $textoMarquee1."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" ?>
-       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 6.02 <sup>3</sup>" ?>
+       <?php $textoMarquee1 = $textoMarquee1."CETES 28: 5.86 <sup>3</sup>" ?>
        <input type="text" class="hidden" name="name" value="<?php echo $dolar ?>" id="txtValDolar">
 
         <marquee  behavior="scroll" scrollamount=3 direction="left">
@@ -423,7 +427,7 @@
           </div>
           <div class="row">
             <div class="col-md-6">
-              <small><sup>1</sup><a href="http://dof.gob.mx/filtroRss.php" target=black  class="enlaceSimple">
+              <small><sup>1</sup><a href="http://dof.gob.mx" target=black  class="enlaceSimple">
                 Fuente: Diario Oficial de la Federación
               </a></small>
 
@@ -636,7 +640,7 @@
                <div class="table-responsive tamNoticia" >
 
                  <h3 class="text-center">
-                      <strong><a class="grisObscuro enlaceSimple"target="blanck" href="">
+                      <strong><a class="grisObscuro enlaceSimple"target="blanck" href="http://dof.gob.mx/">
                        Diario Oficial de la Federación
                      </a></strong>
                  </h3>
