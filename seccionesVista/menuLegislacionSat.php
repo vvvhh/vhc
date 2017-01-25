@@ -33,6 +33,71 @@
             <div id="ulCo" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                <li id="li7Resolucion26li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion26"  style="cursor:pointer">
+                           <p>
+                             - Anexo 20
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion25li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion25"  style="cursor:pointer">
+                           <p>
+                             - Anexo 14
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion24li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion24"  style="cursor:pointer">
+                           <p>
+                             - Anexo 23
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion23li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion23"  style="cursor:pointer">
+                           <p>
+                             - Anexos 24, 25, 27, 28 y 29
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion22li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion22"  style="cursor:pointer">
+                           <p>
+                             - Anexos 5, 8, 10, 11 y 17
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion21li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion21"  style="cursor:pointer">
+                           <p>
+                             - Anexos 3 y 7
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion20li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion20"  style="cursor:pointer">
+                           <p>
+                             - Anexo 1
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion19li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion19"  style="cursor:pointer">
+                           <p>
+                             - Anexo 1-A
+                           </p>
+                      </a>
+                </li>
+
+                <li id="li7Resolucion18li" class="liInfoteca">
+                      <a class="grisClaro " id="li7Resolucion18"  style="cursor:pointer">
+                           <p>
+                             - Resolución Miscelánea Fiscal para 2017 y su anexo 19
+                           </p>
+                      </a>
+                </li>
+
                 <li id="li7Resolucion17li" class="liInfoteca">
                       <a class="grisClaro " id="li7Resolucion17"  style="cursor:pointer">
                            <p>
@@ -245,7 +310,7 @@
                                   - Correlación de las Reglas Generales de Comercio Exterior para 2015-2016.
                                  </p>
                                </a>
-                           </li>  
+                           </li>
 
 
                   </ul>

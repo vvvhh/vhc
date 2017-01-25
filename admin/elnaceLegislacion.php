@@ -202,6 +202,15 @@
                       <option value="69">69 Anexo Glosario de Definiciones y Acrónimos 1, 15, 21, 22 y 29 de la Segunda Resolución de modificaciones a las Reglas Generales de Comercio Exterior para 2016</option>
                       <option value="70">70 Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 </option>
                       <option value="71">71 Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. </option>
+                      <option value="72">72 Resolución Miscelánea Fiscal para 2017 y su anexo 19</option>
+                      <option value="73">73 Anexo 1-A </option>
+                      <option value="75">75 Anexo 1 </option>
+                      <option value="74">74 Anexos 3 y 7 </option>
+                      <option value="76">76 Anexos 5, 8, 10, 11 y 17 </option>
+                      <option value="77">77 Anexos 24, 25, 27, 28 y 29 </option>
+                      <option value="78">78 Anexo 23</option>
+                      <option value="79">79 Anexo 14 </option>
+                      <option value="80">80 Anexo 20</option>
 
                     </select>
                   </div>
@@ -330,6 +339,15 @@
                       <option value="69">69 Anexo Glosario de Definiciones y Acrónimos 1, 15, 21, 22 y 29 de la Segunda Resolución de modificaciones a las Reglas Generales de Comercio Exterior para 2016</option>
                       <option value="70">70 Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016 </option>
                       <option value="71">71 Compilado de las Reglas Generales de Comercio Exterior para 2016, a la Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2016. </option>
+                      <option value="72">72 Resolución Miscelánea Fiscal para 2017 y su anexo 19</option>
+                      <option value="73">73 Anexo 1-A </option>
+                      <option value="75">75 Anexo 1 </option>
+                      <option value="74">74 Anexos 3 y 7 </option>
+                      <option value="76">76 Anexos 5, 8, 10, 11 y 17 </option>
+                      <option value="77">77 Anexos 24, 25, 27, 28 y 29 </option>
+                      <option value="78">78 Anexo 23</option>
+                      <option value="79">79 Anexo 14 </option>
+                      <option value="80">80 Anexo 20</option>
                     </select>
                   </div>
                 </div>
