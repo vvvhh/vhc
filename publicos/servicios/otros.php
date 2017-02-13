@@ -105,7 +105,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <h4 class="grisObscuro">
-                    Atención a requerimientos de diferentes autoridades, como pueden ser:
+                    Atención a requerimientos de diferentes autoridades, ofrecemos:
                   </h4>
                   <ul>
                     <li class="formatoTexto">	Atención a auditorías por parte de dependencias gubernamentales</li>
@@ -125,7 +125,7 @@
           <div class="row">
             <div class="col-md-12">
               <h4 class="grisObscuro">
-                Capacitación y adiestramiento, ofrecemos:
+                Capacitación:
               </h4>
               <ul>
                 <li class="formatoTexto">	Capacitación al personal de la empresa para consulta de información en el portal del SAT.</li>
