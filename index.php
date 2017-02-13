@@ -555,48 +555,15 @@
          <ol class="carousel-indicators">
            <li data-target="#carouselNoticias" data-slide-to="0" class="liInicio2 active"></li>
            <li data-target="#carouselNoticias" data-slide-to="1" class="liInicio2"></li>
-           <li data-target="#carouselNoticias" data-slide-to="2" class="liInicio2"></li>
+        <!--     <li data-target="#carouselNoticias" data-slide-to="2" class="liInicio2"></li>
+        -->
          </ol>
 
          <div class="carousel-inner">
+
+
+
            <div class="item active">
-             <div class="table-responsive tamNoticia" >
-               <h3 class="text-center">
-                <strong>  <a class="grisObscuro enlaceSimple"  href=""  target="_blanck">
-                    El Economista
-                  </a></strong>
-              </h3>
-              <?php
-
-                $urlfeedEconomista = "http://eleconomista.com.mx/ultimas-noticias/rss";
-                $feedEconomista = new SimplePie();
-                $feedEconomista->set_feed_url($urlfeedEconomista);
-                $feedEconomista->set_cache_location("cache");
-                $feedEconomista->enable_order_by_date(true);
-                $feedEconomista->init();
-
-                foreach ($feedEconomista->get_items() as $itemEconomista) {
-              ?>
-              <table class="table ">
-
-                  <tr class="item">
-                    <td>
-                      <p>
-                       <h4><a class="enlaceSimple" href="<?php echo $itemEconomista->get_permalink(); ?>" target="_blank">
-                         <?php echo $itemEconomista->get_title(); ?>
-                       </a><br><small>Fecha: <?php echo $itemEconomista->get_date('j/m/Y, g:i a'); ?> </small></h4>
-                        <small class="text-justify grisObscuro"><?php echo $itemEconomista->get_description(); ?></small>
-                      </p>
-                    </td>
-                  </tr>
-
-                </table>
-                <?php  } ?>
-
-             </div>
-           </div>
-
-           <div class="item ">
              <div class="table-responsive tamNoticia" >
                <h3 class="text-center">
                 <strong>  <a class="grisObscuro enlaceSimple"  href=""  target="_blanck">
