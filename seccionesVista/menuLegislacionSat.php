@@ -33,6 +33,27 @@
             <div id="ulCo" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                <li id="li7Resolucion29li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion29"  style="cursor:pointer">
+                           <p>
+                             - Anexo 16-A
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion28li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion28"  style="cursor:pointer">
+                           <p>
+                             - Anexo 16
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion27li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion27"  style="cursor:pointer">
+                           <p>
+                             - Anexo 15
+                           </p>
+                      </a>
+                </li>
                 <li id="li7Resolucion26li" class="liInfoteca">
                       <a class="grisClaro" id="li7Resolucion26"  style="cursor:pointer">
                            <p>
@@ -366,7 +387,7 @@
 
                     <div class="panel panel-default">
 
-                      <li id="li6Modli" class="liInfoteca">
+                      <li id="li6Modli" class="liInfoteca" style="list-style: none;">
                           <a id="li6Mod" class="grisClaro enlaceSimple2" style="cursor:pointer">
                               <div class="panel-heading">
                             <h4 class="panel-title">
@@ -717,7 +738,7 @@
       </div>
       </a>
       -->
-      <li id="li10Revisionli" class="liInfoteca">
+      <li id="li10Revisionli" class="liInfoteca" style="list-style: none;">
           <a id="li10Revision" class="grisClaro enlaceSimple2" style="cursor:pointer">
               <div class="panel-heading">
             <h4 class="panel-title">
@@ -762,7 +783,7 @@
       </div>
       </a>
 -->
-      <li id="li5manualli" class="liInfoteca">
+      <li id="li5manualli" class="liInfoteca" style="list-style: none;">
           <a id="li5manual" class="grisClaro enlaceSimple2" style="cursor:pointer">
               <div class="panel-heading">
             <h4 class="panel-title">
@@ -799,7 +820,7 @@
       </div>
       </a>
       -->
-            <li id="li3Instructivoli" class="liInfoteca">
+            <li id="li3Instructivoli" class="liInfoteca" style="list-style: none;">
                 <a id="li3Instructivo" class="grisClaro enlaceSimple2" style="cursor:pointer">
                     <div class="panel-heading">
                   <h4 class="panel-title">
@@ -810,6 +831,7 @@
                   </div>
                 </a>
             </li>
+
     <!--   <div id="ulSS"  class="panel-collapse collapse">
 
         <ul class="colorNav liInfoteca" style="list-style-type: none">
