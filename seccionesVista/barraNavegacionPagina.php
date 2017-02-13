@@ -62,7 +62,8 @@ var aInicio=document.getElementById('aInicio'),
 
 
 function verificarAceptadoAvisoNavegacion(){
-  var valor=sessionStorage.getItem("visita");
+//  var valor=sessionStorage.getItem("visita");
+ var valor =1;
   var rInicio="index.php",
       rNosotros="publicos/sobreNosotros.php",
       rServicios="publicos/servicios.php",
@@ -74,6 +75,7 @@ function verificarAceptadoAvisoNavegacion(){
       rImagen="img/logoNombre.png";
 
   var dominio=window.location.host;
+  //var absoluta="/";                   /*------------------------------------------------------------------*/
   var absoluta="/vhc/";                   /*------------------------------------------------------------------*/
 
   aInicio.href="http://"+dominio+absoluta+rInicio;

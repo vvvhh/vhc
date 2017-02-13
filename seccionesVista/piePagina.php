@@ -78,12 +78,11 @@
       aMapa=document.getElementById('aMapa');
 
 function verificarAceptadoAvisoPie(){
-
-  var valor=sessionStorage.getItem("visita");
-
-
+  //var valor=sessionStorage.getItem("visita");
+  var valor=1;
       var dominio=window.location.host;
       var absoluta="/vhc/";
+      //var absoluta="/";
       var rCondicion="publicos/piePagina/propiedadIntelectual.php",
           rPrivacidad="publicos/piePagina/avisoPrivacidadClientes.php",
           rPolitica="publicos/piePagina/politicaUso.php",

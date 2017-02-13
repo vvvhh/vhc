@@ -17,19 +17,12 @@ function alertInicio(){
       centrado="text-center";
       centrado="center";
 
-      bootbox.dialog({
+      /*bootbox.dialog({
         message: "<div align='"+centrado+"'> <img src='"+urlImg+"'><br><h4><strong>Bienvenido(a)</strong></h4><p>Al visitar este sitio, usted está de acuerdo con la Política de Uso y Privacidad.</p> <p><a href='publicos/piePagina/politicaUso.php'>Leer Política de Uso y Privacidad</a></p> </div>",
         closeButton: false,
         animate: true,
         buttons: {
-      /*    main: {
-            label: "He leido y acepto la Política de Uso y Privacidad",
-            className: "btn-default",
-            callback: function() {
-              sessionStorage.setItem("visita", "1");
-            }
 
-          },*/
           success: {
             label: "He leído y acepto la Política de Uso y Privacidad",
             //label: "Leer Política de Uso y Privacidad",
@@ -37,21 +30,15 @@ function alertInicio(){
             callback: function() {
               //location.href="publicos/piePagina/politicaUso";
               sessionStorage.setItem("visita", "1");
-            /*  var condicion=$('#condicion'),
-                  aPrivacidad=$('#aPrivacidad'),
-                  aPolitica=$('#aPolitica')
-                  aMapa=$('#aMapa');
-
-                  condicion.attr('href', 'publicos/piePagina/propiedadIntelectual');
-                  aPrivacidad.attr('href', 'publicos/piePagina/avisoPrivacidadClientes');
-                  aPolitica.attr('href', 'publicos/piePagina/politicaUso');
-                  aMapa.attr('href', 'publicos/piePagina/mapaSitio');*/
-                  verificarAceptadoAvisoNavegacion(); //desde js de inicio
-                  verificarAceptadoAvisoPie();
+              verificarAceptadoAvisoNavegacion(); //desde js de inicio
+              verificarAceptadoAvisoPie();
             }
           }
         }
-      });
+      });*/
+      sessionStorage.setItem("visita", "1");
+      verificarAceptadoAvisoNavegacion(); //desde js de inicio
+      verificarAceptadoAvisoPie();
     }
     inpUsd.val('1');
   //  inpMxn.val(txtValDolar.val());
