@@ -60,6 +60,7 @@
   </table>
 
 <div class="table-responsive">
+  <!-- **************************************************************************************************************************** -->
   <table class="table table-striped  table-bordered table-condensed">
       <thead>
         <tr  class="activoLiMenu">	<th class="text-center">	Obligación a cumplir	</th>	<th class="text-center">	Personas obligadas	</th>	<th class="text-center">	Forma de cumplir	</th>	<th class="text-center">	Fundamento legal	</th>	</tr>
@@ -78,6 +79,8 @@
             </td>	</tr>
     </tbody>
   </table>
+
+  <!-- /************************************************************************************************************************************ -->
 </div>
 
 
@@ -89,39 +92,13 @@
   <tr  class="activoLiMenu">	<th class="text-center">	Fecha limite de presentacion el día 17	</th>	</tr>
 </thead>
 </table>
-<!--
-<h4 class="text-center">	PERSONAS FÍSICAS	</h4>
-<div class="table-responsive">
-  <table class="table table-striped  table-bordered table-condensed">
-    <thead>
-      <tr  class="activoLiMenu">	<th class="text-center">	CONTRIBUYENTE	</th>	<th class="text-center">	FORMA DE PRESENTACIÓN	</th>	<th class="text-center">	CONCEPTO A DECLARAR	</th>	<th class="text-center">	FUNDAMENTO	</th>	</tr>
-    </thead>
-    <tbody class="animEscalarFila">
-      <tr>	<td class="text-center">	Arrendamiento de bienes inmuebles	                                                    </td>	<td class="text-center">	Con el Servicio de Declaraciones y Pagos (pago referenciado).</td>	<td class="text-center">	Pago provisional trimestral del ISR e IVA y entero de retenciones, en su caso.	     </td>	<td class="text-center">	Artículos 1-A y 5-D de la LIVA. Regla 2.8.5.1 de la RMF 2015.	                                            </td>	</tr>
-      <tr>	<td class="text-center">	Salarios, en su caso, sólo ISR. Actividades Empresariales y Servicios Profesionales	  </td>	<td class="text-center">	Pago con línea de captura en los Bancos autorizados.         </td>	<td class="text-center">	Pago provisional o definitivo del ISR, IVA, IEPS y entero de retenciones, en su caso. </td>	<td class="text-center">	Artículos 90, 94, 96, 97, 106, 114 y 116 de la LISR; 1-A y 5-F de la LIVA;  Regla 2.8.5.1 de la RMF 2015.	</td>	</tr>
-    </tbody>
-  </table>
-</div>
-<br>
-<h4 class="text-center">	PERSONAS MORALES	</h4>
-<div class="table-responsive">
-  <table class="table table-striped  table-bordered table-condensed">
-    <thead>
-      <tr  class="activoLiMenu">	<th class="text-center">	CONTRIBUYENTE	</th>	<th class="text-center">	FORMA DE PRESENTACIÓN	</th>	<th class="text-center">	CONCEPTO A DECLARAR	</th>	<th class="text-center">	FUNDAMENTO	</th>	</tr>
-    </thead>
-    <tbody class="animEscalarFila">
-      <tr>	<td class="text-center">	   </td>	<td class="text-center">	Con el servicio de declaraiones y pagos (pago referenciado)<br>Pago con línea de captura en los Bancos autorizados.</td>	<td class="text-center">	Pago provisional del ISR, IVA, IEPS y entero de retenciones. </td>	<td class="text-center">	Artículos 10, 12, 14, 71, 72, 74, 75, 84, 87, 96 y 106 de la LISR. Regla 2.8.5.1 de la RMF 2015.  </td>	</tr>
 
-    </tbody>
-  </table>
-</div>
--->
 
-<!-- ********* -->
 <h4 class="text-center">
     Pagos provisionales y definitivos
 </h4>
 <div class="table-responsive">
+  <!-- ********************************************************************************************************************************** -->
   <table class="table table-striped  table-bordered table-condensed">
     <thead>
       <tr  class="activoLiMenu">	<th class="text-center">	Obligación a cumplir</th>	<th class="text-center">Personas obligadas	</th>	<th class="text-center">	Forma de presentación	</th>	<th class="text-center">	Fundamento legal	</th>	</tr>
@@ -148,14 +125,9 @@
         Artículos 90, 94, 96, 97, 106, 114 y 116 de la LISR; 1-A y 5-F de la LIVA; Regla 2.8.5.1 de la RMF 2016.
       </td>	</tr>
 
-    <!--     <tr><td class="text-center">	Pago provisional o definitivo del ISR, IVA, IEPS y entero de retenciones, en su caso.
-      </td>	<td class="text-center"> Personas físicas: <br> Actividades Empresariales y Servicios Profesionales Arrendamiento de bienes inmuebles Salarios, en su caso, sólo ISR.
-      </td>	<td class="text-center"> Con el Servicio de Declaraciones y Pagos. Pago con línea de captura en los Bancos autorizados.
-      </td><td class="text-center"> Artículos 90, 94, 96, 97, 106, 114 y 116 de la LISR; 1-A y 5-F de la LIVA; Regla 2.8.5.1 de la RMF 2016.
-      </td>	</tr>
-      -->
     </tbody>
   </table>
+  <!-- /*************************************************************************************************************************************** -->
 </div>
 
 
@@ -166,10 +138,9 @@
 <div class="well transparenteClaroTxt">
 <div class="row">
 <div class="col-md-12">
-    <!-- ********* -->
-
   <h4 class="text-center">	ENTERO DE RETENCIONES ESPECIFICAS 	</h4>
   <div class="table-responsive">
+      <!-- **************************************************************************************************************************** -->
     <table class="table table-striped  table-bordered table-condensed">
       <thead>
         <tr  class="activoLiMenu">	<th class="text-center">	Obligación a cumplir	</th>	<th class="text-center">	Personas obligadas	</th>	<th class="text-center">	Forma de presentación	</th>	<th class="text-center">	 	Fundamento legal	</th>	</tr>
@@ -201,8 +172,9 @@
         </td>	</tr>
       </tbody>
     </table>
+
+  <!-- /*********************************************************************************************************** -->
   </div>
-  <!-- ******************* -->
   </div>
 </div>
 </div>
@@ -211,10 +183,11 @@
 <div class="well transparenteClaroTxt">
 <div class="row">
   <div class="col-md-12">
-      <!-- ****************************** -->
+    <h4 class="text-center">	DECLARACIONES INFORMATIVAS 	</h4>
+    <div class="table-responsive">
+      <!-- ******************************************************************************************************************************* -->
 
-<h4 class="text-center">	DECLARACIONES INFORMATIVAS 	</h4>
-<div class="table-responsive">
+
   <table class="table table-striped  table-bordered table-condensed">
     <thead>
       <tr  class="activoLiMenu">	<th class="text-center">	Información a presentar </th>	<th class="text-center">Personas obligadas 	</th>	<th class="text-center">	Forma de presentación 	</th>	<th class="text-center">	Fundamento legal 	</th>	</tr>
@@ -225,7 +198,7 @@
         Información de las contraprestaciones o donativos recibidos en el mes inmediato anterior, en efectivo en moneda nacional o extranjera, así como en piezas de oro o plata, cuyo monto sea superior a 100,000 pesos.
       </td>	<td class="text-center">
         Contribuyentes que perciban contraprestaciones o donativos en efectivo en moneda nacional o extranjera, así como en piezas de oro o plata, cuyo monto sea superior a 100,000 pesos.
-      </td>	<td class="text-center">
+        </td>	<td class="text-center">
         Declaración Informativa del Formulario 35. Dé clic aquí para obtener el programa electrónico para elaborar su declaración.
       </td><td class="text-center">
         Artículos 76, fracción XV, 82 fracción VII, 110, fracción VII, 118 fracción V y 128 de la LISR. Ficha de trámite 1/ISR del Anexo 1-A de la RMF 2016.
@@ -252,8 +225,10 @@
       </td>	</tr>
     </tbody>
   </table>
+
+  <!-- /*************************************************************************************************************************** -->
 </div>
-<!-- ****************** -->
+
 </div>
 </div>
 </div>
@@ -263,27 +238,24 @@
 <div class="well transparenteClaroTxt">
 <div class="row">
   <div class="col-md-12">
-      <!-- *********** -->
 
-<!--  <p class="text-justify">
-  Por decreto presidencial, los contribuyentes que de conformidad con las disposiciones fiscales deban presentar declaraciones provisionales o definitivas de impuestos federales a mas tardar el día 17 de abril, al periodo que corresponda la declaración, ya sea por impuestos propios o por retenciones, podrán presentarse a más tardar el dia que a continuación se señala considerando el sexto digito númerico del registro federal de contribuyentes (RFC), de acuerdo a lo siguiente:
-</p>
--->
 <div class="table-responsive">
+  <!-- ********************************************************************************************************************************* -->
   <table class="table table-striped  table-bordered table-condensed">
     <thead>
       <tr  class="activoLiMenu">	<th class="text-center">	SEXTO DIGITO NUMERICO DE LA CLAVE DEL RFC	</th>	<th class="text-center">	FECHA LIMITE DE PAGO	</th>	</tr>
     </thead>
     <tbody class="animEscalarFila">
-      <tr><td class="text-center">1 y 2</td>	<td class="text-center">19 de diciembre 2016</td>	</tr>
-      <tr><td class="text-center">3 y 4</td>	<td class="text-center">20 de diciembre 2016</td>	</tr>
-      <tr><td class="text-center">5 y 6</td>	<td class="text-center">21 de diciembre 2016</td>	</tr>
-      <tr><td class="text-center">7 y 8</td>	<td class="text-center">22 de diciembre 2016</td>	</tr>
-      <tr><td class="text-center">9 y 0</td>	<td class="text-center">23 de diciembre 2016 </td>	</tr>
+      <tr>  <td class="text-center">  1 y 2 </td> 	<td class="text-center">  19 de diciembre 2016  </td>	 </tr>
+      <tr><td class="text-center">  3 y 4 </td> 	<td class="text-center">  20 de diciembre 2016  </td>	 </tr>
+      <tr><td class="text-center">  5 y 6 </td> 	<td class="text-center">  21 de diciembre 2016  </td>  	</tr>
+      <tr><td class="text-center">  7 y 8 </td>	  <td class="text-center">  22 de diciembre 2016  </td> 	</tr>
+      <tr><td class="text-center">  9 y 0 </td>	  <td class="text-center">  23 de diciembre 2016   </td>  	</tr>
     </tbody>
   </table>
+  <!-- /************************************************************************************************************************************************* -->
 </div>
-<!-- **************** -->
+
 </div>
 </div>
 </div>
@@ -292,7 +264,7 @@
 <div class="well transparenteClaroTxt">
 <div class="row">
 <div class="col-md-12">
-    <!-- ********************* -->
+
 
 <h4 class="text-center">
 PRESENTAR LOS SIGUIENTES PAGOS O DECLARACIONES A MAS TARDAR EL DIA 31
@@ -301,6 +273,7 @@ PRESENTAR LOS SIGUIENTES PAGOS O DECLARACIONES A MAS TARDAR EL DIA 31
 Declaración Informativa de Operaciones con Terceros (DIOT)
 </h4>
 <div class="table-responsive">
+  <!-- ************************************************************************************************************************ -->
 <table class="table table-striped  table-bordered table-condensed">
   <thead>
     <tr  class="activoLiMenu">	<th class="text-center">	Obligación	</th>	<th class="text-center">Personas obligadas	</th>	<th class="text-center">Forma de presentación	</th>	<th class="text-center">	Fundamento legal	</th>	</tr>
@@ -317,6 +290,7 @@ Declaración Informativa de Operaciones con Terceros (DIOT)
      </td>	</tr>
   </tbody>
 </table>
+<!-- /******************************************************************************************************************************* -->
 </div>
 <!--
 <br><br>
