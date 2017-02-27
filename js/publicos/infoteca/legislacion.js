@@ -58,16 +58,19 @@ var li7Resolucion=$('#li7Resolucion'),
     li7Resolucion14=$('#li7Resolucion14'),
     li7Resolucion15=$('#li7Resolucion15'),
     li7Resolucion16=$('#li7Resolucion16'),
-    li7Resolucion17=$('#li7Resolucion17');
-    li7Resolucion18=$('#li7Resolucion18');
-    li7Resolucion19=$('#li7Resolucion19');
-    li7Resolucion20=$('#li7Resolucion20');
-    li7Resolucion21=$('#li7Resolucion21');
-    li7Resolucion22=$('#li7Resolucion22');
-    li7Resolucion23=$('#li7Resolucion23');
-    li7Resolucion24=$('#li7Resolucion24');
-    li7Resolucion25=$('#li7Resolucion25');
-    li7Resolucion26=$('#li7Resolucion26');
+    li7Resolucion17=$('#li7Resolucion17'),
+    li7Resolucion18=$('#li7Resolucion18'),
+    li7Resolucion19=$('#li7Resolucion19'),
+    li7Resolucion20=$('#li7Resolucion20'),
+    li7Resolucion21=$('#li7Resolucion21'),
+    li7Resolucion22=$('#li7Resolucion22'),
+    li7Resolucion23=$('#li7Resolucion23'),
+    li7Resolucion24=$('#li7Resolucion24'),
+    li7Resolucion25=$('#li7Resolucion25'),
+    li7Resolucion26=$('#li7Resolucion26'),
+    li7Resolucion27=$('#li7Resolucion27'),
+    li7Resolucion28=$('#li7Resolucion28'),
+    li7Resolucion29=$('#li7Resolucion29');
   var li8Comercio1=$('#li8Comercio1'),
       li8Comercio2=$('#li8Comercio2'),
       li8Comercio3=$('#li8Comercio3'),
@@ -594,6 +597,27 @@ function get7Resolucion26(){
   limpiarResolucion();
   $('#li7Resolucion26li').addClass('activoBorde');
 }
+function get7Resolucion27(){
+  tipo = 81;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion27li').addClass('activoBorde');
+}
+function get7Resolucion28(){
+  tipo = 82;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion28li').addClass('activoBorde');
+}
+function get7Resolucion29(){
+  tipo = 83;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion29li').addClass('activoBorde');
+}
 
 function get8Comercio1(){
   tipo = 38;
@@ -902,6 +926,9 @@ function limpiarResolucion(){
   $('#li7Resolucion24li').removeClass('activoBorde');
   $('#li7Resolucion25li').removeClass('activoBorde');
   $('#li7Resolucion26li').removeClass('activoBorde');
+  $('#li7Resolucion27li').removeClass('activoBorde');
+  $('#li7Resolucion28li').removeClass('activoBorde');
+  $('#li7Resolucion29li').removeClass('activoBorde');
 
   limiarMenuNivel1();
 }
@@ -1046,6 +1073,9 @@ li7Resolucion23.on('click',get7Resolucion23);
 li7Resolucion24.on('click',get7Resolucion24);
 li7Resolucion25.on('click',get7Resolucion25);
 li7Resolucion26.on('click',get7Resolucion26);
+li7Resolucion27.on('click',get7Resolucion27);
+li7Resolucion28.on('click',get7Resolucion28);
+li7Resolucion29.on('click',get7Resolucion29);
 
 li9Res1.on('click',get9Res1);
 li9Res2.on('click',get9Res2);

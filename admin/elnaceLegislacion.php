@@ -211,6 +211,9 @@
                       <option value="78">78 Anexo 23</option>
                       <option value="79">79 Anexo 14 </option>
                       <option value="80">80 Anexo 20</option>
+                      <option value="81">81 Anexo 15</option>
+                      <option value="82">82 Anexo 16</option>
+                      <option value="83">83 Anexo 16-A</option>
 
                     </select>
                   </div>
@@ -348,6 +351,9 @@
                       <option value="78">78 Anexo 23</option>
                       <option value="79">79 Anexo 14 </option>
                       <option value="80">80 Anexo 20</option>
+                      <option value="81">81 Anexo 15</option>
+                      <option value="82">82 Anexo 16</option>
+                      <option value="83">83 Anexo 16-A</option>
                     </select>
                   </div>
                 </div>

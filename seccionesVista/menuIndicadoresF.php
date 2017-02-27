@@ -170,6 +170,11 @@
                    <p>- Tasa porcentual de inflación</p>
                  </a>
              </li>
+             <li id="liUma" class="liInfoteca">
+                 <a class="grisClaro " href="#" id="aUma">
+                   <p>- UMA</p>
+                 </a>
+             </li>
 
 
 
@@ -314,7 +319,8 @@
 <script type="text/javascript">
 
   var dominio=window.location.host;
-  var absoluta="/vhc/";
+  //var absoluta="/vhc/";
+  var absoluta="/";
 
   aCFF=document.getElementById('aCFF');
   aTarifasPp=document.getElementById('aTarifasPp');
@@ -343,6 +349,7 @@
   aSalarioM=document.getElementById('aSalarioM');
   aSalarioP=document.getElementById('aSalarioP');
   aMultas=document.getElementById('aMultas');
+  aUma=document.getElementById('aUma');
 
 
   var rCFF="publicos/infoteca/indicadoresF/impuestosF/ifCantidadesCFF.php";
@@ -372,6 +379,7 @@
   rSalarioM = "publicos/infoteca/indicadoresF/laboral/laSalario.php";
   rSalarioP = "publicos/infoteca/indicadoresF/laboral/laSalarioProfecionales.php";
   rMultas = "publicos/infoteca/indicadoresF/comercioE/coMultasLeyAduanera.php";
+  rUma = "publicos/infoteca/indicadoresF/financiero/fiUma.php";
 
 
   aCFF.href="http://"+dominio+absoluta+rCFF;
@@ -401,5 +409,5 @@
   aSalarioM.href="http://"+dominio+absoluta+rSalarioM;
   aSalarioP.href="http://"+dominio+absoluta+rSalarioP;
   aMultas.href="http://"+dominio+absoluta+rMultas;
-
+  aUma.href="http://"+dominio+absoluta+rUma;
 </script>
