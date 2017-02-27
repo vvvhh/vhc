@@ -42,53 +42,59 @@
               <div class="col-md-10 animacionContenido">
   <!--  -->     <!-- MUESTRA EL CONTENIDO DEL ARTICULO -->
 
+  
+  
+  
+  
+<div class="well transparenteClaroTxt">
+  <div class="row">
+    <div class="col-md-12">
+     <div  class="table-responsive">
+            <table class="table table-striped  table-bordered table-condensed">
+          <!-- ** -->
+				<h3 class="text-center">	Índice Nacional de Precios al Consumidor 2017	</h3>
+
+<thead>
+	<tr  class="activoLiMenu">	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Mes​	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Índices (INPC)	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Fecha de publicación en el DOF​	</th>	</tr>
+</thead>
+
+<tbody class="animEscalarFila">
+<!-- ***********************************************************************************************************************-->
+<!-- <tr>	<td class="text-center">	Diciembre	</td>	<td class="text-center">	 	*122.515	  </td>	<td class="text-center">	10 de enero de 2017 </td>	</tr>
+<tr>	<td class="text-center">	Noviembre	</td>	<td class="text-center">	 	*121.953	  </td>	<td class="text-center">	09 de diciembre de 2016 </td>	</tr>
+<tr>	<td class="text-center">	Octubre	</td>	<td class="text-center">	 	​​​​​​​​​​​​*121.007	  </td>	<td class="text-center">	10 de noviembre de 2016 </td>	</tr>
+<tr>	<td class="text-center">	Septiembre	</td>	<td class="text-center">	 	​​​​​​*120.277	  </td>	<td class="text-center">	10 de octubre de 2016 </td>	</tr>
+<tr>	<td class="text-center">	Agosto	</td>	<td class="text-center">	 	​​​​​​*119.547	  </td>	<td class="text-center">	09 de septiembre de 2016  </td>	</tr>
+<tr>	<td class="text-center">	Julio	</td>	<td class="text-center">	 	​​​​​​*119.211	  </td>	<td class="text-center">	10 de agosto de 2016​	  </td>	</tr>
+<tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	08 de julio de 2016​	  </td>	</tr>
+<tr>	<td class="text-center">	Mayo	</td>	<td class="text-center">	​​​​​​*118.770	  </td>	<td class="text-center">	10 de junio de 2016​	  </td>	</tr>
+<tr>	<td class="text-center">	Abril	</td>	<td class="text-center">	​​​​​​*119.302	  </td>	<td class="text-center">	10 de mayo de 2016	  </td>	</tr>
+<tr>	<td class="text-center">	Marzo	</td>	<td class="text-center">	​​​*119.681	  </td>	<td class="text-center">	08 de abril de 2016  </td>	</tr>
+<tr>	<td class="text-center">	Febrero  </td>	<td class="text-center">	​​*119.505	  </td>	<td class="text-center">	10 de marzo de 2016​	  </td>	</tr>
+-->
+	<tr>	<td class="text-center">	Enero​	  </td>	<td class="text-center">	*124.598	  </td>	<td class="text-center">	10 de febrero de 2017	  </td>	</tr>
 
 
-  <div class="well transparenteClaroTxt">
-    <div class="row">
-      <div class="col-md-12">
-       <div  class="table-responsive">
-              <table class="table table-striped  table-bordered table-condensed">
-            <!-- ** -->
-  				<h3 class="text-center">	Índice Nacional de Precios al Consumidor 2017	</h3>
 
-  <thead>
-  	<tr  class="activoLiMenu">	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Mes​	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Índices (INPC)	</th>	<th class="text-center col-md-4 col-lg-4 col-sm-4">	Fecha de publicación en el DOF​	</th>	</tr>
-  </thead>
+<!-- ***********************************************************************************************************************-->
+</tbody>
 
-  <tbody class="animEscalarFila">
-
-<!--   <tr>	<td class="text-center">	Diciembre	</td>	<td class="text-center">	 	*122.515	  </td>	<td class="text-center">	10 de enero de 2017 </td>	</tr>
-  <tr>	<td class="text-center">	Noviembre	</td>	<td class="text-center">	 	*121.953	  </td>	<td class="text-center">	09 de diciembre de 2016 </td>	</tr>
-  <tr>	<td class="text-center">	Octubre	</td>	<td class="text-center">	 	​​​​​​​​​​​​*121.007	  </td>	<td class="text-center">	10 de noviembre de 2016 </td>	</tr>
-  <tr>	<td class="text-center">	Septiembre	</td>	<td class="text-center">	 	​​​​​​*120.277	  </td>	<td class="text-center">	10 de octubre de 2016 </td>	</tr>
-  <tr>	<td class="text-center">	Agosto	</td>	<td class="text-center">	 	​​​​​​*119.547	  </td>	<td class="text-center">	09 de septiembre de 2016  </td>	</tr>
-  <tr>	<td class="text-center">	Julio	</td>	<td class="text-center">	 	​​​​​​*119.211	  </td>	<td class="text-center">	10 de agosto de 2016​	  </td>	</tr>
-  <tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	08 de julio de 2016​	  </td>	</tr>
-  <tr>	<td class="text-center">	Mayo	</td>	<td class="text-center">	​​​​​​*118.770	  </td>	<td class="text-center">	10 de junio de 2016​	  </td>	</tr>
-  <tr>	<td class="text-center">	Abril	</td>	<td class="text-center">	​​​​​​*119.302	  </td>	<td class="text-center">	10 de mayo de 2016	  </td>	</tr>
-  <tr>	<td class="text-center">	Marzo	</td>	<td class="text-center">	​​​*119.681	  </td>	<td class="text-center">	08 de abril de 2016  </td>	</tr>
-  <tr>	<td class="text-center">	Febrero  </td>	<td class="text-center">	​​*119.505	  </td>	<td class="text-center">	10 de marzo de 2016​	  </td>	</tr>
-  -->
-  <tr>	<td class="text-center">	Enero​	  </td>	<td class="text-center">	​ 	​​*118.984  ​	  </td>	<td class="text-center">	10 de febrero de 2016	  </td>	</tr>
-
-  </tbody>
-
-    	<!-- ******** -->
-            </table>
-          </div>
+  	<!-- ******** -->
+          </table>
         </div>
-    </div>
+      </div>
   </div>
-
-
-
-
-
-
-
-
-
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 <div class="well transparenteClaroTxt">
   <div class="row">
@@ -103,7 +109,15 @@
 </thead>
 
 <tbody class="animEscalarFila">
+<!--  <tr>	<td class="text-center">	Diciembre	</td>	<td class="text-center">	*118.532	  </td>	<td class="text-center">	08 de enero de 2016​  </td>	</tr>
+<tr>	<td class="text-center">	Noviembre	</td>	<td class="text-center">	​​​*118.051	  </td>	<td class="text-center">	10 de diciembre de 2015​​  </td>	</tr>
+<tr>	<td class="text-center">	Octubre	</td>	<td class="text-center">	​​​*117.410	  </td>	<td class="text-center">	​10 de noviembre de 2015​  </td>	</tr>
+<tr>	<td class="text-center">	Septiembre	</td>	<td class="text-center">	​​​*116.809	  </td>	<td class="text-center">	​09 de octubre de 2015  </td>	</tr>
+<tr>	<td class="text-center">	Agosto	</td>	<td class="text-center">	*116.373	  </td>	<td class="text-center">	10 de septiembre de 2015​​	</td>	</tr>
+<tr>	<td class="text-center">	​Julio	</td>	<td class="text-center">	*116.128	  </td>	<td class="text-center">	​10 de agosto de 2015	  </td>	</tr>
 
+<tr>	<td class="text-center">	Junio	</td>	<td class="text-center">	 	*118.901	  </td>	<td class="text-center">	 ​08 de julio de 2015	  </td>	</tr>
+-->
 <tr>	<td class="text-center">	Diciembre	</td>	<td class="text-center">	 	*122.515	  </td>	<td class="text-center">	10 de enero de 2017 </td>	</tr>
 <tr>	<td class="text-center">	Noviembre	</td>	<td class="text-center">	 	*121.953	  </td>	<td class="text-center">	09 de diciembre de 2016 </td>	</tr>
 <tr>	<td class="text-center">	Octubre	</td>	<td class="text-center">	 	​​​​​​​​​​​​*121.007	  </td>	<td class="text-center">	10 de noviembre de 2016 </td>	</tr>

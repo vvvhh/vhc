@@ -61,40 +61,40 @@
           </thead>
           <tbody class="animEscalarFila">
 
-            <tr>	<td>	1	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	2	  </td>	<td>	20.6194	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	3	  </td>	<td>	20.7323	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tbody class="animEscalarFila">																																									
+<tr>	<td>	1	  </td>	<td>		  </td>	<td>	20.7908	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	2	  </td>	<td>	20.6194	  </td>	<td>	20.7752	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	3	  </td>	<td>	20.7323	  </td>	<td>	20.5757	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	4	  </td>	<td>	20.8520	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	5	  </td>	<td>	21.3799	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	6	  </td>	<td>	21.3661	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	7	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	8	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	9	  </td>	<td>	21.3144	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	10	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	11	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	12	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	13	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	14	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	15	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	16	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	17	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	18	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	19	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	20	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	21	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	22	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	23	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	24	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	25	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	26	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	27	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	7	  </td>	<td>		  </td>	<td>	20.3439	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	8	  </td>	<td>		  </td>	<td>	20.6370	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	9	  </td>	<td>	21.3144	  </td>	<td>	20.4994	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	10	  </td>	<td>	21.3219	  </td>	<td>	20.4163	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	11	  </td>	<td>	21.6168	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	12	  </td>	<td>	21.9076	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	13	  </td>	<td>	21.7204	  </td>	<td>	20.3535	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	14	  </td>	<td>		  </td>	<td>	20.3280	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	15	  </td>	<td>		  </td>	<td>	20.3507	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	16	  </td>	<td>	21.6330	  </td>	<td>	20.3254	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	17	  </td>	<td>	21.6643	  </td>	<td>	20.3325	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	18	  </td>	<td>	21.5738	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	19	  </td>	<td>	21.8514	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	20	  </td>	<td>	20.9044	  </td>	<td>	20.4526	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	21	  </td>	<td>		  </td>	<td>	20.4059	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	22	  </td>	<td>		  </td>	<td>	20.4489	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	23	  </td>	<td>	21.7002	  </td>	<td>	19.9127	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	24	  </td>	<td>	21.4512	  </td>	<td>	19.7011	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	25	  </td>	<td>	21.3692	  </td>	<td>	19.8335	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	26	  </td>	<td>	21.3439	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	27	  </td>	<td>	21.2024	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	28	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	29	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	30	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	31	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-
-
-      </tbody>
+<tr>	<td>	30	  </td>	<td>	21.0212	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	31	  </td>	<td>	20.7588	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+																																								
+</tbody>																																									
 
 
 

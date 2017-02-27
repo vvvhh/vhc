@@ -51,7 +51,7 @@
     <h3 class="text-center">A. Tarifas para cálculo de ISR. Pagos provisionales </h3>
 <!-- ******************** -->
 
-<h4 class="text-center">1.	Tarifa para el cálculo de los pagos provisionales que se deban efectuar durante 2016, tratándose de enajenación de inmuebles a que se refiere la regla 3.15.4., de la Resolución Miscelánea Fiscal  para 2016.
+<h4 class="text-center">1.	Tarifa para el cálculo de los pagos provisionales que se deban efectuar durante 2017, tratándose de enajenación de inmuebles a que se refiere la regla 3.15.4., de la Resolución Miscelánea Fiscal  para 2017.
 </h4>
 
 
@@ -88,7 +88,7 @@
     <h3 class="text-center">B. Tarifas aplicables a retenciones </h3>
 <!-- ******************** -->
 
-<h4 class="text-center">1.	Tarifa aplicable en función de la cantidad de trabajo realizado y no de días laborados, correspondiente a 2016, calculada en días.
+<h4 class="text-center">1.	Tarifa aplicable en función de la cantidad de trabajo realizado y no de días laborados, correspondiente a 2017, calculada en días.
 </h4>
 
 
@@ -199,7 +199,7 @@
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
 <!-- ******************** -->
 
-<h4 class="text-center">	2. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 7 días, correspondiente a 2016.
+<h4 class="text-center">	2. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 7 días, correspondiente a 2017.
 </h4>
 
 
@@ -319,7 +319,7 @@
 <!-- ******************** -->
 
 <br><br>
-<h4 class="text-center">	3. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 10 días, correspondiente  a 2016.
+<h4 class="text-center">	3. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 10 días, correspondiente  a 2017.
 </h4>
 
 
@@ -436,7 +436,7 @@
 <!-- ******************** -->
 
 <br><br>
-<h4 class="text-center">	4. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 15 días, correspondiente  a 2016
+<h4 class="text-center">	4. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 15 días, correspondiente  a 2017.
 </h4>
 
 
@@ -549,7 +549,7 @@
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
 <!-- ******************** -->
 
-<h4 class="text-center">	5. Tarifa aplicable durante 2016, para el cálculo de los pagos provisionales mensuales.
+<h4 class="text-center">	5. Tarifa aplicable durante 2017, para el cálculo de los pagos provisionales mensuales.
 </h4>
 
 
@@ -666,7 +666,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    6. Tarifa para el pago provisional del mes de enero de 2016, aplicable a los ingresos que perciban  los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    6. Tarifa para el pago provisional del mes de enero de 2017, aplicable a los ingresos que perciban  los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -701,7 +701,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de febrero de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de febrero de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -736,7 +736,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de marzo de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de marzo de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -771,7 +771,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de abril de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de abril de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -806,7 +806,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de mayo de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de mayo de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -841,7 +841,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de junio de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de junio de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -877,7 +877,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de julio de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de julio de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -910,7 +910,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de agosto de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de agosto de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -945,7 +945,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de septiembre de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de septiembre de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -979,7 +979,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de octubre de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de octubre de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -1015,7 +1015,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de noviembre de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de noviembre de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -1050,7 +1050,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa para el pago provisional del mes de diciembre de 2016, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
+    Tarifa para el pago provisional del mes de diciembre de 2017, aplicable a los ingresos que perciban los contribuyentes a que se refiere el Capítulo II, Sección I, del Título IV de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -1084,7 +1084,7 @@
     <table class="table table-striped  table-bordered table-condensed">
       <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
       <h4>
-        Tarifa aplicable para el cálculo de los pagos provisionales trimestrales correspondientes a 2016, que efectúen los contribuyentes a que se refiere el Capítulo III, del Título IV de la Ley del Impuesto sobre la Renta, que obtengan ingresos por arrendamiento y en general por el otorgamiento del uso o goce temporal de  bienes inmuebles.
+        Tarifa aplicable para el cálculo de los pagos provisionales trimestrales correspondientes a 2017, que efectúen los contribuyentes a que se refiere el Capítulo III, del Título IV de la Ley del Impuesto sobre la Renta, que obtengan ingresos por arrendamiento y en general por el otorgamiento del uso o goce temporal de  bienes inmuebles.
       </h4>
     <!-- ******************** -->
     <thead>
@@ -1118,7 +1118,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa aplicable para el cálculo de los pagos provisionales trimestrales correspondientes a 2016, que efectúen los contribuyentes a que se refiere el Capítulo III, del Título IV de la Ley del Impuesto sobre la Renta, que obtengan ingresos por arrendamiento y en general por el otorgamiento del uso o goce temporal de  bienes inmuebles.
+    Tarifa aplicable para el cálculo de los pagos provisionales trimestrales correspondientes a 2017, que efectúen los contribuyentes a que se refiere el Capítulo III, del Título IV de la Ley del Impuesto sobre la Renta, que obtengan ingresos por arrendamiento y en general por el otorgamiento del uso o goce temporal de  bienes inmuebles.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -1151,7 +1151,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al primer semestre de 2016, que efectúen los contribuyentes que cumplan con sus obligaciones fiscales en los términos del Capítulo VIII del Título II de la Ley del Impuesto sobre la Renta.
+    Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al primer semestre de 2017, que efectúen los contribuyentes que cumplan con sus obligaciones fiscales en los términos del Capítulo VIII del Título II de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
@@ -1187,7 +1187,7 @@
 <table class="table table-striped  table-bordered table-condensed">
   <!--  <h3 class="text-center">B. Tarifas aplicables a retenciones </h3> -->
   <h4>
-    Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al segundo semestre de 2016, que efectúen los contribuyentes que cumplan con sus obligaciones en los términos del Capítulo VIII del Título II de la Ley del Impuesto sobre la Renta.
+    Tarifa opcional aplicable para el cálculo del pago provisional correspondiente al segundo semestre de 2017, que efectúen los contribuyentes que cumplan con sus obligaciones en los términos del Capítulo VIII del Título II de la Ley del Impuesto sobre la Renta.
   </h4>
 <!-- ******************** -->
 <thead>
