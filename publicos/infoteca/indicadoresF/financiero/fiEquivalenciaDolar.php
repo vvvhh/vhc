@@ -89,7 +89,7 @@
 <tr>	<td>	25	  </td>	<td>	21.3692	  </td>	<td>	19.8335	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	26	  </td>	<td>	21.3439	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	27	  </td>	<td>	21.2024	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
-<tr>	<td>	28	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
+<tr>	<td>	28	  </td>	<td>		  </td>	<td>	19.8322	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	29	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	30	  </td>	<td>	21.0212	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
 <tr>	<td>	31	  </td>	<td>	20.7588	  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	<td>		  </td>	</tr>
