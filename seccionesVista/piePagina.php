@@ -2,7 +2,7 @@
   <div class="footer-above">
     <div class="container">
       <div class="row">
-        <div class="footer-col col-md-4 col-sm-4">
+        <div class="footer-col col-md-3 col-sm-3">
           <h4>Ciudad de México</h4>
           <p class="formatoTexto14">Huatabampo 72 Int. 1, 2<br>Col. Roma Sur, Cuauhtémoc, Cd. Méx., México  <br> C.P. 06760</p>
           <p class="formatoTexto14">
@@ -12,7 +12,8 @@
             <i class="fa fa-whatsapp" aria-hidden="true"></i> 55 55 08 52 13
           </p>
         </div>
-        <div class="footer-col col-md-4 col-sm-4">
+
+        <div class="footer-col col-md-3 col-sm-3">
           <h4>Cancún</h4>
         <!--    <p class="formatoTexto14">Av. Nichupte Mza. 2 Lt. 20 <br>Piso 4 Int. 415 SM. 19<br> Plaza Atrium, <br> Cancún, Quintana Roo.</p>
         -->
@@ -22,13 +23,14 @@
           </p>
 
         </div>
-      <!--    <div class="footer-col col-md-3 col-sm-4">
+
+        <div class="footer-col col-md-3 col-sm-4">
           <h4>Mérida</h4>
-          <p class="formatoTexto14"> Calle 33 No. 618A<br>Col. Pedregales de Ciudad Caucel,<br>Mérida, Yucatán.</p>
+          <p class="formatoTexto14"> Calle 24 No. 288x y 21<br>Col. Miguel Alemán,<br>C.P. 97148 <br>Mérida, Yucatán, Méx</p>
         </div>
 
-        -->
-        <div class="footer-col col-md-4 col-sm-12">
+
+        <div class="footer-col col-md-3 col-sm-12">
           <h4>En la red</h4>
           <ul class="list-inline center-block">
             <li>

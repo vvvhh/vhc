@@ -176,7 +176,7 @@
 
   <div class="row">
 
-    <div class="col-md-6" >
+    <div class="col-md-12" >
           <div class="well transparenteObscuro transladarAbajo" id="mapaDF">
             <div class="row">
               <h3 class="text-center texto3D grisClaro">Ciudad de México</h3>
@@ -245,19 +245,22 @@
 
 
 
-  <!--    <div class="col-md-6">
+      <div class="col-md-6">
       <div class="well transparenteObscuro transladarIzquierda" id="mapaCancun">
         <h3 class="text-center texto3D grisClaro">Mérida</h3>   <hr>
         <div class="row">
           <div class="col-md-8">
-            <iframe  width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3724.4691890303093!2d-89.65561181162407!3d21.013904579551106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1425748093767"></iframe>
+            <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.9975183749407!2d-89.60350778512431!3d20.992736594383224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567133f74c9737%3A0x3f1973be120419ed!2sCalle+24+288%2C+Miguel+Alem%C3%A1n%2C+97148+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1488330265587" ></iframe>
+            <!--    <iframe  width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3724.4691890303093!2d-89.65561181162407!3d21.013904579551106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1425748093767"></iframe>
+            -->
           </div>
           <div class="col-md-4">
             <p class="texto3D grisClaro">
-              <i class="fa fa-map-marker"></i>  Calle 33 No. 618A<br> Col. Pedregales de Ciudad Caucel, CP. 97314,<br> Mérida, Yucatán.<br>
+              <i class="fa fa-map-marker"></i>  Calle 24 No. 288x19 y 21 <br> Col. Miguel Alemán,<br> CP. 97148,<br> Mérida, Yucatán, Méx.<br>
             </p>
           </div>
         </div>
+        <br>
         <div class="row">
           <div class="col-md-12 text-center texto3D grisClaro">
             <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -266,11 +269,11 @@
         </div>
       </div>
     </div>
-    -->
+
 
   </div>
 
-<br><br><br> 
+<br><br><br>
 
   </div>  <!-- /container -->
 
