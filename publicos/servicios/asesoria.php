@@ -80,7 +80,7 @@
                 Evaluación de Proyectos de Inversión
               </b></h4>
             <p class="formatoTexto ">
-              Analizamos la viabilidad económica de una determinada inversión, realizando las proyecciones financieras y seleccionando la mejor alternativa de financiamiento, en base al costo de capital y capacidad de pago de nuestro cliente.
+              Analizamos la viabilidad económica de una determinada inversión, realizando las proyecciones financieras y seleccionando la mejor alternativa de financiamiento, con base en el costo de capital y capacidad de pago de nuestro cliente.
             </p>
           </div>
         </div>

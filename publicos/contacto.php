@@ -77,6 +77,13 @@
                 </div>
                 <div class="control-group form-group">
                   <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-building-o" aria-hidden="true"></i></span>
+                      <input id="inpEmpresa" name="nombreEmpresa" pattern="[a-zA-Z\sáéíóúÁÉÍÓÚñÑ0-9,.]+" type="text" class="form-control grisObscuro"  placeholder="Organización o empresa" maxlength="120">
+                  </div>
+                  <p class="text-danger" id="spnEmpresa"> </p>
+                </div>
+                <div class="control-group form-group">
+                  <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                     <input id="inpTelefono" name="telefonoContacto" pattern="[0-9a-zA-Z\+\s]+" type="tel" class="form-control grisObscuro"  placeholder="*Número Telefónico" maxlength="20">
                   </div>

@@ -1,5 +1,6 @@
 var btnEnviar = $('#btnEnviar'),
     inpNombre = $('#inpNombre'),
+    inpEmpresa = $('#inpEmpresa'),
     inpTelefono = $('#inpTelefono'),
     inpEmail = $('#inpEmail'),
     txtMensaje = $('#txtMensaje'),
@@ -28,6 +29,7 @@ function enviar(){
     url:'../php/contacto/enviarContacto.php',
     data: {
       nombreContacto: inpNombre.val(),
+      empresa:  inpEmpresa.val(),
       telefonoContacto: inpTelefono.val(),
       correoContacto: inpEmail.val(),
       condicionesContacto: chkAcepto.prop( "checked" ),
@@ -62,11 +64,12 @@ function enviar(){
   }
   swal(tituloAlert, textoAlert, estdoAlert);
   procesoEnviar.addClass('hidden');
-  
+
 }
 
 function limpiar(){
   inpNombre.val('');
+  inpEmpresa.val('');
   inpTelefono.val('');
   inpEmail.val('');
   txtMensaje.val('');
@@ -145,6 +148,17 @@ function comprobarNombre(e){
   }
 }
 
+function comprobarEmpresa(e){
+  var elem = e.target;
+  if (elem.validity.valid) {
+    document.getElementById('spnEmpresa').innerHTML = "";
+    elem.style.background='#FFFFFF';
+  }
+  else {
+    elem.style.background='#FFDDDD';
+    document.getElementById('spnEmpresa').innerHTML = '<i class="fa fa-exclamation-circle"></i> Solo se aceptan caracteres alfanuméricos.';
+  }
+}
 
 
 function comprobarTel(e){
@@ -175,6 +189,8 @@ $(document).on('ready', function(){
   //limpiar();
   intNombre = document.querySelector("input[name='nombreContacto']");
   intNombre.addEventListener("input", comprobarNombre);
+  intEmpresa = document.querySelector("input[name='nombreEmpresa']");
+  intEmpresa.addEventListener("input", comprobarEmpresa);
   intTel = document.querySelector("input[name='telefonoContacto']");
   intTel.addEventListener("input", comprobarTel);
   intMensaje = document.getElementById("txtMensaje");
