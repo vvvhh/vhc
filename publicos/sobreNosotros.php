@@ -81,7 +81,7 @@
                       <p class="text-justify formatoTexto2">
                         <!--  <strong>Vázquez Hernández Contadores, S. C.</strong>, se funda en la Ciudad de México, en 1993 por contadores activamente involucrados en la práctica y en todas las áreas de la Contaduría y de la Administración.
                         -->
-                        <strong>Vázquez Hernández Contadores, S.C. </strong>se constituye el 30 de julio de 1969, siendo el Notario Lic. Luis de Angoitia Becerra, notario público número 109 del Distrito Federal, quien da fe de este acto, quedando registrado en el libro mil veintidós, número cincuenta y dos mil setecientos.
+                        <strong>Vázquez Hernández Contadores, S.C. </strong>se constituye el 30 de julio de 1999, siendo el Notario Lic. Luis de Angoitia Becerra, notario público número 109 del Distrito Federal, quien da fe de este acto, quedando registrado en el libro mil veintidós, número cincuenta y dos mil setecientos.
                       </p>
 
                       <p class="text-justify formatoTexto2">
