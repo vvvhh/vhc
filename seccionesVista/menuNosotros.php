@@ -24,6 +24,12 @@
         <li data-toggle="collapse" data-target="ulVideosTem1">
           <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros.php#titMision"><strong>
             <i class="fa fa-check-square"></i>
+            &nbsp;Filosofía Organizacional
+          </strong></a>
+        </li>
+        <li data-toggle="collapse" data-target="ulVideosTem1">
+          <a class="grisClaro texto3d" style="cursor:pointer" href="sobreNosotros.php#titFilosofia"><strong>
+            <i class="fa fa-check-square"></i>
             &nbsp;Misión
           </strong></a>
         </li>

@@ -142,6 +142,26 @@
                   </div>
                 </div>
 
+                <!-- filosofia -->
+                <div class="well trasparenteClaroPlus animacionContenido">
+                  <div class="row">
+                    <div class="col-md-4">  <!-- 464982773.jpg -->
+                      <img class="imgSm img-responsive img-rounded" src="../img/somos/155786129_.jpg" alt="">
+                    </div>
+                    <div class="col-md-8">
+                      <h3 id="mision" class="grisObscuro"><strong><i class="fa fa-check-square"></i> Filosofía Organizacional </strong></h3>
+                      <p class="text-justify formatoTexto2 sangria" id="titFilosofia">
+                      <!--    Contribuir con nuestros servicios en Contaduría para satisfacer las necesidades de la comunidad empresarial aportando valor en nuestro actuar, basándonos en el capital intelectual de nuestra firma, bajo un marco de confianza, ética profesional, mejora continua y calidad.
+                      -->  Una de las principales responsabilidades al momento de constituir una organización es la de darle una identidad propia, generalmente los fundadores son quienes imprimen su sello personal profundo y duradero en la cultura organizacional, de esta forma los fundadores y sus valores superiores y utilitarios tienen una influencia directa en las normas y criterios de conducta que se establecen con el tiempo en la institución, esta cultura se va fortaleciendo y va cambiando con el paso del tiempo, esta identidad forma parte del bien–ser de la empresa, es decir de su filosofía organizacional, aquello que la identifica y a la vez la diferencia de otras.
+                      </p>
+                      <a class="text-primary" style="cursor:pointer" data-toggle="modal" data-target="#modFilosofia"><strong>
+                        Seguir leyendo
+                      </strong></a>
+                    </div>
+                  </div>
+                </div>
+
+
 
                 <!-- MisionVision -->
                 <div class="well trasparenteClaroPlus animacionContenido">
@@ -159,6 +179,8 @@
                     </div>
                   </div>
                 </div>
+
+
                 <div class="well trasparenteClaroPlus animacionContenido">
                   <div class="row">
                     <div class="col-md-4"> <!-- 155786129.jpg -->
@@ -173,6 +195,7 @@
                     </div>
                   </div>
                 </div>
+
                 <!-- Valores -->
                 <div class="well trasparenteClaroPlus animacionContenido" id="titValores">
                   <div class="row">
@@ -185,6 +208,13 @@
                         Nuestra firma cuenta con valores que constituyen su filosofía, los cuales coadyuvan a cumplir con los compromisos y responsabilidades internos y externos, estos simbolizan la esencia del personal que conforma la firma y son, a su vez, la piedra angular que fundamenta nuestra Institución.
                       </p>
                       -->
+                      <p>
+                        Los valores son aquellos principios que permiten normar y orientar nuestro comportamiento, son creencias fundamentales que nos ayudan a preferir, apreciar y estimar unas cosas en lugar de otras, o bien, a elegir cierto comportamiento en vez de algún otro.
+                        <br>
+                        <a class="text-primary" style="cursor:pointer" data-toggle="modal" data-target="#modValores"><strong>
+                          Seguir leyendo
+                        </strong></a>
+                      </p>
                       <p class="text-justify formatoTexto2">
                         Vázquez Hernández Contadores, se vale de las siguientes declaraciones formales para afianzar su filosofía organizacional:
                       </p>
@@ -230,17 +260,23 @@
                             <a class="text-primary" style="cursor:pointer" data-toggle="modal" data-target="#modEntusiasmo"><strong>
                               Entusiasmo
                             </strong></a>
-
-
-
                           </ul>
                         </div>
 
                       </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          	“Tus valores definen quien eres realmente. Tu identidad real es la suma total de tus valores”. <br> Assegid Habtewold.
+                        </div>
+                      </div>
+
                     </div>
                   </div>
 
-                </div> <!-- ./Well -->
+                </div> <!-- ./Well valores-->
+
+
+
 
                 <div class="well trasparenteClaroPlus animacionContenido" id="titValores">
                   <div class="row">
@@ -412,6 +448,58 @@
               </div>
             </div>
                     </div> <!-- * * * * * * * * * * * * / modConfianza   * * * * * * *  *  * -->
+
+
+
+
+                    <div class="modal modal-wide fade" id="modRespeto" role="dialog"> <!-- * * * * * * * * * * * * respeto  * * * * * * *  *  * -->
+                      <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal">&times;</button>
+                             <h3 class="textoAzulLi text-justify">
+                               Respeto
+                             </h3>
+                           </div>
+                          <div class="modal-body text-justify">
+                        <p>
+                            El respeto es un sentimiento positivo, equivalente a “tener veneración, aprecio y reconocimiento por una persona o cosa”.
+                        </p>
+                            <p>
+                            Como tal, la palabra proviene del latín respectus, que traduce ‘atención’, ‘consideración’, y originalmente significaba ‘mirar de nuevo’, de allí que algo que merezca una segunda mirada sea algo digno de respeto.
+                            </p>
+                            <p>
+                            El respeto es uno de los valores morales más importantes del ser humano, pues es fundamental para lograr armoniosas relaciones personales. Para ser respetado es necesario practicar la cortesía, la tolerancia  y la atención al otro, así como valorar sus intereses y necesidades. En este sentido, el respeto debe ser mutuo, y nacer de un sentimiento de reciprocidad
+                            </p>
+                            <p>
+                            El respeto guarda estrecha vinculación con una actitud de reconocimiento hacia lo que la persona representa. Es por ello que en VHC, tenemos en alta estima el respeto y lo practicamos con nuestros clientes, con nuestros colaboradores y con las entidades que establecemos contacto.
+                            </p>
+                        <ul>
+                              <li>	“El respeto es una calle de dos vías, si lo quieres recibir, lo tienes que dar”. <br>R.G. Risch.
+                              </li>
+                              <br>
+                              <li>			La Virtud reside en lo que se da, no en lo que se recibe. Por ello, cuando los sabios quieren ser valorados por otros, primero valoran a los demás; cuando quieren ser respetados por otros, primero los respetan. <br> Lao Tse.
+                               </li>
+                               <br>
+                              <li>			“El valor más importante en un ser humano es el respeto, cuando una persona tiene respeto el resto de los valores se dan solos, si respetas brindas libertad, si respetas vives mejor con las personas que te rodean”. “El respeto al derecho ajeno es la paz”. <br>Benito Pablo Juárez García.
+                              </li>
+                              <br>
+                              <li>	“Respetar significa preocuparse por que la otra persona crezca y se desarrolle”. <br>Erich Seligmann Fromm.
+                              </li>
+                              <br>
+                              <li>	“Las diferencias nos enriquecen, pero el respeto nos une”. <br>Anónimo.
+                              </li>
+                        </ol>
+                      </div>
+                          <div class="modal-footer">
+                           <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                         </div>
+                    </div>
+                  </div>
+                  </div>
+
+
 
 
 
@@ -690,6 +778,128 @@
                           </div>
                         </div>
                       </div> <!-- * * * * * * * * * * * * / modConfianza   * * * * * * *  *  * -->
+
+
+
+
+                        <div class="modal modal-wide fade" id="modFilosofia" role="dialog"> <!-- * * * * * * * * * * * * modConfianza  * * * * * * *  *  * -->
+                            <div class="modal-dialog">
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                   <h3 class="textoAzulLi text-justify">
+                                     Filosofía Organizacional
+                                   </h3>
+                                 </div>
+                                <div class="modal-body text-justify">
+                                  <p>
+                              </p>
+                                  <p>
+                                  Esta filosofía nace del interior de la organización para hacerse evidente en el desarrollo de la empresa. Hace que sus miembros se sientan identificados, que formen parte de ella, ya que invariablemente se conducen por los mismos valores, creencias, reglas,  procedimientos, normas, lenguaje, etc. Una filosofía organizacional fuerte tiene amplias posibilidades de llevar a buen puerto a la organización, ya que el comportamiento de los colaboradores tiende a alcanzar las metas y objetivos planteados, recompensando su esfuerzo realizado.
+                                  </p>
+                                  <p>
+                                  De esta forma podemos resumir que el contar desde un inicio con una filosofía organizacional fuerte  proporciona ventajas competitivas, debido a que  facilita la toma de decisiones, la estandarización,  la motivación, la cooperación y el compromiso que existe entre la empresa, los empleados y el logro de metas y  objetivos.
+                                  </p>
+                                  <p>
+                                    Un vez establecida la filosofía organizacional, es importante tomar acciones para  mantenerla  y mejorarla, no es tarea fácil ya que abarca todas las áreas y todos los departamentos, e incide en las creencias e ideas de la empresa, si consideramos que cada persona piensa y se comporta diferente, de esta forma la filosofía  genera una inercia que permite que las personas que se vayan integrando a la empresa conozcan, adopten y se comporten de acuerdo a la filosofía de la organización, así mismo, aquellas personas que debido a su personalidad no logren  identificarse con esta filosofía o bien les cuesta trabajo adaptarse a la organización, la propia organización las va segregando y finalmente termina por hacerlas  a un lado.
+                                  </p>
+                                  <p>
+                                    <strong>Vázquez Hernández Contadores</strong>, se vale de las siguientes declaraciones formales para afianzar su filosofía organizacional:
+                                  </p>
+
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <ol type="a">
+                                              <li>		La misión
+                                              </li>
+                                              <br>
+                                              <li>		La visión
+                                               </li>
+                                               <br>
+                                              <li>		Los valores
+                                              </li>
+                                              <br>
+                                              <li>	Las estrategias (objetivos y metas)
+                                              </li>
+                                              <br>
+                                              <li>		El código de conducta
+                                              </li>
+                                              <br>
+                                              <li> 	El modelo de negocios
+                                              </li>
+                                              <br>
+                                              <li>	El organigrama
+                                              </li>
+                                              <br>
+                                              <li>	Los perfiles de puestos
+                                              </li>
+                                              <br>
+                                              <li>	Los manuales de procedimientos y políticas.
+                                              </li>
+                                              <br>
+                                              <li>	El manual de calidad.
+                                              </li>
+                                            </ol>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                      <br><br>
+                                      <img class="imgSm img-responsive img-rounded center-block" src="../img/somos/176436790_.jpg" alt="">
+                                    </div>
+                                  </div>
+
+                                  <p>
+                                    A través de estas declaraciones es posible conocer hacia dónde va la empresa y como pretende cumplir sus metas y objetivos, a que le da prioridad la organización, como deben comportarse sus colaboradores en diferentes circunstancias,  que decisiones deben tomar  cuando se enfrentan a situaciones nuevas,  que aspectos son valorados y tomados en cuenta para poder acceder a tener una mejor posición o un mejor puesto de trabajo, en pocas palabras generar un sentido de cohesión, de unidad y pertenencia con la organización. Finalmente podemos concluir  que estos elementos nos guían y  nos dan  rumbo en la labor diaria, facilitando la dirección y el camino correcto.
+                                  </p>
+                                  <p>
+                                    En <strong>VHC</strong> es primordial generar, dar a conocer y mejorar constantemente aquellos elementos que nos diferencian de otras empresas, que  generan valor, que nos dan una identidad, así como  una personalidad propia; que nos posibilitan avanzar por el camino correcto y conseguir las metas propuestas, aquello que nos guía y da rumbo para convertirnos en la empresa que deseamos ser.
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                 <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                               </div>
+                              </div>
+                            </div>
+                          </div> <!-- * * * * * * * * * * * * / modConfianza   * * * * * * *  *  * -->
+
+
+                          <div class="modal modal-wide fade" id="modValores" role="dialog"> <!-- * * * * * * * * * * * * modConfianza  * * * * * * *  *  * -->
+                              <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                     <h3 class="textoAzulLi text-justify">
+                                       valores
+                                     </h3>
+                                   </div>
+                                  <div class="modal-body text-justify">
+                                    <p>
+                                </p>
+                                    <p>
+                                    Los valores proporcionan pautas de comportamiento para formular: metas, propósitos y objetivos. Reflejan intereses, sentimientos y las convicciones más importantes. Los valores se traducen en pensamientos, conceptos e ideas; sin embargo, se evidencian y toman cuerpo en el comportamiento, es decir, en las acciones de las personas, de allí que una persona valiosa es alguien que vive de acuerdo con los valores en los que cree, esa persona vale lo que valen sus valores y la forma en que los vive.
+                                    </p>
+                                    <br>
+                                    <p>
+                                    Por ello, cuando una persona se integra a una organización con valores ya definidos, asumimos durante el proceso de selección, que implícitamente los aceptará y los pondrá en práctica en todo momento, y no solamente en las actividades encomendadas. Los valores organizacionales se deben reflejar en los detalles de sus actividades diarias, de no ser así (porque no se identifica con los valores o porque no está de acuerdo con estos) entonces se deberá cuestionar la permanencia de esa persona en la organización.
+                                    </p>
+                                    <br>
+                                    <p>
+                                      En una organización, los valores son el marco del comportamiento que deben tener todos sus integrantes, dependen de la naturaleza de la empresa (su razón de ser), del propósito para la cual fue creada (sus objetivos y metas), y de su proyección en el futuro inmediato (misión) y a largo plazo (visión) para ello deberá adoptar todos los medios posibles a su alcance para poder lograrlo, de esta forma afirmamos que la misión y visión toman cuerpo y se vuelven operacionales cuando se definen las estrategias y el modelo de negocio que nos revelan cómo se logrará esa misión y esa visión.
+                                    </p>
+
+                                  </div>
+                                  <div class="modal-footer">
+                                   <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                 </div>
+                                </div>
+                              </div>
+                            </div> <!-- * * * * * * * * * * * * / modConfianza   * * * * * * *  *  * -->
+
+
+
+
 
           </div>
           </div>
