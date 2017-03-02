@@ -257,6 +257,11 @@
                               Excelencia
                             </strong></a>
                             <br>
+                            <a class="text-primary" style="cursor:pointer" data-toggle="modal" data-target="#modLiderezgo"><strong>
+                              Liderazgo
+                            </strong></a>
+                            <br>
+
                             <a class="text-primary" style="cursor:pointer" data-toggle="modal" data-target="#modEntusiasmo"><strong>
                               Entusiasmo
                             </strong></a>
@@ -321,6 +326,9 @@
                         En <strong>VHC</strong> estamos convencidos de que confiar lleva inmersa la honestidad, la integridad y la ética profesional. La confianza permite acrecentar la estima entre personas, de modo que con la confianza las relaciones crecen y se hacen más profundas, duraderas y fructíferas.
                         </p>
                         <ul>
+                          <li> 	“La confianza en sí mismo es el primer secreto del éxito”. <br>Ralph Waldo Emerson.
+                          </li>
+                          <br>
                           <li>“Si uno quiere despertar confianza, debe ser digno de confianza”.  <br>Stephen Richards Covey.
                           </li>
                           <br>
@@ -538,6 +546,8 @@
                       <li>	“La ley, la moral y la ética, tres pilares de una decisión”.  <br> Dochanlu.
                       </li>
                       <br>
+                      <li> “Aún el más racional pensamiento de ética es indefenso si no existe la voluntad de hacer lo correcto”. <br> Aleksandr Isáyevich Solzhenitsyn.
+                      </li>
                       <li>			“El objetivo de la ética en el terreno de la práctica profesional, es principalmente, la aplicación de normas morales, fundadas en la lealtad, la veracidad, la honradez,  la objetividad y el honor”.  <br>  Anónimo.
                        </li>
                        <br>
