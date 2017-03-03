@@ -8,9 +8,10 @@
           <p class="formatoTexto14">
             55 74 41 91 - 55 74 27 95 <br> 55 64 38 07 - 55 84 26 12
           </p>
-          <p class="formatoTexto14">
+        <!--    <p class="formatoTexto14">
             <i class="fa fa-whatsapp" aria-hidden="true"></i> 55 55 08 52 13
           </p>
+          -->
         </div>
 
         <div class="footer-col col-md-3 col-sm-3">
@@ -19,19 +20,22 @@
         -->
           <p class="formatoTexto14">Av. Xpuhil sur <br>Mza. 2, Lote 23, Despacho 201, 208 <br> Supermanzana 19, <br> Benito Juárez, Quintana Roo. <br> C.P. 77505</p>
           <p clas="formatoTexto14">
-            (998) 868 30 55
+            01 (998) 868 30 55
           </p>
 
         </div>
 
         <div class="footer-col col-md-3 col-sm-4">
           <h4>Mérida</h4>
-          <p class="formatoTexto14"> Calle 24 No. 288x y 21<br>Col. Miguel Alemán,<br>C.P. 97148 <br>Mérida, Yucatán, Méx</p>
+          <p class="formatoTexto14"> Calle 24 No. 288 x19 y 21<br> Oficina B19.11<br>Col. Miguel Alemán,<br>C.P. 97148 <br>Mérida, Yucatán, Méx</p>
         </div>
 
 
         <div class="footer-col col-md-3 col-sm-12">
-          <h4>En la red</h4>
+          <br><br>
+          <p class="formatoTexto14">Próximamente en las redes sociales</p>
+          
+          <!--  <h4>En la red</h4>
           <ul class="list-inline center-block">
             <li>
               <a href="https://www.facebook.com/VazquezHernandezContadoresSC" target="blanck" class="btn-outline btn-social facebook"><i class="fa fa-facebook fa-2x"></i></a>
@@ -47,10 +51,9 @@
             </li>
             <li>
               <a href="https://www.youtube.com/channel/UC1RJyIURezwLVA9bAH6dirQ" target="blanck" class="btn-outline btn-social youtube"><i class="fa fa-youtube-play fa-2x"></i></a>
-            <!--   <a href="https://www.youtube.com/channel/UCHjetGxn3e85F-p02bbCytQ" target="blanck" class="btn-outline btn-social youtube"><i class="fa fa-youtube-play fa-2x"></i></a>
-             -->
             </li>
           </ul>
+          -->
         </div>
       </div>
     </div>

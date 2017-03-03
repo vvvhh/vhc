@@ -22,10 +22,12 @@ var menuLegislacion=$('#menuLegislacion'),
     menuLegEstatal=$('#menuLegEstatal'),
     divContenido=$('#divContenido');
 var liCriNormativo=$('#liCriNormativo'),
-    liCriAplicacion=$('#liCriAplicacion');
-    liCriVinculativos=$('#liCriVinculativos');
-    liCriProcedimientos=$('#liCriProcedimientos');
-    liCriCPR=$('#liCriCPR');
+    liCriAplicacion=$('#liCriAplicacion'),
+    liCriVinculativos=$('#liCriVinculativos'),
+    liCriProcedimientos=$('#liCriProcedimientos'),
+    liCriCPR=$('#liCriCPR'),
+    liCriterio6=$('#liCriterio6'),
+    liCriterio7=$('#liCriterio7');
 var li2Codigo=$('#li2Codigo');
     li2Impue=$('#li2Impue');
     li2Ieps=$('#li2Ieps');
@@ -71,6 +73,13 @@ var li7Resolucion=$('#li7Resolucion'),
     li7Resolucion27=$('#li7Resolucion27'),
     li7Resolucion28=$('#li7Resolucion28'),
     li7Resolucion29=$('#li7Resolucion29');
+    li7Resolucion30=$('#li7Resolucion30');
+    li7Resolucion31=$('#li7Resolucion31');
+    li7Resolucion32=$('#li7Resolucion32');
+    li7Resolucion33=$('#li7Resolucion33');
+    li7Resolucion34=$('#li7Resolucion34');
+    li7Resolucion35=$('#li7Resolucion35');
+    li7Resolucion36=$('#li7Resolucion36');
   var li8Comercio1=$('#li8Comercio1'),
       li8Comercio2=$('#li8Comercio2'),
       li8Comercio3=$('#li8Comercio3'),
@@ -80,11 +89,18 @@ var li7Resolucion=$('#li7Resolucion'),
       li8Comercio7=$('#li8Comercio7'),
       li8Comercio8=$('#li8Comercio8'),
       li8Comercio9=$('#li8Comercio9'),
-      li8Comercio10=$('#li8Comercio10');
+      li8Comercio10=$('#li8Comercio10'),
+      li8Comercio11=$('#li8Comercio11'),
+      li8Comercio12=$('#li8Comercio12');
+      li8Comercio13=$('#li8Comercio13');
+      li8Comercio14=$('#li8Comercio14');
+      li8Comercio15=$('#li8Comercio15');
   var li9Res1=$('#li9Res1'),
-      li9Res2=$('#li9Res2');
+      li9Res2=$('#li9Res2'),
+      li9Res3=$('#li9Res3');
 var liTesis=$('#liTesis'),
-    liTesis2=$('#liTesis2');
+    liTesis2=$('#liTesis2'),
+    liTesis3=$('#liTesis3');
 var li10Revision=$('#li10Revision');
 var liTrat1=$('#liTrat1'),
     liTrat2=$('#liTrat2'),
@@ -226,6 +242,20 @@ function getCriNormativo(){
   mostrarOtras();
   limpiarCriterio();
   $('#liCriNormativoli').addClass('activoBorde');
+}
+function getCriterio6(){
+  tipo = 88;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarCriterio();
+  $('#liCriterio6li').addClass('activoBorde');
+}
+function getCriterio7(){
+  tipo = 89;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarCriterio();
+  $('#liCriterio7li').addClass('activoBorde');
 }
 function getCriAplicacion(){
   tipo = 10;
@@ -618,6 +648,56 @@ function get7Resolucion29(){
   limpiarResolucion();
   $('#li7Resolucion29li').addClass('activoBorde');
 }
+function get7Resolucion30(){
+  tipo = 93;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion30li').addClass('activoBorde');
+}
+function get7Resolucion31(){
+  tipo = 94;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion31li').addClass('activoBorde');
+}
+function get7Resolucion32(){
+  tipo = 95;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion32li').addClass('activoBorde');
+}
+
+function get7Resolucion33(){
+  tipo = 96;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion33li').addClass('activoBorde');
+}
+function get7Resolucion34(){
+  tipo = 97;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion34li').addClass('activoBorde');
+}
+function get7Resolucion35(){
+  tipo = 98;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion35li').addClass('activoBorde');
+}
+function get7Resolucion36(){
+  tipo = 99;
+  getLegislaciones(tipo);
+  mostrarOtras();
+  limpiarResolucion();
+  $('#li7Resolucion36li').addClass('activoBorde');
+}
 
 function get8Comercio1(){
   tipo = 38;
@@ -689,6 +769,41 @@ function get8Comercio10(){
   limpiarReglas();
   $('#li8Comercio10li').addClass('activoBorde');
 }
+function get8Comercio11(){
+  tipo = 84;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio11li').addClass('activoBorde');
+}
+function get8Comercio12(){
+  tipo = 85;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio12li').addClass('activoBorde');
+}
+function get8Comercio13(){
+  tipo = 86;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio13li').addClass('activoBorde');
+}
+function get8Comercio14(){
+  tipo = 91;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio14li').addClass('activoBorde');
+}
+function get8Comercio15(){
+  tipo = 92;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarReglas();
+  $('#li8Comercio15li').addClass('activoBorde');
+}
 
 
 function get9Res1(){
@@ -705,6 +820,14 @@ function get9Res2(){
   resolucionFacilidades();
   $('#li9Res2').addClass('activoBorde');
 }
+function get9Res3(){
+  tipo = 87;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  resolucionFacilidades();
+  $('#li9Res3li').addClass('activoBorde');
+}
+
 function get10Revision(){
   tipo = 47;
   getLegislaciones(tipo)
@@ -734,6 +857,13 @@ function getTesis2(){
   mostrarOtras();
   limpiarTesis();
   $('#liTesis2li').addClass('activoBorde');
+}
+function getTesis3(){
+  tipo = 90;
+  getLegislaciones(tipo)
+  mostrarOtras();
+  limpiarTesis();
+  $('#liTesis3li').addClass('activoBorde');
 }
 
 function getTrat1(){
@@ -897,6 +1027,8 @@ function limpiarCriterio(){
   $('#liCriVinculativosli').removeClass('activoBorde');
   $('#liCriProcedimientosli').removeClass('activoBorde');
   $('#liCriCPRli').removeClass('activoBorde');
+  $('#liCriterio6li').removeClass('activoBorde');
+  $('#liCriterio7li').removeClass('activoBorde');
   limiarMenuNivel1();
 }
 function limpiarResolucion(){
@@ -929,6 +1061,13 @@ function limpiarResolucion(){
   $('#li7Resolucion27li').removeClass('activoBorde');
   $('#li7Resolucion28li').removeClass('activoBorde');
   $('#li7Resolucion29li').removeClass('activoBorde');
+  $('#li7Resolucion30li').removeClass('activoBorde');
+  $('#li7Resolucion31li').removeClass('activoBorde');
+  $('#li7Resolucion32li').removeClass('activoBorde');
+  $('#li7Resolucion33li').removeClass('activoBorde');
+  $('#li7Resolucion34li').removeClass('activoBorde');
+  $('#li7Resolucion35li').removeClass('activoBorde');
+  $('#li7Resolucion36li').removeClass('activoBorde');
 
   limiarMenuNivel1();
 }
@@ -943,6 +1082,11 @@ function limpiarReglas(){
   $('#li8Comercio8li').removeClass('activoBorde');
   $('#li8Comercio9li').removeClass('activoBorde');
   $('#li8Comercio10li').removeClass('activoBorde');
+  $('#li8Comercio11li').removeClass('activoBorde');
+  $('#li8Comercio12li').removeClass('activoBorde');
+  $('#li8Comercio13li').removeClass('activoBorde');
+  $('#li8Comercio14li').removeClass('activoBorde');
+  $('#li8Comercio15li').removeClass('activoBorde');
 
   limiarMenuNivel1();
 }
@@ -955,11 +1099,13 @@ function limpiarPld(){
 function resolucionFacilidades(){
   $('#li9Res1li').removeClass('activoBorde');
   $('#li9Res2').removeClass('activoBorde');
+  $('#li9Res3').removeClass('activoBorde');
   limiarMenuNivel1();
 }
 function limpiarTesis(){
   $('#liTesisli').removeClass('activoBorde');
   $('#liTesis2li').removeClass('activoBorde');
+  $('#liTesis3li').removeClass('activoBorde');
   limiarMenuNivel1();
 }
 function limpiarTratados(){
@@ -1015,6 +1161,8 @@ liCriAplicacion.on('click',getCriAplicacion);
 liCriVinculativos.on('click',getCriVinculativos);
 liCriProcedimientos.on('click',getCriProcedimientos);
 liCriCPR.on('click',getCriCPR);
+liCriterio6.on('click',getCriterio6);
+liCriterio7.on('click',getCriterio7);
 //liInfoteca.on('click',getInfoteca);
 
 li2Codigo.on('click',get2Codigo);
@@ -1054,6 +1202,11 @@ li8Comercio7.on('click',get8Comercio7);
 li8Comercio8.on('click',get8Comercio8);
 li8Comercio9.on('click',get8Comercio9);
 li8Comercio10.on('click',get8Comercio10);
+li8Comercio11.on('click',get8Comercio11);
+li8Comercio12.on('click',get8Comercio12);
+li8Comercio13.on('click',get8Comercio13);
+li8Comercio14.on('click',get8Comercio14);
+li8Comercio15.on('click',get8Comercio15);
 
 li7Resolucion9.on('click',get7Resolucion9);
 li7Resolucion10.on('click',get7Resolucion10);
@@ -1076,14 +1229,23 @@ li7Resolucion26.on('click',get7Resolucion26);
 li7Resolucion27.on('click',get7Resolucion27);
 li7Resolucion28.on('click',get7Resolucion28);
 li7Resolucion29.on('click',get7Resolucion29);
+li7Resolucion30.on('click',get7Resolucion30);
+li7Resolucion31.on('click',get7Resolucion31);
+li7Resolucion32.on('click',get7Resolucion32);
+li7Resolucion33.on('click',get7Resolucion33);
+li7Resolucion34.on('click',get7Resolucion34);
+li7Resolucion35.on('click',get7Resolucion35);
+li7Resolucion36.on('click',get7Resolucion36);
 
 li9Res1.on('click',get9Res1);
 li9Res2.on('click',get9Res2);
+li9Res3.on('click',get9Res3);
 
 li10Revision.on('click',get10Revision);
 
 liTesis.on('click',getTesis);
 liTesis2.on('click',getTesis2);
+liTesis3.on('click',getTesis3);
 liTrat1.on('click',getTrat1);
 liTrat2.on('click',getTrat2);
 liTrat3.on('click',getTrat3);

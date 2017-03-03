@@ -234,7 +234,7 @@
             <br><br>
             <p class="texto3D grisClaro">
               <i class="fa fa-map-marker"></i>  Av. Xpuhil sur <br>Mza. 2, Lote 23,<br> Despacho 201, 208 <br> Supermanzana 19, <br> Benito Juárez, <br>C.P. 77505 <br> Quintana Roo, Méx. <br>
-              <p class="texto3D grisClaro"><i class="fa fa-phone"></i> (998) 868 30 55</p>
+              <p class="texto3D grisClaro"><i class="fa fa-phone"></i>01 (998) 868 30 55</p>
             </p>
 
           </div>
@@ -263,7 +263,7 @@
           </div>
           <div class="col-md-4">
             <p class="texto3D grisClaro">
-              <i class="fa fa-map-marker"></i>  Calle 24 No. 288x19 y 21 <br> Col. Miguel Alemán,<br> CP. 97148,<br> Mérida, Yucatán, Méx.<br>
+              <i class="fa fa-map-marker"></i>  Calle 24 No. 288 x19 y 21 <br> Oficina B19.11 <br> Col. Miguel Alemán,<br> CP. 97148,<br> Mérida, Yucatán, Méx.<br>
             </p>
           </div>
         </div>

@@ -33,6 +33,55 @@
             <div id="ulCo" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                <li id="li7Resolucion36li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion36"  style="cursor:pointer">
+                           <p>
+                             - Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2017 y sus Anexos 1, 1-A y 5.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion35li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion35"  style="cursor:pointer">
+                           <p>
+                             - Modificación al Anexo 1-A de la Resolución Miscelánea Fiscal para 2017.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion34li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion34"  style="cursor:pointer">
+                           <p>
+                             - Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2017 y sus Anexos 1, 1-A Y 5.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion33li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion33"  style="cursor:pointer">
+                           <p>
+                             - Modificación al Anexo 1-A de la Resolución Miscelánea Fiscal para 2017​.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion32li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion32"  style="cursor:pointer">
+                           <p>
+                             - Modificación al Anexo 1 de la Resolución Miscelánea Fiscal para 2017.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion31li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion31"  style="cursor:pointer">
+                           <p>
+                             - Primera Resolución de Modificaciones a la Resolución de Miscelánea Fiscal para 2017.
+                           </p>
+                      </a>
+                </li>
+                <li id="li7Resolucion30li" class="liInfoteca">
+                      <a class="grisClaro" id="li7Resolucion30"  style="cursor:pointer">
+                           <p>
+                             - Primera Resolución de Modificaciones a la Resolución de Miscelánea Fiscal para 2017.
+                           </p>
+                      </a>
+                </li>
                 <li id="li7Resolucion29li" class="liInfoteca">
                       <a class="grisClaro" id="li7Resolucion29"  style="cursor:pointer">
                            <p>
@@ -252,7 +301,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <strong>
-                  Reglas Generales de Comercio Exterior para 2016
+                  Reglas Generales de Comercio Exterior
                 </strong>
               </h4>
             </div>
@@ -260,6 +309,42 @@
               <div id="ulCom" class="panel-collapse collapse">
 
               <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                        <li id="li8Comercio15li" class="liInfoteca">
+                            <a class="grisClaro " id="li8Comercio15"  style="cursor:pointer">
+                              <p>
+                                - Anexo 1 de las Reglas Generales de Comercio Exterior para 2017
+                              </p>
+                            </a>
+                        </li>
+                          <li id="li8Comercio14li" class="liInfoteca">
+                              <a class="grisClaro " id="li8Comercio14"  style="cursor:pointer">
+                                <p>
+                                  - Anexos 4,5,7,8,9,11,12,14,15,16,17,19,21,22,23,24,25,26,28,30 y 31 DE Las Reglas de Comercio Exterior para 2017
+                                </p>
+                              </a>
+                          </li>
+                          <li id="li8Comercio13li" class="liInfoteca">
+                              <a class="grisClaro " id="li8Comercio13"  style="cursor:pointer">
+                                <p>
+                                  - Correlación de las Reglas Generales de Comercio Exterior 2016-2017
+                                </p>
+                              </a>
+                          </li>
+                          <li id="li8Comercio12li" class="liInfoteca">
+                              <a class="grisClaro " id="li8Comercio12"  style="cursor:pointer">
+                                <p>
+                                  - Compilado de las Reglas Generales de Comercio Exterior para 2017 y sus anexos 1-A, 2 y 10
+                                </p>
+                              </a>
+                          </li>
+                          <li id="li8Comercio11li" class="liInfoteca">
+                              <a class="grisClaro " id="li8Comercio11"  style="cursor:pointer">
+                                <p>
+                                  - Reglas Generales de Comercio Exterior para 2017 y sus anexos 1-A, 2 y 10
+                                </p>
+                              </a>
+                          </li>
+                          <!-- 2017  -->
                            <li id="li8Comercio1li" class="liInfoteca">
                                <a class="grisClaro " id="li8Comercio1"  style="cursor:pointer">
                                  <p>
@@ -425,6 +510,14 @@
                         <div id="ulResFA" class="panel-collapse collapse">
 
                         <ul  class="colorNav liInfoteca" style="list-style-type: none">
+
+                                    <li id="li9Res3li" class="liInfoteca">
+                                        <a class="grisClaro " id="li9Res3"  style="cursor:pointer">
+                                          <p>
+                                            - Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2017. (Publicada el 26 de diciembre de 2016)​
+                                          </p>
+                                        </a>
+                                    </li>
                                      <li id="li9Res1li" class="liInfoteca">
                                          <a class="grisClaro " id="li9Res1"  style="cursor:pointer">
                                            <p>
@@ -497,6 +590,18 @@
       <div id="ulIFe" class="panel-collapse collapse">
 <!-- in -->
         <ul  class="colorNav" style="list-style-type: none">
+          <li id="liCriterio7li" class="liInfoteca">
+              <a class="grisClaro "  id="liCriterio7" style="cursor:pointer">
+                <p class="text-justify">- COMPILACIÓN DE CRITERIOS NORMATIVOS
+                </p>
+              </a>
+          </li>
+          <li id="liCriterio6li" class="liInfoteca">
+              <a class="grisClaro "  id="liCriterio6" style="cursor:pointer">
+                <p class="text-justify">- CRITERIOS NO VINCULATIVOS DE LAS DISPOSICIONES FISCALES 2017
+                </p>
+              </a>
+          </li>
 
              <li id="liCriNormativoli" class="liInfoteca">
                  <a class="grisClaro "  id="liCriNormativo" style="cursor:pointer">
@@ -568,6 +673,13 @@
         <div id="ulTesis" class="panel-collapse collapse">
 
         <ul  class="colorNav liInfoteca" style="list-style-type: none">
+                    <li id="liTesis3li" class="liInfoteca">
+                        <a id="liTesis3" class="grisClaro"  style="cursor:pointer">
+                          <p>
+                            - Emitidas por la Suprema Corte de Justicia de la Nación 2017
+                          </p>
+                        </a>
+                    </li>
                      <li id="liTesisli" class="liInfoteca">
                          <a id="liTesis" class="grisClaro " style="cursor:pointer">
                            <p>
