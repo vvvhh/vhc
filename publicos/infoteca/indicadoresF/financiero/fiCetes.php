@@ -65,6 +65,8 @@
 <tr>	<td class="text-center">	09/02/2017	</td>  <td class="text-center">	5.90	</td>  <td class="text-center">	6.29	</td> </tr>
 <tr>	<td class="text-center">	16/02/2017	</td>  <td class="text-center">	6.21	</td>  <td class="text-center">	6.39	</td> </tr>
 <tr>	<td class="text-center">	23/02/2017	</td>  <td class="text-center">	6.24	</td>  <td class="text-center">	6.42	</td> </tr>
+<tr>	<td class="text-center">	03/03/2017	</td>  <td class="text-center">	6.25	</td>  <td class="text-center">	6.40	</td> </tr>
+<tr>	<td class="text-center">	09/03/2017	</td>  <td class="text-center">	6.29	</td>  <td class="text-center">	6.52	</td> </tr>
 
 
 
