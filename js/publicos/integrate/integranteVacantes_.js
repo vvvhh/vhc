@@ -3,7 +3,8 @@ vacantes VHC
   9 Gerente contable
   0 Senior contable
   1 Semi senior contable
-  2 asistente contable
+  2 asistente contable Completo
+  12 asistente contable Medio tiempo  ***
 
   10 gerente
   3 Senior
@@ -13,7 +14,8 @@ vacantes VHC
   11 Gerente
   6 Senior
   7 Semi senior
-  8 Asistente auditor
+  8 Asistente auditor tiempo cpmpleto
+  13 Asistente auditor medio tiempo
 */
 
 var vacantes= [
@@ -67,22 +69,23 @@ var vacantes= [
   ],
   [
     "Asistente",       //Puesto    2--------------------------------------------------------------------------------------------------
-    "2",                          //Número de Plazas:
+    "1",                          //Número de Plazas:
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Registro contable, conciliaciones bancarias, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), entre otras. ",        //Actividades Relacionadas con el Puesto:		3
-    "$6,000 - $7,000",              //Sueldo
+    //"$4,500 - $5,500",              //Sueldo
+    "$7,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
     "No",   //Disponibilidad para viajar:
     "No",   //Cambio de residencia
-    ": Lic. en Contaduría Titulado ó Pasante", // Estudios
+    "Licenciatura en Contaduría", // Estudios
     "Pasante como mínimo",    //Nivel académico
     "indistinto", //Estado Civil
-    "21",      //Edad Mínima
+    "20",      //Edad Mínima
     "30",      //edad Maxima
     "Indistinto", //Sexo
-    "Mínima 12 meses",  //Experiencia Requerida
+    "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
     " - ", //Idiomas
     "Conocimientos técnicos profesionales, iniciativa, trabajo bajo presión, trabajo en equipo.", //Habilidades
     "Contable",  //area para postularse
@@ -220,7 +223,7 @@ var vacantes= [
     "1",                          //Número de Plazas:
     "Contrato individual de trabajo",                   //Tipo de Contrato:
     "Todas las inherentes para la realización de auditoría y contabilidad",        //Actividades Relacionadas con el Puesto:		3
-    "$4,500 - $5,500",              //Sueldo
+    "$7,000",              //Sueldo
     " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
     "Completo",   //Tipo de Horario de Trabajo
     "Lun-Vier 8:00 - 18:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
@@ -311,6 +314,58 @@ var vacantes= [
     "Auditoria",  //area
     "Auditoría",
     "",
+  ],
+
+  [
+    "Asistente",       //Puesto    2--------------------------------------------------------------------------------------------------
+    "1",                          //Número de Plazas:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
+    "Registro contable, conciliaciones bancarias, determinación de contribuciones locales y federales, presentación de declaraciones mensuales (DIOT y DyP), entre otras. ",        //Actividades Relacionadas con el Puesto:		3
+    "$4,000 - $4,500",              //Sueldo
+  //  "$7,000",              //Sueldo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, Ciudad de México, México",                      //Lugar de Trabajo
+    "Medio tiempo",   //Tipo de Horario de Trabajo
+    "Lun-Vier 8:00 - 15:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
+    "No",   //Disponibilidad para viajar:
+    "No",   //Cambio de residencia
+    "Licenciatura en Contaduría", // Estudios
+    "Pasante como mínimo",    //Nivel académico
+    "indistinto", //Estado Civil
+    "20",      //Edad Mínima
+    "30",      //edad Maxima
+    "Indistinto", //Sexo
+    "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
+    " - ", //Idiomas
+    "Conocimientos técnicos profesionales, iniciativa, trabajo bajo presión, trabajo en equipo.", //Habilidades
+    "Contable",  //area para postularse
+    "Contable",  //area para mostrar
+    "Manejo de NOI, COI, Excel, Word, Outlook, aspectos fiscales.",
+  ],
+
+
+  [
+    "Asistente",       //Puesto    8--------------------------------------------------------------------------------------------------
+    "1",                          //Número de Plazas:
+    "Contrato individual de trabajo",                   //Tipo de Contrato:
+    "Todas las inherentes para la realización de auditoría y contabilidad",        //Actividades Relacionadas con el Puesto:		3
+    "$4,000 - $4,500",              //Sueldo
+    " Huatabampo  No. 72-1, Roma Sur, Cuauhtémoc, 6760, México, D.F., Distrito Federal ",                      //Lugar de Trabajo
+    "Medio tiempo",   //Tipo de Horario de Trabajo
+    "Lun-Vier 8:00 - 15:00, Sab. 9:00 - 14:00",  // Horario de Trabajo
+    "Sí",   //Disponibilidad para viajar:
+    "No",   //Cambio de residencia
+    "Licenciatura en Contaduría", // Estudios
+    "Pasante como mínimo",    //Nivel académico
+    "indistinto", //Estado Civil
+    "20",      //Edad Mínima
+    "30",      //edad Maxima
+    "Indistinto", //Sexo
+    "Medio año, 2 cartas de recomendación",  //Experiencia Requerida
+    " - ", //Idiomas
+    "Adaptabilidad, aprendizaje continuo y crecimiento, comunicación, planeación y organización, trabajo en equipo, trabajo bajo presión.",   //itras hailidades
+    "Auditoria",
+    "Auditoría",
+    "Uso de SIPRED, conocimiento y entendimiento de NIF, reportes de auditoría",
   ],
 
 ];

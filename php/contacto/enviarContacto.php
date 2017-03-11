@@ -7,13 +7,12 @@ require '../PHPMailerAutoload.php';
 if(isset($token)) {
   $data = array(
     'nombre' => ($_POST['nombreContacto']),
-    //'postula'=> Input::get('_postula'),
+    'empresa'=> ($_POST['empresa']),
     'telefono'=> ($_POST['telefonoContacto']),
     'correo'=> ($_POST['correoContacto']),
     'condiciones'=> ($_POST['condicionesContacto']),
     'mensaje'=> ($_POST['mensajeContacto']),
   );
-
 
   $timestamp = time();
   $formatoT = "d-m-Y-H:i:s-";
@@ -21,51 +20,13 @@ if(isset($token)) {
   $sufijo = "-contactenos";
   $aceptacion = $fechaT.$data['nombre'].$sufijo;
 
-/*
-   $mail = new PHPMailer;
-    $nombre = "VHC_Contacto";
-    $email = "VHC";
-    $mensaje = "Mensaje de Contacto";
-
-    $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
-    $mail->SMTPAuth = true;
-    $mail->Username = 'difusionvhc@gmail.com';
-    $mail->Password = 'dif#=216V';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
-
-    $mail->From = $data['correo'];
-    $mail->FromName = $nombre;
-
-  //  $mail->addAddress('reclutamiento@contadoresvh.com');
-    $mail->addAddress('edgar.santiago@contadoresvh.com');
-
-  $mail->isHTML(true);
-  $mail->CharSet = 'UTF-8';
-
-  $mail->Subject = 'Mensaje de contacto desde sitio web';
-
-  $mail->Body    ="<p><h3><strong>Mensaje desde sitio Web</strong></h3></p>".
-                  "<p><strong>Nombre: </strong>".$data['nombre']."</p>".
-                //  "<p><strong>Área a postularse: </strong>".$data['area']."</p>".
-                  "<p><strong>Teléfono: </strong>".$data['telefono']."</p>".
-                  "<p><strong>Correo: </strong>".$data['correo']."</p>".
-                  "<p><strong>Mensaje: </strong>".$data['mensaje']."</p>".
-                  "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para clientes: </strong>".$aceptacion."</small></p>";
-
-
-
-  $mail->AltBody = '';
-  $exito = $mail->send();
-  $intentos=1;
-*/
-  $para  = 'contacto.cdmx@contadoresvh.com';
+  //$para  = 'edgar.santiago@contadoresvh.com';
+  $para  = 'contacto@contadoresvh.com';
   $título = 'Mensaje de contacto desde sitio web';
   $mensaje = "<html>".
   "<p><h3><strong>Mensaje desde sitio Web</strong></h3></p>".
                   "<p><strong>Nombre: </strong>".$data['nombre']."</p>".
-                //  "<p><strong>Área a postularse: </strong>".$data['area']."</p>".
+                  "<p><strong>Organización o empresa: </strong>".$data['empresa']."</p>".
                   "<p><strong>Teléfono: </strong>".$data['telefono']."</p>".
                   "<p><strong>Correo: </strong>".$data['correo']."</p>".
                   "<p><strong>Mensaje: </strong>".$data['mensaje']."</p>".
@@ -73,9 +34,25 @@ if(isset($token)) {
                   "</html>";
   $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+  $cabeceras .= 'From: contacto@contadoresvh.com' . "\r\n";
 
-  $exito =mail($para, $título, $mensaje, $cabeceras);
+
+
+  $paraConfirmacion  = $data['correo'];
+  $títuloConfirmacion = 'Confirmación de mensaje Vázquez Hernández Contadores';
+  $mensajeConfirmacion = "<html>".
+  "<p><h3><strong>Hemos recibido su mensaje.</strong></h3></p>".
+                  "<p>Agradecemos su interés en nuestros servicios, en breve un integrante de nuestra firma se pondrá en contacto con usted.</p>".
+                  "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para clientes: </strong>".$aceptacion."</small></p>".
+                  "</html>";
+  $cabecerasConfirmacion  = 'MIME-Version: 1.0' . "\r\n";
+  $cabecerasConfirmacion .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+  $cabecerasConfirmacion .= 'From: contacto@contadoresvh.com' . "\r\n";
+
+  $exito = mail($para, $título, $mensaje, $cabeceras);
+  $exitoConfirmacion = mail($paraConfirmacion, $títuloConfirmacion, $mensajeConfirmacion, $cabecerasConfirmacion);
   $intentos=1;
+
 
   while ((!$exito) && ($intentos < 5)) {
     sleep(5);
@@ -86,7 +63,7 @@ if(isset($token)) {
   if(!$exito){
     $response = array(
       'status' => 'ERROR',
-      'message' => 'Gracias por ponerse en contacto con nosotros.'
+      'message' => 'Ocurrio un problema al procesar el envio, intente de nuevo.'
     );
   }
   else{

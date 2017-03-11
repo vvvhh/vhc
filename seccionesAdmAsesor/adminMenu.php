@@ -252,12 +252,23 @@
       </ul>
     </li>
 
-    <li class="header" id="enlacesInfo">
-      <a href="elnaceLegislacion.php" class="grisClaro " style="cursor:pointer"><strong>
-        <h4><i class="fa fa-external-link"></i>
-          &nbsp;Enlaces Infoteca
-        </h4>
-      </strong></a>
 
-      </ul>
+
+    <li class="header" data-toggle="collapse" data-target="#collapseEnlacesJ">
+          <a  class="grisClaro " style="cursor:pointer"><strong>
+            <h4><i class="fa fa-external-link"></i>
+              &nbsp;Enlaces Infoteca
+            </h4>
+          </strong></a>
+
+            <ul id="collapseEnlacesJ" class="nav nav-sidebar colorNav collapse">
+              <li id="enlacesInfo">
+                <a href="enlaceLegislacionA.php" class="grisClaro ">
+                  Agregar
+                </a>
+              </li>
+          </ul>
+        </li>
+
+
     </div>

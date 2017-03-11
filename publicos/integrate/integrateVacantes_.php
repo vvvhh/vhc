@@ -132,6 +132,7 @@ sinVacante sin vacante, envia a postular
                     -->
                    </p>
            </li>
+
              <li class="divider"></li>
            <li id="1" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                  <p>
@@ -142,8 +143,14 @@ sinVacante sin vacante, envia a postular
              <li class="divider"></li>
            <li id="2" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                  <p>
-                   - Asistente
-                   <span class="badge badge-info" align="right" title="Número de vacantes">2</span>
+                   - Asistente, tiempo completo
+                   <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
+                 </p>
+           </li>
+           <li id="12" class="liInfoteca vacDetalle"  style="cursor:pointer;">
+                 <p>
+                   - Asistente, medio tiempo
+                   <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
                  </p>
            </li>
 
@@ -223,7 +230,7 @@ sinVacante sin vacante, envia a postular
     </h4>
   </div>
   <div class="col-md-1">
-    <span class="badge badge-info" align="right" title="Número de vacantes">2</span>
+    <span class="badge badge-info" align="right" title="Número de vacantes">3</span>
   </div>
 </div>
 
@@ -252,7 +259,13 @@ sinVacante sin vacante, envia a postular
             </li>
             <li id="8" class="liInfoteca vacDetalle"  style="cursor:pointer;">
                   <p>
-                    - Asistente
+                    - Asistente, tiempo completo
+                    <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
+                  </p>
+            </li>
+            <li id="13" class="liInfoteca vacDetalle"  style="cursor:pointer;">
+                  <p>
+                    - Asistente, medio tiempo
                     <span class="badge badge-info" align="right" title="Número de vacantes">1</span>
                   </p>
             </li>

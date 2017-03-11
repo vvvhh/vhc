@@ -50,10 +50,10 @@ if(isset($token)) {
   fclose($handle);
   $content = chunk_split(base64_encode($content));
    $uid = md5(uniqid(time()));
-  $para  = 'karen.uribe@contadoresvh.com';
+//  $para  = 'karen.uribe@contadoresvh.com';
   $titulo = 'Postulación desde sitio web';
   $from = 'sitio web';
-  $mensaje = "<html>".
+/*  $mensaje = "<html>".
   "<p><h3><strong>Postulación desde sitio web</strong></h3></p>".
   "<p><strong>Nombre postulante: </strong>".$nombre."</p>".
                   "<p><strong>Vacante a postularse: </strong>".$puesto."</p>".
@@ -61,6 +61,7 @@ if(isset($token)) {
                   "<p><strong>Empresa: </strong>".$empresa."</p>".
                   "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para aspirantes: </strong>".$aceptacion."</small></p>".
                   "</html>";
+                  */
 /*  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
   $cabeceras .= $mensaje;
@@ -72,13 +73,34 @@ if(isset($token)) {
   $header .= $content."\r\n\r\n";
   $header .= "--".$uid."--";
 */
-  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+/*  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
   $cabeceras .= 'Content-type: multipart/mixed; charset=UTF-8' . "\r\n";
   $cabeceras .= "Content-Type: application/octet-stream; name=\"".$_name."\""."\r\n";
   $cabeceras .= "Content-Transfer-Encoding: base64"."\r\n";
   $cabeceras .= "Content-Disposition: attachment"."\r\n";
   $cabeceras .= $content."\r\n";
-  $exito = mail($para, $titulo, "", $cabeceras);
+*/
+
+  $para  = 'difusionvhc@gmail.com';
+  $título = 'Mensaje de contacto desde sitio web';
+  $mensaje = "<html>".
+  "<p><h3><strong>Postulación desde sitio web</strong></h3></p>".
+  "<p><strong>Nombre postulante: </strong>".$nombre."</p>".
+                  "<p><strong>Vacante a postularse: </strong>".$puesto."</p>".
+                  "<p><strong>Correo: </strong>".$correo."</p>".
+                  "<p><strong>Empresa: </strong>".$empresa."</p>".
+                  "<p><small><strong>Política de uso y privacidad del sitio web y el Aviso de privacidad para aspirantes: </strong>".$aceptacion."</small></p>".
+                  "</html>";
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+
+
+
+
+  
+
+  $exito = mail($para, $titulo, $mensaje, $cabeceras);
 //  $exito =1;
   $intentos=1;
   while ((!$exito) && ($intentos < 5)) {

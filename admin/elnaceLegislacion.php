@@ -78,9 +78,10 @@
               <div class="col-md-2">
                 <button class="btn btn-primary btn-sm" id="btnBuscar"><span class="glyphicon glyphicon-search"></span> Buscar</button>
               </div>
-              <div class="col-md-2">
+          <!--      <div class="col-md-2">
                 <button class="btn btn-primary btn-sm" id="btnVerTodos"><span class=" glyphicon glyphicon-list-alt"></span> Ver todos</button>
               </div>
+              -->
             </div>
           </div>
         <br>
@@ -187,9 +188,9 @@
                       <option value="54">54</option>
                       <option value="55">55</option>
                       <option value="56">56</option>
-                      <option value="57">57</option>
-                      <option value="58">58</option>
-                      <option value="59">59</option>
+                      <option value="57">57 Decretos otras disposiciones dof</option>
+                      <option value="58">58 Acuerdos otras disposiiones dof</option>
+                      <option value="59">59 otras otras disposiciones dof</option>
                       <option value="60">60</option>
                       <option value="61">61</option>
                       <option value="62">62 Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2016. Actualizada con la 1ra, 2da, 3ra y 4ta Resolución de Modificaciones.</option>
@@ -214,6 +215,22 @@
                       <option value="81">81 Anexo 15</option>
                       <option value="82">82 Anexo 16</option>
                       <option value="83">83 Anexo 16-A</option>
+                      <option value="84">84 Reglas Generales de Comercio Exterior para 2017 y sus anexos 1-A, 2 y 10</option>
+                      <option value="85">85 Compilado de las Reglas Generales de Comercio Exterior para 2017 y sus anexos 1-A, 2 y 10</option>
+                      <option value="86">86 Correlación de las Reglas Generales de Comercio Exterior 2016-2017</option>
+                      <option value="87">87 Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2017. (Publicada el 26 de diciembre de 2016)​</option>
+                      <option value="88">88 CRITERIOS NO VINCULATIVOS DE LAS DISPOSICIONES FISCALES 2017</option>
+                      <option value="89">89 COMPILACIÓN DE CRITERIOS NORMATIVOS</option>
+                      <option value="90">90 Emitidas por la Suprema Corte de Justicia de la Nación</option>
+                      <option value="91">91 Anexos 4,5,7,8,9,11,12,14,15,16,17,19,21,22,23,24,25,26,28,30 y 31 DE Las Reglas de Comercio Exterior para 2017</option>
+                      <option value="92">92 Anexo 1 de las Reglas Generales de Comercio Exterior para 2017</option>
+                      <option value="93">93 Primera Resolución de Modificaciones a la Resolución de Miscelánea Fiscal para 2017. </option>
+                      <option value="94">94 Anexo 5 de la Resolución Miscelánea Fiscal para 2017. </option>
+                      <option value="95">95 Modificación al Anexo 1 de la Resolución Miscelánea Fiscal para 2017. </option>
+                      <option value="96">96 Modificación al Anexo 1-A de la Resolución Miscelánea Fiscal para 2017​.</option>
+                      <option value="97">97 Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2017 y sus Anexos 1, 1-A Y 5.</option>
+                      <option value="98">98 Modificación al Anexo 1-A de la Resolución Miscelánea Fiscal para 2017.</option>
+                      <option value="99">99 Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2017 y sus Anexos 1, 1-A y 5.</option>
 
                     </select>
                   </div>
@@ -354,6 +371,23 @@
                       <option value="81">81 Anexo 15</option>
                       <option value="82">82 Anexo 16</option>
                       <option value="83">83 Anexo 16-A</option>
+                      <option value="84">84 Reglas Generales de Comercio Exterior para 2017 y sus anexos 1-A, 2 y 10</option>
+                      <option value="85">85 Compilado de las Reglas Generales de Comercio Exterior para 2017 y sus anexos 1-A, 2 y 10</option>
+                      <option value="86">86 Correlación de las Reglas Generales de Comercio Exterior 2016-2017</option>
+                      <option value="87">87 Resolución de facilidades administrativas para los sectores de contribuyentes que en la misma se señalan para 2017. (Publicada el 26 de diciembre de 2016)​</option>
+                      <option value="88">88 CRITERIOS NO VINCULATIVOS DE LAS DISPOSICIONES FISCALES 2017</option>
+                      <option value="89">89 COMPILACIÓN DE CRITERIOS NORMATIVOS</option>
+                      <option value="90">90 Emitidas por la Suprema Corte de Justicia de la Nación</option>
+                      <option value="91">91 Anexos 4,5,7,8,9,11,12,14,15,16,17,19,21,22,23,24,25,26,28,30 y 31 DE Las Reglas de Comercio Exterior para 2017</option>
+                      <option value="92">92 Anexo 1 de las Reglas Generales de Comercio Exterior para 2017</option>
+                      <option value="93">93 Primera Resolución de Modificaciones a la Resolución de Miscelánea Fiscal para 2017. </option>
+                      <option value="94">94 Anexo 5 de la Resolución Miscelánea Fiscal para 2017. </option>
+                      <option value="95">95 Modificación al Anexo 1 de la Resolución Miscelánea Fiscal para 2017. </option>
+                      <option value="96">96 Modificación al Anexo 1-A de la Resolución Miscelánea Fiscal para 2017​.</option>
+                      <option value="97">97 Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2017 y sus Anexos 1, 1-A Y 5.</option>
+                      <option value="98">98 Modificación al Anexo 1-A de la Resolución Miscelánea Fiscal para 2017.</option>
+                      <option value="99">99 Primera Resolución de Modificaciones a la Resolución Miscelánea Fiscal para 2017 y sus Anexos 1, 1-A y 5.</option>
+
                     </select>
                   </div>
                 </div>
